@@ -1216,1777 +1216,1953 @@
       "filter": 0
     }
   },
-  "users": [
-    {
-      "id": 123123,
-      "date": "07/19/2022",
-      "image": "https://picsum.photos/id/42/200",
-      "name": "John Doe",
-      "first_name": "John",
-      "middle_name": "",
-      "last_name": "Doe",
-      "business_name": "John",
-      "username": "john.doe",
-      "verified": true,
-      "admin": false,
-      "customer_service": true,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": true,
-      "manage_users": false,
-      "batch_files": false,
-      "bank_login": true,
-      "view_users": false,
-      "view_balance": true,
-      "2fa": false,
-      "email": "john@email.com",
-      "business_email": "",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "address1": "123 Main St",
-      "address2": "",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
+  "batches": {
+    "data": [
+      {
+        "id": 123123,
+        "date": "07/19/2022",
+        "uploaded_by": "John Doe",
+        "total_transactions": 10,
+        "errors": 0,
+        "status": "Completed",
+        "total_amount_processed": { "value": 100.0, "currency": "USD" },
+        "file": "https://link-to-file"
       },
-      "summary": {
-        "transactions_today": {
-          "value": 122,
-          "status": "up",
-          "index": "3.3%",
-          "period": "This Month"
-        },
-        "todays_volume": {
-          "value": 12433.54,
-          "currency": "USD",
-          "status": "plus",
-          "index": "467.00",
-          "period": "Today"
-        },
-        "payees": {
-          "value": 199,
-          "status": "down",
-          "index": "1.1%",
-          "period": "This Month"
-        },
-        "available_balance": {
-          "value": 54256.63,
-          "currency": "USD",
-          "status": "up",
-          "index": "5.7%",
-          "period": "This Month"
-        },
-        "volume": {
-          "value": 122,
-          "status": "up",
-          "index": "3.3%",
-          "period": "This Month",
-          "chartSeriesBar": [
-            {
-              "name": "Country A",
-              "data": [44, 55, 41, 67, 22, 43]
-            },
-            {
-              "name": "Country B",
-              "data": [13, 23, 20, 8, 13, 27]
-            },
-            {
-              "name": "Country C",
-              "data": [11, 17, 15, 15, 21, 14]
-            },
-            {
-              "name": "Country D",
-              "data": [21, 7, 25, 13, 22, 8]
-            }
-          ],
-          "chartLegend": [
-            {
-              "month": "jan"
-            },
-            {
-              "month": "feb"
-            },
-            {
-              "month": "mar"
-            },
-            {
-              "month": "apr"
-            },
-            {
-              "month": "may"
-            },
-            {
-              "month": "jun"
-            }
-          ],
-          "legendSeries": [
-            {
-              "description": "United States",
-              "data1": "715",
-              "data2": "86%"
-            },
-            {
-              "description": "Europe",
-              "data1": "86",
-              "data2": "10%"
-            },
-            {
-              "description": "India",
-              "data1": "20",
-              "data2": "3%"
-            },
-            {
-              "description": "Mexico",
-              "data1": "14",
-              "data2": "2%"
-            }
-          ]
-        },
-        "daily_distribution": {
-          "value": 95,
-          "status": "down",
-          "index": "3.3%",
-          "period": "Today",
-          "chartSeries": [44, 55, 41, 17, 15],
-          "legendSeries": [
-            {
-              "description": "Completed",
-              "data1": "53",
-              "data2": "60%"
-            },
-            {
-              "description": "Ready for Pickup",
-              "data1": "26",
-              "data2": "25%"
-            },
-            {
-              "description": "Pending",
-              "data1": "8",
-              "data2": "8%"
-            },
-            {
-              "description": "Processing",
-              "data1": "6",
-              "data2": "6%"
-            },
-            {
-              "description": "Cancelled",
-              "data1": "3",
-              "data2": "2%"
-            }
-          ]
-        },
-        "transactions": {
-          "value": 24,
-          "status": "up",
-          "index": "7.1%",
-          "period": "Today",
-          "chartSeries": [
-            {
-              "month": "jan",
-              "loaded": 7300.99,
-              "payed_out": 720.0
-            },
-            {
-              "month": "feb",
-              "loaded": 5200.0,
-              "payed_out": 540.0
-            },
-            {
-              "month": "mar",
-              "loaded": 4900.0,
-              "payed_out": 2000.0
-            },
-            {
-              "month": "apr",
-              "loaded": 7900.0,
-              "payed_out": 620.0
-            },
-            {
-              "month": "may",
-              "loaded": 5800.0,
-              "payed_out": 3000.0
-            },
-            {
-              "month": "jun",
-              "loaded": 8200.0,
-              "payed_out": 899.0
-            }
-          ],
-          "legendSeries": [
-            {
-              "description": "Completed",
-              "data1": "19",
-              "data2": "85%"
-            },
-            {
-              "description": "Unresolved",
-              "data1": "3",
-              "data2": "15%"
-            }
-          ]
-        }
+      {
+        "id": 123124,
+        "date": "01/24/2023",
+        "uploaded_by": "Marie Jane",
+        "total_transactions": 78,
+        "errors": 23,
+        "status": "Processing",
+        "total_amount_processed": { "value": 458.0, "currency": "USD" },
+        "file": "https://link-to-file"
       },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.99,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "id": 123,
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "value": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "id": 124,
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "id": 125,
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "id": 126,
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        }
-      ],
-      "transactions": [
-        {
-          "id": "637dcc6a5ad88d7f67d7f677df768g6442g2s3d3db52",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "s8df6s7d90sd778sdf9s8df87sd7f7f78df8as",
-          "to": "John Smith Junior II - Bank Deposit",
-          "received": { "amount": 234.0, "currency": "USD" },
-          "sent": { "amount": 41243.0, "currency": "USD" },
-          "fee": { "amount": 43.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        },
-        {
-          "id": "g7dsf6g8dg78s678dfg89g78h56asd4f5a6sd5sdf76",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "jd6h45jk45353k45d3hkfgh7j65fghj5j3gh57js45fg3h",
-          "to": "John Smith - Bank Deposit",
-          "received": { "amount": 82743.0, "currency": "USD" },
-          "sent": { "amount": 4423344.0, "currency": "USD" },
-          "fee": { "amount": 3334.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        },
-        {
-          "id": "h6h6d8fh79sdf6hs98d67fg78687sdf",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "ga6sd76f8f5ads6765fa8sd4g45a6s5d",
-          "to": "Marie Jane - Bank Deposit",
-          "received": { "amount": 543534.0, "currency": "USD" },
-          "sent": { "amount": 5543.0, "currency": "USD" },
-          "fee": { "amount": 44.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        }
-      ],
-      "notes": [
-        {
-          "id": 123,
-          "category": "general",
-          "title": "Shareholder Document",
-          "message": "Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "id": "8a99d401-9ffe-450f-a68f-7a45464222b1",
-            "first_name": "John",
-            "last_name": "Doe",
-            "image": "https://picsum.photos/id/56/200"
-          },
-          "datetime": "02/07/2023 15:30:00",
-          "comments": [
-            {
-              "id": 124,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "8a99d401-9ffe-450f-a68f-7a45464222b1",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00",
-                "image": "https://picsum.photos/id/56/200"
-              },
-              "comments": [
-                {
-                  "id": 1240,
-                  "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-                  "author": {
-                    "id": "3889444d-7965-4d3f-9e91-56ec90e17fc0",
-                    "first_name": "Jonathan",
-                    "last_name": "Syntra",
-                    "datetime": "01/15/2023 12:09:00"
-                  }
-                }
-              ]
-            },
-            {
-              "id": 125,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "cac7a2e7-03f0-403a-bf97-83842c7cc951",
-                "first_name": "Joe",
-                "last_name": "Biden",
-                "datetime": "01/15/2023 12:09:00",
-                "image": "https://picsum.photos/id/65/200"
-              }
-            }
-          ]
-        },
-        {
-          "id": 126,
-          "category": "clear compliance",
-          "title": "Distributed systems",
-          "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "id": "ff044584-804c-455f-ae61-57fbf5e7cbd3",
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "02/05/2023 15:30:00",
-          "comments": [
-            {
-              "id": 127,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "bb35ddda-a987-4f18-a64b-57df88c91856",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "id": 128,
-          "category": "compliance",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "image": "https://picsum.photos/id/17/200",
-          "author": {
-            "id": "b38febd5-0d5d-4d13-bad3-3c6f20cd96a2",
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "id": 129,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "e9b538b5-1616-4f6d-85de-128e919076cf",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "id": 130,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "61a1e9df-93ae-488f-9d95-14d4f03b7aed",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "id": 131,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "e564582a-54ee-41fe-87fe-c41d055157b6",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "id": 132,
-          "category": "compliance",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "image": "https://picsum.photos/id/17/200",
-          "author": {
-            "id": "a5400c78-a85a-4c36-899c-ab8de4e603c0",
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "id": 133,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "6372f166-9f37-4c0f-8b6b-c7f9542d2fdb",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "id": 134,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "70e142d1-d294-41dd-ac79-47595e5c3d23",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "id": 135,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "c3ce6130-9220-4232-bb6a-66b75cb4b908",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "id": 136,
-          "category": "general",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "id": "3cb12f8e-5f22-47b1-b122-9be9a9ab88aa",
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "id": 137,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "728faa51-1699-4934-a9e1-01959d56da1b",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "id": 138,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "6c063af2-c8a2-4a79-86fe-e933e9782a0a",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "id": 139,
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "id": "e1bd5725-054f-4ebe-aebd-ee4d32bb52d1",
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "01/15/2023 12:09:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Michael",
-          "last_name": "Friedman",
-          "datetime": "06/18/2023 15:22:00",
-          "label": "Updated Email"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        }
-      ],
-      "id_verification": [
-        {
-          "attempt": "Attempt 1",
-          "status": "failed",
-          "datetime": "01/07/2023 15:30:00",
-          "personal": {
-            "id_number": "001-15066534-1",
-            "last_name": "Friedman",
-            "first_name": "Michael",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/223/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/334/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/444/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/555/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        },
-        {
-          "attempt": "Attempt 2",
-          "status": "failed",
-          "datetime": "10/09/2023 15:30:00",
-          "personal": {
-            "id_number": "012-716237737-8",
-            "last_name": "Jorge",
-            "first_name": "Winston",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/570/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/510/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/560/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/550/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        },
-        {
-          "attempt": "Attempt 3",
-          "status": "success",
-          "datetime": "10/09/2023 15:30:00",
-          "personal": {
-            "id_number": "233-981278367-6",
-            "last_name": "Victor",
-            "first_name": "Sample",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/999/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/120/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/210/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/220/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        }
-      ],
-      "logins_history": [
-        {
-          "city": "Santa Monica",
-          "country": "United States",
-          "status": "active",
-          "datetime": "01/07/2023 15:30",
-          "system": "Mac OS X",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 34.057028,
-          "longitude": -118.252506
-        },
-        {
-          "city": "Santa Monica",
-          "country": "United States",
-          "status": "inactive",
-          "datetime": "01/07/2023 15:30",
-          "system": "Mac OS X",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 34.057028,
-          "longitude": -118.252506
-        },
-        {
-          "city": "Shenzhen",
-          "country": "China",
-          "status": "threat",
-          "datetime": "02/14/2023 7:30",
-          "system": "Windows",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 22.621068,
-          "longitude": 113.85077
-        }
-      ]
-    },
-    {
-      "id": 312312,
-      "date": "04/15/2022",
-      "image": "https://picsum.photos/id/17/200",
-      "name": "Marie Jane",
-      "first_name": "Marie",
-      "last_name": "Jane",
-      "username": "john.doe",
-      "business_name": "Marie",
-      "verified": false,
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": true,
-      "manage_users": true,
-      "batch_files": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": true,
-      "2fa": true,
-      "email": "john@email.com",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "address1": "123 Main St",
-      "address2": "St",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
+      {
+        "id": 123125,
+        "date": "07/19/2022",
+        "uploaded_by": "Martin Gates",
+        "total_transactions": 99,
+        "errors": 0,
+        "status": "Completed",
+        "total_amount_processed": { "value": 8237.0, "currency": "USD" },
+        "file": "https://link-to-file"
       },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.99,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "id": 123,
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "amount": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "id": 124,
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "id": 125,
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "id": 126,
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        },
-        {
-          "id": 127,
-          "type": "mastercard",
-          "title": "BRL Credit",
-          "card_number": "1234",
-          "amount": "89274923.99",
-          "currency": "BRL"
-        }
-      ],
-      "transactions": [
-        {
-          "id": "637dcc6a5ad88d7f67d7f677df768g6442g2s3d3db52",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "s8df6s7d90sd778sdf9s8df87sd7f7f78df8as",
-          "to": "John Smith Junior II - Bank Deposit",
-          "received": { "amount": 234.0, "currency": "USD" },
-          "sent": { "amount": 41243.0, "currency": "USD" },
-          "fee": { "amount": 43.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        },
-        {
-          "id": "g7dsf6g8dg78s678dfg89g78h56asd4f5a6sd5sdf76",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "jd6h45jk45353k45d3hkfgh7j65fghj5j3gh57js45fg3h",
-          "to": "John Smith - Bank Deposit",
-          "received": { "amount": 82743.0, "currency": "USD" },
-          "sent": { "amount": 4423344.0, "currency": "USD" },
-          "fee": { "amount": 3334.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        },
-        {
-          "id": "h6h6d8fh79sdf6hs98d67fg78687sdf",
-          "status": "Pending",
-          "date": "07/19/2022",
-          "time": "07:19",
-          "description": "Next Day Bank Deposit",
-          "confirmation": "ga6sd76f8f5ads6765fa8sd4g45a6s5d",
-          "to": "Marie Jane - Bank Deposit",
-          "received": { "amount": 543534.0, "currency": "USD" },
-          "sent": { "amount": 5543.0, "currency": "USD" },
-          "fee": { "amount": 44.0, "currency": "USD" },
-          "country": "United States",
-          "payer": "Instant Pay"
-        }
-      ],
-      "notes": [
-        {
-          "category": "general",
-          "title": "Shareholder Document",
-          "message": "Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "02/07/2023 15:30:00",
-          "comments": [
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "category": "clear compliance",
-          "title": "Distributed systems",
-          "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "02/05/2023 15:30:00",
-          "comments": [
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "category": "compliance",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "image": "https://picsum.photos/id/17/200",
-          "author": {
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "category": "compliance",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "image": "https://picsum.photos/id/17/200",
-          "author": {
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        },
-        {
-          "category": "general",
-          "title": "ID on file for Li Rong Ma",
-          "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
-          "author": {
-            "first_name": "John",
-            "last_name": "Doe"
-          },
-          "datetime": "01/07/2023 15:30:00",
-          "comments": [
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/16/2023 12:09:00"
-              }
-            },
-            {
-              "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
-              "author": {
-                "first_name": "John",
-                "last_name": "Doe",
-                "datetime": "01/15/2023 12:09:00"
-              }
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "01/15/2023 12:09:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Michael",
-          "last_name": "Friedman",
-          "datetime": "06/18/2023 15:22:00",
-          "label": "Updated Email"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        },
-        {
-          "first_name": "Ciara",
-          "last_name": "Leal",
-          "datetime": "12/18/2022 08:55:00",
-          "label": "Updated Name"
-        }
-      ],
-      "id_verification": [
-        {
-          "attempt": "Attempt 1",
-          "status": "failed",
-          "datetime": "01/07/2023 15:30:00",
-          "personal": {
-            "id_number": "001-15066534-1",
-            "last_name": "Friedman",
-            "first_name": "Michael",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/223/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/334/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/444/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/555/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        },
-        {
-          "attempt": "Attempt 2",
-          "status": "failed",
-          "datetime": "10/09/2023 15:30:00",
-          "personal": {
-            "id_number": "012-716237737-8",
-            "last_name": "Jorge",
-            "first_name": "Winston",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/570/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/510/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/560/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/550/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        },
-        {
-          "attempt": "Attempt 3",
-          "status": "success",
-          "datetime": "10/09/2023 15:30:00",
-          "personal": {
-            "id_number": "233-981278367-6",
-            "last_name": "Victor",
-            "first_name": "Sample",
-            "date_of_birth": "05/02/1999"
-          },
-          "document": {
-            "type": "Passport",
-            "number": "VL0199336",
-            "first_name": "Do",
-            "date_of_issue": "2022/03/01"
-          },
-          "photo": [
-            {
-              "title": "Portrait",
-              "image": "https://picsum.photos/id/999/238/277",
-              "datetime": "01/07/2023 15:30:00"
-            },
-            {
-              "title": "Document Back",
-              "image": "https://picsum.photos/id/120/150/150",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Document Front",
-              "image": "https://picsum.photos/id/210/100/100",
-              "datetime": "01/07/2023 15:30"
-            },
-            {
-              "title": "Other Document Front",
-              "image": "https://picsum.photos/id/220/400/400",
-              "datetime": "01/07/2023 15:30:00"
-            }
-          ]
-        }
-      ],
-      "logins_history": [
-        {
-          "city": "Santa Monica",
-          "country": "United States",
-          "status": "active",
-          "datetime": "01/07/2023 15:30",
-          "system": "Mac OS X",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 34.057028,
-          "longitude": -118.252506
-        },
-        {
-          "city": "Santa Monica",
-          "country": "United States",
-          "status": "inactive",
-          "datetime": "01/07/2023 15:30",
-          "system": "Mac OS X",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 34.057028,
-          "longitude": -118.252506
-        },
-        {
-          "city": "Shenzhen",
-          "country": "China",
-          "status": "threat",
-          "datetime": "02/14/2023 7:30",
-          "system": "Windows",
-          "navigator": "Chrome/106.0.0.0",
-          "latitude": 22.621068,
-          "longitude": 113.85077
-        }
-      ]
-    },
-    {
-      "id": 872378,
-      "date": "02/23/2018",
-      "image": "",
-      "name": "David Albro Junior",
-      "first_name": "David",
-      "last_name": "Junior",
-      "username": "john.doe",
-      "verified": true,
-      "admin": true,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": true,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": false,
-      "2fa": true,
-      "email": "john@email.com",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "business_name": "Marie",
-      "address1": "123 Main St",
-      "address2": "St",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
+      {
+        "id": 123126,
+        "date": "07/19/2022",
+        "uploaded_by": "Dave Gordon",
+        "total_transactions": 1,
+        "errors": 2,
+        "status": "Error",
+        "total_amount_processed": { "value": 7263.0, "currency": "USD" },
+        "file": "https://link-to-file"
       },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.0,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "amount": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "id": 178236,
-      "date": "02/23/2012",
-      "image": "",
-      "name": "Albert Einstein",
-      "first_name": "Albert",
-      "last_name": "Einstein",
-      "username": "john.doe",
-      "verified": true,
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": false,
-      "2fa": false,
-      "email": "john@email.com",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "business_name": "Marie",
-      "address1": "123 Main St",
-      "address2": "St",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
-      },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.0,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "amount": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "id": 12653,
-      "date": "02/23/2011",
-      "image": "",
-      "name": "Matheus Virtue",
-      "first_name": "Matheus",
-      "last_name": "Virtue",
-      "username": "john.doe",
-      "verified": true,
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": false,
-      "2fa": false,
-      "email": "john@email.com",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "business_name": "Marie",
-      "address1": "123 Main St",
-      "address2": "St",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
-      },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.0,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "amount": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "id": 126344,
-      "date": "02/23/2011",
-      "image": "",
-      "name": "Robert Sun",
-      "first_name": "Robert",
-      "last_name": "Sun",
-      "username": "john.doe",
-      "verified": false,
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": false,
-      "2fa": false,
-      "email": "john@email.com",
-      "phone": "(123) 456 7890",
-      "date_of_birth": "02/09/1990",
-      "address": "123 Main St",
-      "business_name": "Marie",
-      "address1": "123 Main St",
-      "address2": "St",
-      "city": "Santa Monica",
-      "postal_code": "90405",
-      "state_province": "California",
-      "country": "US",
-      "totalbalance": 54256.63,
-      "currency": "USD",
-      "percentage": "5.7%",
-      "sms_notifications": true,
-      "email_notifications": true,
-      "id_selfie_verification": true,
-      "id_selfie_verification_option": 2,
-      "two_factor_authentication": true,
-      "locked": {
-        "id": true,
-        "first_name": false,
-        "middle_name": false,
-        "last_name": false,
-        "business_name": false,
-        "date_of_birth": false,
-        "email": false,
-        "phone": false,
-        "address1": false,
-        "address2": false,
-        "country": false,
-        "state_province": false,
-        "city": false,
-        "postal_code": false,
-        "id_selfie_verification_option": false
-      },
-      "chart": [
-        {
-          "month": "jan",
-          "loaded": 7300.0,
-          "payed_out": 720.0
-        },
-        {
-          "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
-        },
-        {
-          "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
-        },
-        {
-          "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
-        },
-        {
-          "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
-        },
-        {
-          "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
-        }
-      ],
-      "cards": [
-        {
-          "type": "masspay",
-          "title": "Masspay Wallet",
-          "card_number": "5433",
-          "amount": "27455.64",
-          "currency": "USD"
-        },
-        {
-          "type": "visa",
-          "title": "USD Debit",
-          "card_number": "0123",
-          "amount": "10334.0",
-          "currency": "USD"
-        },
-        {
-          "type": "mastercard",
-          "title": "EUR Debit",
-          "card_number": "9876",
-          "amount": "13010.35",
-          "currency": "EUR"
-        },
-        {
-          "type": "masspay",
-          "title": "EUR Debit",
-          "card_number": "1029",
-          "amount": "3772222.35",
-          "currency": "EUR"
-        }
-      ]
+      {
+        "id": 123127,
+        "date": "07/19/2022",
+        "uploaded_by": "Jorge Green",
+        "total_transactions": 7,
+        "errors": 32,
+        "status": "Processing",
+        "total_amount_processed": { "value": 1233.0, "currency": "USD" },
+        "file": "https://link-to-file"
+      }
+    ],
+    "metadata": {
+      "page": 1,
+      "offset": 0,
+      "limit": 5,
+      "total": 5,
+      "filter": 0
     }
-  ],
+  },
+  "manage_users": {
+    "data": [
+      {
+        "id": 123123,
+        "date": "07/19/2022",
+        "image": "https://picsum.photos/id/42/200",
+        "name": "John Doe",
+        "first_name": "John",
+        "middle_name": "",
+        "last_name": "Doe",
+        "business_name": "John",
+        "username": "john.doe",
+        "verified": true,
+        "admin": false,
+        "customer_service": true,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": true,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": true,
+        "view_users": false,
+        "view_balance": true,
+        "2fa": false
+      },
+      {
+        "id": 312312,
+        "date": "04/15/2022",
+        "image": "https://picsum.photos/id/17/200",
+        "name": "Marie Jane",
+        "first_name": "Marie",
+        "last_name": "Jane",
+        "username": "john.doe",
+        "business_name": "Marie",
+        "verified": false,
+        "admin": true,
+        "customer_service": true,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": true,
+        "manage_users": true,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": true,
+        "2fa": true
+      },
+      {
+        "id": 872378,
+        "date": "02/23/2018",
+        "image": "",
+        "name": "David Albro Junior",
+        "first_name": "David",
+        "last_name": "Junior",
+        "username": "john.doe",
+        "verified": true,
+        "admin": true,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": true,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": true
+      },
+      {
+        "id": 178236,
+        "date": "02/23/2012",
+        "image": "",
+        "name": "Albert Einstein",
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "username": "john.doe",
+        "verified": true,
+        "admin": false,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": false
+      }
+    ],
+    "metadata": {
+      "page": 1,
+      "offset": 0,
+      "limit": 5,
+      "total": 5,
+      "filter": 0
+    }
+  },
+  "users": {
+    "data": [
+      {
+        "id": 123123,
+        "date": "07/19/2022",
+        "image": "https://picsum.photos/id/42/200",
+        "name": "John Doe",
+        "first_name": "John",
+        "middle_name": "",
+        "last_name": "Doe",
+        "business_name": "John",
+        "username": "john.doe",
+        "verified": true,
+        "admin": false,
+        "customer_service": true,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": true,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": true,
+        "view_users": false,
+        "view_balance": true,
+        "2fa": false,
+        "email": "john@email.com",
+        "business_email": "",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "address1": "123 Main St",
+        "address2": "",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "summary": {
+          "transactions_today": {
+            "value": 122,
+            "status": "up",
+            "index": "3.3%",
+            "period": "This Month"
+          },
+          "todays_volume": {
+            "value": 12433.54,
+            "currency": "USD",
+            "status": "plus",
+            "index": "467.00",
+            "period": "Today"
+          },
+          "payees": {
+            "value": 199,
+            "status": "down",
+            "index": "1.1%",
+            "period": "This Month"
+          },
+          "available_balance": {
+            "value": 54256.63,
+            "currency": "USD",
+            "status": "up",
+            "index": "5.7%",
+            "period": "This Month"
+          },
+          "volume": {
+            "value": 122,
+            "status": "up",
+            "index": "3.3%",
+            "period": "This Month",
+            "chartSeriesBar": [
+              {
+                "name": "Country A",
+                "data": [44, 55, 41, 67, 22, 43]
+              },
+              {
+                "name": "Country B",
+                "data": [13, 23, 20, 8, 13, 27]
+              },
+              {
+                "name": "Country C",
+                "data": [11, 17, 15, 15, 21, 14]
+              },
+              {
+                "name": "Country D",
+                "data": [21, 7, 25, 13, 22, 8]
+              }
+            ],
+            "chartLegend": [
+              {
+                "month": "jan"
+              },
+              {
+                "month": "feb"
+              },
+              {
+                "month": "mar"
+              },
+              {
+                "month": "apr"
+              },
+              {
+                "month": "may"
+              },
+              {
+                "month": "jun"
+              }
+            ],
+            "legendSeries": [
+              {
+                "description": "United States",
+                "data1": "715",
+                "data2": "86%"
+              },
+              {
+                "description": "Europe",
+                "data1": "86",
+                "data2": "10%"
+              },
+              {
+                "description": "India",
+                "data1": "20",
+                "data2": "3%"
+              },
+              {
+                "description": "Mexico",
+                "data1": "14",
+                "data2": "2%"
+              }
+            ]
+          },
+          "daily_distribution": {
+            "value": 95,
+            "status": "down",
+            "index": "3.3%",
+            "period": "Today",
+            "chartSeries": [44, 55, 41, 17, 15],
+            "legendSeries": [
+              {
+                "description": "Completed",
+                "data1": "53",
+                "data2": "60%"
+              },
+              {
+                "description": "Ready for Pickup",
+                "data1": "26",
+                "data2": "25%"
+              },
+              {
+                "description": "Pending",
+                "data1": "8",
+                "data2": "8%"
+              },
+              {
+                "description": "Processing",
+                "data1": "6",
+                "data2": "6%"
+              },
+              {
+                "description": "Cancelled",
+                "data1": "3",
+                "data2": "2%"
+              }
+            ]
+          },
+          "transactions": {
+            "value": 24,
+            "status": "up",
+            "index": "7.1%",
+            "period": "Today",
+            "chartSeries": [
+              {
+                "month": "jan",
+                "loaded": 7300.99,
+                "payed_out": 720.0
+              },
+              {
+                "month": "feb",
+                "loaded": 5200.0,
+                "payed_out": 540.0
+              },
+              {
+                "month": "mar",
+                "loaded": 4900.0,
+                "payed_out": 2000.0
+              },
+              {
+                "month": "apr",
+                "loaded": 7900.0,
+                "payed_out": 620.0
+              },
+              {
+                "month": "may",
+                "loaded": 5800.0,
+                "payed_out": 3000.0
+              },
+              {
+                "month": "jun",
+                "loaded": 8200.0,
+                "payed_out": 899.0
+              }
+            ],
+            "legendSeries": [
+              {
+                "description": "Completed",
+                "data1": "19",
+                "data2": "85%"
+              },
+              {
+                "description": "Unresolved",
+                "data1": "3",
+                "data2": "15%"
+              }
+            ]
+          }
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.99,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "id": 123,
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "value": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "id": 124,
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "id": 125,
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "id": 126,
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          }
+        ],
+        "transactions": [
+          {
+            "id": "637dcc6a5ad88d7f67d7f677df768g6442g2s3d3db52",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "s8df6s7d90sd778sdf9s8df87sd7f7f78df8as",
+            "to": "John Smith Junior II - Bank Deposit",
+            "received": { "amount": 234.0, "currency": "USD" },
+            "sent": { "amount": 41243.0, "currency": "USD" },
+            "fee": { "amount": 43.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          },
+          {
+            "id": "g7dsf6g8dg78s678dfg89g78h56asd4f5a6sd5sdf76",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "jd6h45jk45353k45d3hkfgh7j65fghj5j3gh57js45fg3h",
+            "to": "John Smith - Bank Deposit",
+            "received": { "amount": 82743.0, "currency": "USD" },
+            "sent": { "amount": 4423344.0, "currency": "USD" },
+            "fee": { "amount": 3334.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          },
+          {
+            "id": "h6h6d8fh79sdf6hs98d67fg78687sdf",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "ga6sd76f8f5ads6765fa8sd4g45a6s5d",
+            "to": "Marie Jane - Bank Deposit",
+            "received": { "amount": 543534.0, "currency": "USD" },
+            "sent": { "amount": 5543.0, "currency": "USD" },
+            "fee": { "amount": 44.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          }
+        ],
+        "notes": [
+          {
+            "id": 123,
+            "category": "general",
+            "title": "Shareholder Document",
+            "message": "Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "id": "8a99d401-9ffe-450f-a68f-7a45464222b1",
+              "first_name": "John",
+              "last_name": "Doe",
+              "image": "https://picsum.photos/id/56/200"
+            },
+            "datetime": "02/07/2023 15:30:00",
+            "comments": [
+              {
+                "id": 124,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "8a99d401-9ffe-450f-a68f-7a45464222b1",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00",
+                  "image": "https://picsum.photos/id/56/200"
+                },
+                "comments": [
+                  {
+                    "id": 1240,
+                    "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                    "author": {
+                      "id": "3889444d-7965-4d3f-9e91-56ec90e17fc0",
+                      "first_name": "Jonathan",
+                      "last_name": "Syntra",
+                      "datetime": "01/15/2023 12:09:00"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 125,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "cac7a2e7-03f0-403a-bf97-83842c7cc951",
+                  "first_name": "Joe",
+                  "last_name": "Biden",
+                  "datetime": "01/15/2023 12:09:00",
+                  "image": "https://picsum.photos/id/65/200"
+                }
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "category": "clear compliance",
+            "title": "Distributed systems",
+            "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "id": "ff044584-804c-455f-ae61-57fbf5e7cbd3",
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "02/05/2023 15:30:00",
+            "comments": [
+              {
+                "id": 127,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "bb35ddda-a987-4f18-a64b-57df88c91856",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "category": "compliance",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "image": "https://picsum.photos/id/17/200",
+            "author": {
+              "id": "b38febd5-0d5d-4d13-bad3-3c6f20cd96a2",
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "id": 129,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "e9b538b5-1616-4f6d-85de-128e919076cf",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "id": 130,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "61a1e9df-93ae-488f-9d95-14d4f03b7aed",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "id": 131,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "e564582a-54ee-41fe-87fe-c41d055157b6",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "id": 132,
+            "category": "compliance",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "image": "https://picsum.photos/id/17/200",
+            "author": {
+              "id": "a5400c78-a85a-4c36-899c-ab8de4e603c0",
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "id": 133,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "6372f166-9f37-4c0f-8b6b-c7f9542d2fdb",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "id": 134,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "70e142d1-d294-41dd-ac79-47595e5c3d23",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "id": 135,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "c3ce6130-9220-4232-bb6a-66b75cb4b908",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "id": 136,
+            "category": "general",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "id": "3cb12f8e-5f22-47b1-b122-9be9a9ab88aa",
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "id": 137,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "728faa51-1699-4934-a9e1-01959d56da1b",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "id": 138,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "6c063af2-c8a2-4a79-86fe-e933e9782a0a",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "id": 139,
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "id": "e1bd5725-054f-4ebe-aebd-ee4d32bb52d1",
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "01/15/2023 12:09:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Friedman",
+            "datetime": "06/18/2023 15:22:00",
+            "label": "Updated Email"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          }
+        ],
+        "id_verification": [
+          {
+            "attempt": "Attempt 1",
+            "status": "failed",
+            "datetime": "01/07/2023 15:30:00",
+            "personal": {
+              "id_number": "001-15066534-1",
+              "last_name": "Friedman",
+              "first_name": "Michael",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/223/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/334/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/444/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/555/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          },
+          {
+            "attempt": "Attempt 2",
+            "status": "failed",
+            "datetime": "10/09/2023 15:30:00",
+            "personal": {
+              "id_number": "012-716237737-8",
+              "last_name": "Jorge",
+              "first_name": "Winston",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/570/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/510/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/560/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/550/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          },
+          {
+            "attempt": "Attempt 3",
+            "status": "success",
+            "datetime": "10/09/2023 15:30:00",
+            "personal": {
+              "id_number": "233-981278367-6",
+              "last_name": "Victor",
+              "first_name": "Sample",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/999/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/120/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/210/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/220/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          }
+        ],
+        "logins_history": [
+          {
+            "city": "Santa Monica",
+            "country": "United States",
+            "status": "active",
+            "datetime": "01/07/2023 15:30",
+            "system": "Mac OS X",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 34.057028,
+            "longitude": -118.252506
+          },
+          {
+            "city": "Santa Monica",
+            "country": "United States",
+            "status": "inactive",
+            "datetime": "01/07/2023 15:30",
+            "system": "Mac OS X",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 34.057028,
+            "longitude": -118.252506
+          },
+          {
+            "city": "Shenzhen",
+            "country": "China",
+            "status": "threat",
+            "datetime": "02/14/2023 7:30",
+            "system": "Windows",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 22.621068,
+            "longitude": 113.85077
+          }
+        ]
+      },
+      {
+        "id": 312312,
+        "date": "04/15/2022",
+        "image": "https://picsum.photos/id/17/200",
+        "name": "Marie Jane",
+        "first_name": "Marie",
+        "last_name": "Jane",
+        "username": "john.doe",
+        "business_name": "Marie",
+        "verified": false,
+        "admin": true,
+        "customer_service": true,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": true,
+        "manage_users": true,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": true,
+        "2fa": true,
+        "email": "john@email.com",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "address1": "123 Main St",
+        "address2": "St",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.99,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "id": 123,
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "amount": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "id": 124,
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "id": 125,
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "id": 126,
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          },
+          {
+            "id": 127,
+            "type": "mastercard",
+            "title": "BRL Credit",
+            "card_number": "1234",
+            "amount": "89274923.99",
+            "currency": "BRL"
+          }
+        ],
+        "transactions": [
+          {
+            "id": "637dcc6a5ad88d7f67d7f677df768g6442g2s3d3db52",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "s8df6s7d90sd778sdf9s8df87sd7f7f78df8as",
+            "to": "John Smith Junior II - Bank Deposit",
+            "received": { "amount": 234.0, "currency": "USD" },
+            "sent": { "amount": 41243.0, "currency": "USD" },
+            "fee": { "amount": 43.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          },
+          {
+            "id": "g7dsf6g8dg78s678dfg89g78h56asd4f5a6sd5sdf76",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "jd6h45jk45353k45d3hkfgh7j65fghj5j3gh57js45fg3h",
+            "to": "John Smith - Bank Deposit",
+            "received": { "amount": 82743.0, "currency": "USD" },
+            "sent": { "amount": 4423344.0, "currency": "USD" },
+            "fee": { "amount": 3334.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          },
+          {
+            "id": "h6h6d8fh79sdf6hs98d67fg78687sdf",
+            "status": "Pending",
+            "date": "07/19/2022",
+            "time": "07:19",
+            "description": "Next Day Bank Deposit",
+            "confirmation": "ga6sd76f8f5ads6765fa8sd4g45a6s5d",
+            "to": "Marie Jane - Bank Deposit",
+            "received": { "amount": 543534.0, "currency": "USD" },
+            "sent": { "amount": 5543.0, "currency": "USD" },
+            "fee": { "amount": 44.0, "currency": "USD" },
+            "country": "United States",
+            "payer": "Instant Pay"
+          }
+        ],
+        "notes": [
+          {
+            "category": "general",
+            "title": "Shareholder Document",
+            "message": "Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "02/07/2023 15:30:00",
+            "comments": [
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "category": "clear compliance",
+            "title": "Distributed systems",
+            "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "02/05/2023 15:30:00",
+            "comments": [
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "category": "compliance",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "image": "https://picsum.photos/id/17/200",
+            "author": {
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "category": "compliance",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "image": "https://picsum.photos/id/17/200",
+            "author": {
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          },
+          {
+            "category": "general",
+            "title": "ID on file for Li Rong Ma",
+            "message": "Compile modern bundle scalable mutation observer frontend continuous integration little Bobby Tables design. Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous. Functional programming Twitter linked list graph code-splitting document object model state polemical thinking pull request environment. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.",
+            "author": {
+              "first_name": "John",
+              "last_name": "Doe"
+            },
+            "datetime": "01/07/2023 15:30:00",
+            "comments": [
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/16/2023 12:09:00"
+                }
+              },
+              {
+                "message": "Lazy load hardcoded middleware animation environment ICO Reddit. Public yarn parent first in first out pivot IRC animation asynchronous const reflog. Free as speech AWS remote.",
+                "author": {
+                  "first_name": "John",
+                  "last_name": "Doe",
+                  "datetime": "01/15/2023 12:09:00"
+                }
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "01/15/2023 12:09:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Friedman",
+            "datetime": "06/18/2023 15:22:00",
+            "label": "Updated Email"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          },
+          {
+            "first_name": "Ciara",
+            "last_name": "Leal",
+            "datetime": "12/18/2022 08:55:00",
+            "label": "Updated Name"
+          }
+        ],
+        "id_verification": [
+          {
+            "attempt": "Attempt 1",
+            "status": "failed",
+            "datetime": "01/07/2023 15:30:00",
+            "personal": {
+              "id_number": "001-15066534-1",
+              "last_name": "Friedman",
+              "first_name": "Michael",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/223/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/334/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/444/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/555/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          },
+          {
+            "attempt": "Attempt 2",
+            "status": "failed",
+            "datetime": "10/09/2023 15:30:00",
+            "personal": {
+              "id_number": "012-716237737-8",
+              "last_name": "Jorge",
+              "first_name": "Winston",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/570/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/510/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/560/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/550/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          },
+          {
+            "attempt": "Attempt 3",
+            "status": "success",
+            "datetime": "10/09/2023 15:30:00",
+            "personal": {
+              "id_number": "233-981278367-6",
+              "last_name": "Victor",
+              "first_name": "Sample",
+              "date_of_birth": "05/02/1999"
+            },
+            "document": {
+              "type": "Passport",
+              "number": "VL0199336",
+              "first_name": "Do",
+              "date_of_issue": "2022/03/01"
+            },
+            "photo": [
+              {
+                "title": "Portrait",
+                "image": "https://picsum.photos/id/999/238/277",
+                "datetime": "01/07/2023 15:30:00"
+              },
+              {
+                "title": "Document Back",
+                "image": "https://picsum.photos/id/120/150/150",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Document Front",
+                "image": "https://picsum.photos/id/210/100/100",
+                "datetime": "01/07/2023 15:30"
+              },
+              {
+                "title": "Other Document Front",
+                "image": "https://picsum.photos/id/220/400/400",
+                "datetime": "01/07/2023 15:30:00"
+              }
+            ]
+          }
+        ],
+        "logins_history": [
+          {
+            "city": "Santa Monica",
+            "country": "United States",
+            "status": "active",
+            "datetime": "01/07/2023 15:30",
+            "system": "Mac OS X",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 34.057028,
+            "longitude": -118.252506
+          },
+          {
+            "city": "Santa Monica",
+            "country": "United States",
+            "status": "inactive",
+            "datetime": "01/07/2023 15:30",
+            "system": "Mac OS X",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 34.057028,
+            "longitude": -118.252506
+          },
+          {
+            "city": "Shenzhen",
+            "country": "China",
+            "status": "threat",
+            "datetime": "02/14/2023 7:30",
+            "system": "Windows",
+            "navigator": "Chrome/106.0.0.0",
+            "latitude": 22.621068,
+            "longitude": 113.85077
+          }
+        ]
+      },
+      {
+        "id": 872378,
+        "date": "02/23/2018",
+        "image": "",
+        "name": "David Albro Junior",
+        "first_name": "David",
+        "last_name": "Junior",
+        "username": "john.doe",
+        "verified": true,
+        "admin": true,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": true,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": true,
+        "email": "john@email.com",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "business_name": "Marie",
+        "address1": "123 Main St",
+        "address2": "St",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.0,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "amount": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          }
+        ]
+      },
+      {
+        "id": 178236,
+        "date": "02/23/2012",
+        "image": "",
+        "name": "Albert Einstein",
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "username": "john.doe",
+        "verified": true,
+        "admin": false,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": false,
+        "email": "john@email.com",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "business_name": "Marie",
+        "address1": "123 Main St",
+        "address2": "St",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.0,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "amount": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          }
+        ]
+      },
+      {
+        "id": 12653,
+        "date": "02/23/2011",
+        "image": "",
+        "name": "Matheus Virtue",
+        "first_name": "Matheus",
+        "last_name": "Virtue",
+        "username": "john.doe",
+        "verified": true,
+        "admin": false,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": false,
+        "email": "john@email.com",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "business_name": "Marie",
+        "address1": "123 Main St",
+        "address2": "St",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.0,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "amount": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          }
+        ]
+      },
+      {
+        "id": 126344,
+        "date": "02/23/2011",
+        "image": "",
+        "name": "Robert Sun",
+        "first_name": "Robert",
+        "last_name": "Sun",
+        "username": "john.doe",
+        "verified": false,
+        "admin": false,
+        "customer_service": false,
+        "cancel_transactions": false,
+        "manage_clients": false,
+        "api_keys": false,
+        "links": false,
+        "compliance": false,
+        "manage_users": false,
+        "batch_files": false,
+        "bank_login": false,
+        "view_users": false,
+        "view_balance": false,
+        "2fa": false,
+        "email": "john@email.com",
+        "phone": "(123) 456 7890",
+        "date_of_birth": "02/09/1990",
+        "address": "123 Main St",
+        "business_name": "Marie",
+        "address1": "123 Main St",
+        "address2": "St",
+        "city": "Santa Monica",
+        "postal_code": "90405",
+        "state_province": "California",
+        "country": "US",
+        "totalbalance": 54256.63,
+        "currency": "USD",
+        "percentage": "5.7%",
+        "sms_notifications": true,
+        "email_notifications": true,
+        "id_selfie_verification": true,
+        "id_selfie_verification_option": 2,
+        "two_factor_authentication": true,
+        "locked": {
+          "id": true,
+          "first_name": false,
+          "middle_name": false,
+          "last_name": false,
+          "business_name": false,
+          "date_of_birth": false,
+          "email": false,
+          "phone": false,
+          "address1": false,
+          "address2": false,
+          "country": false,
+          "state_province": false,
+          "city": false,
+          "postal_code": false,
+          "id_selfie_verification_option": false
+        },
+        "chart": [
+          {
+            "month": "jan",
+            "loaded": 7300.0,
+            "payed_out": 720.0
+          },
+          {
+            "month": "feb",
+            "loaded": 5200.0,
+            "payed_out": 540.0
+          },
+          {
+            "month": "mar",
+            "loaded": 4900.0,
+            "payed_out": 2000.0
+          },
+          {
+            "month": "apr",
+            "loaded": 7900.0,
+            "payed_out": 620.0
+          },
+          {
+            "month": "may",
+            "loaded": 5800.0,
+            "payed_out": 3000.0
+          },
+          {
+            "month": "jun",
+            "loaded": 8200.0,
+            "payed_out": 899.0
+          }
+        ],
+        "cards": [
+          {
+            "type": "masspay",
+            "title": "Masspay Wallet",
+            "card_number": "5433",
+            "amount": "27455.64",
+            "currency": "USD"
+          },
+          {
+            "type": "visa",
+            "title": "USD Debit",
+            "card_number": "0123",
+            "amount": "10334.0",
+            "currency": "USD"
+          },
+          {
+            "type": "mastercard",
+            "title": "EUR Debit",
+            "card_number": "9876",
+            "amount": "13010.35",
+            "currency": "EUR"
+          },
+          {
+            "type": "masspay",
+            "title": "EUR Debit",
+            "card_number": "1029",
+            "amount": "3772222.35",
+            "currency": "EUR"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "page": 1,
+      "offset": 0,
+      "limit": 10,
+      "total": 10,
+      "filter": 0
+    }
+  },
   "note_categories": [
     {
       "id": 1,
@@ -3034,58 +3210,6 @@
       "logo_url": "https://"
     }
   },
-  "batches": [
-    {
-      "id": 123123,
-      "date": "07/19/2022",
-      "uploaded_by": "John Doe",
-      "total_transactions": 10,
-      "errors": 0,
-      "status": "Completed",
-      "total_amount_processed": { "amount": 100.0, "currency": "USD" },
-      "file": "https://link-to-file"
-    },
-    {
-      "id": 123124,
-      "date": "01/24/2023",
-      "uploaded_by": "Marie Jane",
-      "total_transactions": 78,
-      "errors": 23,
-      "status": "Processing",
-      "total_amount_processed": { "amount": 458.0, "currency": "USD" },
-      "file": "https://link-to-file"
-    },
-    {
-      "id": 123125,
-      "date": "07/19/2022",
-      "uploaded_by": "Martin Gates",
-      "total_transactions": 99,
-      "errors": 0,
-      "status": "Completed",
-      "total_amount_processed": { "amount": 8237.0, "currency": "USD" },
-      "file": "https://link-to-file"
-    },
-    {
-      "id": 123126,
-      "date": "07/19/2022",
-      "uploaded_by": "Dave Gordon",
-      "total_transactions": 1,
-      "errors": 2,
-      "status": "Error",
-      "total_amount_processed": { "amount": 7263.0, "currency": "USD" },
-      "file": "https://link-to-file"
-    },
-    {
-      "id": 123127,
-      "date": "07/19/2022",
-      "uploaded_by": "Jorge Green",
-      "total_transactions": 7,
-      "errors": 32,
-      "status": "Processing",
-      "total_amount_processed": { "amount": 1233.0, "currency": "USD" },
-      "file": "https://link-to-file"
-    }
-  ],
   "services": [
     {
       "id": 1,
