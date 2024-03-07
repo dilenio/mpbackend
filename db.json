@@ -14,10 +14,10 @@
         "time": "07:19 PM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 41243.0, "currency": "USD" },
-        "received": { "amount": 234.0, "currency": "USD" },
-        "fee": { "amount": 43.0, "currency": "USD" },
-        "fx": { "amount": 23.0, "currency": "USD" },
+        "sent": { "value": 41243.0, "currency": "USD" },
+        "received": { "value": 234.0, "currency": "USD" },
+        "fee": { "value": 43.0, "currency": "USD" },
+        "fx": { "value": 23.0, "currency": "USD" },
         "status": "Pending",
         "attributes": [
           {
@@ -77,10 +77,10 @@
         "time": "07:19 AM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 213.0, "currency": "USD" },
-        "received": { "amount": 3.0, "currency": "USD" },
-        "fee": { "amount": 123123.0, "currency": "USD" },
-        "fx": { "amount": 55.0, "currency": "USD" },
+        "sent": { "value": 213.0, "currency": "USD" },
+        "received": { "value": 3.0, "currency": "USD" },
+        "fee": { "value": 123123.0, "currency": "USD" },
+        "fx": { "value": 55.0, "currency": "USD" },
         "status": "Pending",
         "attributes": [
           {
@@ -140,10 +140,10 @@
         "time": "10:33 AM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 290387.0, "currency": "USD" },
-        "received": { "amount": 3847.0, "currency": "USD" },
-        "fee": { "amount": 8374.0, "currency": "USD" },
-        "fx": { "amount": 923.0, "currency": "USD" },
+        "sent": { "value": 290387.0, "currency": "USD" },
+        "received": { "value": 3847.0, "currency": "USD" },
+        "fee": { "value": 8374.0, "currency": "USD" },
+        "fx": { "value": 923.0, "currency": "USD" },
         "status": "Cancelled",
         "attributes": [
           {
@@ -190,10 +190,10 @@
         "time": "08:45 PM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Completed",
         "attributes": [
           {
@@ -235,10 +235,10 @@
         "time": "08:55",
         "payer": "Bank Wire",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "BRL" },
-        "received": { "amount": 41.0, "currency": "BRL" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "BRL" },
+        "received": { "value": 41.0, "currency": "BRL" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Pending",
         "attributes": [
           {
@@ -280,10 +280,10 @@
         "time": "11:22",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "amount": 34567.0, "currency": "CNY" },
-        "received": { "amount": 41.0, "currency": "CNY" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "CNY" },
+        "received": { "value": 41.0, "currency": "CNY" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Completed",
         "attributes": [
           {
@@ -325,10 +325,10 @@
         "time": "08:14",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "amount": 34567.0, "currency": "CNY" },
-        "received": { "amount": 41.0, "currency": "CNY" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "CNY" },
+        "received": { "value": 41.0, "currency": "CNY" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Cancelled",
         "attributes": [
           {
@@ -370,10 +370,10 @@
         "time": "07:19",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Error",
         "attributes": [
           {
@@ -415,10 +415,10 @@
         "time": "10:33",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Cancelled",
         "attributes": [
           {
@@ -460,10 +460,10 @@
         "time": "08:45",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Completed",
         "attributes": [
           {
@@ -505,10 +505,10 @@
         "time": "08:55",
         "payer": "Bank Wire",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Completed",
         "attributes": [
           {
@@ -549,10 +549,10 @@
         "time": "11:22",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Completed",
         "attributes": [
           {
@@ -593,10 +593,10 @@
         "time": "08:14",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Cancelled",
         "attributes": [
           {
@@ -637,10 +637,10 @@
         "time": "07:19",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Error",
         "attributes": [
           {
@@ -681,10 +681,10 @@
         "time": "10:33",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "amount": 34567.0, "currency": "USD" },
-        "received": { "amount": 41.0, "currency": "USD" },
-        "fee": { "amount": 1.0, "currency": "USD" },
-        "fx": { "amount": 4.0, "currency": "USD" },
+        "sent": { "value": 34567.0, "currency": "USD" },
+        "received": { "value": 41.0, "currency": "USD" },
+        "fee": { "value": 1.0, "currency": "USD" },
+        "fx": { "value": 4.0, "currency": "USD" },
         "status": "Cancelled",
         "attributes": [
           {
@@ -738,8 +738,8 @@
       "date_of_birth": "02/09/1990",
       "since": "01/01/2022",
       "token": "c0b8e1ab-aeb2-11eb-acee",
-      "balance": { "amount": 100.0, "currency": "USD" },
-      "loaded": { "amount": 200.0, "currency": "USD" },
+      "balance": { "value": 100.0, "currency": "USD" },
+      "loaded": { "value": 200.0, "currency": "USD" },
       "verified": true
     },
     {
@@ -753,8 +753,8 @@
       "date_of_birth": "02/09/1990",
       "since": "11/11/2019",
       "token": "c0b8e1ab-aeb2-88aa-bced",
-      "balance": { "amount": 10050.0, "currency": "USD" },
-      "loaded": { "amount": 200110.0, "currency": "USD" },
+      "balance": { "value": 10050.0, "currency": "USD" },
+      "loaded": { "value": 200110.0, "currency": "USD" },
       "verified": false
     },
     {
@@ -768,8 +768,8 @@
       "date_of_birth": "02/09/1990",
       "since": "01/29/2017",
       "token": "c0b8e1ab-aeb2-aaaa-bced",
-      "balance": { "amount": 150.0, "currency": "USD" },
-      "loaded": { "amount": 2220.0, "currency": "USD" },
+      "balance": { "value": 150.0, "currency": "USD" },
+      "loaded": { "value": 2220.0, "currency": "USD" },
       "verified": true
     },
     {
@@ -783,8 +783,8 @@
       "date_of_birth": "02/09/1990",
       "since": "01/29/2020",
       "token": "c0b8e1ab-abcd-aaaa-bced",
-      "balance": { "amount": 1000.0, "currency": "USD" },
-      "loaded": { "amount": 120.0, "currency": "USD" },
+      "balance": { "value": 1000.0, "currency": "USD" },
+      "loaded": { "value": 120.0, "currency": "USD" },
       "verified": true
     },
     {
@@ -798,8 +798,8 @@
       "date_of_birth": "02/09/1990",
       "since": "01/29/2011",
       "token": "c0b8e1ab-aeb2-bbbb-bced",
-      "balance": { "amount": 150.0, "currency": "USD" },
-      "loaded": { "amount": 2220.0, "currency": "USD" },
+      "balance": { "value": 150.0, "currency": "USD" },
+      "loaded": { "value": 2220.0, "currency": "USD" },
       "verified": true
     },
     {
@@ -813,8 +813,8 @@
       "date_of_birth": "02/09/1990",
       "since": "01/29/2011",
       "token": "c0b8e1ab-aeb2-bbbb-bced",
-      "balance": { "amount": 78263.0, "currency": "USD" },
-      "loaded": { "amount": 23847.0, "currency": "USD" },
+      "balance": { "value": 78263.0, "currency": "USD" },
+      "loaded": { "value": 23847.0, "currency": "USD" },
       "verified": false
     }
   ],
@@ -824,9 +824,9 @@
       "date": "2022/09/24",
       "description": "Load",
       "currency": "USD",
-      "debits": { "amount": 100.0, "currency": "USD" },
-      "credits": { "amount": -200.0, "currency": "USD" },
-      "balance": { "amount": -100.0, "currency": "USD" },
+      "debits": { "value": 100.0, "currency": "USD" },
+      "credits": { "value": -200.0, "currency": "USD" },
+      "balance": { "value": -100.0, "currency": "USD" },
       "transaction_id": 123
     },
     {
@@ -834,9 +834,9 @@
       "date": "2022/09/03",
       "description": "Testing Load",
       "currency": "USD",
-      "debits": { "amount": 10000.0, "currency": "USD" },
-      "credits": { "amount": -22200.0, "currency": "USD" },
-      "balance": { "amount": -12200.0, "currency": "USD" },
+      "debits": { "value": 10000.0, "currency": "USD" },
+      "credits": { "value": -22200.0, "currency": "USD" },
+      "balance": { "value": -12200.0, "currency": "USD" },
       "transaction_id": 4321
     }
   ],
@@ -1402,7 +1402,7 @@
           "type": "masspay",
           "title": "Masspay Wallet",
           "card_number": "5433",
-          "amount": "27455.64",
+          "value": "27455.64",
           "currency": "USD"
         },
         {
@@ -3340,6 +3340,11 @@
       "balance": {
         "amount": 10929.99,
         "currency": "USD"
+      },
+      "crb": true,
+      "crb_balance": {
+        "amount": 11223.0,
+        "currency": "USD"
       }
     },
     {
@@ -3366,6 +3371,11 @@
       "fortressTrust": false,
       "balance": {
         "amount": 7233.99,
+        "currency": "USD"
+      },
+      "crb": false,
+      "crb_balance": {
+        "amount": 11223.0,
         "currency": "USD"
       }
     },
@@ -3394,6 +3404,11 @@
       "balance": {
         "amount": 30238.99,
         "currency": "USD"
+      },
+      "crb": false,
+      "crb_balance": {
+        "amount": 11223.0,
+        "currency": "USD"
       }
     },
     {
@@ -3420,6 +3435,11 @@
       "fortressTrust": true,
       "balance": {
         "amount": 3647.99,
+        "currency": "USD"
+      },
+      "crb": true,
+      "crb_balance": {
+        "amount": 11223.0,
         "currency": "USD"
       }
     },
@@ -3448,9 +3468,731 @@
       "balance": {
         "amount": 9838266.99,
         "currency": "USD"
+      },
+      "crb": true,
+      "crb_balance": {
+        "amount": 11223.0,
+        "currency": "USD"
       }
     }
   ],
+  "clients_crb": [
+    {
+      "id": 1,
+      "name": "Client Name One",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "CRB",
+      "bank_logo": "https://img.hotimg.com/crb8020eeec7306a600.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 11567.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Name Two",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "CRB",
+      "bank_logo": "https://img.hotimg.com/crb8020eeec7306a600.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Client Name Tree",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "CRB",
+      "bank_logo": "https://img.hotimg.com/crb8020eeec7306a600.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Client Name Four",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "CRB",
+      "bank_logo": "https://img.hotimg.com/crb8020eeec7306a600.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 7263.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Client Name Five",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "CRB",
+      "bank_logo": "https://img.hotimg.com/crb8020eeec7306a600.png",
+      "demo": true,
+      "active": false
+    }
+  ],
+  "clients_fortress": [
+    {
+      "id": 1,
+      "name": "Client Name One",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Fortress",
+      "bank_logo": "https://img.hotimg.com/fortress.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 11567.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Name Two",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Fortress",
+      "bank_logo": "https://img.hotimg.com/fortress.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Client Name Tree",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Fortress",
+      "bank_logo": "https://img.hotimg.com/fortress.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Client Name Four",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Fortress",
+      "bank_logo": "https://img.hotimg.com/fortress.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 7263.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Client Name Five",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Fortress",
+      "bank_logo": "https://img.hotimg.com/fortress.png",
+      "demo": true,
+      "active": false
+    }
+  ],
+  "clients_ibanera": [
+    {
+      "id": 1,
+      "name": "Client Name One",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Ibanera",
+      "bank_logo": "https://img.hotimg.com/ibanera.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 11567.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Name Two",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Ibanera",
+      "bank_logo": "https://img.hotimg.com/ibanera.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Client Name Tree",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Ibanera",
+      "bank_logo": "https://img.hotimg.com/ibanera.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Client Name Four",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Ibanera",
+      "bank_logo": "https://img.hotimg.com/ibanera.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 7263.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Client Name Five",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "Ibanera",
+      "bank_logo": "https://img.hotimg.com/ibanera.png",
+      "demo": true,
+      "active": false
+    }
+  ],
+  "clients_mcb": [
+    {
+      "id": 1,
+      "name": "Client Name One",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "MCB",
+      "bank_logo": "https://img.hotimg.com/mcb.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 11567.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Name Two",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "MCB",
+      "bank_logo": "https://img.hotimg.com/mcb.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Client Name Tree",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "MCB",
+      "bank_logo": "https://img.hotimg.com/mcb.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Client Name Four",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "MCB",
+      "bank_logo": "https://img.hotimg.com/mcb.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 7263.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Client Name Five",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "MCB",
+      "bank_logo": "https://img.hotimg.com/mcb.png",
+      "demo": true,
+      "active": false
+    }
+  ],
+  "clients_myeupay": [
+    {
+      "id": 1,
+      "name": "Client Name One",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "My EU Pay",
+      "bank_logo": "https://img.hotimg.com/myeupay.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 11567.99,
+        "currency": "BRL"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Name Two",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "My EU Pay",
+      "bank_logo": "https://img.hotimg.com/myeupay.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Client Name Tree",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "My EU Pay",
+      "bank_logo": "https://img.hotimg.com/myeupay.png",
+      "demo": true,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Client Name Four",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "My EU Pay",
+      "bank_logo": "https://img.hotimg.com/myeupay.png",
+      "demo": true,
+      "active": true,
+      "balance": {
+        "amount": 7263.99,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Client Name Five",
+      "logo": "https://picsum.photos/id/42/200",
+      "industry": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
+      "address1": "2366 Canyon RD, Splingville",
+      "address2": "CA 90405 United States",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "postal_code": "1234546",
+      "inc_date": "5/12/1977",
+      "exp_date": "5/12/1977",
+      "issue_date": "5/12/1977",
+      "type": "DRIVING_LICENSE",
+      "reg_number": "2019-000848336",
+      "rep_name": "Jeff Katz",
+      "age": 18,
+      "dob": "5/12/1977",
+      "bank_name": "My EU Pay",
+      "bank_logo": "https://img.hotimg.com/myeupay.png",
+      "demo": true,
+      "active": false
+    }
+  ],
+  "accounts": [
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104f",
+      "name": "Account One"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104g",
+      "name": "Account Two"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104h",
+      "name": "Account Tree"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104i",
+      "name": "Account Four"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104j",
+      "name": "Account Five"
+    }
+  ],
+  "receivers": [
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104f",
+      "name": "Receiver One"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104g",
+      "name": "Receiver Two"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104h",
+      "name": "Receiver Tree"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104i",
+      "name": "Receiver Four"
+    },
+    {
+      "id": "32da4d44-bc26-4a53-9532-18c81542104j",
+      "name": "Receiver Five"
+    }
+  ],
+  "wire_instructions": {
+    "accountNumber": "666168082444",
+    "routingNumber": "011401202",
+    "receiverName": "Nomad TSC",
+    "receiverAddress": {
+      "street1": "1000 main st",
+      "street2": "",
+      "postalCode": "99999",
+      "city": "santa monica",
+      "state": "CA",
+      "country": "US"
+    },
+    "receiverBankName": "Bank of the Lakes",
+    "receiverBankAddress": {
+      "street1": "512 Cherry Street",
+      "street2": "",
+      "postalCode": "55999",
+      "city": "Duluth",
+      "state": "MN",
+      "country": "US",
+      "swiftCode": "BANKUS99"
+    }
+  },
   "balances": [
     {
       "id": 1,
@@ -6594,13 +7336,6 @@
       "id": 5,
       "name": "Nu Bank"
     }
-  ],
-  "receiver": [
-    { "key": "Receiver One", "value": 1 },
-    { "key": "Receiver Two", "value": 2 },
-    { "key": "Receiver Three", "value": 3 },
-    { "key": "Receiver Four", "value": 4 },
-    { "key": "Receiver Five", "value": 5 }
   ],
   "pricing_costs_generator": [
     {
