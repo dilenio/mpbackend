@@ -3,13 +3,18 @@ const cors = require("cors");
 const path = require("path");
 
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, "db.json"));
+
+const routerClients = jsonServer.router(path.join(__dirname, "clients.json"));
+const routerMembers = jsonServer.router(path.join(__dirname, "members.json"));
+
 const middlewares = jsonServer.defaults();
 
 server.use(cors());
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
-server.use(router);
+
+server.use("/api/clients", routerClients);
+server.use("/api/members", routerMembers);
 
 // PORT MUST BE 3000
 const PORT = process.env.PORT || 3000;
