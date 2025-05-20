@@ -1263,14 +1263,32 @@
         "name": "Webhook Secret",
         "key": "9cebcbbc-11e8-11ee-be56-0242ac120002",
         "status": "Active",
-        "created": "07/19/2022"
+        "created": "07/19/2022",
+        "events": [
+          "user.created",
+          "user.status",
+          "payout.created",
+          "payout.status",
+          "load.created",
+          "load.status",
+          "load.reversed",
+          "spendback.created",
+          "spendback.status",
+          "spendback.inactivity",
+          "kyc.id",
+          "attributes.stored",
+          "deposit_account.created",
+          "business.created",
+          "business.status"
+        ]
       },
       {
         "id": 124,
         "name": "Webhook Secret",
         "key": "4991459a-11e9-11ee-be56-0242ac120002",
         "status": "Inactive",
-        "created": "07/19/2022"
+        "created": "07/19/2022",
+        "events": ["user.created", "user.status", "payout.status"]
       }
     ],
     "metadata": {
@@ -1281,6 +1299,23 @@
       "filter": 0
     }
   },
+  "webhooks_events": [
+    { "id": "a1", "name": "user.created" },
+    { "id": "a2", "name": "user.status" },
+    { "id": "a3", "name": "payout.created" },
+    { "id": "a4", "name": "payout.status" },
+    { "id": "a5", "name": "load.created" },
+    { "id": "a6", "name": "load.status" },
+    { "id": "a7", "name": "load.reversed" },
+    { "id": "a8", "name": "spendback.created" },
+    { "id": "a9", "name": "spendback.status" },
+    { "id": "a10", "name": "spendback.inactivity" },
+    { "id": "a11", "name": "kyc.id" },
+    { "id": "a12", "name": "attributes.stored" },
+    { "id": "a13", "name": "deposit_account.created" },
+    { "id": "a14", "name": "business.created" },
+    { "id": "a15", "name": "business.status" }
+  ],
   "batches": {
     "data": [
       {
