@@ -82,21 +82,25 @@
         "legendSeries": [
           {
             "description": "United States",
+            "flag": "https://www.worldometers.info/img/flags/uk-flag.gif",
             "data1": "715",
             "data2": "86%"
           },
           {
             "description": "Europe",
+            "flag": "https://www.worldometers.info/img/flags/af-flag.gif",
             "data1": "86",
             "data2": "10%"
           },
           {
             "description": "India",
+            "flag": "https://www.worldometers.info/img/flags/ag-flag.gif",
             "data1": "20",
             "data2": "3%"
           },
           {
             "description": "Mexico",
+            "flag": "https://www.worldometers.info/img/flags/ao-flag.gif",
             "data1": "14",
             "data2": "2%"
           }
@@ -223,10 +227,8 @@
   "toppayees": [
     {
       "id": 123123,
-      "name": "Kevin Howard",
       "first_name": "Kevin",
       "last_name": "Howard",
-      "image": "https://picsum.photos/id/42/200",
       "country": "United States",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
@@ -234,10 +236,8 @@
     },
     {
       "id": 1231234,
-      "name": "Angie Holdsworth",
       "first_name": "Angie",
       "last_name": "Holdsworth",
-      "image": "",
       "country": "United States",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Prepaid Card",
@@ -245,10 +245,8 @@
     },
     {
       "id": 123125,
-      "name": "Ted Reese",
       "first_name": "Ted",
       "last_name": "Reese",
-      "image": "",
       "country": "Italy",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
@@ -256,10 +254,8 @@
     },
     {
       "id": 123126,
-      "name": "Tiana Markowic",
       "first_name": "Tiana",
       "last_name": "Markowic",
-      "image": "",
       "country": "Poland",
       "flag": "https://picsum.photos/id/109/200",
       "payout": "Prepaid Card",
@@ -267,10 +263,8 @@
     },
     {
       "id": 123127,
-      "name": "Steve Jones",
       "first_name": "Steve",
       "last_name": "Jones",
-      "image": "https://picsum.photos/id/110/200",
       "country": "India",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
