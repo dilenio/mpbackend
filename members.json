@@ -770,11 +770,11 @@
       },
       "exchange_rate": {
         "amount": 1,
-        "currency": "USD"
+        "currency": "USDT"
       },
       "destination_amount": {
         "amount": 22,
-        "currency": "USD"
+        "currency": "USDT"
       }
     },
     {
@@ -2244,7 +2244,6 @@
       "id": "1bb6"
     }
   ],
-  "validate_transfer": {},
   "veriff": {
     "data": {
       "verification": {
@@ -2271,7 +2270,7 @@
     },
     "exchange_rate": {
       "value": 5.23,
-      "currency": "EUR"
+      "currency": "BTC"
     }
   },
   "commissions": [
