@@ -13,7 +13,8 @@
       "name": "John Doe",
       "first_name": "John",
       "middle_name": "",
-      "last_name": "Doe"
+      "last_name": "Doe",
+      "two_factor_authentication": true
     },
     "summary": {
       "transactions_today": {
@@ -203,15 +204,23 @@
     ]
   },
   "user_profile": {
-    "email_notifications": false,
-    "sms_notifications": true,
-    "id_selfie_collection": "https://magic.veriff.me/v/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjA3MTg3NzIsInNlc3Npb25faWQiOiJmN2U1MzJjZC0xYTM1LTQ1NDEtOGYwMi01OGY1NzVjZmQzMzUiLCJpaWQiOiJkNDgzMjQzMS1mNjkzLTQ5ODItYTMxZi0wMmVkZDYyYTcxYTMifQ.r9MofJiYPjS3yBGMQsjXNMfye3ZcbLRefzGkCXKAYBc",
+    "name": "Dilenio  Enderle",
+    "phone": "73981532105",
+    "dob": "1973-05-15",
+    "address1": "123 Main St",
+    "address2": "Apt 3",
+    "country": "USA",
+    "state": "CA",
+    "city": "Santa Monica",
+    "zip": "90405",
+    "phone_confirmation_required": false,
+    "two_factor_authentication": true,
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
   "security": {
-    "second_factor": false,
-    "code": "111111",
+    "second_factor": true,
+    "code": "123123",
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
@@ -2253,24 +2262,20 @@
   },
   "check_wallet": {
     "status": "success",
-    "full_name": "John Doe"
-  },
-  "validate_wallet_transfer": {
-    "status": "success",
-    "payout_token": "TOKENS9DS7F68SD6F7S687DF",
-    "full_name": "Dilenio",
-    "bank": "Bank Of America (BOA)",
+    "full_name": "John Doe",
+    "payout_token": "abc123xyz",
+    "bank": "Bank Name",
     "amount": {
-      "value": 987.65,
-      "currency": "EUR"
+      "value": 123.0,
+      "currency": "USD"
     },
     "fee": {
-      "value": 1,
-      "currency": "EUR"
+      "value": 1.0,
+      "currency": "USD"
     },
     "exchange_rate": {
-      "value": 5.23,
-      "currency": "BTC"
+      "value": 1.0,
+      "currency": "USD"
     }
   },
   "commissions": [
