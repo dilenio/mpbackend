@@ -214,7 +214,7 @@
     "city": "Santa Monica",
     "zip": "90405",
     "phone_confirmation_required": false,
-    "two_factor_authentication": true,
+    "two_factor_authentication": false,
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
