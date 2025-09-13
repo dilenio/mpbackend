@@ -9,615 +9,251 @@
     "first_name": "dilenio",
     "middle_name": "",
     "last_name": "enderle",
-    "vindex": [
-      {
-        "this_month_sum": "321.99000",
-        "last_month_comparison_sum": "0.00000"
-      }
-    ],
-    "tshort_data": [
-      {
-        "this_week_transaction_count": "0",
-        "previous_week_transaction_count": "10",
-        "this_week_transaction_sum": "0.00000"
-      }
-    ],
-    "tpast_week": [
-      {
-        "day_of_week": "Thursday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Friday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Saturday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Sunday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Monday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Tuesday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Wednesday",
-        "successful_transactions": "0",
-        "unsuccessful_transactions": "0"
-      }
-    ],
-    "volume_data": [
-      {
-        "transaction_month": "August",
-        "total_monthly_amount": "12628.00000",
-        "count": "1290"
-      },
-      {
-        "transaction_month": "July",
-        "total_monthly_amount": "13813.04000",
-        "count": "1316"
-      },
-      {
-        "transaction_month": "June",
-        "total_monthly_amount": "20327.80000",
-        "count": "1454"
-      },
-      {
-        "transaction_month": "May",
-        "total_monthly_amount": "16070.29000",
-        "count": "1444"
-      },
-      {
-        "transaction_month": "April",
-        "total_monthly_amount": "15897.16000",
-        "count": "1575"
-      },
-      {
-        "transaction_month": "March",
-        "total_monthly_amount": "35749.49710",
-        "count": "1960"
-      }
-    ],
-    "tb": {
-      "count": [
-        {
-          "today_total": "0",
-          "yesterday_total": "0"
-        }
-      ],
+    "vindex": {
+      "this_month_sum": "6.24000",
+      "last_month_sum": "219.99000"
+    },
+    "account_balance_widget": {
       "chart": [
         {
-          "status": "Pending",
-          "counter": "0"
+          "month": "April",
+          "payed_out": "55.00000",
+          "loaded": "3000000.00"
         },
         {
-          "status": "Completed",
-          "counter": "0"
+          "month": "May",
+          "payed_out": "1001.00000",
+          "loaded": "5000000.00"
         },
         {
-          "status": "Cancelled",
-          "counter": "0"
+          "month": "June",
+          "payed_out": "0.00000",
+          "loaded": "6020000.00"
         },
         {
-          "status": "Ready for pickup",
-          "counter": "0"
+          "month": "July",
+          "payed_out": "0.00000",
+          "loaded": "6000000.00"
         },
         {
-          "status": "Processing",
-          "counter": "0"
+          "month": "August",
+          "payed_out": "67.00000",
+          "loaded": "2000000.00"
         },
         {
-          "status": "Error",
-          "counter": "0"
+          "month": "September",
+          "payed_out": "0.00000",
+          "loaded": "1100000.00"
+        }
+      ],
+      "summery": {
+        "transactions_today": {
+          "value": "987",
+          "period": "This Month",
+          "status": "Down",
+          "index": "23%"
+        },
+        "todays_volume": {
+          "value": "64.98384",
+          "period": "Today",
+          "status": "Minus",
+          "index": "12%",
+          "currency": "USD"
+        },
+        "payees": {
+          "value": "4976",
+          "period": "This Month",
+          "index": "46.67%",
+          "status": "Up"
+        }
+      }
+    },
+    "wallets_widget": [
+      {
+        "id": "135559b7-610a-11ef-9709-023beedd7751",
+        "type": "masspay",
+        "icon_url": "http://localhost:3335/api/logo1",
+        "title": "MassPay EUR Wallet",
+        "balance": {
+          "value": "-903026.33",
+          "currency": "EUR"
+        }
+      },
+      {
+        "id": "2745bea1-8ac9-11ed-9f8b-02450efa1c35",
+        "type": "masspay",
+        "icon_url": "http://localhost:3335/api/logo2",
+        "title": "MassPay PNTS Wallet",
+        "balance": {
+          "value": "-2112.37",
+          "currency": "PNTS"
+        }
+      },
+      {
+        "id": "692f358f-610b-11ef-9709-023beedd7751",
+        "type": "masspay",
+        "icon_url": "http://localhost:3335/api/logo1",
+        "title": "MassPay CAD Wallet",
+        "balance": {
+          "value": "97957.62",
+          "currency": "CAD"
+        }
+      },
+      {
+        "id": "64326163-3736-6434-2d35-3736612d3131",
+        "type": "masspay",
+        "icon_url": "http://localhost:3335/api/logo2",
+        "title": "MassPay USD Wallet",
+        "balance": {
+          "value": "83963349.70",
+          "currency": "USD"
+        }
+      }
+    ],
+    "volume_widget": {
+      "total": "6.24000",
+      "index": "3,425.48%",
+      "status": "up",
+      "chart": [
+        {
+          "transaction_month": "September",
+          "total_monthly_amount": "11555.41000",
+          "count": "1247"
+        },
+        {
+          "transaction_month": "August",
+          "total_monthly_amount": "13038.00000",
+          "count": "1298"
+        },
+        {
+          "transaction_month": "July",
+          "total_monthly_amount": "13813.04000",
+          "count": "1316"
+        },
+        {
+          "transaction_month": "June",
+          "total_monthly_amount": "20327.80000",
+          "count": "1454"
+        },
+        {
+          "transaction_month": "May",
+          "total_monthly_amount": "16070.29000",
+          "count": "1444"
+        },
+        {
+          "transaction_month": "April",
+          "total_monthly_amount": "15897.16000",
+          "count": "1575"
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "India",
+          "code": "IN",
+          "count": "10",
+          "percent": 58.82352941176471
+        },
+        {
+          "country": "Viet Nam",
+          "code": "VN",
+          "count": "5",
+          "percent": 29.411764705882355
+        },
+        {
+          "country": "United States",
+          "code": "US",
+          "count": "1",
+          "percent": 5.88235294117647
+        },
+        {
+          "country": "Germany",
+          "code": "DE",
+          "count": "1",
+          "percent": 5.88235294117647
         }
       ]
     },
-    "summary": {
-      "transactions_today": {
-        "value": "0",
-        "period": "This Month",
-        "status": "Up",
-        "index": "100.00%"
-      },
-      "todays_volume": {
-        "value": "0.00000",
-        "period": "Today",
-        "status": "Minus",
-        "index": "0%",
-        "currency": "USD"
-      },
-      "payees": {
-        "value": "4946",
-        "period": "This Month",
-        "index": "81.25%",
-        "status": "Down"
-      },
-      "wallets": [
+    "daily_distribution_widget": {
+      "today_counts": "10",
+      "status": "up",
+      "index": "10%",
+      "chart": [
         {
-          "id": "135559b7-610a-11ef-9709-023beedd7751",
-          "type": "masspay",
-          "icon_url": "/assets/img/country/square/EUR.png",
-          "title": "MassPay EUR Wallet",
-          "balance": {
-            "value": "-903007.35",
-            "currency": "EUR"
-          }
+          "status": "Pending",
+          "counter": "10",
+          "percentage": "10"
         },
         {
-          "id": "2745bea1-8ac9-11ed-9f8b-02450efa1c35",
-          "type": "masspay",
-          "icon_url": "/assets/img/country/square/PNTS.png",
-          "title": "MassPay PNTS Wallet",
-          "balance": {
-            "value": "-2092.39",
-            "currency": "PNTS"
-          }
+          "status": "Completed",
+          "counter": "53",
+          "percentage": "53"
         },
         {
-          "id": "692f358f-610b-11ef-9709-023beedd7751",
-          "type": "masspay",
-          "icon_url": "/assets/img/country/square/CAD.png",
-          "title": "MassPay CAD Wallet",
-          "balance": {
-            "value": "97977.60",
-            "currency": "CAD"
-          }
+          "status": "Cancelled",
+          "counter": "16",
+          "percentage": "16"
         },
         {
-          "id": "64326163-3736-6434-2d35-3736612d3131",
-          "type": "masspay",
-          "icon_url": "/assets/img/country/square/USD.png",
-          "title": "MassPay USD Wallet",
-          "balance": {
-            "value": "85051803.37",
-            "currency": "USD"
-          }
+          "status": "Ready for pickup",
+          "counter": "4",
+          "percentage": "4"
+        },
+        {
+          "status": "Processing",
+          "counter": "7",
+          "percentage": "7"
+        },
+        {
+          "status": "Error",
+          "counter": "20",
+          "percentage": "20"
+        }
+      ]
+    },
+    "transactions_widget": {
+      "total": "1",
+      "index": "500.00%",
+      "status": "Down",
+      "chart": [
+        {
+          "day_of_week": "Wednesday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "1"
+        },
+        {
+          "day_of_week": "Thursday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "4"
+        },
+        {
+          "day_of_week": "Friday",
+          "successful_transactions": "1",
+          "unsuccessful_transactions": "6"
+        },
+        {
+          "day_of_week": "Saturday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "0"
+        },
+        {
+          "day_of_week": "Sunday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "0"
+        },
+        {
+          "day_of_week": "Monday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "0"
+        },
+        {
+          "day_of_week": "Tuesday",
+          "successful_transactions": "0",
+          "unsuccessful_transactions": "0"
         }
       ],
-      "volume": {
-        "value": 122,
-        "status": "up",
-        "index": "5%",
-        "period": "This Month",
-        "chartSeriesBar": [],
-        "chartLegend": [
-          {
-            "month": "jan"
-          },
-          {
-            "month": "feb"
-          },
-          {
-            "month": "mar"
-          },
-          {
-            "month": "apr"
-          },
-          {
-            "month": "may"
-          },
-          {
-            "month": "jun"
-          }
-        ],
-        "legendSeries": [
-          {
-            "description": "United States",
-            "flag": "/assets/img/country/US.png",
-            "data1": "14",
-            "data2": "58.33%"
-          },
-          {
-            "description": "India",
-            "flag": "/assets/img/country/IN.png",
-            "data1": "10",
-            "data2": "41.67%"
-          }
-        ]
-      },
-      "daily_distribution": {
-        "value": 95,
-        "status": "down",
-        "index": "3.3%",
-        "period": "Today",
-        "chartSeries": [44, 55, 41, 17, 15],
-        "legendSeries": [
-          {
-            "description": "Completed",
-            "data1": "53",
-            "data2": "60%"
-          },
-          {
-            "description": "Ready for Pickup",
-            "data1": "26",
-            "data2": "25%"
-          },
-          {
-            "description": "Pending",
-            "data1": "8",
-            "data2": "8%"
-          },
-          {
-            "description": "Processing",
-            "data1": "6",
-            "data2": "6%"
-          },
-          {
-            "description": "Cancelled",
-            "data1": "3",
-            "data2": "2%"
-          }
-        ]
-      },
-      "transactions": {
-        "value": 24,
-        "status": "up",
-        "index": "7.1%",
-        "period": "Today",
-        "chartSeries": [
-          {
-            "month": "jan",
-            "loaded": 7300.99,
-            "payed_out": 720
-          },
-          {
-            "month": "feb",
-            "loaded": 5200,
-            "payed_out": 540
-          },
-          {
-            "month": "mar",
-            "loaded": 4900,
-            "payed_out": 2000
-          },
-          {
-            "month": "apr",
-            "loaded": 7900,
-            "payed_out": 620
-          },
-          {
-            "month": "may",
-            "loaded": 5800,
-            "payed_out": 3000
-          },
-          {
-            "month": "jun",
-            "loaded": 8200,
-            "payed_out": 899
-          }
-        ],
-        "legendSeries": [
-          {
-            "description": "Completed",
-            "data1": "19",
-            "data2": "85%"
-          },
-          {
-            "description": "Unresolved",
-            "data1": "3",
-            "data2": "15%"
-          }
-        ]
-      }
-    },
-    "chart": [
-      {
-        "month": "March",
-        "payed_out": "0.00000",
-        "loaded": "7000000.00"
-      },
-      {
-        "month": "April",
-        "payed_out": "55.00000",
-        "loaded": "3000000.00"
-      },
-      {
-        "month": "May",
-        "payed_out": "1001.00000",
-        "loaded": "5000000.00"
-      },
-      {
-        "month": "June",
-        "payed_out": "0.00000",
-        "loaded": "6020000.00"
-      },
-      {
-        "month": "July",
-        "payed_out": "0.00000",
-        "loaded": "6000000.00"
-      },
-      {
-        "month": "August",
-        "payed_out": "17.00000",
-        "loaded": "2000000.00"
-      }
-    ]
-  },
-  "dashboard_data_old": {
-    "image": "https://picsum.photos/id/42/200",
-    "name": "John Doe",
-    "first_name": "John",
-    "middle_name": "",
-    "last_name": "Doe",
-    "summary": {
-      "transactions_today": {
-        "value": 122,
-        "status": "up",
-        "index": "3.3%",
-        "period": "This Month"
-      },
-      "todays_volume": {
-        "value": 12433.54,
-        "currency": "USD",
-        "status": "plus",
-        "index": "467.00",
-        "period": "Today"
-      },
-      "payees": {
-        "value": 199,
-        "status": "down",
-        "index": "1.1%",
-        "period": "This Month"
-      },
-      "available_balance": {
-        "value": 54256.63,
-        "currency": "USD",
-        "status": "up",
-        "index": "5.7%",
-        "period": "This Month"
-      },
-      "wallets": [
-        {
-          "id": 123123,
-          "type": "masspay",
-          "title": "MassPay Wallet",
-          "balance": {
-            "value": 1234.56,
-            "currency": "USD"
-          },
-          "icon_url": "https://www.masspay.io/hs-fs/hubfs/Website%20Images/MassPay%20Logo%20-%20Dark%20Background.webp?width=4731&height=1331&name=MassPay%20Logo%20-%20Dark%20Background.webp"
-        },
-        {
-          "id": 54321,
-          "type": "mastercard",
-          "title": "Bank Deposit",
-          "balance": {
-            "value": 1234.56,
-            "currency": "USD"
-          },
-          "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg"
-        },
-        {
-          "id": 1233,
-          "type": "visa",
-          "title": "Bank Deposit",
-          "balance": {
-            "value": 1234.56,
-            "currency": "EUR"
-          },
-          "icon_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Visa_2021.svg"
-        },
-        {
-          "id": 52344,
-          "type": "other",
-          "title": "Bank Deposit",
-          "balance": {
-            "value": 1234.56,
-            "currency": "USD"
-          },
-          "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-        },
-        {
-          "id": 9384,
-          "type": "visa",
-          "title": "Bank Deposit",
-          "balance": {
-            "value": 1234.56,
-            "currency": "EUR"
-          },
-          "icon_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Visa_2021.svg"
-        }
-      ],
-      "volume": {
-        "value": 122,
-        "status": "up",
-        "index": "3.3%",
-        "period": "This Month",
-        "chartSeriesBar": [
-          {
-            "name": "Country A",
-            "data": [44, 55, 41, 67, 22, 43]
-          },
-          {
-            "name": "Country B",
-            "data": [13, 23, 20, 8, 13, 27]
-          },
-          {
-            "name": "Country C",
-            "data": [11, 17, 15, 15, 21, 14]
-          },
-          {
-            "name": "Country D",
-            "data": [21, 7, 25, 13, 22, 8]
-          }
-        ],
-        "chartLegend": [
-          {
-            "month": "jan"
-          },
-          {
-            "month": "feb"
-          },
-          {
-            "month": "mar"
-          },
-          {
-            "month": "apr"
-          },
-          {
-            "month": "may"
-          },
-          {
-            "month": "jun"
-          }
-        ],
-        "legendSeries": [
-          {
-            "description": "United States",
-            "flag": "https://www.worldometers.info/img/flags/uk-flag.gif",
-            "data1": "715",
-            "data2": "86%"
-          },
-          {
-            "description": "Europe",
-            "flag": "https://www.worldometers.info/img/flags/af-flag.gif",
-            "data1": "86",
-            "data2": "10%"
-          },
-          {
-            "description": "India",
-            "flag": "https://www.worldometers.info/img/flags/ag-flag.gif",
-            "data1": "20",
-            "data2": "3%"
-          },
-          {
-            "description": "Mexico",
-            "flag": "https://www.worldometers.info/img/flags/ao-flag.gif",
-            "data1": "14",
-            "data2": "2%"
-          }
-        ]
-      },
-      "daily_distribution": {
-        "value": 95,
-        "status": "down",
-        "index": "3.3%",
-        "period": "Today",
-        "chartSeries": [44, 55, 41, 17, 15],
-        "legendSeries": [
-          {
-            "description": "Completed",
-            "data1": "53",
-            "data2": "60%"
-          },
-          {
-            "description": "Ready for Pickup",
-            "data1": "26",
-            "data2": "25%"
-          },
-          {
-            "description": "Pending",
-            "data1": "8",
-            "data2": "8%"
-          },
-          {
-            "description": "Processing",
-            "data1": "6",
-            "data2": "6%"
-          },
-          {
-            "description": "Cancelled",
-            "data1": "3",
-            "data2": "2%"
-          }
-        ]
-      },
-      "transactions": {
-        "value": 24,
-        "status": "up",
-        "index": "7.1%",
-        "period": "Today",
-        "chartSeries": [
-          {
-            "month": "jan",
-            "loaded": 7300.99,
-            "payed_out": 720.0
-          },
-          {
-            "month": "feb",
-            "loaded": 5200.0,
-            "payed_out": 540.0
-          },
-          {
-            "month": "mar",
-            "loaded": 4900.0,
-            "payed_out": 2000.0
-          },
-          {
-            "month": "apr",
-            "loaded": 7900.0,
-            "payed_out": 620.0
-          },
-          {
-            "month": "may",
-            "loaded": 5800.0,
-            "payed_out": 3000.0
-          },
-          {
-            "month": "jun",
-            "loaded": 8200.0,
-            "payed_out": 899.0
-          }
-        ],
-        "legendSeries": [
-          {
-            "description": "Completed",
-            "data1": "19",
-            "data2": "85%"
-          },
-          {
-            "description": "Unresolved",
-            "data1": "3",
-            "data2": "15%"
-          }
-        ]
-      }
-    },
-    "chart": [
-      {
-        "month": "jan",
-        "loaded": 7300.99,
-        "payed_out": 720.0
-      },
-      {
-        "month": "feb",
-        "loaded": 5200.0,
-        "payed_out": 540.0
-      },
-      {
-        "month": "mar",
-        "loaded": 4900.0,
-        "payed_out": 2000.0
-      },
-      {
-        "month": "apr",
-        "loaded": 7900.0,
-        "payed_out": 620.0
-      },
-      {
-        "month": "may",
-        "loaded": 5800.0,
-        "payed_out": 3000.0
-      },
-      {
-        "month": "jun",
-        "loaded": 8200.0,
-        "payed_out": 899.0
-      }
-    ]
+      "$totalSuccessful": 1,
+      "$totalUnsuccessful": 11
+    }
   },
   "toppayees": [
     {

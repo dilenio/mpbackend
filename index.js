@@ -58,6 +58,40 @@ server.get("/api/logo1", (req, res) => {
     stream.pipe(res);
   });
 });
+server.get("/api/logo2", (req, res) => {
+  const logoPath = path.join(__dirname, "__mocks__", "logos", "logo2.png");
+
+  fs.stat(logoPath, (err, stat) => {
+    if (err || !stat.isFile()) {
+      return res.status(404).json({ error: "Logo not found" });
+    }
+
+    // aqui usamos lookup, não getType
+    const mimeType = mime.lookup(logoPath) || "application/octet-stream";
+    res.setHeader("Content-Type", mimeType);
+
+    const stream = fs.createReadStream(logoPath);
+    stream.on("error", () => res.sendStatus(500));
+    stream.pipe(res);
+  });
+});
+server.get("/api/masspay", (req, res) => {
+  const logoPath = path.join(__dirname, "__mocks__", "logos", "masspay.png");
+
+  fs.stat(logoPath, (err, stat) => {
+    if (err || !stat.isFile()) {
+      return res.status(404).json({ error: "Logo not found" });
+    }
+
+    // aqui usamos lookup, não getType
+    const mimeType = mime.lookup(logoPath) || "application/octet-stream";
+    res.setHeader("Content-Type", mimeType);
+
+    const stream = fs.createReadStream(logoPath);
+    stream.on("error", () => res.sendStatus(500));
+    stream.pipe(res);
+  });
+});
 
 server.post("/api/clients/apikeys", (req, res) => {
   setTimeout(() => {
@@ -127,9 +161,16 @@ server.get("/api/members/userprofile/mfa_code", (req, res) => {
 
 server.post("/api/members/validate_wallet_transfer", (req, res) => {
   const { transaction_id } = req.params;
+
+  res.status(200).json({
+    status: "success",
+    message: "Wallet transfer validated successfully!",
+    confirmation_code: "ABC24818250525979162772",
+  });
+
   setTimeout(() => {
-    res.status(200).json({
-      status: "success",
+    res.status(400).json({
+      status: "fail",
       reason:
         "Compliance review required. Please provide a recent bank statement using the secure link provided. https://l.maspay.io/jfoH5",
       confirmation_code: "ABC24818250525979162772",
@@ -180,6 +221,16 @@ server.post("/api/members/phone_resend_code", (req, res) => {
     res.status(200).json({
       status: "success",
       message: "Phone number confirmation code sent successfully!",
+    });
+  }, 1000);
+});
+
+server.put("/api/members/security", (req, res) => {
+  const { code } = req.body;
+  setTimeout(() => {
+    res.status(401).json({
+      status: "fail",
+      message: "Security updated successfully!",
     });
   }, 1000);
 });

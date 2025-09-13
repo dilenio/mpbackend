@@ -3,9 +3,6 @@
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
-  "userprofile": {
-    "url": "https://picsum.photos/id/42/200"
-  },
   "dashboard": {
     "user": {
       "id": 123123,
@@ -14,7 +11,7 @@
       "first_name": "John",
       "middle_name": "",
       "last_name": "Doe",
-      "two_factor_authentication": true
+      "two_factor_authentication": false
     },
     "summary": {
       "transactions_today": {
@@ -200,10 +197,22 @@
           "currency": "BRL",
           "value": 1002
         }
+      },
+      {
+        "id": "128",
+        "type": "masspay",
+        "title": "Masspay Wallet",
+        "card_number": "7654",
+        "active": true,
+        "amount": {
+          "currency": "USD",
+          "value": 834790.93
+        }
       }
     ]
   },
   "user_profile": {
+    "url": "https://picsum.photos/id/42/200",
     "name": "Dilenio  Enderle",
     "phone": "73981532105",
     "dob": "1973-05-15",
@@ -2174,6 +2183,17 @@
         "currency": "BRL",
         "value": 1002
       }
+    },
+    {
+      "id": "128",
+      "type": "masspay",
+      "title": "Masspay Wallet",
+      "card_number": "7654",
+      "active": true,
+      "amount": {
+        "currency": "USD",
+        "value": 834790.93
+      }
     }
   ],
   "card_info": {
@@ -2185,6 +2205,82 @@
     "pin": "4321"
   },
   "service_fields": [
+    {
+      "token": "attr_7a4d3e8c-2213-11ea-afc7-0289acba1734",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Account Number",
+      "validation": "^[0-9]+$",
+      "is_optional": false,
+      "value": "***4115",
+      "expected_value": "Only digits",
+      "type": "BankAccountNumber",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "attr_7a51d207-2213-11ea-afc7-0289acba1734",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Account Type",
+      "validation": "Checking|Savings",
+      "is_optional": false,
+      "value": "Checking",
+      "expected_value": "",
+      "type": "BankAccountType",
+      "input_type": "options",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "attr_d2997882-0b3b-11eb-a3cb-02105b970935",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Routing Number",
+      "validation": "^((0[0-9])|(1[0-2])|(2[1-9])|(3[0-2])|(6[1-9])|(7[0-2])|80)([0-9]{7})$",
+      "is_optional": false,
+      "value": "*****1627",
+      "expected_value": "Only 9 digits",
+      "type": "BankRoutingNumber",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "f4c876a9-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "Parent/Guardian Full Name",
+      "validation": "^[\\p{L}\\p{M}]+(?:[ '\\-\\.][\\p{L}\\p{M}]+)+$",
+      "is_optional": false,
+      "expected_value": "Full legal name as appears in government issued ID",
+      "type": "GuardianFullName",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "f4ce363b-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "Parent/Guardian Government-Issued Identification Type",
+      "validation": "Passport|National Identification Card|Driving License|Social Security Card/Number|Tax Payer Identification Card/Number|Senior Citizen Identification Card|Birth Certificate|Village Elder Identification Card|Permanent Residency Identification Card|Alien Registration Certificate/Card|PAN Card|Voter\u2019s Identification Card|Health Insurance Card/Number|Employer Identification Card|Others not listed",
+      "is_optional": false,
+      "expected_value": "Type of ID",
+      "type": "GuardianGovIDType",
+      "input_type": "options",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "f4d1c50c-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "Parent/Guardian Government-Issued Identification Number",
+      "validation": "^[\\w\\s\\d-/\\\\]+$",
+      "is_optional": false,
+      "expected_value": "ID Number",
+      "type": "GuardianGovIDNumber",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "f4d4d28f-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "I hereby consent to the above payment arrangement and acknowledge that I have read and agree to be bound by the terms and conditions set forth in the [Parental Consent Agreement](https://example.com) Parental Consent Agreement.",
+      "validation": "I consent",
+      "is_optional": false,
+      "expected_value": "Guardian consent",
+      "type": "GuardianConsent",
+      "input_type": "options",
+      "last_attr_value_used": false
+    },
     {
       "token": "attr_92558bc4-4a0d-11ee-ae7f-02a96673e722",
       "label": "Debit Card Expiration Date",
@@ -2266,15 +2362,15 @@
     "payout_token": "abc123xyz",
     "bank": "Bank Name",
     "amount": {
-      "value": 123.0,
+      "value": 123,
       "currency": "USD"
     },
     "fee": {
-      "value": 1.0,
+      "value": 1,
       "currency": "USD"
     },
     "exchange_rate": {
-      "value": 1.0,
+      "value": 1,
       "currency": "USD"
     }
   },
