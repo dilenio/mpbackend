@@ -14,7 +14,8 @@
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3",
-    "mime-types": "^3.0.1"
+    "mime-types": "^3.0.1",
+    "multer": "^2.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

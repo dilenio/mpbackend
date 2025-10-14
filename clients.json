@@ -3,258 +3,6 @@
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
-  "dashboard_data": {
-    "image": "https://picsum.photos/id/42/200",
-    "name": "dilenio  enderle",
-    "first_name": "dilenio",
-    "middle_name": "",
-    "last_name": "enderle",
-    "vindex": {
-      "this_month_sum": "6.24000",
-      "last_month_sum": "219.99000"
-    },
-    "account_balance_widget": {
-      "chart": [
-        {
-          "month": "April",
-          "payed_out": "55.00000",
-          "loaded": "3000000.00"
-        },
-        {
-          "month": "May",
-          "payed_out": "1001.00000",
-          "loaded": "5000000.00"
-        },
-        {
-          "month": "June",
-          "payed_out": "0.00000",
-          "loaded": "6020000.00"
-        },
-        {
-          "month": "July",
-          "payed_out": "0.00000",
-          "loaded": "6000000.00"
-        },
-        {
-          "month": "August",
-          "payed_out": "67.00000",
-          "loaded": "2000000.00"
-        },
-        {
-          "month": "September",
-          "payed_out": "0.00000",
-          "loaded": "1100000.00"
-        }
-      ],
-      "summery": {
-        "transactions_today": {
-          "value": "987",
-          "period": "This Month",
-          "status": "Down",
-          "index": "23%"
-        },
-        "todays_volume": {
-          "value": "64.98384",
-          "period": "Today",
-          "status": "Minus",
-          "index": "12%",
-          "currency": "USD"
-        },
-        "payees": {
-          "value": "4976",
-          "period": "This Month",
-          "index": "46.67%",
-          "status": "Up"
-        }
-      }
-    },
-    "wallets_widget": [
-      {
-        "id": "135559b7-610a-11ef-9709-023beedd7751",
-        "type": "masspay",
-        "icon_url": "http://localhost:3335/api/logo1",
-        "title": "MassPay EUR Wallet",
-        "balance": {
-          "value": "-903026.33",
-          "currency": "EUR"
-        }
-      },
-      {
-        "id": "2745bea1-8ac9-11ed-9f8b-02450efa1c35",
-        "type": "masspay",
-        "icon_url": "http://localhost:3335/api/logo2",
-        "title": "MassPay PNTS Wallet",
-        "balance": {
-          "value": "-2112.37",
-          "currency": "PNTS"
-        }
-      },
-      {
-        "id": "692f358f-610b-11ef-9709-023beedd7751",
-        "type": "masspay",
-        "icon_url": "http://localhost:3335/api/logo1",
-        "title": "MassPay CAD Wallet",
-        "balance": {
-          "value": "97957.62",
-          "currency": "CAD"
-        }
-      },
-      {
-        "id": "64326163-3736-6434-2d35-3736612d3131",
-        "type": "masspay",
-        "icon_url": "http://localhost:3335/api/logo2",
-        "title": "MassPay USD Wallet",
-        "balance": {
-          "value": "83963349.70",
-          "currency": "USD"
-        }
-      }
-    ],
-    "volume_widget": {
-      "total": "6.24000",
-      "index": "3,425.48%",
-      "status": "up",
-      "chart": [
-        {
-          "transaction_month": "September",
-          "total_monthly_amount": "11555.41000",
-          "count": "1247"
-        },
-        {
-          "transaction_month": "August",
-          "total_monthly_amount": "13038.00000",
-          "count": "1298"
-        },
-        {
-          "transaction_month": "July",
-          "total_monthly_amount": "13813.04000",
-          "count": "1316"
-        },
-        {
-          "transaction_month": "June",
-          "total_monthly_amount": "20327.80000",
-          "count": "1454"
-        },
-        {
-          "transaction_month": "May",
-          "total_monthly_amount": "16070.29000",
-          "count": "1444"
-        },
-        {
-          "transaction_month": "April",
-          "total_monthly_amount": "15897.16000",
-          "count": "1575"
-        }
-      ],
-      "top_countries": [
-        {
-          "country": "India",
-          "code": "IN",
-          "count": "10",
-          "percent": 58.82352941176471
-        },
-        {
-          "country": "Viet Nam",
-          "code": "VN",
-          "count": "5",
-          "percent": 29.411764705882355
-        },
-        {
-          "country": "United States",
-          "code": "US",
-          "count": "1",
-          "percent": 5.88235294117647
-        },
-        {
-          "country": "Germany",
-          "code": "DE",
-          "count": "1",
-          "percent": 5.88235294117647
-        }
-      ]
-    },
-    "daily_distribution_widget": {
-      "today_counts": "10",
-      "status": "up",
-      "index": "10%",
-      "chart": [
-        {
-          "status": "Pending",
-          "counter": "10",
-          "percentage": "10"
-        },
-        {
-          "status": "Completed",
-          "counter": "53",
-          "percentage": "53"
-        },
-        {
-          "status": "Cancelled",
-          "counter": "16",
-          "percentage": "16"
-        },
-        {
-          "status": "Ready for pickup",
-          "counter": "4",
-          "percentage": "4"
-        },
-        {
-          "status": "Processing",
-          "counter": "7",
-          "percentage": "7"
-        },
-        {
-          "status": "Error",
-          "counter": "20",
-          "percentage": "20"
-        }
-      ]
-    },
-    "transactions_widget": {
-      "total": "1",
-      "index": "500.00%",
-      "status": "Down",
-      "chart": [
-        {
-          "day_of_week": "Wednesday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "1"
-        },
-        {
-          "day_of_week": "Thursday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "4"
-        },
-        {
-          "day_of_week": "Friday",
-          "successful_transactions": "1",
-          "unsuccessful_transactions": "6"
-        },
-        {
-          "day_of_week": "Saturday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "0"
-        },
-        {
-          "day_of_week": "Sunday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "0"
-        },
-        {
-          "day_of_week": "Monday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "0"
-        },
-        {
-          "day_of_week": "Tuesday",
-          "successful_transactions": "0",
-          "unsuccessful_transactions": "0"
-        }
-      ],
-      "$totalSuccessful": 1,
-      "$totalUnsuccessful": 11
-    }
-  },
   "toppayees": [
     {
       "id": 123123,
@@ -263,7 +11,10 @@
       "country": "United States",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
-      "amount": { "value": 27400.4, "currency": "USD" }
+      "amount": {
+        "value": 27400.4,
+        "currency": "USD"
+      }
     },
     {
       "id": 1231234,
@@ -272,7 +23,10 @@
       "country": "United States",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Prepaid Card",
-      "amount": { "value": 23200.1, "currency": "USD" }
+      "amount": {
+        "value": 23200.1,
+        "currency": "USD"
+      }
     },
     {
       "id": 123125,
@@ -281,7 +35,10 @@
       "country": "Italy",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
-      "amount": { "value": 17466.22, "currency": "USD" }
+      "amount": {
+        "value": 17466.22,
+        "currency": "USD"
+      }
     },
     {
       "id": 123126,
@@ -290,7 +47,10 @@
       "country": "Poland",
       "flag": "https://picsum.photos/id/109/200",
       "payout": "Prepaid Card",
-      "amount": { "value": 7740.87, "currency": "USD" }
+      "amount": {
+        "value": 7740.87,
+        "currency": "USD"
+      }
     },
     {
       "id": 123127,
@@ -299,7 +59,10 @@
       "country": "India",
       "flag": "https://picsum.photos/id/42/200",
       "payout": "Bank Deposit",
-      "amount": { "value": 6512.0, "currency": "USD" }
+      "amount": {
+        "value": 6512,
+        "currency": "USD"
+      }
     }
   ],
   "get_transactions": {
@@ -314,10 +77,22 @@
         "time": "07:19 PM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 41243.0, "currency": "USD" },
-        "received": { "value": 234.0, "currency": "EUR" },
-        "fee": { "value": 43.0, "currency": "USD" },
-        "fx": { "value": 23.0, "currency": "XYZ" },
+        "sent": {
+          "value": 41243,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 234,
+          "currency": "EUR"
+        },
+        "fee": {
+          "value": 43,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 23,
+          "currency": "XYZ"
+        },
         "status": "Completed",
         "response": {
           "test": "This is a test response",
@@ -382,10 +157,22 @@
         "time": "07:19 AM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 213.0, "currency": "MXP" },
-        "received": { "value": 3.0, "currency": "MXP" },
-        "fee": { "value": 123123.0, "currency": "MXP" },
-        "fx": { "value": 55.0, "currency": "MXP" },
+        "sent": {
+          "value": 213,
+          "currency": "MXP"
+        },
+        "received": {
+          "value": 3,
+          "currency": "MXP"
+        },
+        "fee": {
+          "value": 123123,
+          "currency": "MXP"
+        },
+        "fx": {
+          "value": 55,
+          "currency": "MXP"
+        },
         "status": "Pending",
         "attributes": [
           {
@@ -446,10 +233,22 @@
         "time": "10:33 AM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 290387.0, "currency": "USD" },
-        "received": { "value": 3847.0, "currency": "USD" },
-        "fee": { "value": 8374.0, "currency": "USD" },
-        "fx": { "value": 923.0, "currency": "USD" },
+        "sent": {
+          "value": 290387,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 3847,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 8374,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 923,
+          "currency": "USD"
+        },
         "status": "Cancelled",
         "attributes": [
           {
@@ -497,10 +296,22 @@
         "time": "08:45 PM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Completed",
         "attributes": [
           {
@@ -543,10 +354,22 @@
         "time": "08:55",
         "payer": "Bank Wire",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "BRL" },
-        "received": { "value": 41.0, "currency": "BRL" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "BRL"
+        },
+        "received": {
+          "value": 41,
+          "currency": "BRL"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Pending",
         "attributes": [
           {
@@ -589,10 +412,22 @@
         "time": "11:22",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "value": 34567.0, "currency": "CNY" },
-        "received": { "value": 41.0, "currency": "CNY" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "CNY"
+        },
+        "received": {
+          "value": 41,
+          "currency": "CNY"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Completed",
         "attributes": [
           {
@@ -635,10 +470,22 @@
         "time": "08:14",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "value": 34567.0, "currency": "CNY" },
-        "received": { "value": 41.0, "currency": "CNY" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "CNY"
+        },
+        "received": {
+          "value": 41,
+          "currency": "CNY"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Cancelled",
         "attributes": [
           {
@@ -681,10 +528,22 @@
         "time": "07:19",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Error",
         "attributes": [
           {
@@ -727,10 +586,22 @@
         "time": "10:33",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Cancelled",
         "attributes": [
           {
@@ -773,10 +644,22 @@
         "time": "08:45",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Completed",
         "attributes": [
           {
@@ -819,10 +702,22 @@
         "time": "08:55",
         "payer": "Bank Wire",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Completed",
         "attributes": [
           {
@@ -863,10 +758,22 @@
         "time": "11:22",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Completed",
         "attributes": [
           {
@@ -907,10 +814,22 @@
         "time": "08:14",
         "payer": "Bank Wire",
         "type": "Bank Deposit *",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Cancelled",
         "attributes": [
           {
@@ -951,10 +870,22 @@
         "time": "07:19",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Error",
         "attributes": [
           {
@@ -995,10 +926,22 @@
         "time": "10:33",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 34567.0, "currency": "USD" },
-        "received": { "value": 41.0, "currency": "USD" },
-        "fee": { "value": 1.0, "currency": "USD" },
-        "fx": { "value": 4.0, "currency": "USD" },
+        "sent": {
+          "value": 34567,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 41,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 4,
+          "currency": "USD"
+        },
         "status": "Cancelled",
         "attributes": [
           {
@@ -1044,7 +987,7 @@
     "data": [
       {
         "id": 123123,
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbE",
+        "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
         "date": "07/19/2022",
         "image": "https://picsum.photos/id/42/200",
         "name": "John Doe",
@@ -1054,13 +997,19 @@
         "date_of_birth": "02/09/1990",
         "since": "01/01/2022",
         "token": "c0b8e1ab-aeb2-11eb-acee",
-        "balance": { "value": 100.0, "currency": "USD" },
-        "loaded": { "value": 200.0, "currency": "USD" },
+        "balance": {
+          "value": 100,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 200,
+          "currency": "USD"
+        },
         "verified": true
       },
       {
         "id": 312312,
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qba",
+        "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
         "date": "04/15/2022",
         "image": "https://picsum.photos/id/17/200",
         "name": "Marie Jane",
@@ -1070,13 +1019,19 @@
         "date_of_birth": "02/09/1990",
         "since": "11/11/2019",
         "token": "c0b8e1ab-aeb2-88aa-bced",
-        "balance": { "value": 10050.0, "currency": "USD" },
-        "loaded": { "value": 200110.0, "currency": "USD" },
+        "balance": {
+          "value": 10050,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 200110,
+          "currency": "USD"
+        },
         "verified": false
       },
       {
         "id": 872378,
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbb",
+        "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
         "date": "02/23/2018",
         "image": "",
         "name": "David Albro Junior",
@@ -1086,13 +1041,19 @@
         "date_of_birth": "02/09/1990",
         "since": "01/29/2017",
         "token": "c0b8e1ab-aeb2-aaaa-bced",
-        "balance": { "value": 150.0, "currency": "USD" },
-        "loaded": { "value": 2220.0, "currency": "USD" },
+        "balance": {
+          "value": 150,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 2220,
+          "currency": "USD"
+        },
         "verified": true
       },
       {
         "id": 178236,
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbc",
+        "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
         "date": "02/23/2012",
         "image": "",
         "name": "Albert Einstein",
@@ -1102,13 +1063,19 @@
         "date_of_birth": "02/09/1990",
         "since": "01/29/2020",
         "token": "c0b8e1ab-abcd-aaaa-bced",
-        "balance": { "value": 1000.0, "currency": "USD" },
-        "loaded": { "value": 120.0, "currency": "USD" },
+        "balance": {
+          "value": 1000,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 120,
+          "currency": "USD"
+        },
         "verified": true
       },
       {
         "id": 12653,
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbd",
+        "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
         "date": "02/23/2011",
         "image": "",
         "name": "Matheus Virtue",
@@ -1118,8 +1085,14 @@
         "date_of_birth": "02/09/1990",
         "since": "01/29/2011",
         "token": "c0b8e1ab-aeb2-bbbb-bced",
-        "balance": { "value": 150.0, "currency": "USD" },
-        "loaded": { "value": 2220.0, "currency": "USD" },
+        "balance": {
+          "value": 150,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 2220,
+          "currency": "USD"
+        },
         "verified": true
       },
       {
@@ -1134,8 +1107,14 @@
         "date_of_birth": "02/09/1990",
         "since": "01/29/2011",
         "token": "c0b8e1ab-aeb2-bbbb-bced",
-        "balance": { "value": 78263.0, "currency": "USD" },
-        "loaded": { "value": 23847.0, "currency": "USD" },
+        "balance": {
+          "value": 78263,
+          "currency": "USD"
+        },
+        "loaded": {
+          "value": 23847,
+          "currency": "USD"
+        },
         "verified": false
       }
     ],
@@ -1146,6 +1125,1710 @@
       "total": 10,
       "filter": 0
     }
+  },
+  "payee_profile": {
+    "id": "USER_TOKEN",
+    "first_name": "John",
+    "middle_name": "",
+    "last_name": "Doe",
+    "business_name": "John",
+    "address1": "123 Main St",
+    "address2": "123 Main St",
+    "country": "US",
+    "state_province": "California",
+    "city": "Santa Monica",
+    "postal_code": "90405",
+    "phone": "(123) 456 7890",
+    "email": "john@email.com",
+    "date_of_birth": "02/09/1990",
+    "sms_notifications": true,
+    "email_notifications": true,
+    "id_selfie_verification": true,
+    "two_factor_authentication": true,
+    "locked": {
+      "id": true,
+      "first_name": false,
+      "middle_name": false,
+      "last_name": false,
+      "business_name": false,
+      "date_of_birth": false,
+      "email": false,
+      "phone": false,
+      "address1": false,
+      "address2": false,
+      "country": false,
+      "state_province": false,
+      "city": false,
+      "postal_code": false,
+      "id_selfie_verification_option": false
+    },
+    "image": "",
+    "name": "John Doe",
+    "total_balance": {
+      "value": 54256.63,
+      "currency": "USD"
+    },
+    "total_balance_index": {
+      "status": "up",
+      "index": "3.3%",
+      "period": "Last 6 months"
+    },
+    "chart": [
+      {
+        "month": "jan",
+        "loaded": 7300.99,
+        "payed_out": 720
+      },
+      {
+        "month": "feb",
+        "loaded": 5200,
+        "payed_out": 540
+      },
+      {
+        "month": "mar",
+        "loaded": 4900,
+        "payed_out": 2000
+      },
+      {
+        "month": "apr",
+        "loaded": 7900,
+        "payed_out": 620
+      },
+      {
+        "month": "may",
+        "loaded": 5800,
+        "payed_out": 3000
+      },
+      {
+        "month": "jun",
+        "loaded": 8200,
+        "payed_out": 899
+      }
+    ],
+    "cards": [
+      {
+        "id": 123,
+        "type": "masspay",
+        "title": "Masspay Wallet",
+        "card_number": "5433",
+        "amount": {
+          "currency": "USD",
+          "value": 27999
+        }
+      },
+      {
+        "id": 124,
+        "type": "visa",
+        "title": "USD Debit",
+        "card_number": "0123",
+        "amount": {
+          "currency": "USD",
+          "value": 999
+        }
+      },
+      {
+        "id": 125,
+        "type": "mastercard",
+        "title": "EUR Debit",
+        "card_number": "9876",
+        "amount": {
+          "currency": "EUR",
+          "value": 13010.35
+        }
+      },
+      {
+        "id": 126,
+        "type": "masspay",
+        "title": "EUR Debit",
+        "card_number": "1029",
+        "amount": {
+          "currency": "EUR",
+          "value": 3772222.35
+        }
+      }
+    ],
+    "user_token": "USER_TOKEN",
+    "id_selfie_verification_option": 2
+  },
+  "get_user": {
+    "compliance_scans": {
+      "Elliptic": {
+        "meta_data": {
+          "decision": "PASS"
+        },
+        "compliance_provider": "Elliptic",
+        "hold": "0",
+        "released_time": null,
+        "released_by_username_hash": null,
+        "run_time": 1732390662,
+        "r_time": "2024-11-23 11:37:42"
+      },
+      "ComplyAdvantage": {
+        "meta_data": {
+          "decision": "VERIFY"
+        },
+        "compliance_provider": "ComplyAdvantage",
+        "hold": "0",
+        "released_time": null,
+        "released_by_username_hash": null,
+        "run_time": 1757801785,
+        "r_time": "2025-09-13 15:16:25"
+      }
+    },
+    "id_verifications": [],
+    "file_uploads": [
+      {
+        "files_uploaded": "[{\"ext\": \"png\", \"name\": \"f19d9476-0140-4956-ab81-8568983c511a\", \"orig\": \"ChatGPT Image May 13, 2025, 05_24_19 AM.png\", \"type\": \"Paper Check\", \"is_gdpr\": \"false\"}, {\"ext\": \"png\", \"name\": \"a326a107-dacc-4d63-ba68-c77a7e4c86c5\", \"orig\": \"ChatGPT Image May 14, 2025, 04_01_13 AM.png\", \"type\": \"Bank Statement\", \"is_gdpr\": \"false\"}]",
+        "time_completed": "2025-06-09 18:44:07",
+        "types_of_documents_to_accept": "[\"Paper Check\", \"Bank Statement\"]",
+        "files": [
+          {
+            "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/f19d9476-0140-4956-ab81-8568983c511a?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCSzdFQZjRME6bFOJl30Wj79z15QrqDyIvrnZbUlX9WbAIhAPCTLfIvGveJL1qI5TwJBn5WZyeIXppM3gQdyEBERZl7KrwFCF4QAxoMMTgyNTQ5MDYyNzY3IgzPlhPuSgi9XeIuVD8qmQXcWf23EzvObAODh9R%2F3TPvwBvaVYtYdliQkU%2F9DFX7rMtlZdIrm7Tc7m92FG8qmZZlkr1Sd6WNVFS7sWkv9UWEq6oAk%2BdCSUhSS3NlRZItzfJ5h%2F2Z2tz1WEzc2cLyOPNhakU3JB0KVDszQPAkBxXkbXafTo9sKh0finep0Esgyweqq%2BEHO8vTvFbgWDcBvfJCiQut30Ng0E0HsjH0BdTQUpn%2BlITIxf%2Bpx4gt%2Faz3%2B8xxLDOB8SVFw%2Fy%2B99p%2BTXJ51%2FZG3VKqBFGIT4ZG088EvzDjqNMvPWSSMVgVUv8NynenYiYCf%2Fw9%2FmWhB33uUEMGJSxXEBYYJJ%2BzWaMKa8bUkNkciQvaY9VtiIAy9tyO8EWXUELyrEhD3Asft1LqavgFUxJeyjyt39wGWFnSL6p7GtW3IsbDs1bx%2BTJd63K9sCfpR7juBmEb7nVqzTTcq%2Fgnhbk1kuQJ4z4o9yAJ8idRe1gW7cpKisu1JoluHzYQIAAzcaUOXksNB5MF56XPhooCuV7zii%2B4hPgKXyYllKmckUj%2FLzqXURS0mwWyqEied0K6Jdhr9TrbRQHnbMpDWyR9Omktxvq2IKGDnZMefqQqzct6xT%2BH4FqYhtOq%2BEG2Cdqn7ItVg%2FmQ6u7XMdo2Eb0zSMVFXQXTI9W6Spm3Jv0DPe%2FGDpA9SGkzegYAoM5CXs9D3GZurgWeu8yzVR3%2Bsg6VgX1PU6mgDUBB2P7QqkAyRUN2K4WFplX3o0qiWTUQruvGlh7sPuzCsItzR41O2lGXw0ZzSYOdofJwDXOKQLvqlh%2BCjY0S63iSdPmZWqh%2BhpoKXe1MSCAVlwdFQMyj6AO1Ja6qmnx%2BoEVAVfx66M0hJmam1wQnlbkQLuAa%2FuM6E3nFPsjOiMiK9TD638%2FGBjqwAfJ5Z%2BIZt4YMVSeHoUERFMgIu4E%2F7IH4PDziIh4QBuJQK6nJEmDNrJyFE8kttRrxziDfI%2F7qAJqkq%2FbyprNeblusEtK9UbsiPqLw5etdKujMoTtqqzD9BnU%2FeZksphusfbop%2B%2Bf87%2FamGMkOFDm2zn8T2sXYf0Mby0FWXoDtfDslj0MBrNfrM%2BXxtqMbcCjff%2BAeTNn%2FhN4J23UIF27Z89GPEnDU6tnqyFen9JynccPK&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURXRIKTPCWA%2F20250924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250924T134259Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=f54c1a72c613040e476eac644156f492d1e9b4287326d6d08ab3e0d0e1ad72fc",
+            "ext": "png",
+            "type": "Paper Check",
+            "file_name": "ChatGPT Image May 13, 2025, 05_24_19 AM.png"
+          },
+          {
+            "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/a326a107-dacc-4d63-ba68-c77a7e4c86c5?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCSzdFQZjRME6bFOJl30Wj79z15QrqDyIvrnZbUlX9WbAIhAPCTLfIvGveJL1qI5TwJBn5WZyeIXppM3gQdyEBERZl7KrwFCF4QAxoMMTgyNTQ5MDYyNzY3IgzPlhPuSgi9XeIuVD8qmQXcWf23EzvObAODh9R%2F3TPvwBvaVYtYdliQkU%2F9DFX7rMtlZdIrm7Tc7m92FG8qmZZlkr1Sd6WNVFS7sWkv9UWEq6oAk%2BdCSUhSS3NlRZItzfJ5h%2F2Z2tz1WEzc2cLyOPNhakU3JB0KVDszQPAkBxXkbXafTo9sKh0finep0Esgyweqq%2BEHO8vTvFbgWDcBvfJCiQut30Ng0E0HsjH0BdTQUpn%2BlITIxf%2Bpx4gt%2Faz3%2B8xxLDOB8SVFw%2Fy%2B99p%2BTXJ51%2FZG3VKqBFGIT4ZG088EvzDjqNMvPWSSMVgVUv8NynenYiYCf%2Fw9%2FmWhB33uUEMGJSxXEBYYJJ%2BzWaMKa8bUkNkciQvaY9VtiIAy9tyO8EWXUELyrEhD3Asft1LqavgFUxJeyjyt39wGWFnSL6p7GtW3IsbDs1bx%2BTJd63K9sCfpR7juBmEb7nVqzTTcq%2Fgnhbk1kuQJ4z4o9yAJ8idRe1gW7cpKisu1JoluHzYQIAAzcaUOXksNB5MF56XPhooCuV7zii%2B4hPgKXyYllKmckUj%2FLzqXURS0mwWyqEied0K6Jdhr9TrbRQHnbMpDWyR9Omktxvq2IKGDnZMefqQqzct6xT%2BH4FqYhtOq%2BEG2Cdqn7ItVg%2FmQ6u7XMdo2Eb0zSMVFXQXTI9W6Spm3Jv0DPe%2FGDpA9SGkzegYAoM5CXs9D3GZurgWeu8yzVR3%2Bsg6VgX1PU6mgDUBB2P7QqkAyRUN2K4WFplX3o0qiWTUQruvGlh7sPuzCsItzR41O2lGXw0ZzSYOdofJwDXOKQLvqlh%2BCjY0S63iSdPmZWqh%2BhpoKXe1MSCAVlwdFQMyj6AO1Ja6qmnx%2BoEVAVfx66M0hJmam1wQnlbkQLuAa%2FuM6E3nFPsjOiMiK9TD638%2FGBjqwAfJ5Z%2BIZt4YMVSeHoUERFMgIu4E%2F7IH4PDziIh4QBuJQK6nJEmDNrJyFE8kttRrxziDfI%2F7qAJqkq%2FbyprNeblusEtK9UbsiPqLw5etdKujMoTtqqzD9BnU%2FeZksphusfbop%2B%2Bf87%2FamGMkOFDm2zn8T2sXYf0Mby0FWXoDtfDslj0MBrNfrM%2BXxtqMbcCjff%2BAeTNn%2FhN4J23UIF27Z89GPEnDU6tnqyFen9JynccPK&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURXRIKTPCWA%2F20250924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250924T134259Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=b72deff71ccb5591fff96b4a509a28feabf8185134ed632c8157305033ede5be",
+            "ext": "png",
+            "type": "Bank Statement",
+            "file_name": "ChatGPT Image May 14, 2025, 04_01_13 AM.png"
+          }
+        ]
+      }
+    ],
+    "file_upload_requests": [],
+    "wallet": [
+      {
+        "type": "USER_FUNDS",
+        "token": "usr_wlt_3a188fc5-619a-11ef-9709-023beedd7751",
+        "active": true,
+        "currency_code": "CAD",
+        "last_4": null,
+        "client_paying_fees": true,
+        "client_name": "MassPay",
+        "card_type": null
+      },
+      {
+        "type": "USER_FUNDS",
+        "token": "usr_wlt_9c97cbe3-610f-11ef-9709-023beedd7751",
+        "active": true,
+        "currency_code": "CAD",
+        "last_4": null,
+        "client_paying_fees": false,
+        "client_name": null,
+        "card_type": null
+      },
+      {
+        "type": "USER_FUNDS",
+        "token": "usr_wlt_5d9b1409-610a-11ef-9709-023beedd7751",
+        "active": true,
+        "currency_code": "EUR",
+        "last_4": null,
+        "client_paying_fees": false,
+        "client_name": null,
+        "card_type": null
+      },
+      {
+        "type": "USER_FUNDS",
+        "token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "active": true,
+        "currency_code": "USD",
+        "last_4": null,
+        "client_paying_fees": true,
+        "client_name": "MassPay",
+        "card_type": null
+      }
+    ],
+    "locks": "LUULUUUUUU",
+    "notes": [
+      {
+        "note_type": "COMPLIANCE",
+        "note": "Request and emailed file upload for [\"Bank Statement\",\"Paper Check\"] / {\"account_number\":\"123123123\"} link: https://l.maspay.io/8yIxu",
+        "note_time": "2025-02-06 02:46:53.000",
+        "encr_data": null,
+        "employee_username_hash": null,
+        "self": null,
+        "name": ""
+      },
+      {
+        "note_type": "COMPLIANCE",
+        "note": "Request and emailed file upload for [\"Wallet Screenshot\"] / {\"account_number\":\"test@masspay.io\"} link: https://l.maspay.io/CpRsu",
+        "note_time": "2025-05-01 21:38:28.859",
+        "encr_data": null,
+        "employee_username_hash": null,
+        "self": null,
+        "name": ""
+      },
+      {
+        "note_type": "COMPLIANCE",
+        "note": "Request and emailed file upload for [\"Bank Statement\",\"Paper Check\"] / {\"account_number\":\"123456789\"} link: https://l.maspay.io/Vsdjn",
+        "note_time": "2025-06-08 21:29:52.037",
+        "encr_data": null,
+        "employee_username_hash": null,
+        "self": null,
+        "name": ""
+      }
+    ],
+    "notifications": {
+      "sms_notification": "1",
+      "email_notification": "1"
+    },
+    "clients_statuses": [
+      {
+        "client_id": "2",
+        "status": "ACTIVE",
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+      }
+    ],
+    "is_id_selfie_req": "0",
+    "is_id_selfie_req_compliance_locked": "0",
+    "twofa": "0",
+    "is_error": null,
+    "customer_profile": {},
+    "customer_profile_1": {
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "first_name": "Yossi",
+      "middle_name": "",
+      "last_name": "Shlomo",
+      "internal_user_id": "YOSSI_TEST",
+      "status": "ACTIVE",
+      "email": "yossi@masspay.io",
+      "mobile_number": "+1",
+      "date_of_birth": {
+        "date": "2001-03-01 10:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+      },
+      "address1": "123 Main St",
+      "address2": "Apt 3",
+      "city": "Santa Monica",
+      "postal_code": "90405",
+      "state_province": "CA",
+      "country": "USA"
+    },
+    "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+    "logged_in_user": {
+      "username": "41bd6c9d3528a6a4ebe0c929739c1ccfc74b79d8f1d9d2a05ed9348b141297740152589096733a8324ec865a24106512b2a5f8b7603040e0a56a1299aabecd9d",
+      "employee_id": "76",
+      "client_id": "2",
+      "finicity_selected_bank": "1029480775",
+      "min_threshold_notification_limit": "2500.00",
+      "mfa_enabled": "1",
+      "employee_username_hash": "46e7f4c8515cfc2451edd17fa2cf56e27131f8186d6f9528f05745b557c8f975d315bc8221724b86bddf65ab13a377ed1fcea9503f7ba3063a0a2d0c6803be50",
+      "employee_encr_data": "AQICAHgNLC11o9TiVGn1v/DH1FURHCFVxK2smZyj0zhwyKxY5wFsEFOilvQE5sj8QhEj/XufAAABPDCCATgGCSqGSIb3DQEHBqCCASkwggElAgEAMIIBHgYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAynohPTuQJVUPR8zI8CARCAgfB51n6BenCEwY9HOo1OtYH9u85rGAh34AyDSJxytZzeAFIzXy4O8nHKf9yuCIolHBgY/rRX7xTfKmixUfrPNKSB2AhUF2iqgFGskakWegFuFFRAYMCMaHPJgYOC5kbzqv+Wr0lXjP9FiXNehryQDNwvmj3Pzr8WDJVaopx+K1CUVWuWd+DvfSam6ABeDBqfz5iifcWzkbnpAdY+2ABxmICYJWxAR7JcwshvUjSQlJ9rwEkrkOmryBL6ckVPI9biPfvh1+rwnF8viheOHuGFbf3mMQ4qy5A7+wANsNocF5kUs3HhNPn7XWoOUax4W96G9qY=",
+      "employee_password": "$2y$10$2u/sUbPpxlbvGglGWLwMxeItcvPa2N6NGfuxYEUgHMNxlh/j1snBi",
+      "registration_date": "2022-12-01 16:49:36",
+      "last_login": "2025-07-08 19:27:32",
+      "client_encr_data": "AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQGFwNPOtCZs2QhilU5vyzXYAAAChDCCAoAGCSqGSIb3DQEHBqCCAnEwggJtAgEAMIICZgYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAxRtBTKrwE6aEHSG1ECARCAggI39R8BCeKQ7YK6a8v2yXln7L5R/L5yzDVawJKBO+Ly4QkrNliw2KVUAB9sZlsbM8GshiDiIQt1CVKZgD9NN4SxJFAMSaTkbVEJGT/F0eLRWtM2y53AKvwBbsbe/2e90L+skjVj6Lrzp2rTN9BwgS8bQIhaAI4RjM8t3UKP47En2GgWckAJuD+klDfAQA7T5s+Aru6VUwQmdoMdDgRx9KZGdDNvr8LEQqWlHDVV/BEV87ciy8te6CA7niCS55kLlLoVHVYx4bYlCbDg3sDDsg0W/degXIN0+y/1SaVFNyDW2H/WuS0NqgTBfBnax6B3H+pgF54jkB7IDxLBiEAINhimE/WNJuwPvMcwcamm3K/5dxUI70Ln3SEfL1ThVfJ5c9fQci1GAyBbGDp7HnC2Dl1Mb2L52/AM79oAek+GJfOWZUapNYC01kt9c10lNAUnp/S8zh/1THHQKWhBdyP6SDLt8JqPpCzYJsWw+mGdhMIqkUrcKPgg0MO6wbJ1+ue6HUbekJgjy5HPiIpSJRQG9yHtiuLe9bOt9lKmteuDOkWPFdU1I0kuyVXRsLY4izwiv2KA2yX1AswRp26tdQ1x5+IJVcslyCuSml/4gOdJ4YNNhQnVHK4QXwK+ksrp/Rs355Z8BcRZDocu28ERqsvjTtGGZOoSrTZzl0VB83fJ9oinVUcdkzp0SRk58dC9RgkMCGF3YUEO2HjztjERi3g3K2lM5WKFTEWWwSqjKCzLUDhTocbPjjpBINKt",
+      "callback_url": null,
+      "city": "Santa Monica",
+      "zip": "90405",
+      "state": "CA",
+      "country_name": "United States",
+      "attr_data": {
+        "ap_enabled": true,
+        "appriza_id": "4324324",
+        "crb_account": "2409107469",
+        "mcb_account": "36180000000024",
+        "gs_entity_id": "BBBEEF62A3F74173BF5515FB7A5AA62B",
+        "monite_entity": "59dfb970-d813-4f4a-8e52-d2e6efcd6b98",
+        "crb_business_id": "1f002462-57b7-40ae-81ce-b09901591e6d",
+        "myeupay_account": "GB93PYYP00993914450003",
+        "braid_business_id": 8001878,
+        "myeupay_client_id": "OC1a794hSnK5nKqekFbc23",
+        "braid_account_number": "494959454960",
+        "fortress_ops_account": "15a55dc2-6763-494a-99ba-a5fc9d34c7e0",
+        "fortress_container_id": "e8afa345-a035-4e5a-9eb0-5d86ba503536",
+        "braid_business_account_id": 8001844,
+        "sliderule_pricing_override": "pricing configurations/pricing config standard pricing - updated"
+      },
+      "is_batch_approval_required": "0",
+      "is_user_notifications_enabled": "1",
+      "is_dob_required": "1",
+      "is_ap_enabled": "1",
+      "employee_username": "dilenio.enderle",
+      "employee_email": "dilenio.enderle@luby.software",
+      "employee_phone": "11111",
+      "employee_first_name": "dilenio",
+      "employee_middle_name": "",
+      "employee_last_name": "enderle",
+      "permissions": "AAAAAAAA",
+      "address1": "2000 Main St",
+      "address2": "",
+      "company_name": "MassPay",
+      "phone": "2138498399",
+      "timezone": "-8:00"
+    },
+    "page_name": "Customer Profile",
+    "transactions": [
+      {
+        "timestamp": 1757805491,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-13 23:18:11.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 6,
+        "source_currency": "USD",
+        "fx": 25432.575,
+        "dest_currency": "VND",
+        "fee": 3.93,
+        "client_id": 2,
+        "pickup_code": "8a5f6467-872c-48b0-ba86-17e012297e89",
+        "payer_name": "Australia and New Zealand Banking Group",
+        "status": "PROCESSING",
+        "status_reason": null,
+        "token": "payout_a2fcd04f-90f7-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c5fb3459c23",
+        "destination_token": "dest_21c4fd0c-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757798006,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-13 21:13:26.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 51,
+        "source_currency": "USD",
+        "fx": 30.46422975,
+        "dest_currency": "THB",
+        "fee": 4.57,
+        "client_id": 2,
+        "pickup_code": "fc4e48cf-abc6-48d5-9a2f-bf27d002c7ba",
+        "payer_name": "Bangkok Bank",
+        "status": "PROCESSING",
+        "status_reason": null,
+        "token": "payout_35648c74-90e6-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c5ddf9675b2",
+        "destination_token": "dest_14a0975d-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757797261,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-13 21:01:01.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 30.464273175,
+        "dest_currency": "THB",
+        "fee": 4.57,
+        "client_id": 2,
+        "pickup_code": "785d16e7-615e-4b27-9288-bfe796662e5a",
+        "payer_name": "Bangkok Bank",
+        "status": "PROCESSING",
+        "status_reason": null,
+        "token": "payout_79a46231-90e4-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c5db0f7842c",
+        "destination_token": "dest_14a0975d-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757695752,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-12 16:49:12.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 52,
+        "source_currency": "USD",
+        "fx": 1.4295569925,
+        "dest_currency": "AUD",
+        "fee": 3.81,
+        "client_id": 2,
+        "pickup_code": "947a4e82-3f27-4612-84ad-a1cb1d5a2027",
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "PROCESSING",
+        "status_reason": null,
+        "token": "payout_21c336d2-8ff8-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c44e8171223",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757632057,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-11 23:07:37.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 51,
+        "source_currency": "USD",
+        "fx": 1.43029654941176,
+        "dest_currency": "AUD",
+        "fee": 3.83,
+        "client_id": 2,
+        "pickup_code": "96391be6-a94d-4a7a-b600-36a2a0bfe5c6",
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "CANCELLED",
+        "status_reason": null,
+        "token": "payout_d464cf3e-8f63-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c355b80eee8",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757626730,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-11 21:38:50.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 1.429299963,
+        "dest_currency": "AUD",
+        "fee": 3.84,
+        "client_id": 2,
+        "pickup_code": "63e17871-33e1-47eb-a2ca-ffe8ab6c654b",
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "PROCESSING",
+        "status_reason": null,
+        "token": "payout_6d1b1e34-8f57-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c340e7c966c",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757521110,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-10 16:18:30.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 1.437200037,
+        "dest_currency": "AUD",
+        "fee": 3.84,
+        "client_id": 2,
+        "pickup_code": "c10fc9c3-a84b-4cac-9518-4f9a01a23b8d",
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "CANCELLED",
+        "status_reason": null,
+        "token": "payout_82cf4f6c-8e61-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c1a451d33d0",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757518832,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-10 15:40:32.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 1.437200037,
+        "dest_currency": "AUD",
+        "fee": 3.84,
+        "client_id": 2,
+        "pickup_code": null,
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "ERROR",
+        "status_reason": "Failed to complete transfer. Phone number is required",
+        "token": "payout_34d5ed75-8e5c-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c19b6e3c606",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757444935,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-09 19:08:55.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 30.5027236,
+        "dest_currency": "THB",
+        "fee": 4.57,
+        "client_id": 2,
+        "pickup_code": null,
+        "payer_name": "AGRICULTURE &amp; AGRICULTL COOP",
+        "status": "ERROR",
+        "status_reason": "Failed to complete transfer. Phone number is required",
+        "token": "payout_26dd5f53-8db0-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c07ac96ebdc",
+        "destination_token": "dest_14651ab9-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      },
+      {
+        "timestamp": 1757444837,
+        "has_url": false,
+        "extracted_url": "",
+        "org": {
+          "date": "2025-09-09 19:07:17.000000",
+          "timezone_type": 2,
+          "timezone": "Z"
+        },
+        "source_amount": 50,
+        "source_currency": "USD",
+        "fx": 1.445100111,
+        "dest_currency": "AUD",
+        "fee": 3.84,
+        "client_id": 2,
+        "pickup_code": null,
+        "payer_name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+        "status": "ERROR",
+        "status_reason": "Failed to complete transfer. Phone number is required",
+        "token": "payout_ec82c149-8daf-11f0-abe6-0a046abe0aaf",
+        "client_internal_id": "68c07a5fb031e",
+        "destination_token": "dest_d48093c1-14fb-11f0-9853-02a851951a6d",
+        "source_token": "usr_wlt_bbb4164c-db2a-11ee-8798-0ac3518f7589",
+        "type": "payout",
+        "notes": "",
+        "delivery_type": "BANK_DEPOSIT",
+        "is_user_funds_wallet": true,
+        "is_card_transaction": false,
+        "provider_name": "Ripple",
+        "source_name": "MassPay - "
+      }
+    ],
+    "attrs": [
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "0bcbb096-4a45-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQHThVCXD482R1mpKbyQDsi0AAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMukimYq49CnlCAZhXAgEQgCQ8YH+5r/aorgHKmYkMjkCCu3PFKqqC3X4r8YttqCgbWsJlXCE=",
+        "name": "ACH transfer",
+        "attr_set_token": "9b1d1d9c-bfa7-465c-9370-40373c6a999c",
+        "value": "123123111"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "b29b6ebb-43fb-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQHf1Mho6M80bNs4QGclcq/0AAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxwzRAHkQPyjsMDtUAgEQgCRTiz0dw8x+3OWIZ97eCmVarcA3tyr8wn8WzMVw4BkSHfHrlOE=",
+        "name": "Same Day Bank Deposit",
+        "attr_set_token": "783d1624-2fdc-4aa9-9a98-7917315db9f5",
+        "value": "123123189"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "b29b6ebb-43fb-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQGE8EoqgrXquwynBObTl8r6AAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM8M+ACqtdxa3Fg60/AgEQgCT89fo1WwZ3W3mKl7/5t/gcM2z9j5lL1f2JLGvXZNf0JGm0zVk=",
+        "name": "Same Day Bank Deposit",
+        "attr_set_token": "7fb6f91d-53e5-4d2c-8aa8-ceeac070129b",
+        "value": "123456789"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "b29b6ebb-43fb-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQGDYea3rBAFqKh54chMTwbOAAAAZjBkBgkqhkiG9w0BBwagVzBVAgEAMFAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMRsB1t2MxJ8WFW+fMAgEQgCPxY8/EhtfMNVojq3aqkmwezsX92wD2L80Flhq7hthn+ATsxg==",
+        "name": "Same Day Bank Deposit",
+        "attr_set_token": "b443a74c-20be-4bc2-a09f-a06c3546daeb",
+        "value": "13849131"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "b29b6ebb-43fb-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQEqxqySGp8shTasXpEWbL/hAAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMHwnMeiyC5sGaEVQEAgEQgCTHcV0RkHLOAz+SrgWTsMnxLAYppT+npdJc8Qr51mIrs/6Sh/c=",
+        "name": "Same Day Bank Deposit",
+        "attr_set_token": "d364c499-4553-4edf-9000-4df3f3b90730",
+        "value": "123456777"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "b2b794f4-43fb-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQHpbJ3zsf3mQmbtTMn8iufIAAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMSoTCOi0zX5nMiKEkAgEQgCQ3IfMOWblBplw9H6+GNKZHDFCivr1J2sauVNB2tut1jKGapJU=",
+        "name": "Next Day Bank Deposit",
+        "attr_set_token": "b86dc8c8-ae09-45ea-8afd-9522f00a0c05",
+        "value": "123123111"
+      },
+      {
+        "user_id": "33210",
+        "country_name": "United States",
+        "destination_token": "f8268522-4482-11f0-a22b-02610676aa87",
+        "label": "Bank Account Number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQG4z/ujqHxwjBkdOT2coWHHAAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMT8OBcR1nDCDSY+KRAgEQgCQ7ls9cvEJKARYsr+hDblwI2bFeX7wRNpbEIpPgX+lKjkWLvgE=",
+        "name": "Bank Wire",
+        "attr_set_token": "afcb0982-2fb4-4bb9-8cfc-7be581d82dee",
+        "value": "123123111"
+      },
+      {
+        "user_id": "33210",
+        "country_name": null,
+        "destination_token": "16cf1a0c-55d6-11ef-9522-02b8f8f074e3",
+        "label": "email address or phone number",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQG/6mJc+7aU5wQJTEBpfMnuAAAAbjBsBgkqhkiG9w0BBwagXzBdAgEAMFgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM1a+6PE5rfUpvI8oBAgEQgCtnfkZbqQIE1UIhYz2Op7iuyuFMR7gjyb5Rruna3f/IC4IWYvJ99trwvcM9",
+        "name": null,
+        "attr_set_token": "793cd992-58b5-41a3-b641-be3a2e8cd1f8",
+        "value": "yossi@masspay.io"
+      },
+      {
+        "user_id": "33210",
+        "country_name": null,
+        "destination_token": "16e2027c-55d6-11ef-9522-02b8f8f074e3",
+        "label": "email address",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQGeZuiLmpZhmK5GypWIU6SZAAAAbjBsBgkqhkiG9w0BBwagXzBdAgEAMFgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMG0OieOUXCdJxfkjjAgEQgCsuAldprlZx3nKQOGg7pPi86Ne9z1dDQwfi3LlUX1Lj3bDBPigN/q1YhbrI",
+        "name": null,
+        "attr_set_token": "793cd992-58b5-41a3-b641-be3a2e8cd1f8",
+        "value": "yossi@masspay.io"
+      },
+      {
+        "user_id": "33210",
+        "country_name": null,
+        "destination_token": "73dd5414-5fe7-11ef-9709-023beedd7751",
+        "label": "email address",
+        "not_payer_specific": "0",
+        "value_encr": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQF3tlUPEFRIor0vi2a2QtHgAAAAcDBuBgkqhkiG9w0BBwagYTBfAgEAMFoGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhKsuofFL41SIcyqIAgEQgC0tDpw2BP+ruBKF9L3J7MgLg27Su6a/2nC0zl/8wMEnex3jTg4lNh8pP4nDZH0=",
+        "name": null,
+        "attr_set_token": "793cd992-58b5-41a3-b641-be3a2e8cd1f8",
+        "value": "ssmith@example.com"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-09-13 20:53:40",
+        "user_id": "33210",
+        "new_value": "",
+        "prev_value": "MassPayTest",
+        "changed_by_client_id": "2",
+        "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+        "field_name": "business_name",
+        "changed_by": "Yossi  Shlomo"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_FIELD_LOCK",
+        "event_time": "2025-07-23 11:04:19",
+        "user_id": "33210",
+        "new_value": "Locked",
+        "prev_value": null,
+        "changed_by_client_id": "2",
+        "employee_username_hash": "fbda567c5025c8877c2065f1a871825b9dac31071926a8830278d8a17ae3d51df54cd96c63a325d413d6055a0f2bde9a75a0fcadb991479fb1a794fcf478bcdb",
+        "field_name": "address2",
+        "changed_by": "Gilad  Grushkovsky"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 21:12:58",
+        "user_id": "33210",
+        "new_value": "ACTIVE",
+        "prev_value": "LOCKED",
+        "changed_by_client_id": "2",
+        "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+        "field_name": "status",
+        "changed_by": "Yossi  Shlomo"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 14:35:21",
+        "user_id": "33210",
+        "new_value": "LOCKED",
+        "prev_value": "ACTIVE",
+        "changed_by_client_id": "2",
+        "employee_username_hash": null,
+        "field_name": "status",
+        "changed_by": "MassPay - "
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 14:29:14",
+        "user_id": "33210",
+        "new_value": "ACTIVE",
+        "prev_value": "LOCKED",
+        "changed_by_client_id": "2",
+        "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+        "field_name": "status",
+        "changed_by": "Yossi  Shlomo"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 12:59:36",
+        "user_id": "33210",
+        "new_value": "LOCKED",
+        "prev_value": "ACTIVE",
+        "changed_by_client_id": "2",
+        "employee_username_hash": null,
+        "field_name": "status",
+        "changed_by": "MassPay - "
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 12:54:45",
+        "user_id": "33210",
+        "new_value": "ACTIVE",
+        "prev_value": "LOCKED",
+        "changed_by_client_id": "2",
+        "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+        "field_name": "status",
+        "changed_by": "Yossi  Shlomo"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-11 11:47:41",
+        "user_id": "33210",
+        "new_value": "LOCKED",
+        "prev_value": "ACTIVE",
+        "changed_by_client_id": "2",
+        "employee_username_hash": null,
+        "field_name": "status",
+        "changed_by": "MassPay - "
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-10 12:08:35",
+        "user_id": "33210",
+        "new_value": "ACTIVE",
+        "prev_value": "LOCKED",
+        "changed_by_client_id": "2",
+        "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+        "field_name": "status",
+        "changed_by": "Yossi  Shlomo"
+      },
+      {
+        "event_type": "UPDATED_PROFILE_SUCCESSFULLY",
+        "event_time": "2025-06-10 11:51:29",
+        "user_id": "33210",
+        "new_value": "LOCKED",
+        "prev_value": "ACTIVE",
+        "changed_by_client_id": "2",
+        "employee_username_hash": null,
+        "field_name": "status",
+        "changed_by": "MassPay - "
+      }
+    ],
+    "locked_events": [
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-11 14:35:21",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-11 12:59:36",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-11 11:47:41",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-10 11:51:29",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-10 10:38:38",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-06-08 21:29:50",
+        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-05-01 21:38:27",
+        "additional_info": "\u003Ca href=\"/customer/243/usr_0eeebd26-8552-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E0eeebd26-8552-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_13c81e3b-8545-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E13c81e3b-8545-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_172d326c-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E172d326c-74d5-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_3d625c57-854b-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E3d625c57-854b-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4410962c-7cc8-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E4410962c-7cc8-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_6f319808-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E6f319808-74d5-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_763b4cca-8d59-483e-b554-88b8d6ca1d7d\" target=\"_blank\"\u003E763b4cca-8d59-483e-b554-88b8d6ca1d7d\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_fdd0072a-7fe6-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003Efdd0072a-7fe6-11ee-a124-02d10bc4f315\u003C/a\u003E",
+        "cleared_by_username": null
+      },
+      {
+        "lock_type": "ATTRS_VELOCITY",
+        "time_of_lock": "2025-02-06 02:46:51",
+        "additional_info": "\u003Ca href=\"/customer/209/usr_0752face-1b83-11ee-807b-02450efa1c35\" target=\"_blank\"\u003E0752face-1b83-11ee-807b-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/30/usr_1023ef6d-5bb0-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E1023ef6d-5bb0-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/242/usr_21ceeccb-878b-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E21ceeccb-878b-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/34/usr_267127ea-a98c-11eb-acee-02ed07d0f60f\" target=\"_blank\"\u003E267127ea-a98c-11eb-acee-02ed07d0f60f\u003C/a\u003E, \u003Ca href=\"/customer/195/usr_282edd40-8a9e-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E282edd40-8a9e-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/30/usr_597e2174-6448-11ef-9709-023beedd7751\" target=\"_blank\"\u003E597e2174-6448-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f\" target=\"_blank\"\u003E5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f\u003C/a\u003E, \u003Ca href=\"/customer/82/usr_655a787b-7f33-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003E655a787b-7f33-11ec-a6df-06ff2a295f6f\u003C/a\u003E, \u003Ca href=\"/customer/82/usr_69dc1cba-768c-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003E69dc1cba-768c-11ec-a6df-06ff2a295f6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_715cf7f6-7520-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E715cf7f6-7520-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/205/usr_730508e0-0ddd-11ee-a7ca-02450efa1c35\" target=\"_blank\"\u003E730508e0-0ddd-11ee-a7ca-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/34/usr_75bb46af-5462-11ed-9de0-0678dcdfcccf\" target=\"_blank\"\u003E75bb46af-5462-11ed-9de0-0678dcdfcccf\u003C/a\u003E, \u003Ca href=\"/customer/195/usr_8ba5660e-10bb-11ee-807b-02450efa1c35\" target=\"_blank\"\u003E8ba5660e-10bb-11ee-807b-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/292/usr_9c2225e4-ad0c-11ef-93f2-0aa0ee322293\" target=\"_blank\"\u003E9c2225e4-ad0c-11ef-93f2-0aa0ee322293\u003C/a\u003E, \u003Ca href=\"/customer/315/usr_a0c79996-bbb5-11ef-a444-027579f07199\" target=\"_blank\"\u003Ea0c79996-bbb5-11ef-a444-027579f07199\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_ab13d642-6f92-11ef-9709-023beedd7751\" target=\"_blank\"\u003Eab13d642-6f92-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/292/usr_c579ea95-be1e-11ef-a444-027579f07199\" target=\"_blank\"\u003Ec579ea95-be1e-11ef-a444-027579f07199\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_df25df66-772d-45fb-bbcc-0ddc932192e9\" target=\"_blank\"\u003Edf25df66-772d-45fb-bbcc-0ddc932192e9\u003C/a\u003E, \u003Ca href=\"/customer/59/usr_f9764cc6-a95f-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003Ef9764cc6-a95f-11ec-a6df-06ff2a295f6f\u003C/a\u003E",
+        "cleared_by_username": null
+      }
+    ],
+    "logins": [
+      {
+        "time_of_login": "2025-09-17 14:23:14",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.254.70",
+        "geocoding": {
+          "ip": "46.210.254.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "144",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-17T14:23:14+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-16 20:21:19",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.206.25",
+        "geocoding": {
+          "ip": "46.210.206.25",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Rishon LeTsiyyon",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "141",
+          "is_eu": false,
+          "postal": null,
+          "region": "Central",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 31.9641990661621,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7876014709473,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-16T20:21:19+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "M",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 16:14:04",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 15:57:05",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 14:51:50",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 14:05:42",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 13:40:36",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 13:30:30",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-15 12:59:41",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.213.70",
+        "geocoding": {
+          "ip": "46.210.213.70",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "416",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-15T12:59:42+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      },
+      {
+        "time_of_login": "2025-09-14 15:52:50",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "ip_address": "46.210.230.133",
+        "geocoding": {
+          "ip": "46.210.230.133",
+          "asn": {
+            "asn": "AS1680",
+            "name": "Cellcom Fixed Line Communication L.P",
+            "type": "business",
+            "route": "46.210.0.0/16",
+            "domain": "cellcom.co.il"
+          },
+          "city": "Tel Aviv",
+          "flag": "https://ipdata.co/flags/il.png",
+          "count": "457",
+          "is_eu": false,
+          "postal": null,
+          "region": "Tel Aviv",
+          "status": 200,
+          "threat": {
+            "is_tor": false,
+            "is_bogon": false,
+            "is_proxy": false,
+            "is_threat": false,
+            "blocklists": [],
+            "is_anonymous": false,
+            "is_datacenter": false,
+            "is_icloud_relay": false,
+            "is_known_abuser": false,
+            "is_known_attacker": false
+          },
+          "carrier": {
+            "mcc": "425",
+            "mnc": "2",
+            "name": "Cellcom"
+          },
+          "currency": {
+            "code": "ILS",
+            "name": "Israeli New Sheqel",
+            "native": "₪",
+            "plural": "Israeli new sheqels",
+            "symbol": "₪"
+          },
+          "latitude": 32.0803985595703,
+          "languages": [
+            {
+              "rtl": 1,
+              "code": "he",
+              "name": "Hebrew",
+              "native": "עברית"
+            },
+            {
+              "rtl": 1,
+              "code": "ar",
+              "name": "Arabic",
+              "native": "العربية"
+            }
+          ],
+          "longitude": 34.7807006835938,
+          "time_zone": {
+            "abbr": "IDT",
+            "name": "Asia/Jerusalem",
+            "is_dst": true,
+            "offset": "+0300",
+            "current_time": "2025-09-14T15:43:29+03:00"
+          },
+          "emoji_flag": "🇮🇱",
+          "region_code": "TA",
+          "region_type": "district",
+          "calling_code": "972",
+          "country_code": "IL",
+          "country_name": "Israel",
+          "emoji_unicode": "U+1F1EE U+1F1F1",
+          "continent_code": "AS",
+          "continent_name": "Asia"
+        }
+      }
+    ]
   },
   "ledger": {
     "data": [
@@ -2071,7 +3754,7 @@
     "country": "CA",
     "settings": {
       "minimum_balance_threshold": true,
-      "balance_threshold": 0.0,
+      "balance_threshold": 0,
       "new_payment": true,
       "transaction_successful": false,
       "transaction_declined": false,
@@ -2161,7 +3844,7 @@
         "currency": "All",
         "fx": "1%",
         "fee": {
-          "value": 30.0,
+          "value": 30,
           "currency": "USD"
         }
       },
@@ -2173,7 +3856,7 @@
         "currency": "USD",
         "fx": "0%",
         "fee": {
-          "value": 30.0,
+          "value": 30,
           "currency": "USD"
         }
       },
@@ -4382,7 +6065,7 @@
         "state": "OH",
         "city": "Cincinnati",
         "postal_code": "45202",
-        "inc_date": "Jan 1, 1902, 12:00:00\u202fAM",
+        "inc_date": "Jan 1, 1902, 12:00:00 AM",
         "exp_date": "",
         "issue_date": "2024-07-06",
         "reg_number": "111222333",
@@ -4428,7 +6111,7 @@
         "state": "CA",
         "city": "Cupertino",
         "postal_code": "95014",
-        "inc_date": "Jan 1, 1976, 12:00:00\u202fAM",
+        "inc_date": "Jan 1, 1976, 12:00:00 AM",
         "exp_date": "",
         "issue_date": "2024-07-06",
         "reg_number": "111222333",
@@ -4566,7 +6249,7 @@
         "state": "AZ",
         "city": "Scottsdale",
         "postal_code": "85254",
-        "inc_date": "Jan 1, 2021, 12:00:00\u202fAM",
+        "inc_date": "Jan 1, 2021, 12:00:00 AM",
         "exp_date": "",
         "issue_date": "2024-06-19",
         "reg_number": "0123456789",
@@ -4612,7 +6295,7 @@
         "state": "AZ",
         "city": "Scottsdale",
         "postal_code": "85254",
-        "inc_date": "Jan 1, 2021, 12:00:00\u202fAM",
+        "inc_date": "Jan 1, 2021, 12:00:00 AM",
         "exp_date": "",
         "issue_date": "2024-06-19",
         "reg_number": "0123456789",
@@ -4704,7 +6387,7 @@
         "state": "AZ",
         "city": "Scottsdale",
         "postal_code": "85254",
-        "inc_date": "Jan 1, 2021, 12:00:00\u202fAM",
+        "inc_date": "Jan 1, 2021, 12:00:00 AM",
         "exp_date": "",
         "issue_date": "2024-06-18",
         "reg_number": "0123456789",
@@ -4799,7 +6482,7 @@
       {
         "liquidity_provider": "Cozeni",
         "balance": 0.96,
-        "average_rate": 9.6e-6,
+        "average_rate": 0.0000096,
         "currency": "BTC",
         "source_currency": "USD"
       },
@@ -5066,84 +6749,84 @@
       {
         "month": "jan",
         "reserve_trust": 7300.99,
-        "usbank": 3788.0,
+        "usbank": 3788,
         "wyre": 1277.88,
         "crypto": 982.22
       },
       {
         "month": "feb",
-        "reserve_trust": 6344.0,
-        "usbank": 3982.0,
+        "reserve_trust": 6344,
+        "usbank": 3982,
         "wyre": 2476.88,
         "crypto": 767.22
       },
       {
         "month": "mar",
         "reserve_trust": 5672.99,
-        "usbank": 4782.0,
+        "usbank": 4782,
         "wyre": 2876.88,
         "crypto": 566.22
       },
       {
         "month": "apr",
-        "reserve_trust": 7123.0,
-        "usbank": 3899.0,
+        "reserve_trust": 7123,
+        "usbank": 3899,
         "wyre": 1387.88,
         "crypto": 986.22
       },
       {
         "month": "may",
         "reserve_trust": 6123.99,
-        "usbank": 4787.0,
+        "usbank": 4787,
         "wyre": 1987.88,
         "crypto": 489.22
       },
       {
         "month": "jun",
         "reserve_trust": 7939.99,
-        "usbank": 4912.0,
+        "usbank": 4912,
         "wyre": 2789.88,
         "crypto": 987.22
       },
       {
         "month": "jul",
         "reserve_trust": 5671.99,
-        "usbank": 4092.0,
+        "usbank": 4092,
         "wyre": 1122.88,
         "crypto": 765.22
       },
       {
         "month": "aug",
         "reserve_trust": 6128.99,
-        "usbank": 3012.0,
+        "usbank": 3012,
         "wyre": 2876.88,
         "crypto": 348.22
       },
       {
         "month": "sep",
         "reserve_trust": 5677.99,
-        "usbank": 4987.0,
+        "usbank": 4987,
         "wyre": 2398.88,
         "crypto": 347.22
       },
       {
         "month": "oct",
         "reserve_trust": 7001.99,
-        "usbank": 4012.0,
+        "usbank": 4012,
         "wyre": 1022.88,
         "crypto": 567.22
       },
       {
         "month": "nov",
         "reserve_trust": 7300.99,
-        "usbank": 4567.0,
+        "usbank": 4567,
         "wyre": 1277.88,
         "crypto": 654.22
       },
       {
         "month": "dec",
         "reserve_trust": 5667.99,
-        "usbank": 4999.0,
+        "usbank": 4999,
         "wyre": 2334.88,
         "crypto": 876.22
       }
@@ -5380,15 +7063,31 @@
         "key": "d24b1de2-5bbc-4c57-a073-bcad10a70e54",
         "group": "a6c516ef-9e29-4442-9eae-76d19c5e13e3",
         "text": "Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "b50a71ec-3403-4055-b3a9-d3c0302fad70",
         "group": "a6c516ef-9e29-4442-9eae-76d19c5e13e3",
         "text": "Bank Wire / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "baf7e410-a35f-467e-a16c-e8e2770974ec",
@@ -5400,22 +7099,46 @@
         "key": "8047ed3c-3774-4322-b3f1-8026921e5ebf",
         "group": "baf7e410-a35f-467e-a16c-e8e2770974ec",
         "text": "Bank Wire / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "043774cf-a57e-441f-9bc8-ae99228bf397",
         "group": "baf7e410-a35f-467e-a16c-e8e2770974ec",
         "text": "Next Day Bank Deposit / Bank D.",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "65905624-d724-46da-bd4b-1049bc39bf56",
         "group": "baf7e410-a35f-467e-a16c-e8e2770974ec",
         "text": "Same Day Bank Deposit / Bank D.",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
@@ -5427,36 +7150,76 @@
         "key": "5cce5593-9c5f-4b7a-b810-717822dc284d",
         "group": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
         "text": "Binance USD / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "c0373e4e-1763-46f2-bed7-131131b25033",
         "group": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
         "text": "Bitcoin / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "dbe3f5b8-bc1c-4690-b671-0b6afcc5ca35",
         "group": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
         "text": "Huobi USD / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "a8907245-c930-4f38-8786-f305737e756a",
         "group": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
         "text": "Tether / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "620b622b-6f3c-4823-83f3-d21c21c56c71",
         "group": "cf1da341-f0f1-4f02-b7fa-a87e65b65940",
         "text": "USD Coin / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "ea264671-066c-4375-abb2-8e916170d128",
@@ -5468,29 +7231,61 @@
         "key": "05633069-dc28-44e2-ae42-fc420e344e48",
         "group": "ea264671-066c-4375-abb2-8e916170d128",
         "text": "Instant Pay / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "a47e751e-b428-4eb7-8b42-90edc6e09072",
         "group": "ea264671-066c-4375-abb2-8e916170d128",
         "text": "Next Day Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "81e40ff4-096c-4425-9124-64d200b6cc81",
         "group": "ea264671-066c-4375-abb2-8e916170d128",
         "text": "Paper Check by Mail / Paper Check",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "d35e11a5-222a-4eee-a8b6-332d93b93a57",
         "group": "ea264671-066c-4375-abb2-8e916170d128",
         "text": "Same Day Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "ec23a6ba-b40c-42c2-bf45-48e6858cff02",
@@ -5502,8 +7297,16 @@
         "key": "a94977be-f50d-4e78-b023-b4a5e24763bc",
         "group": "ec23a6ba-b40c-42c2-bf45-48e6858cff02",
         "text": "Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "7e896f98-7add-49aa-b37f-e19c413570dd",
@@ -5515,15 +7318,31 @@
         "key": "31f185f2-8ca8-4db4-ab20-464eb8105f37",
         "group": "7e896f98-7add-49aa-b37f-e19c413570dd",
         "text": "Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "4313037e-bd2b-46a3-9589-802f4dbd8345",
         "group": "7e896f98-7add-49aa-b37f-e19c413570dd",
         "text": "Bank Deposit US / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "a1c6df09-a648-4615-94df-6287f6d6214f",
@@ -5535,50 +7354,106 @@
         "key": "81457219-f8bc-4b77-82a4-180fca389e39",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "Bank Wire / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "06ecc74e-1ccd-4f8e-9355-962a958274f3",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "Binance USD / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "f03aa71a-f41f-4103-a6f2-612354170c09",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "Bitcoin / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "df1a2358-62fe-4e60-9cca-e9cb707aa860",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "DAI / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "e9838d7f-cb6c-4d27-b5eb-efc49020c256",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "Ethereum / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "61fb2150-e131-4f5b-9f34-c4e8163b3fbb",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "Tether / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "30f0599f-9acc-49e8-a585-ed51fdb3227e",
         "group": "a1c6df09-a648-4615-94df-6287f6d6214f",
         "text": "USD Coin / Cryptocurrency",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "9f98fbf3-307d-4f1f-9ba6-ce62e022bf41",
@@ -5590,29 +7465,61 @@
         "key": "8fb8d73f-7d3f-4443-8023-c02eff9f3b59",
         "group": "9f98fbf3-307d-4f1f-9ba6-ce62e022bf41",
         "text": "Issue Physical Card & Load Funds / MassPay Card",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "64c4b2a7-92b4-4175-9f52-aa13e0e9ff94",
         "group": "9f98fbf3-307d-4f1f-9ba6-ce62e022bf41",
         "text": "Issue Virtual Card & Load Funds / MassPay Card",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "31441296-7386-478d-9d1b-62e18db9fd66",
         "group": "9f98fbf3-307d-4f1f-9ba6-ce62e022bf41",
         "text": "Load Physical Card / MassPay Card",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "2250f4eb-fcfc-4afc-85b5-9c844be83052",
         "group": "9f98fbf3-307d-4f1f-9ba6-ce62e022bf41",
         "text": "Load Virtual Card / MassPay Card",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "0276a6d2-efa8-4259-be1a-53d974e6eb46",
@@ -5624,15 +7531,31 @@
         "key": "fd40e32f-7d98-4cd2-80c8-635ea7989f5b",
         "group": "0276a6d2-efa8-4259-be1a-53d974e6eb46",
         "text": "Bank Deposit / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "240f353c-d391-4623-9d61-3e7f44b1fc98",
         "group": "0276a6d2-efa8-4259-be1a-53d974e6eb46",
         "text": "Bank Wire / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "64de6fa6-5b52-4858-9a84-ecacf9bb081e",
@@ -5644,8 +7567,16 @@
         "key": "697956ac-acfe-4791-8c2d-34e8f99520e0",
         "group": "64de6fa6-5b52-4858-9a84-ecacf9bb081e",
         "text": "Bank Deposit US / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "d457bf57-29fb-4932-ae24-9d445052cf3d",
@@ -5657,22 +7588,46 @@
         "key": "d1bec95f-de19-4fbf-badf-e443360f826e",
         "group": "d457bf57-29fb-4932-ae24-9d445052cf3d",
         "text": "Bank Wire / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "bf5e88d1-bc88-4f36-87db-2266bdf38552",
         "group": "d457bf57-29fb-4932-ae24-9d445052cf3d",
         "text": "Next Day Bank Deposit / Bank D.",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "40d049a0-3acf-42bf-b889-4a4ff58a1493",
         "group": "d457bf57-29fb-4932-ae24-9d445052cf3d",
         "text": "Same Day Bank Deposit / Bank D.",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       },
       {
         "key": "649722c2-6710-4692-bee1-84a8f793fa6b",
@@ -5684,8 +7639,16 @@
         "key": "e9214a0e-87d0-4a6b-bbca-6fe69de30284",
         "group": "649722c2-6710-4692-bee1-84a8f793fa6b",
         "text": "Instant Pay / Bank Deposit",
-        "leftArray": [{ "portId": "left0" }],
-        "rightArray": [{ "portId": "right0" }]
+        "leftArray": [
+          {
+            "portId": "left0"
+          }
+        ],
+        "rightArray": [
+          {
+            "portId": "right0"
+          }
+        ]
       }
     ],
     "links": [
@@ -5862,28 +7825,40 @@
         "first_name": "Albert",
         "last_name": "Einstein",
         "image": "https://picsum.photos/id/42/200",
-        "commission_to_be_paid": { "value": 400.0, "currency": "USD" }
+        "commission_to_be_paid": {
+          "value": 400,
+          "currency": "USD"
+        }
       },
       {
         "id": 2,
         "first_name": "Manahil",
         "last_name": "Cope",
         "image": "https://picsum.photos/id/42/200",
-        "commission_to_be_paid": { "value": 220.0, "currency": "USD" }
+        "commission_to_be_paid": {
+          "value": 220,
+          "currency": "USD"
+        }
       },
       {
         "id": 3,
         "first_name": "Ciara",
         "last_name": "Leal",
         "image": "",
-        "commission_to_be_paid": { "value": 728.0, "currency": "USD" }
+        "commission_to_be_paid": {
+          "value": 728,
+          "currency": "USD"
+        }
       },
       {
         "id": 4,
         "first_name": "Asia",
         "last_name": "Frazier",
         "image": "",
-        "commission_to_be_paid": { "value": 6271.22, "currency": "USD" }
+        "commission_to_be_paid": {
+          "value": 6271.22,
+          "currency": "USD"
+        }
       }
     ],
     "metadata": {
@@ -5898,62 +7873,62 @@
     {
       "month": "jan",
       "value1": 7300.99,
-      "value2": 3788.0
+      "value2": 3788
     },
     {
       "month": "feb",
-      "value1": 6344.0,
-      "value2": 3982.0
+      "value1": 6344,
+      "value2": 3982
     },
     {
       "month": "mar",
       "value1": 5672.99,
-      "value2": 4782.0
+      "value2": 4782
     },
     {
       "month": "apr",
-      "value1": 7123.0,
-      "value2": 3899.0
+      "value1": 7123,
+      "value2": 3899
     },
     {
       "month": "may",
       "value1": 6123.99,
-      "value2": 4787.0
+      "value2": 4787
     },
     {
       "month": "jun",
       "value1": 7939.99,
-      "value2": 4912.0
+      "value2": 4912
     },
     {
       "month": "jul",
       "value1": 5671.99,
-      "value2": 4092.0
+      "value2": 4092
     },
     {
       "month": "aug",
       "value1": 6128.99,
-      "value2": 3012.0
+      "value2": 3012
     },
     {
       "month": "sep",
       "value1": 5677.99,
-      "value2": 4987.0
+      "value2": 4987
     },
     {
       "month": "oct",
       "value1": 7001.99,
-      "value2": 4012.0
+      "value2": 4012
     },
     {
       "month": "nov",
       "value1": 7300.99,
-      "value2": 4567.0
+      "value2": 4567
     },
     {
       "month": "dec",
       "value1": 5667.99,
-      "value2": 4999.0
+      "value2": 4999
     }
   ],
   "wallet_balance_mismatches": {
@@ -5965,11 +7940,11 @@
         "image": "https://randomuser.me/api/portraits/women/21.jpg",
         "client": "MindGeek",
         "wallet_balance": {
-          "value": 20.0,
+          "value": 20,
           "currency": "USD"
         },
         "computed_wallet_balance": {
-          "value": 400.0,
+          "value": 400,
           "currency": "USD"
         }
       },
@@ -5980,11 +7955,11 @@
         "image": "",
         "client": "MassPay",
         "wallet_balance": {
-          "value": 100.0,
+          "value": 100,
           "currency": "USD"
         },
         "computed_wallet_balance": {
-          "value": 220.0,
+          "value": 220,
           "currency": "USD"
         }
       },
@@ -6019,11 +7994,11 @@
         "logo": "",
         "name": "MassPay",
         "wallet_balance": {
-          "value": 132220.0,
+          "value": 132220,
           "currency": "USD"
         },
         "ledger_balance": {
-          "value": 132220.0,
+          "value": 132220,
           "currency": "USD"
         }
       },
@@ -6032,11 +8007,11 @@
         "logo": "",
         "name": "RNetwork llc",
         "wallet_balance": {
-          "value": 100.0,
+          "value": 100,
           "currency": "USD"
         },
         "ledger_balance": {
-          "value": 14200.0,
+          "value": 14200,
           "currency": "USD"
         }
       },
@@ -6058,7 +8033,7 @@
         "logo": "https://cdn.worldvectorlogo.com/logos/apple-14.svg",
         "name": "Everflow",
         "wallet_balance": {
-          "value": 1220.0,
+          "value": 1220,
           "currency": "USD"
         },
         "ledger_balance": {
@@ -6137,7 +8112,7 @@
           "value": 1234.56,
           "currency": "USD",
           "status": "plus",
-          "index": 467.0,
+          "index": 467,
           "period": "Today"
         },
         {
@@ -6159,32 +8134,32 @@
         {
           "month": "jan",
           "loaded": 6999.99,
-          "payed_out": 2000.0
+          "payed_out": 2000
         },
         {
           "month": "feb",
-          "loaded": 5200.0,
-          "payed_out": 540.0
+          "loaded": 5200,
+          "payed_out": 540
         },
         {
           "month": "mar",
-          "loaded": 4900.0,
-          "payed_out": 2000.0
+          "loaded": 4900,
+          "payed_out": 2000
         },
         {
           "month": "apr",
-          "loaded": 7900.0,
-          "payed_out": 620.0
+          "loaded": 7900,
+          "payed_out": 620
         },
         {
           "month": "may",
-          "loaded": 5800.0,
-          "payed_out": 3000.0
+          "loaded": 5800,
+          "payed_out": 3000
         },
         {
           "month": "jun",
-          "loaded": 8200.0,
-          "payed_out": 899.0
+          "loaded": 8200,
+          "payed_out": 899
         }
       ]
     },
@@ -6332,7 +8307,10 @@
         "name": "MassPay",
         "flag": "https://www.worldometers.info/img/flags/ca-flag.gif",
         "country": "Canada",
-        "amount": { "value": 1250.0, "currency": "USD" }
+        "amount": {
+          "value": 1250,
+          "currency": "USD"
+        }
       },
       {
         "id": 2,
@@ -6340,7 +8318,10 @@
         "name": "RNetwork LLC",
         "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
         "country": "United States",
-        "amount": { "value": 4120.0, "currency": "USD" }
+        "amount": {
+          "value": 4120,
+          "currency": "USD"
+        }
       },
       {
         "id": 3,
@@ -6348,7 +8329,10 @@
         "name": "Prime Downline LLC",
         "flag": "https://www.worldometers.info/img/flags/it-flag.gif",
         "country": "Italy",
-        "amount": { "value": 166.23, "currency": "USD" }
+        "amount": {
+          "value": 166.23,
+          "currency": "USD"
+        }
       },
       {
         "id": 4,
@@ -6356,7 +8340,10 @@
         "name": "Everflow",
         "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
         "country": "United States",
-        "amount": { "value": 516.23, "currency": "USD" }
+        "amount": {
+          "value": 516.23,
+          "currency": "USD"
+        }
       },
       {
         "id": 5,
@@ -6364,7 +8351,10 @@
         "name": "Atlas Distributions",
         "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
         "country": "United States",
-        "amount": { "value": 1500.0, "currency": "USD" }
+        "amount": {
+          "value": 1500,
+          "currency": "USD"
+        }
       }
     ]
   },
@@ -6379,12 +8369,24 @@
         "time": "07:19 AM",
         "type": "Bank Deposit",
         "payer": "Electra Mexico",
-        "sent": { "value": 41243.0, "currency": "USD" },
-        "fx": { "value": 23.0, "currency": "CRC" },
+        "sent": {
+          "value": 41243,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 23,
+          "currency": "CRC"
+        },
         "client": "Alerte International Media Inc.",
         "tx_no": "YU-6-wj3767asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df6785511h3",
-        "received": { "value": 234.0, "currency": "USD" },
-        "fee": { "value": 43.0, "currency": "USD" },
+        "received": {
+          "value": 234,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 43,
+          "currency": "USD"
+        },
         "status": "Pending"
       },
       {
@@ -6396,12 +8398,24 @@
         "time": "07:19 AM",
         "type": "Cash Payout",
         "payer": "Next Day Bank Deposit",
-        "sent": { "value": 61267.0, "currency": "USD" },
-        "fx": { "value": 1.0, "currency": "USD" },
+        "sent": {
+          "value": 61267,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 1,
+          "currency": "USD"
+        },
         "client": "MassPay",
         "tx_no": "UW-1-1633321c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67855",
-        "received": { "value": 122.0, "currency": "USD" },
-        "fee": { "value": 1.22, "currency": "USD" },
+        "received": {
+          "value": 122,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 1.22,
+          "currency": "USD"
+        },
         "status": "Completed"
       },
       {
@@ -6413,12 +8427,24 @@
         "time": "04:57 PM",
         "type": "Credit Card",
         "payer": "Credit Agricole Bank",
-        "sent": { "value": 1288.0, "currency": "USD" },
-        "fx": { "value": 10.0, "currency": "USD" },
+        "sent": {
+          "value": 1288,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 10,
+          "currency": "USD"
+        },
         "client": "Everflow",
         "tx_no": "UA-AX163gg1ch91c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67",
-        "received": { "value": 99.99, "currency": "USD" },
-        "fee": { "value": 9.99, "currency": "USD" },
+        "received": {
+          "value": 99.99,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 9.99,
+          "currency": "USD"
+        },
         "status": "Error"
       },
       {
@@ -6430,12 +8456,24 @@
         "time": "05:09 PM",
         "type": "Credit Card",
         "payer": "Credit Agricole Bank",
-        "sent": { "value": 1288.0, "currency": "USD" },
-        "fx": { "value": 10.0, "currency": "USD" },
+        "sent": {
+          "value": 1288,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 10,
+          "currency": "USD"
+        },
         "client": "Everflow",
         "tx_no": "UA-AX163gg1ch91c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67",
-        "received": { "value": 99.99, "currency": "USD" },
-        "fee": { "value": 9.99, "currency": "USD" },
+        "received": {
+          "value": 99.99,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 9.99,
+          "currency": "USD"
+        },
         "status": "Completed"
       }
     ],
@@ -6574,7 +8612,7 @@
         "destination_currency": "BTC",
         "user_type": "Personal And Business",
         "costs": {
-          "value": 2.0,
+          "value": 2,
           "currency": "USD"
         }
       },
@@ -6587,7 +8625,7 @@
         "destination_currency": "ETH",
         "user_type": "Personal And Business",
         "costs": {
-          "value": 3.0,
+          "value": 3,
           "currency": "USD"
         }
       },
@@ -6600,7 +8638,7 @@
         "destination_currency": "USDC",
         "user_type": "Personal And Business",
         "costs": {
-          "value": 6.0,
+          "value": 6,
           "currency": "USD"
         }
       }
@@ -7533,70 +9571,100 @@
       "name": "Binance USD",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 13.0, "currency": "USD" }
+      "fee": {
+        "amount": 13,
+        "currency": "USD"
+      }
     },
     {
       "id": 2,
       "name": "Bitcoin",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 8.0, "currency": "USD" }
+      "fee": {
+        "amount": 8,
+        "currency": "USD"
+      }
     },
     {
       "id": 3,
       "name": "Ethereum",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 8.0, "currency": "USD" }
+      "fee": {
+        "amount": 8,
+        "currency": "USD"
+      }
     },
     {
       "id": 4,
       "name": "DAI",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 33.0, "currency": "USD" }
+      "fee": {
+        "amount": 33,
+        "currency": "USD"
+      }
     },
     {
       "id": 5,
       "name": "Tether",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 3.0, "currency": "USD" }
+      "fee": {
+        "amount": 3,
+        "currency": "USD"
+      }
     },
     {
       "id": 6,
       "name": "USD Coin",
       "image": "http://",
       "type": "Crypto",
-      "fee": { "amount": 3.0, "currency": "USD" }
+      "fee": {
+        "amount": 3,
+        "currency": "USD"
+      }
     },
     {
       "id": 7,
       "name": "Issue Physical Card & Local Funds",
       "image": "http://",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 8,
       "name": "Issue Virtual Card & Local Funds",
       "image": "http://",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 9,
       "name": "Load Physical Card",
       "image": "http://",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     },
     {
       "id": 10,
       "name": "Load Virtual Card",
       "image": "http://",
       "type": "Card",
-      "fee": { "amount": 3.5, "currency": "USD" }
+      "fee": {
+        "amount": 3.5,
+        "currency": "USD"
+      }
     }
   ],
   "user": {
@@ -7752,27 +9820,78 @@
     "logoUrl": "https://placebear.com/240/250"
   },
   "legal_structure": [
-    { "key": "C Corp", "value": "c_corp" },
-    { "key": "LLC", "value": "llc" },
-    { "key": "Partnership", "value": "partnership" },
-    { "key": "Non-Profit", "value": "non_profit" },
-    { "key": "S Corp", "value": "s_corp" },
-    { "key": "Sole Proprietorship", "value": "sole_proprietorship" },
-    { "key": "Other", "value": "other" }
+    {
+      "key": "C Corp",
+      "value": "c_corp"
+    },
+    {
+      "key": "LLC",
+      "value": "llc"
+    },
+    {
+      "key": "Partnership",
+      "value": "partnership"
+    },
+    {
+      "key": "Non-Profit",
+      "value": "non_profit"
+    },
+    {
+      "key": "S Corp",
+      "value": "s_corp"
+    },
+    {
+      "key": "Sole Proprietorship",
+      "value": "sole_proprietorship"
+    },
+    {
+      "key": "Other",
+      "value": "other"
+    }
   ],
   "status": [
-    { "key": "Onboarding", "value": "onboarding" },
-    { "key": "Live", "value": "live" },
-    { "key": "Design Partner", "value": "design_partner" },
-    { "key": "Internal", "value": "internal" },
-    { "key": "Deactivated", "value": "deactivated" }
+    {
+      "key": "Onboarding",
+      "value": "onboarding"
+    },
+    {
+      "key": "Live",
+      "value": "live"
+    },
+    {
+      "key": "Design Partner",
+      "value": "design_partner"
+    },
+    {
+      "key": "Internal",
+      "value": "internal"
+    },
+    {
+      "key": "Deactivated",
+      "value": "deactivated"
+    }
   ],
   "provider": [
-    { "key": "Provider One", "value": 1 },
-    { "key": "Provider Two", "value": 2 },
-    { "key": "Provider Three", "value": 3 },
-    { "key": "Provider Four", "value": 4 },
-    { "key": "Provider Five", "value": 5 }
+    {
+      "key": "Provider One",
+      "value": 1
+    },
+    {
+      "key": "Provider Two",
+      "value": 2
+    },
+    {
+      "key": "Provider Three",
+      "value": 3
+    },
+    {
+      "key": "Provider Four",
+      "value": 4
+    },
+    {
+      "key": "Provider Five",
+      "value": 5
+    }
   ],
   "countries2": [
     {
@@ -9281,10 +11400,22 @@
         "time": "07:19 PM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 41243.0, "currency": "USD" },
-        "received": { "value": 234.0, "currency": "USD" },
-        "fee": { "value": 43.0, "currency": "USD" },
-        "fx": { "value": 23.0, "currency": "USD" },
+        "sent": {
+          "value": 41243,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 234,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 43,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 23,
+          "currency": "USD"
+        },
         "status": "Pending",
         "attributes": [
           {
@@ -9344,10 +11475,22 @@
         "time": "07:19 AM",
         "payer": "Instant Pay",
         "type": "Bank Deposit",
-        "sent": { "value": 213.0, "currency": "USD" },
-        "received": { "value": 3.0, "currency": "USD" },
-        "fee": { "value": 123123.0, "currency": "USD" },
-        "fx": { "value": 55.0, "currency": "USD" },
+        "sent": {
+          "value": 213,
+          "currency": "USD"
+        },
+        "received": {
+          "value": 3,
+          "currency": "USD"
+        },
+        "fee": {
+          "value": 123123,
+          "currency": "USD"
+        },
+        "fx": {
+          "value": 55,
+          "currency": "USD"
+        },
         "status": "Pending",
         "attributes": [
           {
@@ -9965,21 +12108,30 @@
         "to": "Albert Einstein",
         "date": "Today, 4:20PM",
         "status": "Completed",
-        "value": { "amount": 1200.0, "currency": "USD" }
+        "value": {
+          "amount": 1200,
+          "currency": "USD"
+        }
       },
       {
         "id": "dfg6as8d6f7a68sd7",
         "to": "Ciara Leal",
         "date": "Yesterday, 1:20PM",
         "status": "Pending",
-        "value": { "amount": 1000.0, "currency": "USD" }
+        "value": {
+          "amount": 1000,
+          "currency": "USD"
+        }
       },
       {
         "id": "c9b7d6a5ab5b",
         "to": "Chris Findlay",
         "date": "Monday, 4:50PM",
         "status": "Pending",
-        "value": { "amount": 300.0, "currency": "USD" }
+        "value": {
+          "amount": 300,
+          "currency": "USD"
+        }
       }
     ]
   }

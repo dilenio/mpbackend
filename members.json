@@ -214,6 +214,7 @@
   "user_profile": {
     "url": "https://picsum.photos/id/42/200",
     "name": "Dilenio  Enderle",
+    "email": "dilenio@email.com",
     "phone": "73981532105",
     "dob": "1973-05-15",
     "address1": "123 Main St",
@@ -222,6 +223,7 @@
     "state": "CA",
     "city": "Santa Monica",
     "zip": "90405",
+    "language": "en",
     "phone_confirmation_required": false,
     "two_factor_authentication": false,
     "mp_csrf_name": "mp_csrf64b6ea4947745",
@@ -2242,16 +2244,6 @@
       "last_attr_value_used": true
     },
     {
-      "token": "f4c876a9-8f72-11f0-abe6-0a046abe0aaf",
-      "label": "Parent/Guardian Full Name",
-      "validation": "^[\\p{L}\\p{M}]+(?:[ '\\-\\.][\\p{L}\\p{M}]+)+$",
-      "is_optional": false,
-      "expected_value": "Full legal name as appears in government issued ID",
-      "type": "GuardianFullName",
-      "input_type": "text",
-      "last_attr_value_used": false
-    },
-    {
       "token": "f4ce363b-8f72-11f0-abe6-0a046abe0aaf",
       "label": "Parent/Guardian Government-Issued Identification Type",
       "validation": "Passport|National Identification Card|Driving License|Social Security Card/Number|Tax Payer Identification Card/Number|Senior Citizen Identification Card|Birth Certificate|Village Elder Identification Card|Permanent Residency Identification Card|Alien Registration Certificate/Card|PAN Card|Voter\u2019s Identification Card|Health Insurance Card/Number|Employer Identification Card|Others not listed",
@@ -2273,7 +2265,7 @@
     },
     {
       "token": "f4d4d28f-8f72-11f0-abe6-0a046abe0aaf",
-      "label": "I hereby consent to the above payment arrangement and acknowledge that I have read and agree to be bound by the terms and conditions set forth in the [Parental Consent Agreement](https://example.com) Parental Consent Agreement.",
+      "label": "I hereby consent to the above payment arrangement and acknowledge that I have read and agree to be bound by the terms and conditions set forth in the [Parental Consent Agreement](https://example.com).",
       "validation": "I consent",
       "is_optional": false,
       "expected_value": "Guardian consent",
@@ -2545,12 +2537,6 @@
         "period": "This Month"
       }
     ]
-  },
-  "commissions_download": {
-    "status": "success",
-    "data": {
-      "downloadUrl": "https://google.com"
-    }
   },
   "change_password": {
     "currentPassword": "1",

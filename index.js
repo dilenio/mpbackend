@@ -6,6 +6,10 @@ const path = require("path");
 const mime = require("mime-types");
 const fs = require("fs");
 const invoicesDir = path.join(__dirname, "__mocks__", "invoices");
+const getUser = require("./__mocks__/getUser.json");
+const dashboardData = require("./__mocks__/dashboard_data.json");
+
+const multer = require("multer");
 
 const server = jsonServer.create();
 
@@ -93,6 +97,79 @@ server.get("/api/masspay", (req, res) => {
   });
 });
 
+server.get("/api/members/countries", (req, res) => {
+  setTimeout(() => {
+    res.status(200).json([
+      {
+        name: "Afghanistan",
+        code2: "AF",
+        code3: "AFG",
+        numeric: 4,
+        flag: "https://www.worldometers.info/img/flags/af-flag.gif",
+        id: "32d2",
+      },
+      {
+        name: "Albania",
+        code2: "AL",
+        code3: "ALB",
+        numeric: 8,
+        flag: "https://www.worldometers.info/img/flags/al-flag.gif",
+        id: "0d56",
+      },
+      {
+        name: "Algeria",
+        code2: "DZ",
+        code3: "DZA",
+        numeric: 12,
+        flag: "https://www.worldometers.info/img/flags/ag-flag.gif",
+        id: "8ec5",
+      },
+    ]);
+  }, 1000);
+});
+
+server.get("/api/members/commissions_download", (req, res) => {
+  const exportsDir = path.join(__dirname, "__mocks__", "exports");
+  // garante que a pasta exista
+  if (!fs.existsSync(exportsDir)) {
+    fs.mkdirSync(exportsDir, { recursive: true });
+  }
+  const filePath = path.join(exportsDir, "commissions.xlsx");
+
+  fs.stat(filePath, (err, stat) => {
+    if (err || !stat.isFile()) {
+      return res.status(404).json({
+        status: "error",
+        message: "Commissions file not found",
+      });
+    }
+
+    // tipo correto de XLSX
+    const mimeType =
+      mime.lookup(filePath) ||
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+
+    res.setHeader("Content-Type", mimeType);
+    res.setHeader(
+      "Content-Disposition",
+      `attachment; filename=commissions.xlsx`
+    );
+    // expõe o header para o browser ler o filename (CORS)
+    res.setHeader("Access-Control-Expose-Headers", "Content-Disposition");
+
+    const stream = fs.createReadStream(filePath);
+    stream.on("error", () => res.sendStatus(500));
+    stream.pipe(res);
+  });
+});
+
+server.put("/api/members/user_profile", (req, res) => {
+  res.status(200).json({
+    status: "success",
+    message: "User profile updated!",
+  });
+});
+
 server.post("/api/clients/apikeys", (req, res) => {
   setTimeout(() => {
     res.status(200).json({
@@ -101,6 +178,27 @@ server.post("/api/clients/apikeys", (req, res) => {
       apiKey: "1234567890abcdef",
     });
   }, 5000);
+});
+
+server.put("/api/clients/payee_profile", (req, res) => {
+  setTimeout(() => {
+    res.status(400).json({
+      status: "failed",
+      message: "Payee profile updated FAILED!",
+    });
+  }, 3000);
+});
+
+server.get("/api/clients/get_user/:user_token", (req, res) => {
+  const { user_token } = req.params;
+  console.log("User token:", user_token);
+  res.status(200).json(getUser);
+});
+
+server.get("/api/clients/dashboard_data", (req, res) => {
+  setTimeout(() => {
+    res.status(200).json(dashboardData);
+  }, 1000);
 });
 
 server.put(
