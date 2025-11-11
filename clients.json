@@ -68,911 +68,655 @@
   "get_transactions": {
     "data": [
       {
-        "id": "637dcc6a5rwerab52",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbE",
-        "user_id": 123123,
-        "name": "John Smith Junior",
-        "country": "United States",
-        "date": "2023/04/27",
-        "time": "07:19 PM",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "e733df0e-aa4c-11f0-a1ad-024271d63b3f",
+        "user_id": 25,
+        "date": "2025-10-15",
+        "time": "22:01:32",
+        "payer_name": "Bank Deposit",
+        "type": "transfer",
+        "status": "EXPIRED",
+        "country": "Canada",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "Expired Quote",
+            "date": "2025-10-15",
+            "time": "22:19"
+          }
+        ],
+        "name": "John M Smith",
+        "full_name": "John M Smith",
+        "company_name": null,
         "sent": {
-          "value": 41243,
+          "value": "5.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 234,
-          "currency": "EUR"
+          "value": "6.52803938",
+          "currency": "CAD"
         },
         "fee": {
-          "value": 43,
+          "value": "4.00000",
           "currency": "USD"
         },
         "fx": {
-          "value": 23,
-          "currency": "XYZ"
+          "value": "1.30560791",
+          "currency": "CAD"
         },
-        "status": "Completed",
-        "response": {
-          "test": "This is a test response",
-          "status": "Active"
-        },
-        "attributes": [
+        "user_token": "31e384ff-d347-11ea-afc7-0289acba1734",
+        "attrs": [
           {
-            "id": "767asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df678",
-            "country": "United States / Bank Wire",
-            "label": "Germany / Bank Wire",
-            "value": "Dominican DIS Bonds IC FNDS SEC AC"
+            "label": "Institution Number",
+            "value": "177"
           },
           {
-            "id": "54h6asd4f4as3df3a6sdf56a65s4dg3h7cx86c4764r47h675S&d6",
-            "country": "United States / Bank Wire",
-            "label": "Germany / Bank Deposit",
-            "value": "GB15BARC20078125637567253"
+            "label": "Transit Number",
+            "value": "00006"
           },
           {
-            "id": "76ns8df65b87d6f8609z8sd098f70987b98zxc987cg67f6s87fd87",
-            "country": "United States / Bank Wire",
-            "label": "Global",
-            "value": "CREDIT"
-          },
-          {
-            "id": "hgasd8f7a8s7dfas8d9hq5s6df576hfdg3h65787dv87dfgbvsdag76",
-            "country": "United States / Bank Wire",
-            "date": "Global",
-            "label": "BKID0006673"
+            "label": "Bank Account Number",
+            "value": "312321321"
           }
         ],
-        "changes": [
-          {
-            "date": "Today",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "Yesterday",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "2023/04/27",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "2023/04/27",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "dfg6as8d6f7a68sweed7",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qba",
-        "user_id": 123123,
-        "name": "John Smith Junior",
-        "country": "United States",
-        "date": "2023/04/26",
-        "time": "07:19 AM",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
-        "sent": {
-          "value": 213,
-          "currency": "MXP"
-        },
-        "received": {
-          "value": 3,
-          "currency": "MXP"
-        },
-        "fee": {
-          "value": 123123,
-          "currency": "MXP"
-        },
-        "fx": {
-          "value": 55,
-          "currency": "MXP"
-        },
-        "status": "Pending",
-        "attributes": [
-          {
-            "id": "767asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df678",
-            "country": "United States / Bank Wire",
-            "label": "Germany / Bank Wire",
-            "value": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "id": "54h6asd4f4as3df3a6sdf56a65s4dg3h7cx86c4764r47h675S&d6",
-            "country": "United States / Bank Wire",
-            "label": "Germany / Bank Deposit",
-            "value": "GB15BARC20078125637567253"
-          },
-          {
-            "id": "76ns8df65b87d6f8609z8sd098f70987b98zxc987cg67f6s87fd87",
-            "country": "United States / Bank Wire",
-            "label": "Global",
-            "value": "CREDIT"
-          },
-          {
-            "id": "hgasd8f7a8s7dfas8d9hq5s6df576hfdg3h65787dv87dfgbvsdag76",
-            "country": "United States / Bank Wire",
-            "date": "Global",
-            "label": "BKID0006673"
-          }
-        ],
+        "id": "a3443f6d-a9de-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-15",
+        "time": "08:50:25",
+        "payer_name": "STATE BANK OF INDIA",
+        "type": "error",
+        "status": "ERROR",
+        "country": "India",
+        "attributes": [],
         "changes": [
           {
-            "date": "Today",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "Yesterday",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+            "changes": "ERROR",
+            "date": "2025-10-15",
+            "time": "08:50"
           }
-        ]
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
+        "sent": {
+          "value": "11.00000",
+          "currency": "USD"
+        },
+        "received": {
+          "value": "931.30962865",
+          "currency": "INR"
+        },
+        "fee": {
+          "value": "4.00000",
+          "currency": "USD"
+        },
+        "fx": {
+          "value": "84.66451263",
+          "currency": "INR"
+        },
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
+          }
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
+          }
+        }
       },
       {
-        "id": "c9b7d6a5abrqwq5b",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbc",
-        "user_id": 123122,
-        "name": "Anne M James",
-        "country": "Mexico",
-        "date": "2023/04/25",
-        "time": "10:33 AM",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "7f8829eb-a77d-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-12",
+        "time": "08:09:59",
+        "payer_name": "USDC (Ethereum)",
+        "type": "error",
+        "status": "ERROR",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-12",
+            "time": "08:09"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 290387,
+          "value": "50.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 3847,
-          "currency": "USD"
+          "value": "50.00000000",
+          "currency": "USDC"
         },
         "fee": {
-          "value": 8374,
+          "value": "4.00000",
           "currency": "USD"
         },
         "fx": {
-          "value": 923,
-          "currency": "USD"
+          "value": "1.00000000",
+          "currency": "USDC"
         },
-        "status": "Cancelled",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": [],
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          }
-        ]
+        }
       },
       {
-        "id": "sdfs8d76qqw6556s6ewe67d",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbd",
-        "user_id": 123124,
-        "name": "Bill M James",
-        "country": "Germany",
-        "date": "2023/04/25",
-        "time": "08:45 PM",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "813e5bbe-a574-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-09",
+        "time": "18:00:42",
+        "payer_name": "STATE BANK OF INDIA",
+        "type": "error",
+        "status": "ERROR",
+        "country": "India",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-09",
+            "time": "18:00"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
+          "value": "14.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "USD"
+          "value": "1196.20005913",
+          "currency": "INR"
         },
         "fee": {
-          "value": 1,
+          "value": "4.00000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "85.44286346",
+          "currency": "INR"
         },
-        "status": "Completed",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "63868b83326rqwe3de3c",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbf",
-        "user_id": 123125,
-        "name": "John M James",
-        "country": "Germany",
-        "date": "2022/08/19",
-        "time": "08:55",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit",
+        "id": "3f5e50d4-a572-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-09",
+        "time": "17:46:16",
+        "payer_name": "Commonwealth Bank",
+        "type": "transfer",
+        "status": "PROCESSING",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "Processing",
+            "date": "2025-10-09",
+            "time": "17:44"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
-          "currency": "BRL"
+          "value": "12.00000",
+          "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "BRL"
+          "value": "17.43140974",
+          "currency": "AUD"
         },
         "fee": {
-          "value": 1,
+          "value": "3.77000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.45261753",
+          "currency": "AUD"
         },
-        "status": "Pending",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "BankCity": {
+            "label": "BankCity",
+            "value": "Sydney"
           },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
+          "BankState": {
+            "label": "BankState",
+            "value": "New South Wales"
           },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "638qwe3426482b863de3c",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbg",
-        "user_id": 123127,
-        "name": "Willian Pool",
-        "country": "Germany",
-        "date": "2022/11/29",
-        "time": "11:22",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit *",
+        "id": "bc23c484-a56e-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-09",
+        "time": "17:21:07",
+        "payer_name": "Commonwealth Bank",
+        "type": "transfer",
+        "status": "EXPIRED",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "Expired Quote",
+            "date": "2025-10-09",
+            "time": "17:39"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
-          "currency": "CNY"
+          "value": "11.00000",
+          "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "CNY"
+          "value": "15.98222941",
+          "currency": "AUD"
         },
         "fee": {
-          "value": 1,
+          "value": "3.79000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.45292997",
+          "currency": "AUD"
         },
-        "status": "Completed",
-        "attributes": [
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": [
           {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
+            "label": "Bank State",
+            "value": "New South Wales"
           },
           {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
+            "label": "Bank City",
+            "value": "Sydney"
           },
           {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
+            "label": "BSB Number",
+            "value": "062-000"
           },
           {
-            "date": "Global",
-            "label": "BKID0005045"
+            "label": "Bank Account Number",
+            "value": "12345678"
           }
         ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "23c9b7d6a982385ab5b",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbh",
-        "user_id": 123128,
-        "name": "Marie Jane",
-        "country": "United States",
-        "date": "2022/07/20",
-        "time": "08:14",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit *",
+        "id": "c5832391-a56e-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-09",
+        "time": "17:19:38",
+        "payer_name": "Commonwealth Bank",
+        "type": "error",
+        "status": "ERROR",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-09",
+            "time": "17:19"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
-          "currency": "CNY"
+          "value": "11.00000",
+          "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "CNY"
+          "value": "15.98222941",
+          "currency": "AUD"
         },
         "fee": {
-          "value": 1,
+          "value": "3.79000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.45292997",
+          "currency": "AUD"
         },
-        "status": "Cancelled",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "BankCity": {
+            "label": "BankCity",
+            "value": "Sydney"
           },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
+          "BankState": {
+            "label": "BankState",
+            "value": "New South Wales"
           },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "64437dcc6a253a423b5b",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbi",
-        "user_id": 123129,
-        "name": "John Doe",
-        "country": "United States",
-        "date": "2022/07/19",
-        "time": "07:19",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "88b6d5b9-a3da-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-07",
+        "time": "17:05:55",
+        "payer_name": "Commonwealth Bank",
+        "type": "error",
+        "status": "ERROR",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-07",
+            "time": "17:05"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
+          "value": "25.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "USD"
+          "value": "36.19380946",
+          "currency": "AUD"
         },
         "fee": {
-          "value": 1,
+          "value": "3.51000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.44775236",
+          "currency": "AUD"
         },
-        "status": "Error",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "c449b7d90234fs6a5ab5b",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbj",
-        "user_id": 312312,
-        "name": "Anne M James",
-        "country": "Mexico",
-        "date": "2022/07/31",
-        "time": "10:33",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "b440cee0-a3d7-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-07",
+        "time": "16:45:37",
+        "payer_name": "CIMB Bank",
+        "type": "error",
+        "status": "ERROR",
+        "country": "Singapore",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-07",
+            "time": "16:45"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
+          "value": "20.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "USD"
+          "value": "25.14495575",
+          "currency": "SGD"
         },
         "fee": {
-          "value": 1,
+          "value": "4.00000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.25724781",
+          "currency": "SGD"
         },
-        "status": "Cancelled",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
+        }
       },
       {
-        "id": "zz8d76qqw6558ff86s667d",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbk",
-        "user_id": 312312,
-        "name": "Bill M James",
-        "country": "Germany",
-        "date": "2022/07/11",
-        "time": "08:45",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
+        "id": "bf504fa2-a3d5-11f0-a1ad-024271d63b3f",
+        "user_id": 33210,
+        "date": "2025-10-07",
+        "time": "16:31:40",
+        "payer_name": "Commonwealth Bank",
+        "type": "error",
+        "status": "ERROR",
+        "country": "Australia",
+        "attributes": [],
+        "changes": [
+          {
+            "changes": "ERROR",
+            "date": "2025-10-07",
+            "time": "16:31"
+          }
+        ],
+        "name": "MassPayTest",
+        "full_name": "Yossi  Shlomo",
+        "company_name": "MassPayTest",
         "sent": {
-          "value": 34567,
+          "value": "15.00000",
           "currency": "USD"
         },
         "received": {
-          "value": 41,
-          "currency": "USD"
+          "value": "21.70585434",
+          "currency": "AUD"
         },
         "fee": {
-          "value": 1,
+          "value": "3.71000",
           "currency": "USD"
         },
         "fx": {
-          "value": 4,
-          "currency": "USD"
+          "value": "1.44705701",
+          "currency": "AUD"
         },
-        "status": "Completed",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
+        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
+        "attrs": {
+          "IdentificationNumber": {
+            "label": "IdentificationNumber",
+            "value": "12345678"
           }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
+        },
+        "buttons": {
+          "Force status update": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
           },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
+          "Update Status": {
+            "data-status": "ERROR",
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "Request cancellation": {
+            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
+          },
+          "status_reason": {
+            "data-copy": "Failed to complete transfer."
           }
-        ]
-      },
-      {
-        "id": "zz63868b8asdf9dqwee963de3c",
-        "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbl",
-        "user_id": 312312,
-        "name": "John M James",
-        "country": "Germany",
-        "date": "2022/09/11",
-        "time": "08:55",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit",
-        "sent": {
-          "value": 34567,
-          "currency": "USD"
-        },
-        "received": {
-          "value": 41,
-          "currency": "USD"
-        },
-        "fee": {
-          "value": 1,
-          "currency": "USD"
-        },
-        "fx": {
-          "value": 4,
-          "currency": "USD"
-        },
-        "status": "Completed",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
-          }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          }
-        ]
-      },
-      {
-        "id": "63333868b86asdfeqwe873de3c",
-        "name": "John M James",
-        "country": "Germany",
-        "date": "2022/11/29",
-        "time": "11:22",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit *",
-        "sent": {
-          "value": 34567,
-          "currency": "USD"
-        },
-        "received": {
-          "value": 41,
-          "currency": "USD"
-        },
-        "fee": {
-          "value": 1,
-          "currency": "USD"
-        },
-        "fx": {
-          "value": 4,
-          "currency": "USD"
-        },
-        "status": "Completed",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
-          }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          }
-        ]
-      },
-      {
-        "id": "119b7d6a5gqwea0sd9ab5b",
-        "name": "Marie Jane",
-        "country": "United States",
-        "date": "2022/07/20",
-        "time": "08:14",
-        "payer": "Bank Wire",
-        "type": "Bank Deposit *",
-        "sent": {
-          "value": 34567,
-          "currency": "USD"
-        },
-        "received": {
-          "value": 41,
-          "currency": "USD"
-        },
-        "fee": {
-          "value": 1,
-          "currency": "USD"
-        },
-        "fx": {
-          "value": 4,
-          "currency": "USD"
-        },
-        "status": "Cancelled",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
-          }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          }
-        ]
-      },
-      {
-        "id": "22637dcc6aqweqwe5ab5b",
-        "name": "John Doe",
-        "country": "United States",
-        "date": "2022/07/19",
-        "time": "07:19",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
-        "sent": {
-          "value": 34567,
-          "currency": "USD"
-        },
-        "received": {
-          "value": 41,
-          "currency": "USD"
-        },
-        "fee": {
-          "value": 1,
-          "currency": "USD"
-        },
-        "fx": {
-          "value": 4,
-          "currency": "USD"
-        },
-        "status": "Error",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
-          }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          }
-        ]
-      },
-      {
-        "id": "2222c9b7d6arewrr5ab5b",
-        "name": "Anne M James",
-        "country": "Mexico",
-        "date": "2022/07/31",
-        "time": "10:33",
-        "payer": "Instant Pay",
-        "type": "Bank Deposit",
-        "sent": {
-          "value": 34567,
-          "currency": "USD"
-        },
-        "received": {
-          "value": 41,
-          "currency": "USD"
-        },
-        "fee": {
-          "value": 1,
-          "currency": "USD"
-        },
-        "fx": {
-          "value": 4,
-          "currency": "USD"
-        },
-        "status": "Cancelled",
-        "attributes": [
-          {
-            "date": "United States / Bank Wire",
-            "label": "Dominican DIS Bonds IC FNDS SEC AC"
-          },
-          {
-            "date": "United Kingdom / Bank Deposit",
-            "label": "GB15BARC20031896553551"
-          },
-          {
-            "date": "Global",
-            "label": "CREDIT AGRICOLE"
-          },
-          {
-            "date": "Global",
-            "label": "BKID0005045"
-          }
-        ],
-        "changes": [
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Submitted"
-          },
-          {
-            "date": "07/20/2022",
-            "time": "08:14",
-            "changes": "Transaction Error"
-          }
-        ]
+        }
       }
     ],
     "metadata": {
@@ -2001,49 +1745,49 @@
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-11 14:35:21",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\">04cc4585-6466-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\">16557ef3-7dac-454a-8910-d2c5b2f00e29</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\">371e6512-ab19-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\">3a19fc2c-466f-11f0-a22b-02610676aa87</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\">9e25d6ee-69f5-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-11 12:59:36",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\">16557ef3-7dac-454a-8910-d2c5b2f00e29</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\">3a19fc2c-466f-11f0-a22b-02610676aa87</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-11 11:47:41",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\"\u003E3a19fc2c-466f-11f0-a22b-02610676aa87\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\">16557ef3-7dac-454a-8910-d2c5b2f00e29</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\">371e6512-ab19-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_3a19fc2c-466f-11f0-a22b-02610676aa87\" target=\"_blank\">3a19fc2c-466f-11f0-a22b-02610676aa87</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\">9e25d6ee-69f5-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-10 11:51:29",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\">04cc4585-6466-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\">16557ef3-7dac-454a-8910-d2c5b2f00e29</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\">371e6512-ab19-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-10 10:38:38",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\">04cc4585-6466-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\">371e6512-ab19-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-06-08 21:29:50",
-        "additional_info": "\u003Ca href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\"\u003E0060f093-ebd2-471c-92bc-22051de4d049\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\"\u003E04356db7-a9bd-4b96-a4ec-dc2586fee24e\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\"\u003E04cc4585-6466-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06253302-b06c-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E06bbc4b1-bf6f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\"\u003E06e436e4-e14e-11ee-b631-027eb0145c6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E099260ac-be91-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\"\u003E0a261ee5-360a-11f0-bcd2-0aff4228e7a7\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\"\u003E0d03c7ae-8609-4343-80f7-3e0e306e959e\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\"\u003E16557ef3-7dac-454a-8910-d2c5b2f00e29\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E1decda1b-c0eb-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2524a2c7-bea5-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E255a00b6-b469-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E2a7a9bc6-8928-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E2db434d8-b37f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\"\u003E359c5ab5-7019-4f7d-8bd2-9a231452cb96\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\"\u003E36db7188-d7bd-11ee-8798-0ac3518f7589\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E371e6512-ab19-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\"\u003E4174c59b-158d-48f0-bc41-705544755299\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E419baf88-abba-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E4a89e7a8-b60d-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\"\u003E51f74e3b-1207-4bae-a708-69e8fa479a82\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\"\u003E561b97d8-32c5-41d7-89e6-752a6b4ea37b\u003C/a\u003E, \u003Ca href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E5729ee2d-809e-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E59556e6d-c023-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\"\u003E66f5dc59-08f2-4a3d-be89-c0d79a075e8b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\"\u003E695a3900-9a6d-4846-bf41-a0db861e758c\u003C/a\u003E, \u003Ca href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E6e572485-44c7-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\"\u003E70c98ab5-c105-441c-8d27-d6fff2afee6b\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\"\u003E7941c6e8-39a1-4e71-b937-7842da07b41c\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E7f84f3da-ae13-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E81a30047-be8f-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\"\u003E82507488-221a-4802-ad8a-66a5a08b5c4b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\"\u003E8f53bc38-ab08-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\"\u003E9e25d6ee-69f5-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\"\u003Ea290f6f2-87b2-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\"\u003Ea8be4ef1-094a-4a19-8230-677f58de7a57\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\"\u003Eb53e598f-eb61-11ee-932f-027e0cffa57b\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eb80b72d0-b611-11ee-af08-0267d00b832f\u003C/a\u003E, \u003Ca href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\"\u003Eb9f3e687-1f57-11ef-b932-0251849dafcd\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\"\u003Ec75fbc0b-605f-4b59-b181-2194a1b57a37\u003C/a\u003E, \u003Ca href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\"\u003Ee4c379ef-0970-11f0-88cc-0a43346626a1\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\"\u003Eeae7ddee-b60d-11ee-af08-0267d00b832f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/2/usr_0060f093-ebd2-471c-92bc-22051de4d049\" target=\"_blank\">0060f093-ebd2-471c-92bc-22051de4d049</a>, <a href=\"/customer/2/usr_04356db7-a9bd-4b96-a4ec-dc2586fee24e\" target=\"_blank\">04356db7-a9bd-4b96-a4ec-dc2586fee24e</a>, <a href=\"/customer/288/usr_04cc4585-6466-11ef-9709-023beedd7751\" target=\"_blank\">04cc4585-6466-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_06253302-b06c-11ee-af08-0267d00b832f\" target=\"_blank\">06253302-b06c-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06bbc4b1-bf6f-11ee-af08-0267d00b832f\" target=\"_blank\">06bbc4b1-bf6f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_06e436e4-e14e-11ee-b631-027eb0145c6f\" target=\"_blank\">06e436e4-e14e-11ee-b631-027eb0145c6f</a>, <a href=\"/customer/243/usr_099260ac-be91-11ee-af08-0267d00b832f\" target=\"_blank\">099260ac-be91-11ee-af08-0267d00b832f</a>, <a href=\"/customer/290/usr_0a261ee5-360a-11f0-bcd2-0aff4228e7a7\" target=\"_blank\">0a261ee5-360a-11f0-bcd2-0aff4228e7a7</a>, <a href=\"/customer/2/usr_0d03c7ae-8609-4343-80f7-3e0e306e959e\" target=\"_blank\">0d03c7ae-8609-4343-80f7-3e0e306e959e</a>, <a href=\"/customer/2/usr_16557ef3-7dac-454a-8910-d2c5b2f00e29\" target=\"_blank\">16557ef3-7dac-454a-8910-d2c5b2f00e29</a>, <a href=\"/customer/243/usr_1decda1b-c0eb-11ee-af08-0267d00b832f\" target=\"_blank\">1decda1b-c0eb-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2524a2c7-bea5-11ee-af08-0267d00b832f\" target=\"_blank\">2524a2c7-bea5-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_255a00b6-b469-11ee-af08-0267d00b832f\" target=\"_blank\">255a00b6-b469-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_2a7a9bc6-8928-11ee-9d74-029c44503ead\" target=\"_blank\">2a7a9bc6-8928-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_2db434d8-b37f-11ee-af08-0267d00b832f\" target=\"_blank\">2db434d8-b37f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_359c5ab5-7019-4f7d-8bd2-9a231452cb96\" target=\"_blank\">359c5ab5-7019-4f7d-8bd2-9a231452cb96</a>, <a href=\"/customer/243/usr_36db7188-d7bd-11ee-8798-0ac3518f7589\" target=\"_blank\">36db7188-d7bd-11ee-8798-0ac3518f7589</a>, <a href=\"/customer/243/usr_371e6512-ab19-11ee-af08-0267d00b832f\" target=\"_blank\">371e6512-ab19-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_4174c59b-158d-48f0-bc41-705544755299\" target=\"_blank\">4174c59b-158d-48f0-bc41-705544755299</a>, <a href=\"/customer/243/usr_419baf88-abba-11ee-af08-0267d00b832f\" target=\"_blank\">419baf88-abba-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_4a89e7a8-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">4a89e7a8-b60d-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_51f74e3b-1207-4bae-a708-69e8fa479a82\" target=\"_blank\">51f74e3b-1207-4bae-a708-69e8fa479a82</a>, <a href=\"/customer/2/usr_561b97d8-32c5-41d7-89e6-752a6b4ea37b\" target=\"_blank\">561b97d8-32c5-41d7-89e6-752a6b4ea37b</a>, <a href=\"/customer/290/usr_5729ee2d-809e-11ef-b954-0235c9d109d3\" target=\"_blank\">5729ee2d-809e-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/243/usr_59556e6d-c023-11ee-af08-0267d00b832f\" target=\"_blank\">59556e6d-c023-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_66f5dc59-08f2-4a3d-be89-c0d79a075e8b\" target=\"_blank\">66f5dc59-08f2-4a3d-be89-c0d79a075e8b</a>, <a href=\"/customer/2/usr_695a3900-9a6d-4846-bf41-a0db861e758c\" target=\"_blank\">695a3900-9a6d-4846-bf41-a0db861e758c</a>, <a href=\"/customer/258/usr_6e572485-44c7-11ef-9522-02b8f8f074e3\" target=\"_blank\">6e572485-44c7-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/2/usr_70c98ab5-c105-441c-8d27-d6fff2afee6b\" target=\"_blank\">70c98ab5-c105-441c-8d27-d6fff2afee6b</a>, <a href=\"/customer/2/usr_7941c6e8-39a1-4e71-b937-7842da07b41c\" target=\"_blank\">7941c6e8-39a1-4e71-b937-7842da07b41c</a>, <a href=\"/customer/243/usr_7f84f3da-ae13-11ee-af08-0267d00b832f\" target=\"_blank\">7f84f3da-ae13-11ee-af08-0267d00b832f</a>, <a href=\"/customer/243/usr_81a30047-be8f-11ee-af08-0267d00b832f\" target=\"_blank\">81a30047-be8f-11ee-af08-0267d00b832f</a>, <a href=\"/customer/2/usr_82507488-221a-4802-ad8a-66a5a08b5c4b\" target=\"_blank\">82507488-221a-4802-ad8a-66a5a08b5c4b</a>, <a href=\"/customer/243/usr_8f53bc38-ab08-11ee-af08-0267d00b832f\" target=\"_blank\">8f53bc38-ab08-11ee-af08-0267d00b832f</a>, <a href=\"/customer/288/usr_9e25d6ee-69f5-11ef-9709-023beedd7751\" target=\"_blank\">9e25d6ee-69f5-11ef-9709-023beedd7751</a>, <a href=\"/customer/243/usr_a290f6f2-87b2-11ee-9d74-029c44503ead\" target=\"_blank\">a290f6f2-87b2-11ee-9d74-029c44503ead</a>, <a href=\"/customer/2/usr_a8be4ef1-094a-4a19-8230-677f58de7a57\" target=\"_blank\">a8be4ef1-094a-4a19-8230-677f58de7a57</a>, <a href=\"/customer/243/usr_b53e598f-eb61-11ee-932f-027e0cffa57b\" target=\"_blank\">b53e598f-eb61-11ee-932f-027e0cffa57b</a>, <a href=\"/customer/243/usr_b80b72d0-b611-11ee-af08-0267d00b832f\" target=\"_blank\">b80b72d0-b611-11ee-af08-0267d00b832f</a>, <a href=\"/customer/273/usr_b9f3e687-1f57-11ef-b932-0251849dafcd\" target=\"_blank\">b9f3e687-1f57-11ef-b932-0251849dafcd</a>, <a href=\"/customer/2/usr_c75fbc0b-605f-4b59-b181-2194a1b57a37\" target=\"_blank\">c75fbc0b-605f-4b59-b181-2194a1b57a37</a>, <a href=\"/customer/208/usr_e4c379ef-0970-11f0-88cc-0a43346626a1\" target=\"_blank\">e4c379ef-0970-11f0-88cc-0a43346626a1</a>, <a href=\"/customer/243/usr_eae7ddee-b60d-11ee-af08-0267d00b832f\" target=\"_blank\">eae7ddee-b60d-11ee-af08-0267d00b832f</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-05-01 21:38:27",
-        "additional_info": "\u003Ca href=\"/customer/243/usr_0eeebd26-8552-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E0eeebd26-8552-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_13c81e3b-8545-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E13c81e3b-8545-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_172d326c-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E172d326c-74d5-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_3d625c57-854b-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E3d625c57-854b-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_4410962c-7cc8-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E4410962c-7cc8-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_6f319808-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003E6f319808-74d5-11ee-a124-02d10bc4f315\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_763b4cca-8d59-483e-b554-88b8d6ca1d7d\" target=\"_blank\"\u003E763b4cca-8d59-483e-b554-88b8d6ca1d7d\u003C/a\u003E, \u003Ca href=\"/customer/218/usr_fdd0072a-7fe6-11ee-a124-02d10bc4f315\" target=\"_blank\"\u003Efdd0072a-7fe6-11ee-a124-02d10bc4f315\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/243/usr_0eeebd26-8552-11ee-9d74-029c44503ead\" target=\"_blank\">0eeebd26-8552-11ee-9d74-029c44503ead</a>, <a href=\"/customer/218/usr_13c81e3b-8545-11ee-9d74-029c44503ead\" target=\"_blank\">13c81e3b-8545-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_172d326c-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\">172d326c-74d5-11ee-a124-02d10bc4f315</a>, <a href=\"/customer/218/usr_3d625c57-854b-11ee-9d74-029c44503ead\" target=\"_blank\">3d625c57-854b-11ee-9d74-029c44503ead</a>, <a href=\"/customer/243/usr_4410962c-7cc8-11ee-a124-02d10bc4f315\" target=\"_blank\">4410962c-7cc8-11ee-a124-02d10bc4f315</a>, <a href=\"/customer/243/usr_6f319808-74d5-11ee-a124-02d10bc4f315\" target=\"_blank\">6f319808-74d5-11ee-a124-02d10bc4f315</a>, <a href=\"/customer/2/usr_763b4cca-8d59-483e-b554-88b8d6ca1d7d\" target=\"_blank\">763b4cca-8d59-483e-b554-88b8d6ca1d7d</a>, <a href=\"/customer/218/usr_fdd0072a-7fe6-11ee-a124-02d10bc4f315\" target=\"_blank\">fdd0072a-7fe6-11ee-a124-02d10bc4f315</a>",
         "cleared_by_username": null
       },
       {
         "lock_type": "ATTRS_VELOCITY",
         "time_of_lock": "2025-02-06 02:46:51",
-        "additional_info": "\u003Ca href=\"/customer/209/usr_0752face-1b83-11ee-807b-02450efa1c35\" target=\"_blank\"\u003E0752face-1b83-11ee-807b-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/30/usr_1023ef6d-5bb0-11ef-9522-02b8f8f074e3\" target=\"_blank\"\u003E1023ef6d-5bb0-11ef-9522-02b8f8f074e3\u003C/a\u003E, \u003Ca href=\"/customer/242/usr_21ceeccb-878b-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E21ceeccb-878b-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/34/usr_267127ea-a98c-11eb-acee-02ed07d0f60f\" target=\"_blank\"\u003E267127ea-a98c-11eb-acee-02ed07d0f60f\u003C/a\u003E, \u003Ca href=\"/customer/195/usr_282edd40-8a9e-11ee-9d74-029c44503ead\" target=\"_blank\"\u003E282edd40-8a9e-11ee-9d74-029c44503ead\u003C/a\u003E, \u003Ca href=\"/customer/30/usr_597e2174-6448-11ef-9709-023beedd7751\" target=\"_blank\"\u003E597e2174-6448-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f\" target=\"_blank\"\u003E5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f\u003C/a\u003E, \u003Ca href=\"/customer/82/usr_655a787b-7f33-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003E655a787b-7f33-11ec-a6df-06ff2a295f6f\u003C/a\u003E, \u003Ca href=\"/customer/82/usr_69dc1cba-768c-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003E69dc1cba-768c-11ec-a6df-06ff2a295f6f\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_715cf7f6-7520-11ef-b954-0235c9d109d3\" target=\"_blank\"\u003E715cf7f6-7520-11ef-b954-0235c9d109d3\u003C/a\u003E, \u003Ca href=\"/customer/205/usr_730508e0-0ddd-11ee-a7ca-02450efa1c35\" target=\"_blank\"\u003E730508e0-0ddd-11ee-a7ca-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/34/usr_75bb46af-5462-11ed-9de0-0678dcdfcccf\" target=\"_blank\"\u003E75bb46af-5462-11ed-9de0-0678dcdfcccf\u003C/a\u003E, \u003Ca href=\"/customer/195/usr_8ba5660e-10bb-11ee-807b-02450efa1c35\" target=\"_blank\"\u003E8ba5660e-10bb-11ee-807b-02450efa1c35\u003C/a\u003E, \u003Ca href=\"/customer/292/usr_9c2225e4-ad0c-11ef-93f2-0aa0ee322293\" target=\"_blank\"\u003E9c2225e4-ad0c-11ef-93f2-0aa0ee322293\u003C/a\u003E, \u003Ca href=\"/customer/315/usr_a0c79996-bbb5-11ef-a444-027579f07199\" target=\"_blank\"\u003Ea0c79996-bbb5-11ef-a444-027579f07199\u003C/a\u003E, \u003Ca href=\"/customer/243/usr_ab13d642-6f92-11ef-9709-023beedd7751\" target=\"_blank\"\u003Eab13d642-6f92-11ef-9709-023beedd7751\u003C/a\u003E, \u003Ca href=\"/customer/292/usr_c579ea95-be1e-11ef-a444-027579f07199\" target=\"_blank\"\u003Ec579ea95-be1e-11ef-a444-027579f07199\u003C/a\u003E, \u003Ca href=\"/customer/2/usr_df25df66-772d-45fb-bbcc-0ddc932192e9\" target=\"_blank\"\u003Edf25df66-772d-45fb-bbcc-0ddc932192e9\u003C/a\u003E, \u003Ca href=\"/customer/59/usr_f9764cc6-a95f-11ec-a6df-06ff2a295f6f\" target=\"_blank\"\u003Ef9764cc6-a95f-11ec-a6df-06ff2a295f6f\u003C/a\u003E",
+        "additional_info": "<a href=\"/customer/209/usr_0752face-1b83-11ee-807b-02450efa1c35\" target=\"_blank\">0752face-1b83-11ee-807b-02450efa1c35</a>, <a href=\"/customer/30/usr_1023ef6d-5bb0-11ef-9522-02b8f8f074e3\" target=\"_blank\">1023ef6d-5bb0-11ef-9522-02b8f8f074e3</a>, <a href=\"/customer/242/usr_21ceeccb-878b-11ee-9d74-029c44503ead\" target=\"_blank\">21ceeccb-878b-11ee-9d74-029c44503ead</a>, <a href=\"/customer/34/usr_267127ea-a98c-11eb-acee-02ed07d0f60f\" target=\"_blank\">267127ea-a98c-11eb-acee-02ed07d0f60f</a>, <a href=\"/customer/195/usr_282edd40-8a9e-11ee-9d74-029c44503ead\" target=\"_blank\">282edd40-8a9e-11ee-9d74-029c44503ead</a>, <a href=\"/customer/30/usr_597e2174-6448-11ef-9709-023beedd7751\" target=\"_blank\">597e2174-6448-11ef-9709-023beedd7751</a>, <a href=\"/customer/2/usr_5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f\" target=\"_blank\">5b1242f7-dcfe-4c95-ad6a-0fa8ffa1707f</a>, <a href=\"/customer/82/usr_655a787b-7f33-11ec-a6df-06ff2a295f6f\" target=\"_blank\">655a787b-7f33-11ec-a6df-06ff2a295f6f</a>, <a href=\"/customer/82/usr_69dc1cba-768c-11ec-a6df-06ff2a295f6f\" target=\"_blank\">69dc1cba-768c-11ec-a6df-06ff2a295f6f</a>, <a href=\"/customer/243/usr_715cf7f6-7520-11ef-b954-0235c9d109d3\" target=\"_blank\">715cf7f6-7520-11ef-b954-0235c9d109d3</a>, <a href=\"/customer/205/usr_730508e0-0ddd-11ee-a7ca-02450efa1c35\" target=\"_blank\">730508e0-0ddd-11ee-a7ca-02450efa1c35</a>, <a href=\"/customer/34/usr_75bb46af-5462-11ed-9de0-0678dcdfcccf\" target=\"_blank\">75bb46af-5462-11ed-9de0-0678dcdfcccf</a>, <a href=\"/customer/195/usr_8ba5660e-10bb-11ee-807b-02450efa1c35\" target=\"_blank\">8ba5660e-10bb-11ee-807b-02450efa1c35</a>, <a href=\"/customer/292/usr_9c2225e4-ad0c-11ef-93f2-0aa0ee322293\" target=\"_blank\">9c2225e4-ad0c-11ef-93f2-0aa0ee322293</a>, <a href=\"/customer/315/usr_a0c79996-bbb5-11ef-a444-027579f07199\" target=\"_blank\">a0c79996-bbb5-11ef-a444-027579f07199</a>, <a href=\"/customer/243/usr_ab13d642-6f92-11ef-9709-023beedd7751\" target=\"_blank\">ab13d642-6f92-11ef-9709-023beedd7751</a>, <a href=\"/customer/292/usr_c579ea95-be1e-11ef-a444-027579f07199\" target=\"_blank\">c579ea95-be1e-11ef-a444-027579f07199</a>, <a href=\"/customer/2/usr_df25df66-772d-45fb-bbcc-0ddc932192e9\" target=\"_blank\">df25df66-772d-45fb-bbcc-0ddc932192e9</a>, <a href=\"/customer/59/usr_f9764cc6-a95f-11ec-a6df-06ff2a295f6f\" target=\"_blank\">f9764cc6-a95f-11ec-a6df-06ff2a295f6f</a>",
         "cleared_by_username": null
       }
     ],
@@ -3440,8 +3184,9 @@
       "page": 1,
       "offset": 0,
       "limit": 10,
-      "total": 13,
-      "filter": false
+      "total": 14,
+      "filter": false,
+      "sql": ""
     }
   },
   "webhooks_events": [
@@ -8051,53 +7796,442 @@
     }
   },
   "payer_logos": {
-    "data": [
-      {
-        "id": 1,
-        "logo": "https://cdn.worldvectorlogo.com/logos/superman-3.svg",
-        "name": "MassPay",
-        "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
-        "country": "United States",
-        "locations": 16,
-        "payment_type": ["Bank Deposit", "Bank Wire"]
-      },
-      {
-        "id": 2,
-        "logo": "https://cdn.worldvectorlogo.com/logos/club-sportivo-escobar.svg",
-        "name": "RNetwork LLC",
-        "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
-        "country": "United States",
-        "locations": 15,
-        "payment_type": ["Bank Deposit"]
-      },
-      {
-        "id": 3,
-        "logo": "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
-        "name": "Prime Downline LLC",
-        "flag": "https://www.worldometers.info/img/flags/it-flag.gif",
-        "country": "Italy",
-        "locations": 1,
-        "payment_type": ["Virtual Card"]
-      },
-      {
-        "id": 4,
-        "logo": "https://cdn.worldvectorlogo.com/logos/go.svg",
-        "name": "Everflow",
-        "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
-        "country": "United States",
-        "locations": 1,
-        "payment_type": ["Bank Deposit", "Crpyto", "Bank Wire"]
-      }
-    ],
-    "metadata": {
-      "page": 1,
-      "offset": 0,
-      "limit": 4,
-      "total": 4,
-      "filter": 0
-    }
+    "id": 1,
+    "locations": "12"
   },
   "compliance": {
+    "summary_widget": {
+      "summary": {
+        "data": {
+          "source_currency_code": "USD",
+          "today_transactions": "19",
+          "today_total": "196.54000",
+          "current_month_transactions": "1213",
+          "previous_month_transactions": "3350",
+          "yesterday_to_time_total": "946.02882",
+          "total_clients_users": "71661",
+          "total_clients": "384",
+          "new_clients_this_month": "3",
+          "new_clients_users_this_month": "1838",
+          "new_clients_previous_month": "7",
+          "new_clients_users_previous_month": "1582"
+        },
+        "summary_cards": [
+          {
+            "title": "Transactions Today",
+            "value": "19",
+            "status": "Down",
+            "index": "176.17",
+            "period": "This Month"
+          },
+          {
+            "title": "Today's Volume",
+            "value": "196.54000",
+            "currency": "USD",
+            "status": "Minus",
+            "index": "381.34",
+            "period": "Today"
+          },
+          {
+            "title": "Payees",
+            "value": "384",
+            "status": "Down",
+            "index": "133.33",
+            "period": "This Month"
+          },
+          {
+            "title": "Clients",
+            "value": "71661",
+            "status": "Up",
+            "index": "13.93",
+            "period": "This Month"
+          }
+        ]
+      },
+      "chart": [
+        {
+          "month": "May",
+          "payed_out": "2232.50000",
+          "loaded": "5000000.00"
+        },
+        {
+          "month": "June",
+          "payed_out": "21396.68470",
+          "loaded": "6020012.50"
+        },
+        {
+          "month": "July",
+          "payed_out": "4061.78548",
+          "loaded": "6000005.00"
+        },
+        {
+          "month": "August",
+          "payed_out": "1507.16000",
+          "loaded": "2000027.50"
+        },
+        {
+          "month": "September",
+          "payed_out": "2107.75000",
+          "loaded": "4500072.50"
+        },
+        {
+          "month": "October",
+          "payed_out": "2250.23000",
+          "loaded": "123481.00"
+        }
+      ]
+    },
+    "top USD": {
+      "last6month": [
+        {
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "4543",
+          "volume": "163719.86300"
+        },
+        {
+          "country_name": "Turkey",
+          "iso_a2": "TR",
+          "transactions_count": "333",
+          "volume": "17786.17273"
+        },
+        {
+          "country_name": "India",
+          "iso_a2": "IN",
+          "transactions_count": "254",
+          "volume": "3384.52060"
+        },
+        {
+          "country_name": "France",
+          "iso_a2": "FR",
+          "transactions_count": "21",
+          "volume": "2586.77078"
+        },
+        {
+          "country_name": "Canada",
+          "iso_a2": "CA",
+          "transactions_count": "16",
+          "volume": "1417.72472"
+        }
+      ],
+      "countries": ["US", "TR", "IN", "FR", "CA"],
+      "chartData": [
+        {
+          "payout_month": "July",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "322",
+          "volume": "51410.24500"
+        },
+        {
+          "payout_month": "June",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "449",
+          "volume": "43958.64920"
+        },
+        {
+          "payout_month": "September",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "595",
+          "volume": "27921.49380"
+        },
+        {
+          "payout_month": "August",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "343",
+          "volume": "22600.64000"
+        },
+        {
+          "payout_month": "June",
+          "country_name": "Turkey",
+          "iso_a2": "TR",
+          "transactions_count": "14",
+          "volume": "17786.17273"
+        },
+        {
+          "payout_month": "May",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "163",
+          "volume": "14997.47500"
+        },
+        {
+          "payout_month": "April",
+          "country_name": "India",
+          "iso_a2": "IN",
+          "transactions_count": "28",
+          "volume": "2960.00000"
+        },
+        {
+          "payout_month": "April",
+          "country_name": "United States",
+          "iso_a2": "US",
+          "transactions_count": "42",
+          "volume": "2831.36000"
+        },
+        {
+          "payout_month": "July",
+          "country_name": "France",
+          "iso_a2": "FR",
+          "transactions_count": "4",
+          "volume": "2132.00000"
+        },
+        {
+          "payout_month": "June",
+          "country_name": "Canada",
+          "iso_a2": "CA",
+          "transactions_count": "12",
+          "volume": "1152.61000"
+        },
+        {
+          "payout_month": "September",
+          "country_name": "France",
+          "iso_a2": "FR",
+          "transactions_count": "13",
+          "volume": "311.31000"
+        },
+        {
+          "payout_month": "August",
+          "country_name": "India",
+          "iso_a2": "IN",
+          "transactions_count": "17",
+          "volume": "309.31017"
+        },
+        {
+          "payout_month": "July",
+          "country_name": "Canada",
+          "iso_a2": "CA",
+          "transactions_count": "2",
+          "volume": "132.21119"
+        },
+        {
+          "payout_month": "August",
+          "country_name": "Canada",
+          "iso_a2": "CA",
+          "transactions_count": "1",
+          "volume": "125.60470"
+        },
+        {
+          "payout_month": "July",
+          "country_name": "India",
+          "iso_a2": "IN",
+          "transactions_count": "9",
+          "volume": "111.00000"
+        },
+        {
+          "payout_month": "April",
+          "country_name": "France",
+          "iso_a2": "FR",
+          "transactions_count": "1",
+          "volume": "105.97078"
+        },
+        {
+          "payout_month": "June",
+          "country_name": "France",
+          "iso_a2": "FR",
+          "transactions_count": "3",
+          "volume": "37.49000"
+        },
+        {
+          "payout_month": "May",
+          "country_name": "Canada",
+          "iso_a2": "CA",
+          "transactions_count": "1",
+          "volume": "7.29883"
+        },
+        {
+          "payout_month": "September",
+          "country_name": "India",
+          "iso_a2": "IN",
+          "transactions_count": "1",
+          "volume": "4.21042"
+        }
+      ]
+    },
+    "daily distribution": {
+      "distribution_breakdown_hours": 72,
+      "data": {
+        "Completed": 2,
+        "Cancelled": 0,
+        "Ready For Pickup": 0,
+        "Processing": 6,
+        "Error": 10,
+        "Expired": 0
+      }
+    },
+    "top_countries": [
+      {
+        "country": "United States",
+        "code": "US",
+        "count": "59",
+        "percent": 96.7213114754098
+      },
+      {
+        "country": "Sri Lanka",
+        "code": "LK",
+        "count": "1",
+        "percent": 1.63934426229508
+      },
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "count": "1",
+        "percent": 1.63934426229508
+      }
+    ],
+    "today_transactions": "19",
+    "today_volume": "196.54000",
+    "total_customers": "71661",
+    "total_clients": "384",
+    "top_outlier_transactions": "[{\"amount\":\"3950.00000\",\"user_token\":\"a70d4cd3-639b-11f0-a4c3-0a6935ac3745\",\"time_to_process\":\"2025-10-28 05:14:12\",\"country_name\":\"United States\",\"encr_data\":\"AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQHcd3RVoATbLrhR0w1XniutAAABETCCAQ0GCSqGSIb3DQEHBqCB\\/zCB\\/AIBADCB9gYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAwls53tWbdgZrkfykcCARCAgcicVwtKHntJT9\\/g3kyozzCOi\\/v+0ZMcQJTWpPCKq6t9Z2Di7sIH008+pXHMq6Zr9DqI8OyC6IrOgzxI+jAc5HHAbsHpUVBkNKz8T9imQChgP4ZF75VGd4qlsrgT6A50Oy1nTElO6oNA\\/EW+8SGezElRw1D7c4vlu+dqVZvNmghPmdGWzhDP7VGuc7KPfUx02O3xLuKnjbU\\/hrcsqLqb+i2gV2r6Jo\\/89GvHloZ\\/kcLWEueP45TKWRSCdZj6Ys0XEFieXX1q9RNDUg==\",\"user_id\":\"63795\",\"client_id\":\"335\",\"full_name\":\"Daden  Customer\"}]",
+    "data_js": {
+      "last_12_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct"
+      ],
+      "monthly_volume": [
+        "15174.27206",
+        "30024.26253",
+        "16747.96575",
+        "9501.67906",
+        "6292.35714",
+        "6520.04473",
+        "17071.01610",
+        "62453.87544",
+        "53740.34119",
+        "22929.11592",
+        "28207.75042",
+        "69528.54546"
+      ],
+      "transactions_client_breakdown_keys": ["B2SPIN Limited", "Linden Labs"],
+      "transactions_client_breakdown_values": ["12", "7"],
+      "test": [
+        {
+          "transactions_count": "12",
+          "encr_data": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQGc030wpn4fQNS0EN7is592AAACmjCCApYGCSqGSIb3DQEHBqCCAocwggKDAgEAMIICfAYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAxXx+tgvbngGCVSVYUCARCAggJN62lf0Y/tcA3MypDIv7MOpDesG5M2lSxsVQ/LReXvhY2kTOO+GPR48HX2FT2KGDqvky4RdxNNcQNwQqxL/TI9NXLVEuaF3tRYcsbc0ZRSPBz0g0ZvijCLpNDztEk/ilkhJmC2oZzExqE8c4PnoeGvudkUnMY9k4IwS2einYkAxc1y4fZ/18IF4wmnJEEibfhWdC7AcU6AgKPFDzGieoPIf6SMJjiNLRpnJMtlhqoU/iX5p/v4htAx6g2WICGbQIY5s+kIuyD49RKbmGjwyb9BtrPfrUVatdc3lfu2ViEU28fwd7l+wdCotD+okk8Ca0vahgd17+G/TDrdaSQMNR+Ovkvb9ooWsi/xBXE/gWh4vv+gcW1X5sR64GKOGu0G3u2fzuVRQxDEIYnmfKBDIjnERQhIdBVj1H+3aXENrFFV1iGaWcRkvwAIz90TC6fziadxfYHVK4eG7XNdtKt2fwOiJU15sYDKdFsaGFHCfHp9kmK+IMptWMCOXNaFcRY2e+qpBrAY/Xb7vpVhE9YHWqyZVPH3aIV2InNOfZ0b7EdjQ6xM2Xuch9KaQLTW1vU2TWO4UPjTU9Ietc4ELOtqoDIozhtI4xClnT01EL6ccwog3sC4tYZchA5lpUsAp+Vh0k+jQEIjvhszT1coQvNEbD58lU0NEGIqJaboOjEITTuahRzXhn4guupd6g4PAIgtL7ox9AhaN9STfYH6tXM46dcme49FEb3kzq7dZjteZ22gDfwwCZiFTTxNqzJr9++bQZbzjnWWWle1/bpG1NXgTg==",
+          "client_id": "186"
+        },
+        {
+          "transactions_count": "7",
+          "encr_data": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQF0Op+J3dFl95JcR/gK7HZ4AAACVzCCAlMGCSqGSIb3DQEHBqCCAkQwggJAAgEAMIICOQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAwv0/huXoKP2YhdK28CARCAggIKj0ul5qOSufTLpMlqVe2Om3z5xhB5e6xIoR/CxOTnwIpIZIiBesIbxWdDuQ1YhqSySiOuUguEMTPyNiKxgrOvHw2BFjQucMYj1+zH1Rfc5VN1OUecOmQ7NsJc8GUHyX0etDxn3AO0ZNafGbmvLS5PPwhzdvXQb+OBKgw/f4GBvP+sl53bnLsxiaTzJ5xe84hhpNAWqNMO4MQ77O+DYJ/t9hFgjfj+SAsi2V8LvTDth4McrLyqd02BhDzY8cpzqXgvWj4rhwu48q4X/0sxfVlG8J5+m9I1oo7MiV5BnD5cwWVsct+1w9dt6TKpwf2HlB7A/OdcFG2+j+K5D9lCwDLqQWQIr2cmwY1rPdC3Jqz6/UP6wUE2nryzbRyFi6rqUaRu9uxDOL6ESwB0nw5mSgACI5bHvEPixvMyeimqxN2L1HaBiK1yBxg08rn9FQi1SJ1TQ7lPcJYDr83ow1TrQdsw/5Mkvf8Iu99+3A3sHwKk/o4lABcg9Mo0ed6Doxf3riFJ4H+hRq4p8BRtqQR0c+mihRUb21H0dwsNDjqTP001dai95sKNRbQ84o1M24NCiluE+NKTFNc3LNbNh4UV1r5rIhv62F6Ox+Qtx4CBARAF7flLu//w+Yd435mJtWdoGsV6JzJnNpvF62l3Kk6bwRi1pQGcw8NTmonwgJ0AyuEfVOk0zmVWfYnPTNmt",
+          "client_id": "246"
+        }
+      ]
+    },
+    "new_data": {
+      "data": {
+        "source_currency_code": "USD",
+        "today_transactions": "19",
+        "today_total": "196.54000",
+        "current_month_transactions": "1213",
+        "previous_month_transactions": "3350",
+        "yesterday_to_time_total": "946.02882",
+        "total_clients_users": "71661",
+        "total_clients": "384",
+        "new_clients_this_month": "3",
+        "new_clients_users_this_month": "1838",
+        "new_clients_previous_month": "7",
+        "new_clients_users_previous_month": "1582"
+      },
+      "summary_cards": [
+        {
+          "title": "Transactions Today",
+          "value": "19",
+          "status": "Down",
+          "index": "176.17",
+          "period": "This Month"
+        },
+        {
+          "title": "Today's Volume",
+          "value": "196.54000",
+          "currency": "USD",
+          "status": "Minus",
+          "index": "381.34",
+          "period": "Today"
+        },
+        {
+          "title": "Payees",
+          "value": "384",
+          "status": "Down",
+          "index": "133.33",
+          "period": "This Month"
+        },
+        {
+          "title": "Clients",
+          "value": "71661",
+          "status": "Up",
+          "index": "13.93",
+          "period": "This Month"
+        }
+      ]
+    },
+    "client_above_tire": [
+      {
+        "company_name": "Linden Labs",
+        "approved_amount": "350.99000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "B2SPIN Limited",
+        "approved_amount": "38987.50000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "Nimi LLC",
+        "approved_amount": "15140.70192",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "Fyntek",
+        "approved_amount": "200.00000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "MassPay",
+        "approved_amount": "361.00000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "Paybis USA LTD",
+        "approved_amount": "450.73000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "GigSocial Inc.",
+        "approved_amount": "48.75000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "King Entertainment Corp",
+        "approved_amount": "410.00000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "Avital Industries",
+        "approved_amount": "1300.00000",
+        "exceeded_amount": "0.00000"
+      },
+      {
+        "company_name": "MPW Clinical Technologies LLC",
+        "approved_amount": "100.00000",
+        "exceeded_amount": "0.00000"
+      }
+    ]
+  },
+  "compliance2": {
     "account_balance": {
       "summary_cards": [
         {

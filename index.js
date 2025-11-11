@@ -8,8 +8,11 @@ const fs = require("fs");
 const invoicesDir = path.join(__dirname, "__mocks__", "invoices");
 const getUser = require("./__mocks__/getUser.json");
 const dashboardData = require("./__mocks__/dashboard_data.json");
+const getTransactionsHistory = require("./__mocks__/getTransactionsHistory.json");
+const getPayeeProfile = require("./__mocks__/getPayeeProfile.json");
 
 const multer = require("multer");
+const { get } = require("http");
 
 const server = jsonServer.create();
 
@@ -193,6 +196,18 @@ server.get("/api/clients/get_user/:user_token", (req, res) => {
   const { user_token } = req.params;
   console.log("User token:", user_token);
   res.status(200).json(getUser);
+});
+
+server.get("/api/clients/api/customer/:user_token/transactions", (req, res) => {
+  const { user_token } = req.params;
+  console.log("User token:", user_token);
+  res.status(200).json(getTransactionsHistory);
+});
+
+server.get("/api/clients/api/customer/:user_token", (req, res) => {
+  const { user_token } = req.params;
+  console.log("User token:", user_token);
+  res.status(200).json(getPayeeProfile);
 });
 
 server.get("/api/clients/dashboard_data", (req, res) => {

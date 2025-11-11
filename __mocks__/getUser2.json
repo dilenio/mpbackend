@@ -1,0 +1,375 @@
+{
+  "compliance_scans": [],
+  "id_verifications": [],
+  "wallet": [
+    {
+      "type": "USER_FUNDS",
+      "token": "usr_wlt_74a36777-57d9-11f0-a4c3-0a6935ac3745",
+      "active": true,
+      "currency_code": "USD",
+      "last_4": null,
+      "client_paying_fees": false,
+      "client_name": null,
+      "card_type": null
+    }
+  ],
+  "locks": "LU",
+  "notes": [],
+  "file_uploads": [],
+  "file_upload_requests": [],
+  "notifications": {
+    "sms_notification": "1",
+    "email_notification": "1"
+  },
+  "clients_statuses": [
+    {
+      "client_id": "2",
+      "status": "ACTIVE",
+      "user_token": "508438bb-9907-4533-a356-972338ecaa8f"
+    },
+    {
+      "client_id": "334",
+      "status": "ACTIVE",
+      "user_token": "eec7c0eb-57d0-11f0-a4c3-0a6935ac3745"
+    }
+  ],
+  "is_id_selfie_req": "0",
+  "is_id_selfie_req_compliance_locked": "0",
+  "twofa": "0",
+  "customer_profile": "{\"user_token\":\"usr_508438bb-9907-4533-a356-972338ecaa8f\",\"status\":\"ACTIVE\",\"created_on\":\"2025-10-01T08:02:22.000Z\",\"address1\":\"Hehe\",\"address2\":\"Je\",\"city\":\"Iehe\",\"state_province\":\"null\",\"postal_code\":\"7262\",\"country\":\"HND\",\"first_name\":\"jehe\",\"middle_name\":\"\",\"last_name\":\"rush\",\"email\":\"liuxiaomin+7034@apphi.com\",\"language\":\"en\",\"mobile_number\":\"162552526\",\"timezone\":\"America\\/Tegucigalpa\",\"date_of_birth\":\"2000-01-04\",\"activation_url\":\"https:\\/\\/members.masspay.io\\/activation?activation=AO==\"}",
+  "user_token": "usr_508438bb-9907-4533-a356-972338ecaa8f",
+  "transactions": [
+    {
+      "timestamp": 1759305742,
+      "has_url": false,
+      "extracted_url": "",
+      "org": {
+        "date": "2025-10-01 08:02:22.000000",
+        "timezone_type": 2,
+        "timezone": "Z"
+      },
+      "source_amount": -5.11,
+      "source_currency": "USD",
+      "fx": 1,
+      "dest_currency": "USD",
+      "fee": 0,
+      "client_id": null,
+      "pickup_code": "",
+      "payer_name": "",
+      "status": "COMPLETED",
+      "status_reason": "",
+      "token": "spnd_bk_f5bfaaac-9e9c-11f0-abe6-0a046abe0aaf",
+      "client_internal_id": "b24edcba-6c00-4208-9bd0-9f146b83ee22",
+      "destination_token": "clnt_wlt_64326163-3736-6434-2d35-3736612d3131",
+      "source_token": "usr_wlt_74a36777-57d9-11f0-a4c3-0a6935ac3745",
+      "type": "spend back",
+      "notes": "Account Maintenance Fee",
+      "delivery_type": "MOBILE_WALLET",
+      "is_user_funds_wallet": true,
+      "is_card_transaction": false,
+      "source_name": "jehe rush"
+    },
+    {
+      "timestamp": 1751525192,
+      "has_url": false,
+      "extracted_url": "",
+      "org": {
+        "date": "2025-07-03 06:46:32.000000",
+        "timezone_type": 2,
+        "timezone": "Z"
+      },
+      "source_amount": 5.11,
+      "source_currency": "USD",
+      "fx": 1,
+      "dest_currency": "USD",
+      "fee": 0,
+      "client_id": null,
+      "pickup_code": "",
+      "payer_name": "",
+      "status": "COMPLETED",
+      "status_reason": "",
+      "token": "ld_74a37361-57d9-11f0-a4c3-0a6935ac3745",
+      "client_internal_id": "cash-out-99",
+      "destination_token": "usr_wlt_74a36777-57d9-11f0-a4c3-0a6935ac3745",
+      "source_token": "clnt_wlt_93830ce2-0616-11f0-88cc-0a43346626a1",
+      "type": "load",
+      "notes": null,
+      "delivery_type": "MOBILE_WALLET",
+      "is_user_funds_wallet": false,
+      "is_card_transaction": false,
+      "source_name": "Silcoo"
+    }
+  ],
+  "chart": {
+    "2025-10": {
+      "load": 0,
+      "payout": -5.11
+    },
+    "2025-09": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-08": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-07": {
+      "load": 5.11,
+      "payout": 0
+    },
+    "2025-06": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-05": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-04": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-03": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-02": {
+      "load": 0,
+      "payout": 0
+    },
+    "2025-01": {
+      "load": 0,
+      "payout": 0
+    },
+    "2024-12": {
+      "load": 0,
+      "payout": 0
+    },
+    "2024-11": {
+      "load": 0,
+      "payout": 0
+    },
+    "2024-10": {
+      "load": 0,
+      "payout": 0
+    }
+  },
+  "logins": [
+    {
+      "time_of_login": "2025-07-03 05:53:47",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "ip_address": "38.175.103.191",
+      "geocoding": {
+        "ip": "38.175.103.191",
+        "asn": {
+          "asn": "AS917",
+          "name": "Misaka Network Inc",
+          "type": "business",
+          "route": "38.175.102.0/23",
+          "domain": "misaka.io"
+        },
+        "city": "Seattle",
+        "flag": "https://ipdata.co/flags/us.png",
+        "count": "0",
+        "is_eu": false,
+        "postal": null,
+        "region": "Washington",
+        "status": 200,
+        "threat": {
+          "is_tor": false,
+          "is_bogon": false,
+          "is_proxy": false,
+          "is_threat": true,
+          "blocklists": [
+            {
+              "name": "Stop Forum Spam",
+              "site": "https://www.stopforumspam.com",
+              "type": "spam"
+            }
+          ],
+          "is_anonymous": false,
+          "is_datacenter": false,
+          "is_icloud_relay": false,
+          "is_known_abuser": true,
+          "is_known_attacker": false
+        },
+        "currency": {
+          "code": "USD",
+          "name": "US Dollar",
+          "native": "$",
+          "plural": "US dollars",
+          "symbol": "$"
+        },
+        "latitude": 47.60620880126953,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English",
+            "native": "English"
+          }
+        ],
+        "longitude": -122.33206939697266,
+        "time_zone": {
+          "abbr": "PDT",
+          "name": "America/Los_Angeles",
+          "is_dst": true,
+          "offset": "-0700",
+          "current_time": "2025-07-03T05:45:36-07:00"
+        },
+        "emoji_flag": "🇺🇸",
+        "region_code": "WA",
+        "region_type": "state",
+        "calling_code": "1",
+        "country_code": "US",
+        "country_name": "United States",
+        "emoji_unicode": "U+1F1FA U+1F1F8",
+        "continent_code": "NA",
+        "continent_name": "North America"
+      }
+    },
+    {
+      "time_of_login": "2025-07-03 05:48:22",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "ip_address": "38.175.103.191",
+      "geocoding": {
+        "ip": "38.175.103.191",
+        "asn": {
+          "asn": "AS917",
+          "name": "Misaka Network Inc",
+          "type": "business",
+          "route": "38.175.102.0/23",
+          "domain": "misaka.io"
+        },
+        "city": "Seattle",
+        "flag": "https://ipdata.co/flags/us.png",
+        "count": "0",
+        "is_eu": false,
+        "postal": null,
+        "region": "Washington",
+        "status": 200,
+        "threat": {
+          "is_tor": false,
+          "is_bogon": false,
+          "is_proxy": false,
+          "is_threat": true,
+          "blocklists": [
+            {
+              "name": "Stop Forum Spam",
+              "site": "https://www.stopforumspam.com",
+              "type": "spam"
+            }
+          ],
+          "is_anonymous": false,
+          "is_datacenter": false,
+          "is_icloud_relay": false,
+          "is_known_abuser": true,
+          "is_known_attacker": false
+        },
+        "currency": {
+          "code": "USD",
+          "name": "US Dollar",
+          "native": "$",
+          "plural": "US dollars",
+          "symbol": "$"
+        },
+        "latitude": 47.60620880126953,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English",
+            "native": "English"
+          }
+        ],
+        "longitude": -122.33206939697266,
+        "time_zone": {
+          "abbr": "PDT",
+          "name": "America/Los_Angeles",
+          "is_dst": true,
+          "offset": "-0700",
+          "current_time": "2025-07-03T05:45:36-07:00"
+        },
+        "emoji_flag": "🇺🇸",
+        "region_code": "WA",
+        "region_type": "state",
+        "calling_code": "1",
+        "country_code": "US",
+        "country_name": "United States",
+        "emoji_unicode": "U+1F1FA U+1F1F8",
+        "continent_code": "NA",
+        "continent_name": "North America"
+      }
+    },
+    {
+      "time_of_login": "2025-07-03 05:45:36",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "ip_address": "38.175.103.191",
+      "geocoding": {
+        "ip": "38.175.103.191",
+        "asn": {
+          "asn": "AS917",
+          "name": "Misaka Network Inc",
+          "type": "business",
+          "route": "38.175.102.0/23",
+          "domain": "misaka.io"
+        },
+        "city": "Seattle",
+        "flag": "https://ipdata.co/flags/us.png",
+        "count": "0",
+        "is_eu": false,
+        "postal": null,
+        "region": "Washington",
+        "status": 200,
+        "threat": {
+          "is_tor": false,
+          "is_bogon": false,
+          "is_proxy": false,
+          "is_threat": true,
+          "blocklists": [
+            {
+              "name": "Stop Forum Spam",
+              "site": "https://www.stopforumspam.com",
+              "type": "spam"
+            }
+          ],
+          "is_anonymous": false,
+          "is_datacenter": false,
+          "is_icloud_relay": false,
+          "is_known_abuser": true,
+          "is_known_attacker": false
+        },
+        "currency": {
+          "code": "USD",
+          "name": "US Dollar",
+          "native": "$",
+          "plural": "US dollars",
+          "symbol": "$"
+        },
+        "latitude": 47.60620880126953,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English",
+            "native": "English"
+          }
+        ],
+        "longitude": -122.33206939697266,
+        "time_zone": {
+          "abbr": "PDT",
+          "name": "America/Los_Angeles",
+          "is_dst": true,
+          "offset": "-0700",
+          "current_time": "2025-07-03T05:45:36-07:00"
+        },
+        "emoji_flag": "🇺🇸",
+        "region_code": "WA",
+        "region_type": "state",
+        "calling_code": "1",
+        "country_code": "US",
+        "country_name": "United States",
+        "emoji_unicode": "U+1F1FA U+1F1F8",
+        "continent_code": "NA",
+        "continent_name": "North America"
+      }
+    }
+  ]
+}
