@@ -161,7 +161,9 @@
   "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
   "transactions": [
     {
+      "New Object": {},
       "buttons": {
+        "TEST PAYEES": {},
         "Force status update": {
           "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
           "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"

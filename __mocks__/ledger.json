@@ -1,0 +1,371 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "description": "cancellation fee",
+      "date": "2025-04-22",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "88.16",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430122.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "3",
+      "description": "transfer fee",
+      "date": "2025-04-22",
+      "debits": {
+        "value": "-88.16",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430210.47",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "7",
+      "description": "cancellation fee",
+      "date": "2025-04-21",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "352.71",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430122.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "8",
+      "description": "transfer fee",
+      "date": "2025-04-21",
+      "debits": {
+        "value": "-352.71",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430475.02",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "27",
+      "description": "load",
+      "date": "2025-04-11",
+      "debits": {
+        "value": "-10.00",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430122.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "50",
+      "description": "cancellation fee",
+      "date": "2025-04-08",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "20.35",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430112.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "51",
+      "description": "transfer fee",
+      "date": "2025-04-08",
+      "debits": {
+        "value": "-20.35",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430132.66",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "54",
+      "description": "transfer fee",
+      "date": "2025-04-07",
+      "debits": {
+        "value": "-10.40",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430112.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "64",
+      "description": "spendback",
+      "date": "2025-04-06",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "102.40",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430101.91",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "94",
+      "description": "spendback",
+      "date": "2025-04-01",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "13854.37",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-430204.31",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "95",
+      "description": "load",
+      "date": "2025-04-01",
+      "debits": {
+        "value": "-23.89",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-444058.68",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "111",
+      "description": "transfer fee",
+      "date": "2025-03-27",
+      "debits": {
+        "value": "-1.25",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-444034.79",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "122",
+      "description": "transfer fee",
+      "date": "2025-03-25",
+      "debits": {
+        "value": "-9.25",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-444033.54",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "133",
+      "description": "transfer fee",
+      "date": "2025-03-24",
+      "debits": {
+        "value": "-132.00",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-444024.29",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "134",
+      "description": "spendback",
+      "date": "2025-03-24",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "1126.40",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-443892.29",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "136",
+      "description": "cancellation fee",
+      "date": "2025-03-24",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "72.00",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-445018.69",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "142",
+      "description": "transfer fee",
+      "date": "2025-03-23",
+      "debits": {
+        "value": "-36.00",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-445090.69",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "143",
+      "description": "spendback",
+      "date": "2025-03-23",
+      "debits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "credits": {
+        "value": "307.20",
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-445054.69",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "144",
+      "description": "load",
+      "date": "2025-03-21",
+      "debits": {
+        "value": "-3001.00",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-445361.89",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    },
+    {
+      "id": "151",
+      "description": "load",
+      "date": "2025-03-20",
+      "debits": {
+        "value": "-1000.00",
+        "currency": "USD"
+      },
+      "credits": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "balance": {
+        "value": "-442360.89",
+        "currency": "USD"
+      },
+      "currency": "USD"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 20,
+    "total": 129,
+    "filter": false
+  }
+}
