@@ -147,6 +147,46 @@ function registerClientRoutes(server) {
     }
   );
 
+  server.post(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/link`,
+    (req, res) => {
+      const { user_token } = req.params;
+      const { email } = req.body;
+      console.log("User token:", user_token, "Email:", email);
+      setTimeout(() => {
+        res.status(201).json({
+          status: "success",
+          message: "Payee linked successfully!",
+          user_token: user_token,
+          email,
+        });
+      }, 3000);
+    }
+  );
+
+  server.post(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/generate_file_upload`,
+    (req, res) => {
+      const { user_token } = req.params;
+      const { file_types, hold_payouts } = req.body;
+      console.log(
+        "User token:",
+        user_token,
+        "File Types:",
+        file_types,
+        "hold_payouts:",
+        hold_payouts
+      );
+      setTimeout(() => {
+        res.status(201).json({
+          status: "success",
+          message: "Link Generated successfully!",
+          user_token: user_token,
+        });
+      }, 2000);
+    }
+  );
+
   server.get(`${CLIENTS_BASE_PATH}/api/payees`, (req, res) => {
     res.status(200).json(getPayees);
   });
