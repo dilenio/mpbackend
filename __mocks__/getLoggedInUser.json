@@ -1,0 +1,70 @@
+{
+  "id": 0,
+  "date": "2022-12-01",
+  "image": "",
+  "name": "",
+  "first_name": "Dilenio",
+  "middle_name": "",
+  "last_name": "Enderle",
+  "business_name": "",
+  "username": "41bd6c9d3528a6a4ebe0c929739c1ccfc74b79d8f1d9d2a05ed9348b141297740152589096733a8324ec865a24106512b2a5f8b7603040e0a56a1299aabecd9d",
+  "employee_username_hash": "46e7f4c8515cfc2451edd17fa2cf56e27131f8186d6f9528f05745b557c8f975d315bc8221724b86bddf65ab13a377ed1fcea9503f7ba3063a0a2d0c6803be50",
+  "verified": false,
+  "company_name": "MassPay",
+  "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=MassPay",
+  "admin": true,
+  "customer_service": true,
+  "cancel_transactions": false,
+  "manage_clients": false,
+  "api_keys": true,
+  "links": false,
+  "compliance": false,
+  "manage_users": true,
+  "batch_files": true,
+  "batch_files_approval": false,
+  "bank_login": true,
+  "view_users": true,
+  "view_balance": true,
+  "view_unmasked_attrs": false,
+  "tax_documents": false,
+  "two_fa": true,
+  "is_staging": true,
+  "permission_array": {
+    "view_payee_profile": true,
+    "view_dashboard": true,
+    "view_transactions": true,
+    "view_ledger": true,
+    "view_customers": true,
+    "view_cancellations": true,
+    "view_batches": true,
+    "view_manage_users": true,
+    "view_links": true,
+    "view_profile": true,
+    "view_api_keys": true,
+    "view_taxes": true,
+    "transactions": {
+      "payload_link": true,
+      "customer_link": true,
+      "download_full_list": true
+    },
+    "profile": {
+      "bank_login": true
+    },
+    "overdue_transactions": {
+      "customer_link": true
+    },
+    "manage_users": {
+      "bank_login": true,
+      "show_admin_options": true
+    },
+    "ledger": {
+      "show_all": true
+    },
+    "payees": {
+      "show_all": true
+    },
+    "customer": {
+      "show_tax_documents": true
+    }
+  }
+}

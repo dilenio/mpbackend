@@ -1,0 +1,37 @@
+{
+  "today_counts": "0",
+  "status": "Down",
+  "index": "100%",
+  "chart": [
+    {
+      "status": "Cancelled",
+      "counter": 0,
+      "percentage": 0
+    },
+    {
+      "status": "Completed",
+      "counter": 0,
+      "percentage": 0
+    },
+    {
+      "status": "Error",
+      "counter": 0,
+      "percentage": 0
+    },
+    {
+      "status": "Expired",
+      "counter": 0,
+      "percentage": 0
+    },
+    {
+      "status": "Processing",
+      "counter": 0,
+      "percentage": 0
+    },
+    {
+      "status": "Ready for pickup",
+      "counter": 0,
+      "percentage": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "year": "2025",
+    "month": "September",
+    "payed_out": 355.37,
+    "loaded": 4500000
+  },
+  {
+    "year": "2025",
+    "month": "October",
+    "payed_out": 335,
+    "loaded": 1123456
+  },
+  {
+    "year": "2025",
+    "month": "November",
+    "payed_out": 109.01,
+    "loaded": 4000000
+  },
+  {
+    "year": "2025",
+    "month": "December",
+    "payed_out": 139.04,
+    "loaded": 8000000
+  },
+  {
+    "year": "2026",
+    "month": "January",
+    "payed_out": 1970.2,
+    "loaded": 25010237.8
+  },
+  {
+    "year": "2026",
+    "month": "February",
+    "payed_out": 692.7,
+    "loaded": 28000123.45
+  }
+]

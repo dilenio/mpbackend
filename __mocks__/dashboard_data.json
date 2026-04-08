@@ -1,42 +1,48 @@
 {
   "image": "https://picsum.photos/id/42/200",
-  "name": "dilenio  enderle",
-  "first_name": "dilenio",
+  "name": "Dilenio  Enderle",
+  "first_name": "Dilenio",
   "middle_name": "",
-  "last_name": "enderle",
+  "last_name": "Enderle",
   "vindex": {
     "this_month_sum": "0.00000",
-    "last_month_sum": "5.00000"
+    "last_month_sum": "0.00000"
   },
   "account_balance_widget": {
     "chart": [
       {
-        "month": "May",
-        "payed_out": "1001.00000",
-        "loaded": "3000000.00"
-      },
-      {
-        "month": "June",
-        "payed_out": "0.00000",
-        "loaded": "6020000.00"
-      },
-      {
+        "year": "2025",
         "month": "July",
         "payed_out": "0.00000",
-        "loaded": "6000000.00"
+        "loaded": "0.00"
       },
       {
+        "year": "2025",
         "month": "August",
-        "payed_out": "67.00000",
-        "loaded": "2000000.00"
+        "payed_out": "0.00000",
+        "loaded": "0.00"
       },
       {
+        "year": "2025",
         "month": "September",
         "payed_out": "0.00000",
-        "loaded": "4500000.00"
+        "loaded": "0.00"
       },
       {
+        "year": "2025",
         "month": "October",
+        "payed_out": "0.00000",
+        "loaded": "0.00"
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "payed_out": "0.00000",
+        "loaded": "0.00"
+      },
+      {
+        "year": "2025",
+        "month": "December",
         "payed_out": "0.00000",
         "loaded": "0.00"
       }
@@ -46,19 +52,19 @@
         "value": "0",
         "period": "This Month",
         "status": "Down",
-        "index": "100%"
+        "index": "0%"
       },
       "todays_volume": {
-        "value": "0.00000",
+        "value": "987.00000",
         "period": "Today",
         "status": "Plus",
         "index": "0%",
-        "currency": "USD"
+        "currency": "PNTS"
       },
       "payees": {
-        "value": "4999",
+        "value": "6194",
         "period": "This Month",
-        "index": "30.43%",
+        "index": "96.71%",
         "status": "Up"
       }
     }
@@ -70,7 +76,7 @@
       "icon_url": "/assets/img/country/square/EUR.png",
       "title": "MassPay EUR Wallet",
       "balance": {
-        "value": "-903057.84",
+        "value": "-903195.25",
         "currency": "EUR"
       },
       "selected": false
@@ -81,10 +87,10 @@
       "icon_url": "/assets/img/country/square/PNTS.png",
       "title": "MassPay PNTS Wallet",
       "balance": {
-        "value": "-2151.55",
+        "value": "-2289.96",
         "currency": "PNTS"
       },
-      "selected": false
+      "selected": true
     },
     {
       "id": "692f358f-610b-11ef-9709-023beedd7751",
@@ -92,7 +98,7 @@
       "icon_url": "/assets/img/country/square/CAD.png",
       "title": "MassPay CAD Wallet",
       "balance": {
-        "value": "97918.44",
+        "value": "97782.03",
         "currency": "CAD"
       },
       "selected": false
@@ -103,86 +109,49 @@
       "icon_url": "/assets/img/country/square/USD.png",
       "title": "MassPay USD Wallet",
       "balance": {
-        "value": "82674760.47",
+        "value": "79533271.07",
         "currency": "USD"
       },
-      "selected": true
+      "selected": false
     }
   ],
   "volume_widget": {
     "total": "0.00000",
-    "index": "100%",
+    "index": "0%",
     "status": "Down",
     "chart": [
       {
+        "transaction_month": "December",
+        "total_monthly_amount": "0.00000",
+        "count": "0"
+      },
+      {
+        "transaction_month": "November",
+        "total_monthly_amount": "0.00000",
+        "count": "0"
+      },
+      {
         "transaction_month": "October",
-        "total_monthly_amount": "11404.23000",
-        "count": "1170"
+        "total_monthly_amount": "0.00000",
+        "count": "0"
       },
       {
         "transaction_month": "September",
-        "total_monthly_amount": "41876.83000",
-        "count": "1307"
+        "total_monthly_amount": "0.00000",
+        "count": "0"
       },
       {
         "transaction_month": "August",
-        "total_monthly_amount": "13118.00000",
-        "count": "1306"
+        "total_monthly_amount": "0.00000",
+        "count": "0"
       },
       {
         "transaction_month": "July",
-        "total_monthly_amount": "14198.24000",
-        "count": "1329"
-      },
-      {
-        "transaction_month": "June",
-        "total_monthly_amount": "21811.80000",
-        "count": "1473"
-      },
-      {
-        "transaction_month": "May",
-        "total_monthly_amount": "18390.29000",
-        "count": "1465"
+        "total_monthly_amount": "0.00000",
+        "count": "0"
       }
     ],
-    "top_countries": [
-      {
-        "country": "Australia",
-        "code": "AU",
-        "count": "11",
-        "percent": 44
-      },
-      {
-        "country": "United States",
-        "code": "US",
-        "count": "9",
-        "percent": 36
-      },
-      {
-        "country": "Thailand",
-        "code": "TH",
-        "count": "2",
-        "percent": 8
-      },
-      {
-        "country": "Germany",
-        "code": "DE",
-        "count": "1",
-        "percent": 4
-      },
-      {
-        "country": "Viet Nam",
-        "code": "VN",
-        "count": "1",
-        "percent": 4
-      },
-      {
-        "country": "Brazil",
-        "code": "BR",
-        "count": "1",
-        "percent": 4
-      }
-    ]
+    "top_countries": []
   },
   "daily_distribution_widget": {
     "today_counts": "0",
@@ -222,19 +191,29 @@
     ]
   },
   "transactions_widget": {
-    "total": "6",
-    "index": "166.67%",
+    "total": "0",
+    "index": "0%",
     "status": "Down",
     "chart": [
       {
+        "day_of_week": "Wednesday",
+        "successful_transactions": "0",
+        "unsuccessful_transactions": "0"
+      },
+      {
+        "day_of_week": "Thursday",
+        "successful_transactions": "0",
+        "unsuccessful_transactions": "0"
+      },
+      {
         "day_of_week": "Friday",
-        "successful_transactions": "3",
-        "unsuccessful_transactions": "9"
+        "successful_transactions": "0",
+        "unsuccessful_transactions": "0"
       },
       {
         "day_of_week": "Saturday",
-        "successful_transactions": "6",
-        "unsuccessful_transactions": "5"
+        "successful_transactions": "0",
+        "unsuccessful_transactions": "0"
       },
       {
         "day_of_week": "Sunday",
@@ -243,60 +222,57 @@
       },
       {
         "day_of_week": "Monday",
-        "successful_transactions": "1",
+        "successful_transactions": "0",
         "unsuccessful_transactions": "0"
       },
       {
         "day_of_week": "Tuesday",
-        "successful_transactions": "4",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Wednesday",
-        "successful_transactions": "1170",
-        "unsuccessful_transactions": "0"
-      },
-      {
-        "day_of_week": "Thursday",
         "successful_transactions": "0",
         "unsuccessful_transactions": "0"
       }
     ],
-    "$totalSuccessful": 1184,
-    "$totalUnsuccessful": 14
+    "$totalSuccessful": 0,
+    "$totalUnsuccessful": 0
   },
   "chart": [
     {
-      "month": "May",
-      "payed_out": "1001.00000",
-      "loaded": "5000000.00"
-    },
-    {
-      "month": "June",
-      "payed_out": "0.00000",
-      "loaded": "6020000.00"
-    },
-    {
+      "year": "2025",
       "month": "July",
       "payed_out": "0.00000",
-      "loaded": "6000000.00"
+      "loaded": "0.00"
     },
     {
+      "year": "2025",
       "month": "August",
-      "payed_out": "67.00000",
-      "loaded": "2000000.00"
+      "payed_out": "0.00000",
+      "loaded": "0.00"
     },
     {
+      "year": "2025",
       "month": "September",
       "payed_out": "0.00000",
-      "loaded": "4500000.00"
+      "loaded": "0.00"
     },
     {
+      "year": "2025",
       "month": "October",
+      "payed_out": "0.00000",
+      "loaded": "0.00"
+    },
+    {
+      "year": "2025",
+      "month": "November",
+      "payed_out": "0.00000",
+      "loaded": "0.00"
+    },
+    {
+      "year": "2025",
+      "month": "December",
       "payed_out": "0.00000",
       "loaded": "0.00"
     }
   ],
   "currency_list": ["EUR", "PNTS", "CAD", "USD"],
-  "currency": "USD"
+  "currency": "EUR",
+  "term": 6
 }

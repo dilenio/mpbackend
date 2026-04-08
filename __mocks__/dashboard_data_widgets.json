@@ -1,0 +1,131 @@
+{
+  "volume_widget": {
+    "total": "51,015",
+    "index": "102.44%",
+    "status": "Down",
+    "chart": [
+      {
+        "transaction_month": "July",
+        "total_monthly_amount": 13871.21,
+        "count": 1297
+      },
+      {
+        "transaction_month": "August",
+        "total_monthly_amount": 12281.16,
+        "count": 1274
+      },
+      {
+        "transaction_month": "September",
+        "total_monthly_amount": 41731.89,
+        "count": 1232
+      },
+      {
+        "transaction_month": "October",
+        "total_monthly_amount": 11500.06,
+        "count": 1189
+      },
+      {
+        "transaction_month": "November",
+        "total_monthly_amount": 103274.16,
+        "count": 2259
+      },
+      {
+        "transaction_month": "December",
+        "total_monthly_amount": 51015,
+        "count": 19
+      }
+    ],
+    "top_countries": [
+      {
+        "country": "United States",
+        "code": "US",
+        "count": "6",
+        "percent": 100
+      }
+    ]
+  },
+  "daily_distribution_widget": {
+    "today_counts": "0",
+    "status": "Down",
+    "index": "0%",
+    "chart": [
+      {
+        "status": "Cancelled",
+        "counter": 0,
+        "percentage": 0
+      },
+      {
+        "status": "Completed",
+        "counter": 0,
+        "percentage": 0
+      },
+      {
+        "status": "Error",
+        "counter": 0,
+        "percentage": 0
+      },
+      {
+        "status": "Expired",
+        "counter": 0,
+        "percentage": 0
+      },
+      {
+        "status": "Processing",
+        "counter": 0,
+        "percentage": 0
+      },
+      {
+        "status": "Ready for pickup",
+        "counter": 0,
+        "percentage": 0
+      }
+    ]
+  },
+  "transactions_widget": {
+    "total": 0,
+    "index": "100%",
+    "status": "Down",
+    "chart": [
+      {
+        "day_of_week": "Tuesday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Wednesday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Thursday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Friday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Saturday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Sunday",
+        "successful_transactions": 1,
+        "unsuccessful_transactions": 0
+      },
+      {
+        "day_of_week": "Monday",
+        "successful_transactions": 0,
+        "unsuccessful_transactions": 0
+      }
+    ],
+    "$totalSuccessful": 1,
+    "$totalUnsuccessful": 0
+  },
+  "currency_list": ["EUR", "PNTS", "CAD", "USD"],
+  "currency": "USD",
+  "term": 6
+}

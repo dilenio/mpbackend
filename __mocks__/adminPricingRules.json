@@ -1,0 +1,96 @@
+{
+    "data": [
+        {
+            "client": "all",
+            "rule_id": "10",
+            "country": "United States",
+            "delivery_type": "BANK_DEPOSIT",
+            "payer": "Next Day Bank Deposit",
+            "currency": "USD",
+            "fx": "0.00000",
+            "fee": {
+                "value": "1.000",
+                "currency": "USD"
+            }
+        },
+        {
+            "client": "all",
+            "rule_id": "14",
+            "country": "United States",
+            "delivery_type": "BANK_DEPOSIT",
+            "payer": "Bank Deposit US",
+            "currency": "USD",
+            "fx": "0.00000",
+            "fee": {
+                "value": "0.000",
+                "currency": "USD"
+            }
+        },
+        {
+            "client": "all",
+            "rule_id": "16",
+            "country": "United States",
+            "delivery_type": "MASSPAY_CARD",
+            "payer": "Virtual Debit Card",
+            "currency": "USD",
+            "fx": "0.00000",
+            "fee": {
+                "value": "1.000",
+                "currency": "USD"
+            }
+        },
+        {
+            "client": "all",
+            "rule_id": "2",
+            "country": "all",
+            "delivery_type": "all",
+            "payer": "all",
+            "currency": "USD",
+            "fx": "0.00000",
+            "fee": {
+                "value": "3.000",
+                "currency": "USD"
+            }
+        },
+        {
+            "client": "MassPay",
+            "rule_id": "3",
+            "country": "all",
+            "delivery_type": "all",
+            "payer": "all",
+            "currency": "GBP",
+            "fx": "0.03000",
+            "fee": {
+                "value": "-1.000",
+                "currency": "GBP"
+            }
+        },
+        {
+            "client": "MassPay",
+            "rule_id": "17",
+            "country": "Abkhazia",
+            "delivery_type": "CASH_PICKUP",
+            "payer": "all",
+            "currency": "ZRX",
+            "fx": "0.01000",
+            "fee": {
+                "value": "1.000",
+                "currency": "ZRX"
+            }
+        }
+    ],
+    "metadata": {
+        "page": 1,
+        "offset": 0,
+        "limit": 10,
+        "total": "6",
+        "filter": false,
+        "sql": ""
+    },
+    "additionalData": {
+        "csrf_nameKey": "mp_csrf_name",
+        "csrf_valueKey": "mp_csrf_value",
+        "csrf_name": "mp_csrf69ceb358ca4fe",
+        "csrf_value": "G7iXA6I8mcf7L6VYJ8rwwLMBfeyJaOW3v3n4MPJm4TUv3fU1l1/98ckZl2sTrsajhDgb3uwL0YaLSsAAylWDUA=="
+    }
+}

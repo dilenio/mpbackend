@@ -1,0 +1,55 @@
+{
+  "id": "829be9bf-0df6-11f1-8874-0231b701c2c7",
+  "user_id": 33210,
+  "date": "2026-02-19",
+  "time": "16:55:03",
+  "payer_name": "Bank Deposit",
+  "type": "transfer",
+  "status": "COMPLETED",
+  "country": "Turkey",
+  "attributes": {
+    "ResponseTransactionId": {
+      "label": "ResponseTransactionId",
+      "value": "MSP038297845177"
+    }
+  },
+  "changes": [
+    {
+      "changes": "Completed",
+      "date": "2026-02-19",
+      "time": "16:54"
+    },
+    {
+      "changes": "Processing",
+      "date": "2026-02-19",
+      "time": "16:53"
+    }
+  ],
+  "delivery_type": "Bank Deposit",
+  "internal_user_id": "YOSSI_TEST",
+  "attr_set_token": "e670e2f3-7916-430c-a376-46d75ca3d443",
+  "client_transfer_id": "6997b06ceb299",
+  "pickup_code": "MSP038297845177",
+  "metadata": {},
+  "client_transfer_id_display": "6997b06ceb299",
+  "has_payload": true,
+  "sent": {
+    "value": "50.00000",
+    "currency": "USD"
+  },
+  "received": {
+    "value": "2288.10329750",
+    "currency": "TRY"
+  },
+  "fee": {
+    "value": "3.00000",
+    "currency": "USD"
+  },
+  "fx": {
+    "value": "45.76206589",
+    "currency": "TRY"
+  },
+  "status_reason": "",
+  "paid_by_user": true,
+  "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+}

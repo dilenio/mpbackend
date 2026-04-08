@@ -1,0 +1,240 @@
+{
+  "payouts": [],
+  "users": [
+    {
+      "full_name": "test company",
+      "user_token": "bc1396af-1e45-11f1-8874-0231b701c2c7",
+      "client_id": "338"
+    },
+    {
+      "full_name": "Tiago  Padua (The Shire Bank)",
+      "user_token": "38b21266-1bec-11f1-8874-0231b701c2c7",
+      "client_id": "484"
+    },
+    {
+      "full_name": "martin  smith (Stable)",
+      "user_token": "717afb0f-1bfd-11f1-8874-0231b701c2c7",
+      "client_id": "441"
+    },
+    {
+      "full_name": "martin  smith (Stable)",
+      "user_token": "483b0de9-1d7d-11f1-8874-0231b701c2c7",
+      "client_id": "441"
+    },
+    {
+      "full_name": "Hans  M\u00fcller (SoftBees)",
+      "user_token": "56830afa-2141-11f1-8874-0231b701c2c7",
+      "client_id": "421"
+    },
+    {
+      "full_name": "Flywithgeorge",
+      "user_token": "b9801b87-1c3d-11f1-8874-0231b701c2c7",
+      "client_id": "413"
+    },
+    {
+      "full_name": "Flywithgeorge",
+      "user_token": "eda0aa90-1c3d-11f1-8874-0231b701c2c7",
+      "client_id": "413"
+    },
+    {
+      "full_name": "Flywithgeorge",
+      "user_token": "ffdaf4e7-1c5e-11f1-8874-0231b701c2c7",
+      "client_id": "413"
+    },
+    {
+      "full_name": "Flywithgeorge",
+      "user_token": "985cc38f-1c3e-11f1-8874-0231b701c2c7",
+      "client_id": "413"
+    },
+    {
+      "full_name": "Flywithgeorge",
+      "user_token": "d0a857c3-1c40-11f1-8874-0231b701c2c7",
+      "client_id": "413"
+    }
+  ],
+  "errors": [],
+  "batches": [
+    {
+      "id": "729",
+      "employee_username": "Jim  Green",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769201973584.xlsx",
+      "total_amount_processed": "{\"USD\": 300}",
+      "time_processed": "2026-01-23 20:59:33.000",
+      "fname": "test batch upload(1).xlsx"
+    },
+    {
+      "id": "728",
+      "employee_username": "Yossi  Shlomo",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769200290606.xlsx",
+      "total_amount_processed": "{\"USD\": 300}",
+      "time_processed": "2026-01-23 20:31:30.000",
+      "fname": "test batch upload.xlsx"
+    },
+    {
+      "id": "727",
+      "employee_username": "Yossi  Shlomo",
+      "total_processed": "0.00",
+      "total_errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769200090534.xlsx",
+      "total_amount_processed": "{\"USD\": 0}",
+      "time_processed": "2026-01-23 20:28:10.000",
+      "fname": "test batch upload.xlsx"
+    },
+    {
+      "id": "699",
+      "employee_username": "carolina  Rebolledo",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1763583142987.xlsx",
+      "total_amount_processed": "{\"USD\": 1000}",
+      "time_processed": "2025-11-19 20:12:23.000",
+      "fname": "batch upload test  (1).xlsx"
+    },
+    {
+      "id": "729",
+      "employee_username": "Jim  Green",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769201973584.xlsx",
+      "total_amount_processed": "{\"USD\": 300}",
+      "time_processed": "2026-01-23 20:59:33.000",
+      "fname": "test batch upload(1).xlsx"
+    },
+    {
+      "id": "728",
+      "employee_username": "Yossi  Shlomo",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769200290606.xlsx",
+      "total_amount_processed": "{\"USD\": 300}",
+      "time_processed": "2026-01-23 20:31:30.000",
+      "fname": "test batch upload.xlsx"
+    },
+    {
+      "id": "727",
+      "employee_username": "Yossi  Shlomo",
+      "total_processed": "0.00",
+      "total_errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1769200090534.xlsx",
+      "total_amount_processed": "{\"USD\": 0}",
+      "time_processed": "2026-01-23 20:28:10.000",
+      "fname": "test batch upload.xlsx"
+    },
+    {
+      "id": "699",
+      "employee_username": "carolina  Rebolledo",
+      "total_processed": "0.00",
+      "total_errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1763583142987.xlsx",
+      "total_amount_processed": "{\"USD\": 1000}",
+      "time_processed": "2025-11-19 20:12:23.000",
+      "fname": "batch upload test  (1).xlsx"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "29",
+      "time": "2026-03-13",
+      "type": "cancellation fee",
+      "notes": "Cancellation Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-281879.06",
+      "amount": "171.00"
+    },
+    {
+      "id": "31",
+      "time": "2026-03-13",
+      "type": "transfer fee",
+      "notes": "Transfer Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-282050.06",
+      "amount": "-135.00"
+    },
+    {
+      "id": "108",
+      "time": "2026-03-12",
+      "type": "load",
+      "notes": "Commission for March 2020",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-281915.06",
+      "amount": "-140.33"
+    },
+    {
+      "id": "247",
+      "time": "2026-03-02",
+      "type": "cancellation fee",
+      "notes": "Cancellation Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-281774.73",
+      "amount": "135.00"
+    },
+    {
+      "id": "248",
+      "time": "2026-03-02",
+      "type": "transfer fee",
+      "notes": "Transfer Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-281909.73",
+      "amount": "-135.00"
+    },
+    {
+      "id": "270",
+      "time": "2026-03-01",
+      "type": "spendback",
+      "notes": "Spendback: Account Maintenance Fee",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-281774.73",
+      "amount": "42600.42"
+    },
+    {
+      "id": "271",
+      "time": "2026-03-01",
+      "type": "load",
+      "notes": "MassPay Commission Payment for February\/2026",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-324375.15",
+      "amount": "-7.97"
+    },
+    {
+      "id": "292",
+      "time": "2026-02-26",
+      "type": "transfer fee",
+      "notes": "Transfer Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-324367.18",
+      "amount": "-9.26"
+    },
+    {
+      "id": "326",
+      "time": "2026-02-25",
+      "type": "transfer fee",
+      "notes": "Transfer Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-324357.92",
+      "amount": "-3.55"
+    },
+    {
+      "id": "391",
+      "time": "2026-02-19",
+      "type": "transfer fee",
+      "notes": "Transfer Fees",
+      "batch_identifier": null,
+      "source_currency_code": "USD",
+      "balance": "-324354.37",
+      "amount": "-12.00"
+    }
+  ]
+}

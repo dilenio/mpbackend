@@ -3,730 +3,6 @@
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
-  "toppayees": [
-    {
-      "id": 123123,
-      "first_name": "Kevin",
-      "last_name": "Howard",
-      "country": "United States",
-      "flag": "https://picsum.photos/id/42/200",
-      "payout": "Bank Deposit",
-      "amount": {
-        "value": 27400.4,
-        "currency": "USD"
-      }
-    },
-    {
-      "id": 1231234,
-      "first_name": "Angie",
-      "last_name": "Holdsworth",
-      "country": "United States",
-      "flag": "https://picsum.photos/id/42/200",
-      "payout": "Prepaid Card",
-      "amount": {
-        "value": 23200.1,
-        "currency": "USD"
-      }
-    },
-    {
-      "id": 123125,
-      "first_name": "Ted",
-      "last_name": "Reese",
-      "country": "Italy",
-      "flag": "https://picsum.photos/id/42/200",
-      "payout": "Bank Deposit",
-      "amount": {
-        "value": 17466.22,
-        "currency": "USD"
-      }
-    },
-    {
-      "id": 123126,
-      "first_name": "Tiana",
-      "last_name": "Markowic",
-      "country": "Poland",
-      "flag": "https://picsum.photos/id/109/200",
-      "payout": "Prepaid Card",
-      "amount": {
-        "value": 7740.87,
-        "currency": "USD"
-      }
-    },
-    {
-      "id": 123127,
-      "first_name": "Steve",
-      "last_name": "Jones",
-      "country": "India",
-      "flag": "https://picsum.photos/id/42/200",
-      "payout": "Bank Deposit",
-      "amount": {
-        "value": 6512,
-        "currency": "USD"
-      }
-    }
-  ],
-  "get_transactions": {
-    "data": [
-      {
-        "id": "e733df0e-aa4c-11f0-a1ad-024271d63b3f",
-        "user_id": 25,
-        "date": "2025-10-15",
-        "time": "22:01:32",
-        "payer_name": "Bank Deposit",
-        "type": "transfer",
-        "status": "EXPIRED",
-        "country": "Canada",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "Expired Quote",
-            "date": "2025-10-15",
-            "time": "22:19"
-          }
-        ],
-        "name": "John M Smith",
-        "full_name": "John M Smith",
-        "company_name": null,
-        "sent": {
-          "value": "5.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "6.52803938",
-          "currency": "CAD"
-        },
-        "fee": {
-          "value": "4.00000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.30560791",
-          "currency": "CAD"
-        },
-        "user_token": "31e384ff-d347-11ea-afc7-0289acba1734",
-        "attrs": [
-          {
-            "label": "Institution Number",
-            "value": "177"
-          },
-          {
-            "label": "Transit Number",
-            "value": "00006"
-          },
-          {
-            "label": "Bank Account Number",
-            "value": "312321321"
-          }
-        ],
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "a3443f6d-a9de-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-15",
-        "time": "08:50:25",
-        "payer_name": "STATE BANK OF INDIA",
-        "type": "error",
-        "status": "ERROR",
-        "country": "India",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-15",
-            "time": "08:50"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "11.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "931.30962865",
-          "currency": "INR"
-        },
-        "fee": {
-          "value": "4.00000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "84.66451263",
-          "currency": "INR"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "7f8829eb-a77d-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-12",
-        "time": "08:09:59",
-        "payer_name": "USDC (Ethereum)",
-        "type": "error",
-        "status": "ERROR",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-12",
-            "time": "08:09"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "50.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "50.00000000",
-          "currency": "USDC"
-        },
-        "fee": {
-          "value": "4.00000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.00000000",
-          "currency": "USDC"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": [],
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "813e5bbe-a574-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-09",
-        "time": "18:00:42",
-        "payer_name": "STATE BANK OF INDIA",
-        "type": "error",
-        "status": "ERROR",
-        "country": "India",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-09",
-            "time": "18:00"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "14.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "1196.20005913",
-          "currency": "INR"
-        },
-        "fee": {
-          "value": "4.00000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "85.44286346",
-          "currency": "INR"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "3f5e50d4-a572-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-09",
-        "time": "17:46:16",
-        "payer_name": "Commonwealth Bank",
-        "type": "transfer",
-        "status": "PROCESSING",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "Processing",
-            "date": "2025-10-09",
-            "time": "17:44"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "12.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "17.43140974",
-          "currency": "AUD"
-        },
-        "fee": {
-          "value": "3.77000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.45261753",
-          "currency": "AUD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "BankCity": {
-            "label": "BankCity",
-            "value": "Sydney"
-          },
-          "BankState": {
-            "label": "BankState",
-            "value": "New South Wales"
-          },
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "bc23c484-a56e-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-09",
-        "time": "17:21:07",
-        "payer_name": "Commonwealth Bank",
-        "type": "transfer",
-        "status": "EXPIRED",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "Expired Quote",
-            "date": "2025-10-09",
-            "time": "17:39"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "11.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "15.98222941",
-          "currency": "AUD"
-        },
-        "fee": {
-          "value": "3.79000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.45292997",
-          "currency": "AUD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": [
-          {
-            "label": "Bank State",
-            "value": "New South Wales"
-          },
-          {
-            "label": "Bank City",
-            "value": "Sydney"
-          },
-          {
-            "label": "BSB Number",
-            "value": "062-000"
-          },
-          {
-            "label": "Bank Account Number",
-            "value": "12345678"
-          }
-        ],
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "c5832391-a56e-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-09",
-        "time": "17:19:38",
-        "payer_name": "Commonwealth Bank",
-        "type": "error",
-        "status": "ERROR",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-09",
-            "time": "17:19"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "11.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "15.98222941",
-          "currency": "AUD"
-        },
-        "fee": {
-          "value": "3.79000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.45292997",
-          "currency": "AUD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "BankCity": {
-            "label": "BankCity",
-            "value": "Sydney"
-          },
-          "BankState": {
-            "label": "BankState",
-            "value": "New South Wales"
-          },
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "88b6d5b9-a3da-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-07",
-        "time": "17:05:55",
-        "payer_name": "Commonwealth Bank",
-        "type": "error",
-        "status": "ERROR",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-07",
-            "time": "17:05"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "25.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "36.19380946",
-          "currency": "AUD"
-        },
-        "fee": {
-          "value": "3.51000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.44775236",
-          "currency": "AUD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "b440cee0-a3d7-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-07",
-        "time": "16:45:37",
-        "payer_name": "CIMB Bank",
-        "type": "error",
-        "status": "ERROR",
-        "country": "Singapore",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-07",
-            "time": "16:45"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "20.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "25.14495575",
-          "currency": "SGD"
-        },
-        "fee": {
-          "value": "4.00000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.25724781",
-          "currency": "SGD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      },
-      {
-        "id": "bf504fa2-a3d5-11f0-a1ad-024271d63b3f",
-        "user_id": 33210,
-        "date": "2025-10-07",
-        "time": "16:31:40",
-        "payer_name": "Commonwealth Bank",
-        "type": "error",
-        "status": "ERROR",
-        "country": "Australia",
-        "attributes": [],
-        "changes": [
-          {
-            "changes": "ERROR",
-            "date": "2025-10-07",
-            "time": "16:31"
-          }
-        ],
-        "name": "MassPayTest",
-        "full_name": "Yossi  Shlomo",
-        "company_name": "MassPayTest",
-        "sent": {
-          "value": "15.00000",
-          "currency": "USD"
-        },
-        "received": {
-          "value": "21.70585434",
-          "currency": "AUD"
-        },
-        "fee": {
-          "value": "3.71000",
-          "currency": "USD"
-        },
-        "fx": {
-          "value": "1.44705701",
-          "currency": "AUD"
-        },
-        "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589",
-        "attrs": {
-          "IdentificationNumber": {
-            "label": "IdentificationNumber",
-            "value": "12345678"
-          }
-        },
-        "buttons": {
-          "Force status update": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Update Status": {
-            "data-status": "ERROR",
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "Request cancellation": {
-            "data-user-token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
-            "data-payout-token": "payout_fbbf740f-b2c7-11f0-a1ad-024271d63b3f"
-          },
-          "status_reason": {
-            "data-copy": "Failed to complete transfer."
-          }
-        }
-      }
-    ],
-    "metadata": {
-      "page": 4,
-      "offset": 30,
-      "limit": 10,
-      "total": 15200,
-      "filter": 99929
-    }
-  },
   "payees": {
     "data": [
       {
@@ -3061,17 +2337,204 @@
         "status": "revoked",
         "created": "2023-06-23",
         "id": "144"
+      },
+      {
+        "key": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.a-I4iefk1Hxmk2c7AlcXJ4FYKIX53Uqd3A1wV2feGzBmHSUTwBQIvj5mFIKaTxWy9NvmWLFF0GqlBgq-grqXoxY5ByM6wfNt6bBgy8ZF9SXckCWYaMyMmQlYTGTyGdZ1PLyhWEO-Whn8PLX1Us1VVmyveOHokcQh69139z-TC9AscwMY9tQSKJsS-YyLkeNshpl5sGyVqVF9Im4qdCWHOuvBhHOVpHUHRIRPZDnbCPKvSnZoKIWnhFvCePwhCtu9-d42bZfdTimjjl0bTgvn11eVw_IYaDAY9k5y3T1xdHGEDM_hlHDkEIoOjLlJ4sRVttOTjIuDIQDXAPNn_jJFL11aw5_k9o7VO3uABA2411B4mZCmKmxU76a3ctOKzITeHLNbMlbXtUZttdkJ9QgOwNEMMqBKnzm8RqRtc6agvXbSgjrxMfy9cFpDqLgRh3EcC6FMEIe1LUnzAoGciywhgw3W_KNBlB0gSktR5fxxIaGlTIZIwEJE0NDDnq1aH97a78-jmj9J8bMQ_UtRPSbiw0Utda0xIEgI0_gH_tFpXk9QMriteEoUNbzpSYWY-l8XIIfUpLpl2B10_KxF0DQfsKUP_fm1vmiFjtKep480GHi0j_KtaRqrkkpvsC3Ad8wJbDGeYNntm-kxBo6-xfyThfvZXIWdKtHHPY56aJiThPA.37z9t_fI2LAivdSZ.B3GRjlneSHNoYCFPjTZnJhGwmN7z8_HxvHcytsGRSI6BxhOjqQSzSmk9HouKFVci90T3C2H4IEipSTyJu2OEdOH4lyN1kASh2_j9_709EApem5Hs-Iqa7D8AIOOYACyHY574RTqpa7ff5KUhKf7BHQ38RQ9ZM1mjpW0dq5V4P3phg9ir3tlEwfiF0eSxsoTGQwr8kEZoH7JUbtkJnbJNbhsfC-32qM48qvsOeMggJBFw80xkRBPY6Lwhgum1Z4edJCpgXREjU3yGGOmKMIikHPHnPlUqyMc.px9KI6V6X12lbdSjZLK7-g",
+        "status": "revoked",
+        "created": "2025-08-08",
+        "id": "390"
+      },
+      {
+        "key": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.echc9dw4mk2a_ESLekgxiJObczYcP-M2v1JtEWKG3FlgePcfOuFKVNRLku9xAo94UvulbbARFwuTxShFcSfTIPniLve1-lRW9JLIWaMOUrIn-kWjKYDAAsDgYNtfFsX3VFgjirT5_xM4ihNsH2vrqJrKkUaUHk8t1hjfEhZfvKN2mdxh40ny65ggx6Qw9PnuihnmHPrrKN5eag46pDhzuoXUE2ttaFP-T_dRJ-lFSRO0T2EJrSv5BeWZA0lcA-94r26zOcH9HLdyGGGkMWmX1BnRhs-5iS450USJ5ssZ9QKzZ9__vRlXuLLp7MdS_Cs0GwL9AvztyfpvlJ19f-t_AMIfHGbaygb63IvEDCucAHEkIx5g9cz6v-L3MJiB0rgGji7gg9Vgs7NjkRJFe5DKuMlPXKUlahBTJbLMQ0_aeVsnQ5WfHZ7QEpRxvEvlZjMM_kKq4x4WDZ215LYzxjSVHVFjC9vBa2AX_R4ei5nVReAtbyX54pEcvcnVYBNiFfHLYDMkNgDAeilMvUDP1-ZSDKehRwEbcP6sNO8_I4FzVuPGASD9S_2cS-TRUqEfQ9OhtAx8Q0bTlasvOwnXKgfRSnQ_IRrV7oswhlrx8y1W1v_QSQRyXmtGeEbacVE9H4FB-leqMq6BP3HPIZqeCKdZSy1Pdfwyb9xFlrkhXA7XzPU.Nf2yzGG40CfGLD3N.pvb3bNKIr2r6Z8t0-V7IFnjy0VZWEVuLWza6W3ykYD_iF8ujWWB5H2jOAzuJRqZVRQQNSVlpzYj2GfTRziuhgbTzIiyM8pbU7IXoFfAcgPbq0cl2RQts8hHWG9PNzUR3YNS2UAAbI6B4PVnpHwQ1nXPMtsVcN4m8nYGLRWLl9Xgpq7ucrF9euvWA9ZuTHNlIsrGlezd21lgt31g92Xdfm7aJpuj3UK6rRkxObUu0fBL1up9xYc0DbDR80_zbWuB8YIEoF7O4Zf3YEu1C7yQqAKhWv7SW3vQ.T69Zv9N3sNhCJ_fNFq2rZQ",
+        "status": "revoked",
+        "created": "2025-08-08",
+        "id": "391"
+      },
+      {
+        "key": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.IbA5IcUCm4gVv7inaR5H-HVt2aait3ueHA3aHwASI5ffDB6DrveSFxDE-yNyNWNRo5Xj2igtdDNyhcmLKL6FsTn5FTd8XUZdCkTs74i3uddNfkGPe5Hwz3W7DfvdTiGXjnZIDDIlg3M0GYJRVtWi_VFLNrmVeD8g2aWagjzJnmWr5z_bV2Az16VKJkrabq0u-MGbsiopvkh_D9W1vKRDjQTChJackkKRCzjo85BLkCQha0Fpak3Pt-OyZWQ0rnkZ-i3x7KikycZoI17Pp30o_B8aPvf9I9nxN6PF1o9O2y6Xx3Rqn-aff8fngy_b-qeKYLBrVq6PE3DZDIuz7ECwP_Uxy1Esok_Xr7kotO81iY-vCaM6qxm_eggAki67lXBab0X3xQESi-umTIA9lnB4hH9TfEXC-1pWkQ2FUM-D1PV0-RXQ4prSnrFeGgd7qtbhx8mh_bEO9cBu23uS5HQluEZ9lXVtJh1rbH3k5Om8YMRjCI3uPb6NW22vEtmrFpLXHI7tCB4TGy9ngl4Ao_XJ6EzYx4UF3yqBoQLJndJPcswx1r1FCQ7pfB08gK1-PYTfcE9CK7XZQnDZTyTtmI9j7khcfwV6e3ypsdKvf86Tlh8rBNoIFMCkGKrTZNx9SMncgQdgmaFFpqjJbDb-AK7WYXb9ZauqiT0Cxiu6DugJ_Nk.OS48zi93NJyh0g_i.Aj4Sdl0Dw-KHVGovqWq2HgLdr2pH4MM_q25GelSuZdy-jR0b1x_Wq2n4VEHCULwsjhORGWcck4I1MfJsEB1ji-PRcfw_i-vSTSq4YFZKxdileJeK-O7YwC3yRyHVSy0XYyWe8NVN4UeFhwZ3O-iQ4mnHZlHJlG1Kfwxi6usUy-6lwejDGTubSfK24x-pnJ_TYTGgtiQdeVJbE99mOSEdK-E2CjM8840RCIe6oYJqKoWXEeraLnXgvoSdgMovSL6PTxMpBejpdUEObWmOrAkYdlmTRfeP-Yg.sQeD1jGRazaY3j6vkFsn9w",
+        "status": "revoked",
+        "created": "2025-08-28",
+        "id": "395"
+      },
+      {
+        "key": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.Rb3w8uZDy8qf-kiccaeiTRN_WsVDKM95hRzRwvdYT8MSFRfo7Lq1AVsmLzaZnlb1-wb2repV0xX8z9pU-6G1GB3fHb5eVXbTFUeakdLmsLrwZG-UO7pdaBviRQfHMs9Wld6d828XF-aN8stDRSKdTaARpxIMoB2eusP6Wf1kOKleb6M-ztqnS68LAEgExZ_6fUF0nQABXcaKCc_6KvaDun8Z9T5sgo_Gke1pRlx2aceuHDRpyOSTe7epqOuLfNQdYw7uBexF7TSuIhMJn68bSmzmUnMhFNTOgL_Cjs1948dWMV665JHgIX5Xn10Dl5dYMVawc47lQHYYgNbB_9EvPYWaEX2EmZiIKW_6ZJ1RuKr8w6a85Udmt0wmMtRMxcuweFzOmHgC9QKQImPr1R9Qt4F43cA0zHrgyCi7lhF0IG2IULtljvEKEd9qnZwOwS57TB5Aa-1ZvO_LONsqxIzLAZxq21rkQSzq6QJW-ZR3eRq1YPJ8HAqDcMvk7pTQ_IXso7Miz--7QybspDfKw3Sb_tb_IK9jjCnU_klXHm-tLO6WnfXiUYMSgmamx3iPGDmlupZp32MZnchKXO7OdgKRtskoxsn4BrGFmFcRV90oHstVSX6E4vAshCVuQdgT_PdDfMBJAnhnBiDG26iAKlXxS3m5Bkd0cH_khjtqMcYMtNE.upKiqscyp0QZ3SaU.RrLsDAmkM5Tvim92PtXN9Nu-n3HnUwZG3_6jibpEpGtpLKnXZdL-dbwHzxMSXH3vOmZg5dGNfRyKS8xECwir9iaauu5NOqsVh51sanUAvDKSQqPyFiFUFWT4kzIK-tAOq0wjHAUS9ubED6acpWbDO9dRUkip2wKuty7kp-bCY3EunnGCXINgJpG5bHJmcJqn8hZvadS98vuTbbCd2LIHVhTHwFNhIWutol1uQtcebhkL0iQWaF3qQvjltrxre8KTrXwhuerAyZjflntBn9GDuBBRNVQ0VDI.jnlxysAUc2uFD0-vrM0rpQ",
+        "status": "revoked",
+        "created": "2025-09-17",
+        "id": "409"
+      },
+      {
+        "key": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.edfYAyANpe-8gWMDmnBzkegnFQ_FH5ihYUpt7Q0R1Z0CumyxKd-PxJrzTL139SNlz5kRdb2yaoAKyjGd764h06mPyTnSHZAX1Ydg8rMH4Vm6b7E_msZk1kfa2fff2DeAr7sqEigxDkosc_JzQDI6D8KvNKpAFrd10XpNVbOlBk6_aUVzbdLl5XxhY26cDKFMMpTnVStxG56IRy_uLv02o_I1cSPhdKPYFuvyF16feRMAxXTpuKHzmIqjG6umtHdpNBvy0EvBanyjEskzE00WJSDGe5o-UgNUqi_cterhm_7Wu9MpLMfdAnCyUkb0NmNUjBpY_JJ1q0pfOvrHUNL7cBlyJ1VMrebBU00YfiGDz0Rdi7WxHYC65GiI_ucfsl5iqoiF2c-00QfUyyivdkROUbyzgnJSGzdD0ynKDZpA9NG3vl3Im23CNIJK2kXglOLV5j7MJTN_z3WO1EwQ0vNURL8ocEv2oeeQ7DdLjd-V20C8gSI4DVpGxkSKN5f3EpTHDVK-igK9KIJRFi0dn1c_UMJk_fJQLx5hh2HAUiO3oVljgxK3OhEH1Pk764otNZCyTGlqGFGI_ZvseHyITa0N87Z-WvM-LKVBOQiSA0oxdQCSBxWK5F9IZt_AO99vToyfXyoH-iyEwB95i2GJZgIZj4a6Etlsim4qDe3XbnGx5KY.btuprxohW49xJnxi.ADeAPfWSSFPaG6GV35DOJ4OrXQYnRrYclfwnFxzx95ydLA03yeXFHn3dTqlq3tC7IUxBWJuBfdW_Rr-17fNJn1IhAat8k6r2O0tMBmdFxCDsJJ-rdaLYpOEMv6nRJvY-8Groi7wDIJgN1lsocpizrvPNAGUlCWYU9x1LST65ZkuXNZctcAVcIf_PvUwlHErBf67_l5sinE4JhJtlCEB6h_ETFNgNCF0S4NL5Iu4Nn7vmKvKPJ7Hq0Hcl47ppVC2rRCdiyTtbUcGvlGm8g7YthoNQmc-BYpw.P3LS8T2Jdd2V2H4VBPhWOg",
+        "status": "revoked",
+        "created": "2025-09-22",
+        "id": "410"
       }
     ],
     "metadata": {
       "page": 1,
       "offset": 0,
       "limit": 10,
-      "total": 5,
-      "filter": false
+      "total": "14",
+      "filter": false,
+      "sql": ""
+    },
+    "additionalData": {
+      "csrf_nameKey": "mp_csrf_name",
+      "csrf_valueKey": "mp_csrf_value",
+      "csrf_name": "mp_csrf69c292dd7e407",
+      "csrf_value": "lzcs/cH5PAB+fRHE44qQeoLrrTi0xeUIXjni6E9ZpMekDhXN8c4NNhpNJvXW7vZKs96VXITy0GxvAdHbeTuW9w=="
     }
   },
-  "webhooks": {},
+  "webhooks": {
+    "data": [
+      {
+        "id": "89398d01-1622-11f0-9853-02a851951a6d",
+        "url": "https://staging-api.masspay.io/v1.0.0/payout/callback/SurveyMonkey",
+        "event_types": [
+          "user.created",
+          "user.status",
+          "payout.created",
+          "payout.status",
+          "load.created",
+          "load.status",
+          "load.reversed",
+          "spendback.created",
+          "spendback.status",
+          "spendback.inactivity",
+          "kyc.id",
+          "attributes.stored",
+          "deposit_account.created",
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-04-10",
+        "status": "Inactive",
+        "key": "eb1a4e49-26d4-41ea-9a77-8cc762e24b38",
+        "secret": "eb1a4e49-****-****-****-8cc762e24b38"
+      },
+      {
+        "id": "3db8a565-aa01-4c16-9395-164d92cf8929",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-05-06",
+        "status": "Active",
+        "key": "719690aa-f64c-4813-82ad-0dcdf3ae0be7",
+        "secret": "719690aa-****-****-****-0dcdf3ae0be7"
+      },
+      {
+        "id": "4ad39ef5-82f1-437e-abf3-16b22b20cc35",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-05-07",
+        "status": "Active",
+        "key": "0340824f-f5e8-4e2e-b715-b7d96d2bcd6f",
+        "secret": "0340824f-****-****-****-b7d96d2bcd6f"
+      },
+      {
+        "id": "a3c73c37-308a-4701-af9a-4cc1a32a6575",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-07-07",
+        "status": "Active",
+        "key": "24c488ac-f727-4ef6-9a49-b41727df6752",
+        "secret": "24c488ac-****-****-****-b41727df6752"
+      },
+      {
+        "id": "f2b5c55e-dbad-478f-aec0-6845de369c6f",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-05-07",
+        "status": "Active",
+        "key": "7eae04f1-e329-4edb-a574-2410778f72ab",
+        "secret": "7eae04f1-****-****-****-2410778f72ab"
+      },
+      {
+        "id": "63499a46-877e-417d-9fbc-8373e19f3d4d",
+        "url": "https://www.google.com",
+        "event_types": [
+          "user.created",
+          "user.status",
+          "payout.status"
+        ],
+        "created": "2025-04-11",
+        "status": "Inactive",
+        "key": "51504603-e4fa-4ab5-8e71-981ba94db94b",
+        "secret": "51504603-****-****-****-981ba94db94b"
+      },
+      {
+        "id": "25128c90-3eec-4556-a0b9-b1b35bdc305b",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-07-07",
+        "status": "Active",
+        "key": "5d34fc56-859a-48bc-a75d-04cb11c4fe68",
+        "secret": "5d34fc56-****-****-****-04cb11c4fe68"
+      },
+      {
+        "id": "b629135b-3ac1-415d-8beb-d91249af131b",
+        "url": "https://www.google.com",
+        "event_types": [
+          "user.created",
+          "user.status"
+        ],
+        "created": "2025-04-09",
+        "status": "Inactive",
+        "key": "fbe48d4c-98d3-4932-8c40-39cffafbf999",
+        "secret": "fbe48d4c-****-****-****-39cffafbf999"
+      },
+      {
+        "id": "b9cf0a7c-c3cf-4463-a7cb-b8e77f140758",
+        "url": "https://webhook.site/a380a7ab-7b56-4278-a9da-3ee687eff98a",
+        "event_types": [
+          "user.status"
+        ],
+        "created": "2025-04-10",
+        "status": "Inactive",
+        "key": "528a86f6-02b8-44bd-b71e-eaa4dd15bebe",
+        "secret": "528a86f6-****-****-****-eaa4dd15bebe"
+      },
+      {
+        "id": "b74963b8-afd0-4c0c-9f3b-bba027924f29",
+        "url": "https://payenginewebhookdestination.com/",
+        "event_types": [
+          "business.created",
+          "business.status"
+        ],
+        "created": "2025-05-07",
+        "status": "Active",
+        "key": "b22aa22a-deae-4e6a-8cd9-7e6a51fe4465",
+        "secret": "b22aa22a-****-****-****-7e6a51fe4465"
+      }
+    ],
+    "metadata": {
+      "page": 1,
+      "offset": 0,
+      "limit": 10,
+      "total": "14",
+      "filter": false,
+      "sql": ""
+    },
+    "additionalData": {
+      "csrf_nameKey": "mp_csrf_name",
+      "csrf_valueKey": "mp_csrf_value",
+      "csrf_name": "mp_csrf69c292dd7e407",
+      "csrf_value": "2YuCJEsyTxdvDwb79seHRhyz9Y+QMCyrVACt+VyNA3PqsrsUewV+IQs/McrDo+F2LYbN66AHGc9lOJ7Kau8xQw=="
+    }
+  },
   "webhooks_events": [
     {
       "id": "a1",
@@ -3134,128 +2597,7 @@
       "name": "business.status"
     }
   ],
-  "batches": {
-    "data": [
-      {
-        "id": "657",
-        "date": "2025-03-21",
-        "time": "21:34",
-        "uploaded_by": "Brent  Goss",
-        "original_file_name": "Sample batch file - wallet load.xlsx",
-        "total_transactions": "2",
-        "total_amount_processed": {
-          "value": 2001,
-          "currency": "USD"
-        },
-        "errors": "0"
-      },
-      {
-        "id": "656",
-        "date": "2025-03-21",
-        "time": "15:24",
-        "uploaded_by": "Brent  Goss",
-        "original_file_name": "Sample batch file - wallet load.xlsx",
-        "total_transactions": "1",
-        "total_amount_processed": {
-          "value": 1000,
-          "currency": "USD"
-        },
-        "errors": "0"
-      },
-      {
-        "id": "655",
-        "date": "2025-03-21",
-        "time": "03:41",
-        "uploaded_by": "  ",
-        "original_file_name": "Sample Batch File - All Currencies.xlsx",
-        "total_transactions": "1",
-        "errors": "0"
-      },
-      {
-        "id": "654",
-        "date": "2025-03-21",
-        "time": "03:40",
-        "uploaded_by": "  ",
-        "original_file_name": "Sample Batch File - All Currencies.xlsx",
-        "total_transactions": "1",
-        "errors": "0"
-      },
-      {
-        "id": "649",
-        "date": "2025-03-14",
-        "time": "18:09",
-        "uploaded_by": "  ",
-        "original_file_name": "mdcTEST.xlsx",
-        "total_transactions": "2",
-        "errors": "0"
-      },
-      {
-        "id": "647",
-        "date": "2025-02-10",
-        "time": "15:58",
-        "uploaded_by": "  BBB",
-        "original_file_name": "Sample Batch File - All Currencies.xlsx",
-        "total_transactions": "2",
-        "total_amount_processed": {
-          "value": 20000,
-          "currency": "USD"
-        },
-        "errors": "0"
-      },
-      {
-        "id": "644",
-        "date": "2025-02-07",
-        "time": "23:30",
-        "uploaded_by": "Brent  Goss",
-        "original_file_name": "Masspay EUR 10.02.2025.xlsx",
-        "total_transactions": "1",
-        "errors": "0"
-      },
-      {
-        "id": "613",
-        "date": "2025-01-30",
-        "time": "19:51",
-        "uploaded_by": "  ",
-        "original_file_name": "subs.xlsx",
-        "total_transactions": "1",
-        "errors": "0"
-      },
-      {
-        "id": "578",
-        "date": "2024-12-16",
-        "time": "17:55",
-        "uploaded_by": "  ",
-        "original_file_name": "Sample Batch File - All Currencies.xlsx",
-        "total_transactions": "1",
-        "total_amount_processed": {
-          "value": 140.33,
-          "currency": "USD"
-        },
-        "errors": "0"
-      },
-      {
-        "id": "577",
-        "date": "2024-12-16",
-        "time": "17:54",
-        "uploaded_by": "  ",
-        "original_file_name": "Sample Batch File - All Currencies.xlsx",
-        "total_transactions": "1",
-        "total_amount_processed": {
-          "value": 140.33,
-          "currency": "USD"
-        },
-        "errors": "0"
-      }
-    ],
-    "metadata": {
-      "page": 1,
-      "offset": 0,
-      "limit": 10,
-      "total": 115,
-      "filter": false
-    }
-  },
-  "manage_users": {
+  "manage_users_OLD": {
     "data": [
       {
         "id": 123123,
@@ -3399,7 +2741,7 @@
       "header_background_color1": "#77ba12",
       "header_background_color2": "#f0aa47",
       "header_background_color3": "#48c788",
-      "logo_url": "https://"
+      "logo_url": ""
     }
   },
   "countries": {
@@ -3461,89 +2803,6 @@
         "flag": "https://www.cia.gov/the-world-factbook/static/flags/CA-flag.jpg"
       }
     ]
-  },
-  "pricing_rules": {
-    "data": [
-      {
-        "client": "All",
-        "country": "All",
-        "delivery_type": "All",
-        "payer": "All",
-        "currency": "All",
-        "fx": "1%",
-        "fee": {
-          "value": 30,
-          "currency": "USD"
-        }
-      },
-      {
-        "client": "All",
-        "country": "All",
-        "delivery_type": "All",
-        "payer": "All",
-        "currency": "USD",
-        "fx": "0%",
-        "fee": {
-          "value": 30,
-          "currency": "USD"
-        }
-      },
-      {
-        "client": "MassPay",
-        "country": "All",
-        "delivery_type": "Bank Deposit",
-        "payer": "All",
-        "currency": "GBP",
-        "fx": "3%",
-        "fee": {
-          "value": 5,
-          "currency": "USD"
-        }
-      },
-      {
-        "client": "All",
-        "country": "United States",
-        "delivery_type": "Bank Deposit",
-        "payer": "Next Bank Deposit",
-        "currency": "USD",
-        "fx": "0%",
-        "fee": {
-          "value": 0.25,
-          "currency": "USD"
-        }
-      },
-      {
-        "client": "All",
-        "country": "United States",
-        "delivery_type": "Bank Deposit",
-        "payer": "Next Bank Deposit",
-        "currency": "USD",
-        "fx": "0%",
-        "fee": {
-          "value": 0,
-          "currency": "USD"
-        }
-      },
-      {
-        "client": "All",
-        "country": "United States",
-        "delivery_type": "Bank Deposit",
-        "payer": "Bank Deposit US",
-        "currency": "USD",
-        "fx": "0%",
-        "fee": {
-          "value": 0.33,
-          "currency": "USD"
-        }
-      }
-    ],
-    "metadata": {
-      "page": 1,
-      "offset": 0,
-      "limit": 10,
-      "total": 6,
-      "filter": 0
-    }
   },
   "currencies": [
     {
@@ -7797,7 +7056,13 @@
           "volume": "1417.72472"
         }
       ],
-      "countries": ["US", "TR", "IN", "FR", "CA"],
+      "countries": [
+        "US",
+        "TR",
+        "IN",
+        "FR",
+        "CA"
+      ],
       "chartData": [
         {
           "payout_month": "July",
@@ -7999,8 +7264,14 @@
         "28207.75042",
         "69528.54546"
       ],
-      "transactions_client_breakdown_keys": ["B2SPIN Limited", "Linden Labs"],
-      "transactions_client_breakdown_values": ["12", "7"],
+      "transactions_client_breakdown_keys": [
+        "B2SPIN Limited",
+        "Linden Labs"
+      ],
+      "transactions_client_breakdown_values": [
+        "12",
+        "7"
+      ],
       "test": [
         {
           "transactions_count": "12",
@@ -8193,7 +7464,15 @@
       "chart": [
         {
           "name": "Client Volume Tiers",
-          "data": [169, 120, 246, 145, 233, 120, 80],
+          "data": [
+            169,
+            120,
+            246,
+            145,
+            233,
+            120,
+            80
+          ],
           "legend": [
             {
               "description": "MassPay"
@@ -8234,22 +7513,57 @@
         "data": [
           {
             "name": "United States",
-            "data": [44, 55, 41, 67, 22, 43]
+            "data": [
+              44,
+              55,
+              41,
+              67,
+              22,
+              43
+            ]
           },
           {
             "name": "Europe",
-            "data": [13, 23, 20, 8, 13, 27]
+            "data": [
+              13,
+              23,
+              20,
+              8,
+              13,
+              27
+            ]
           },
           {
             "name": "India",
-            "data": [11, 17, 15, 15, 21, 14]
+            "data": [
+              11,
+              17,
+              15,
+              15,
+              21,
+              14
+            ]
           },
           {
             "name": "Mexico",
-            "data": [21, 7, 25, 13, 22, 8]
+            "data": [
+              21,
+              7,
+              25,
+              13,
+              22,
+              8
+            ]
           }
         ],
-        "labels": ["jan", "feb", "mar", "apr", "may", "jun"],
+        "labels": [
+          "jan",
+          "feb",
+          "mar",
+          "apr",
+          "may",
+          "jun"
+        ],
         "legend": [
           {
             "description": "United States",
@@ -8287,7 +7601,13 @@
         "period": "Today"
       },
       "chart": {
-        "data": [44, 55, 41, 17, 15],
+        "data": [
+          44,
+          55,
+          41,
+          17,
+          15
+        ],
         "legend": [
           {
             "description": "MassPay",
@@ -8918,7 +8238,11 @@
         "total": 6,
         "filter": 0
       },
-      "actions": ["download_balances", "wire_transfer", "wire_instructions"]
+      "actions": [
+        "download_balances",
+        "wire_transfer",
+        "wire_instructions"
+      ]
     },
     {
       "bank_id": "32da4d44-bc26-4a53-9532-18c81542104f",
@@ -9016,7 +8340,11 @@
         "total": 6,
         "filter": 0
       },
-      "actions": ["download_balances", "wire_transfer", "wire_instructions"]
+      "actions": [
+        "download_balances",
+        "wire_transfer",
+        "wire_instructions"
+      ]
     },
     {
       "bank_id": "701d9be4-0ab4-423d-97e9-6c049fc7af06",
@@ -9114,7 +8442,11 @@
         "total": 6,
         "filter": 0
       },
-      "actions": ["download_balances", "wire_transfer", "wire_instructions"]
+      "actions": [
+        "download_balances",
+        "wire_transfer",
+        "wire_instructions"
+      ]
     },
     {
       "bank_id": "94f191fd-91fb-42d6-84a6-e8d24bac5246",
@@ -9421,32 +8753,6 @@
         "wire_instructions",
         "statement"
       ]
-    }
-  ],
-  "banks": [
-    {
-      "id": "94f191fd-91fb-42d6-84a6-e8d24bac5245",
-      "name": "My EU Pay Bank"
-    },
-    {
-      "id": "b4dcbbf0-88aa-403d-8192-c70df5cbf16f",
-      "name": "Fortress Bank"
-    },
-    {
-      "id": "32da4d44-bc26-4a53-9532-18c81542104f",
-      "name": "MCB Bank"
-    },
-    {
-      "id": "701d9be4-0ab4-423d-97e9-6c049fc7af06",
-      "name": "Ibanera Bank"
-    },
-    {
-      "id": "94f191fd-91fb-42d6-84a6-e8d24bac5246",
-      "name": "CRB Bank"
-    },
-    {
-      "id": "b4dcbbf0-88aa-403d-8192-c70df5cbf16e",
-      "name": "JustWallet Bank"
     }
   ],
   "accounts": [
@@ -12063,7 +11369,12 @@
   },
   "file_upload": {
     "name": "John Doe",
-    "types": ["bank_statement", "utility_bill", "passport", "drivers_license"]
+    "types": [
+      "bank_statement",
+      "utility_bill",
+      "passport",
+      "drivers_license"
+    ]
   },
   "tax_year_options": [
     {
@@ -12092,7 +11403,11 @@
     }
   ],
   "recent": {
-    "recent_search": ["michael friedman", "kris findlay", "62cc9ba96001d"],
+    "recent_search": [
+      "michael friedman",
+      "kris findlay",
+      "62cc9ba96001d"
+    ],
     "recent_payees": [
       {
         "id": 123123,

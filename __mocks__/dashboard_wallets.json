@@ -1,0 +1,46 @@
+[
+  {
+    "id": "135559b7-610a-11ef-9709-023beedd7751",
+    "type": "masspay",
+    "icon_url": "/assets/img/country/square/EUR.png",
+    "title": "MassPay EUR Wallet",
+    "balance": {
+      "value": "-903512.63",
+      "currency": "EUR"
+    },
+    "selected": false
+  },
+  {
+    "id": "2745bea1-8ac9-11ed-9f8b-02450efa1c35",
+    "type": "masspay",
+    "icon_url": "/assets/img/country/square/PNTS.png",
+    "title": "MassPay PNTS Wallet",
+    "balance": {
+      "value": "-2498.96",
+      "currency": "PNTS"
+    },
+    "selected": false
+  },
+  {
+    "id": "692f358f-610b-11ef-9709-023beedd7751",
+    "type": "masspay",
+    "icon_url": "/assets/img/country/square/CAD.png",
+    "title": "MassPay CAD Wallet",
+    "balance": {
+      "value": "97573.03",
+      "currency": "CAD"
+    },
+    "selected": true
+  },
+  {
+    "id": "64326163-3736-6434-2d35-3736612d3131",
+    "type": "masspay",
+    "icon_url": "/assets/img/country/square/USD.png",
+    "title": "MassPay USD Wallet",
+    "balance": {
+      "value": "32583827.92",
+      "currency": "USD"
+    },
+    "selected": false
+  }
+]

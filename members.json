@@ -144,28 +144,6 @@
     ],
     "cards": [
       {
-        "id": 123,
-        "type": "masspay",
-        "title": "Lyft Wallet",
-        "card_number": "7654",
-        "active": true,
-        "amount": {
-          "currency": "USD",
-          "value": 27999
-        }
-      },
-      {
-        "id": 124,
-        "type": "visa",
-        "title": "EUR Debit",
-        "card_number": "0987",
-        "active": true,
-        "amount": {
-          "currency": "PNTS",
-          "value": 23098.98
-        }
-      },
-      {
         "id": 125,
         "type": "mastercard",
         "title": "EUR Debit",

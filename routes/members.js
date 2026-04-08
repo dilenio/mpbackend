@@ -58,7 +58,7 @@ function registerMemberRoutes(server) {
       res.setHeader("Content-Type", mimeType);
       res.setHeader(
         "Content-Disposition",
-        `attachment; filename=commissions.xlsx`
+        `attachment; filename=commissions.xlsx`,
       );
       res.setHeader("Access-Control-Expose-Headers", "Content-Disposition");
 

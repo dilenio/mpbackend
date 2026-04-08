@@ -1,0 +1,159 @@
+{
+  "image": "https://picsum.photos/id/42/200",
+  "name": "dilenio  enderle",
+  "first_name": "dilenio",
+  "middle_name": "",
+  "last_name": "enderle",
+  "vindex": {
+    "this_month_sum": "51015.00000",
+    "last_month_sum": "103274.16000"
+  },
+  "account_balance_widget": {
+    "chart": [
+      {
+        "year": "2025",
+        "month": "July",
+        "payed_out": 0,
+        "loaded": 6000009.21
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "payed_out": 67,
+        "loaded": 2000000
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "payed_out": 0,
+        "loaded": 4500000
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "payed_out": 27,
+        "loaded": 1123456
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "payed_out": 0,
+        "loaded": 4000000
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "payed_out": 0,
+        "loaded": 8000000
+      }
+    ],
+    "summery": {
+      "transactions_today": {
+        "value": 0,
+        "period": "This Month",
+        "status": "Up",
+        "index": "47.06%"
+      },
+      "todays_volume": {
+        "value": 0,
+        "period": "Today",
+        "status": "Minus",
+        "index": "0%",
+        "currency": "USD"
+      },
+      "payees": {
+        "value": "6195",
+        "period": "This Month",
+        "index": "96.45%",
+        "status": "Up"
+      }
+    }
+  },
+  "wallets_widget": [
+    {
+      "id": "135559b7-610a-11ef-9709-023beedd7751",
+      "type": "masspay",
+      "icon_url": "/assets/img/country/square/EUR.png",
+      "title": "MassPay EUR Wallet",
+      "balance": {
+        "value": "-903195.25",
+        "currency": "EUR"
+      },
+      "selected": false
+    },
+    {
+      "id": "2745bea1-8ac9-11ed-9f8b-02450efa1c35",
+      "type": "masspay",
+      "icon_url": "/assets/img/country/square/PNTS.png",
+      "title": "MassPay PNTS Wallet",
+      "balance": {
+        "value": "-2289.96",
+        "currency": "PNTS"
+      },
+      "selected": false
+    },
+    {
+      "id": "692f358f-610b-11ef-9709-023beedd7751",
+      "type": "masspay",
+      "icon_url": "/assets/img/country/square/CAD.png",
+      "title": "MassPay CAD Wallet",
+      "balance": {
+        "value": "97782.03",
+        "currency": "CAD"
+      },
+      "selected": false
+    },
+    {
+      "id": "64326163-3736-6434-2d35-3736612d3131",
+      "type": "masspay",
+      "icon_url": "/assets/img/country/square/USD.png",
+      "title": "MassPay USD Wallet",
+      "balance": {
+        "value": "71523325.07",
+        "currency": "USD"
+      },
+      "selected": true
+    }
+  ],
+  "chart": [
+    {
+      "year": "2025",
+      "month": "July",
+      "payed_out": 0,
+      "loaded": 6000009.21
+    },
+    {
+      "year": "2025",
+      "month": "August",
+      "payed_out": 67,
+      "loaded": 2000000
+    },
+    {
+      "year": "2025",
+      "month": "September",
+      "payed_out": 0,
+      "loaded": 4500000
+    },
+    {
+      "year": "2025",
+      "month": "October",
+      "payed_out": 27,
+      "loaded": 1123456
+    },
+    {
+      "year": "2025",
+      "month": "November",
+      "payed_out": 0,
+      "loaded": 4000000
+    },
+    {
+      "year": "2025",
+      "month": "December",
+      "payed_out": 0,
+      "loaded": 8000000
+    }
+  ],
+  "currency_list": ["EUR", "PNTS", "CAD", "USD"],
+  "currency": "USD",
+  "term": 6
+}
