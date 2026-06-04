@@ -22,6 +22,96 @@
     ],
     "adjustments_for_approval": [
         {
+            "time_of_balance_adjustment": "2026-04-13 07:01:07",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "1212",
+                    "source": "",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "54",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 07:00:37",
+            "actions": [
+                {
+                    "notes": "Credit of funds - YourSafe USD",
+                    "amount": "5555",
+                    "source": "",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "53",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:46",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Nano",
+                    "amount": "1111",
+                    "source": "    vvvvvvv",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "52",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:16",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "2222",
+                    "source": "test",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "51",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:13",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "2222",
+                    "source": "test",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "50",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-09 10:15:02",
+            "actions": [
+                {
+                    "notes": "Credit Nano",
+                    "amount": 1000,
+                    "source": "Checkout LLC",
+                    "currency": "USD",
+                    "client_id": 2,
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "49",
+            "name": "Gilad Grushkovsky"
+        },
+        {
             "time_of_balance_adjustment": "2025-08-08 08:09:54",
             "actions": [
                 {
@@ -221,7 +311,7 @@
     "csrf_token": {
         "csrf_nameKey": "mp_csrf_name",
         "csrf_valueKey": "mp_csrf_value",
-        "csrf_name": "mp_csrf69d53e2dd6d4e",
-        "csrf_value": "mMnvvt5ScGXWFzPlc2fi1atFY9rD+EiaK1obIMilE3SsrNuH7TMTBORyUtxDBtHiyHZV7aDKe64bayxF+sQhRw=="
+        "csrf_name": "mp_csrf69e6703cd715d",
+        "csrf_value": "Ious2K8TY67J6qh3G2ilUINi2TsNG58iQRz/4o0UoeUW6Z/snnVVzKvczUEsX8Fp5wG4DjwipkNxLpvXtSDEhw=="
     }
 }

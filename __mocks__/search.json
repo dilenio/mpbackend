@@ -1,5 +1,11 @@
 {
-  "payouts": [],
+  "payouts": [
+        {
+            "full_name": "RIMAS NAJI M ALFAIFI (Global Gifting Technologies Inc - Throne)",
+            "user_token": "6fc2b0b8-f726-11ef-b24e-02f0d179f5a1",
+            "client_id": "270"
+        }
+    ],
   "users": [
     {
       "full_name": "test company",

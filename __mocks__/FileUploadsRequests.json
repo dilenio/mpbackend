@@ -1,0 +1,302 @@
+[
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-04 05:53:00",
+    "time_completed": null,
+    "is_verified": "1",
+    "is_required": "1",
+    "types_of_documents_to_accept": [
+      "Proof of Address (last 3 months)",
+      "Insurance Card (last 3 months)"
+    ],
+    "metadata": [],
+    "request_token": "993e7fa4-7d77-424f-bb46-2f8fa7a5a150"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"1b533e99-9081-41c5-a70d-d90cd097857e\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"bc64bbc4-8653-4fd7-9a53-93785e99260c\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"79cfca8e-c431-4a4f-9ebf-7269f1ea07a1\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\",\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-03 21:08:51",
+    "time_completed": "2026-05-04 13:53:58",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Bank Statement"
+    ],
+    "metadata": [],
+    "request_token": "0811a3cf-968c-45f0-a817-d63fc6efbffb"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"fd1580bd-df52-4f19-8359-f49ac0b21121\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"6ca626b5-e0a9-4d06-af55-3875911ebfea\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"a4c867ab-7468-4866-bf8c-3fe5bc9c348a\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-03 18:13:25",
+    "time_completed": "2026-05-03 21:11:32",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Company/Entity Documents"
+    ],
+    "metadata": [],
+    "request_token": "37c9c052-628e-4bad-913c-ebcde1a4014e"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"c5e3f5f4-0211-465c-ae40-400ab8becba4\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Proof of Address (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"d7e0dc43-e0cc-4307-bb5b-3434af599ea2\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Proof of Address (last 3 months)\\\",\\\"Proof of Address (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-03 11:47:52",
+    "time_completed": "2026-05-03 21:16:23",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Proof of Address (last 3 months)"
+    ],
+    "metadata": [],
+    "request_token": "457d8fef-42b9-44f6-aa9c-35f6e816bcac"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"jpeg\", \"name\": \"faa17059-2cb6-4c77-bd8d-2cc1ae0839fb\", \"orig\": \"T01B9GA0Y03-U090EC1URBQ-3a95c0df52f5-512.jpeg\", \"type\": \"Government Issued ID\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"601ac637-8029-4ad0-bdf6-f501fa4fd0af\", \"orig\": \"Mad Coder Inv 2026 - 05 (1).pdf\", \"type\": \"[\\\"Government Issued ID\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-03 11:09:13",
+    "time_completed": "2026-05-19 10:29:37",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Government Issued ID"
+    ],
+    "metadata": [],
+    "request_token": "921594d8-da12-4e1b-8e07-69c2812653d8"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-03 11:00:10",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Wallet Screenshot"
+    ],
+    "metadata": [],
+    "request_token": "21f0321b-c2d9-40ec-9380-225f6dcdb293"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"3ec45cca-de0a-4e6e-aae5-83f43ecaf7a5\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad11\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-02 22:22:57",
+    "time_completed": "2026-05-02 22:24:11",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "gilad11"
+    ],
+    "metadata": [],
+    "request_token": "1b061cee-e29b-45fe-8750-49c674292e8a"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"134d70d1-3aca-464b-9e59-625f1600d854\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"ceb676d1-6903-4b0e-9a55-31df507d9503\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-02 22:20:08",
+    "time_completed": "2026-05-02 22:22:13",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "gilad"
+    ],
+    "metadata": [],
+    "request_token": "bd35d0b8-f1c5-4eef-9884-51567d63d41e"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-01 08:56:14",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Miscellaneous\"]",
+    "metadata": [],
+    "request_token": "83b26e03-6f34-4af7-b866-75f9304c30b4"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-01 08:55:43",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Company/Entity Documents\"]",
+    "metadata": [],
+    "request_token": "86f12ac4-6db5-42e8-b534-808692c49722"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-01 08:15:18",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Government Issued ID\"]",
+    "metadata": [],
+    "request_token": "04b4e6ce-a8cb-4d06-8539-051cde94fd2e"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-05-01 08:14:46",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Utility Bill (last 3 months)\"]",
+    "metadata": [],
+    "request_token": "33decde8-45a4-44aa-93bb-8589d5ffef98"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"c828216d-637f-4f5e-aabc-252c800b13b8\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"169b543d-355b-457c-8bd8-dab9a8bb9b16\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"5f9216cb-9e4f-4c05-aa68-2aab4c1b5be8\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"3cdf16f1-c3a2-41d2-85ff-8831bd468143\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"4de8e6cb-1287-4e59-b3a0-dcd5446d557c\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"545d9322-d218-4b88-b999-0b07501ba28c\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"7fe53ce9-631f-47f2-90da-4f8c3a401eed\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"d8701f82-7556-42f2-9eff-8c187e2e2836\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"7ffea746-3caf-4ffd-bc18-33b80623801b\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"\\\"[\\\\\\\"Bank Statement\\\\\\\"]\\\"\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-01 07:11:40",
+    "time_completed": "2026-05-02 22:12:12",
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Bank Statement\"]",
+    "metadata": [],
+    "request_token": "b6a69f3b-7d10-4a2f-871d-6b7a8ebbe0c4"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"1b414eb3-2027-43ce-927a-6ad5d54bd28d\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Paper Check\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-01 06:58:16",
+    "time_completed": "2026-05-01 07:34:35",
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Paper Check\"]",
+    "metadata": [],
+    "request_token": "9eb279ba-ef53-470b-b7ee-733a2d113a9e"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-30 19:42:03",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Proof of Address (last 3 months)\"]",
+    "metadata": [],
+    "request_token": "cf8d65e4-3350-4d0b-b61b-05f978e9a16c"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-30 19:36:13",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": "[\"Insurance Card (last 3 months)\"]",
+    "metadata": [],
+    "request_token": "d073c5e1-4424-4804-aac8-86f850e064f6"
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"99c66cfa-9302-4586-8fbb-2a00460cc99e\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Utility Bill (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-04-30 19:14:09",
+    "time_completed": "2026-05-03 18:11:52",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Utility Bill (last 3 months)"
+    ],
+    "metadata": [],
+    "request_token": "9eab00de-16f9-49f9-9113-0ba99b6561e2"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-30 18:01:19",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Insurance Card (last 3 months)"
+    ],
+    "metadata": [],
+    "request_token": "34a75038-f0cb-4147-88ed-a5c3d47b6a5c"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-30 12:27:51",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "RFI",
+      "Paper Check"
+    ],
+    "metadata": [],
+    "request_token": "7fca7aa5-dbcc-4277-bab8-9f36e0dd5976"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-30 12:26:38",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "RFI",
+      "Paper Check",
+      "Bank Statement"
+    ],
+    "metadata": [],
+    "request_token": "a24fe4d0-4989-4d15-b3ea-4f2fed8b651e"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-11-26 18:20:07",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Paper Check"
+    ],
+    "metadata": [],
+    "request_token": "dbee4afc-84ce-4378-a532-7a73c7454ed0"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-06-30 18:35:12",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Paper Check",
+      "Bank Statement"
+    ],
+    "metadata": [],
+    "request_token": "9a8a4f9d-6ec3-4938-9fb9-7988437735af"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-05-09 16:10:23",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Paper Check",
+      "Bank Statement"
+    ],
+    "metadata": [
+      {
+        "key": "Account Number",
+        "value": "100000001234"
+      }
+    ],
+    "request_token": "5fe13c5f-c1be-4522-ae5a-5b82130b2946"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-05-03 16:07:46",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Bank Statement",
+      "Paper Check"
+    ],
+    "metadata": [
+      {
+        "key": "Account Number",
+        "value": "1231231"
+      }
+    ],
+    "request_token": "c50590fd-46dc-42ea-8744-d1948113e835"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-05-03 16:02:30",
+    "time_completed": "2025-05-03 09:04:18",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Bank Statement",
+      "Paper Check"
+    ],
+    "metadata": [
+      {
+        "key": "Account Number",
+        "value": "ran@masspay.io"
+      }
+    ],
+    "request_token": "b5390d85-6fd3-4ded-add5-ffc3c52c37ef"
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-04-17 02:40:04",
+    "time_completed": null,
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Bank Statement",
+      "Paper Check"
+    ],
+    "metadata": [
+      {
+        "key": "Account Number",
+        "value": "1231231"
+      }
+    ],
+    "request_token": "3311c86c-038d-4dfb-8e49-899182030adf"
+  }
+]

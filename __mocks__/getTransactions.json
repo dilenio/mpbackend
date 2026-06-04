@@ -1,522 +1,423 @@
 {
-  "data": [
-    {
-      "id": "71a648d0-fa77-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-25",
-      "time": "21:27:36",
-      "payer_name": "Bank Digital BCA",
-      "type": "transfer",
-      "status": "PROCESSING",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1112223330"
-        },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900002"
-        }
-      },
-      "changes": [
+    "data": [
         {
-          "changes": "Processing",
-          "date": "2026-01-25",
-          "time": "21:25"
-        }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "testUser300",
-      "attr_set_token": "bde65ff3-1097-465f-9a28-8caf1cec61bb",
-      "client_transfer_id": "6976facdebb3e",
-      "pickup_code": "ab61fc5a-34ab-4083-98b4-e75e89a6727c",
-      "metadata": { "name": "test" },
-      "client_transfer_id_display": "6976facdebb3e",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "51.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "825755.03355691",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.43000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16191.27539062",
-        "currency": "IDR"
-      },
-      "status_reason": "",
-      "paid_by_user": true,
-      "user_token": "823e237c-f89a-11f0-8000-0a4151347fb3"
-    },
-    {
-      "id": "74fe2f0e-f89e-11f0-8000-0a4151347fb3",
-      "user_id": 77319,
-      "date": "2026-01-23",
-      "time": "12:59:50",
-      "payer_name": "",
-      "type": "load",
-      "status": "COMPLETED",
-      "country": "Australia",
-      "attributes": [],
-      "changes": [],
-      "name": " (Jims test business)",
-      "delivery_type": "LOAD",
-      "internal_user_id": "testUser302",
-      "attr_set_token": null,
-      "client_transfer_id": "invoice#802",
-      "pickup_code": "",
-      "metadata": [],
-      "client_transfer_id_display": "invoice#802",
-      "has_payload": false,
-      "full_name": "Jim  Green",
-      "company_name": "Jims test business",
-      "sent": {
-        "value": "100.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "100.00000000",
-        "currency": "USD"
-      },
-      "fee": {
-        "value": "0.00000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "1.00000000",
-        "currency": "USD"
-      },
-      "status_reason": "",
-      "paid_by_user": false,
-      "user_token": "74b795df-f89e-11f0-8000-0a4151347fb3"
-    },
-    {
-      "id": "74ae0cf2-f89e-11f0-8000-0a4151347fb3",
-      "user_id": 77318,
-      "date": "2026-01-23",
-      "time": "12:59:49",
-      "payer_name": "",
-      "type": "load",
-      "status": "COMPLETED",
-      "country": "Australia",
-      "attributes": [],
-      "changes": [],
-      "name": " (Jims other test business)",
-      "delivery_type": "LOAD",
-      "internal_user_id": "testuser303",
-      "attr_set_token": null,
-      "client_transfer_id": "invoice#803",
-      "pickup_code": "",
-      "metadata": [],
-      "client_transfer_id_display": "invoice#803",
-      "has_payload": false,
-      "full_name": "Jim  Green",
-      "company_name": "Jims other test business",
-      "sent": {
-        "value": "200.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "200.00000000",
-        "currency": "USD"
-      },
-      "fee": {
-        "value": "0.00000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "1.00000000",
-        "currency": "USD"
-      },
-      "status_reason": "",
-      "paid_by_user": false,
-      "user_token": "745dc847-f89e-11f0-8000-0a4151347fb3"
-    },
-    {
-      "id": "827e61f3-f89a-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "12:31:35",
-      "payer_name": "",
-      "type": "load",
-      "status": "COMPLETED",
-      "country": "United States",
-      "attributes": [],
-      "changes": [],
-      "name": " (MassPayTest)",
-      "delivery_type": "LOAD",
-      "internal_user_id": "testUser300",
-      "attr_set_token": null,
-      "client_transfer_id": "invoice#800",
-      "pickup_code": "",
-      "metadata": [],
-      "client_transfer_id_display": "invoice#800",
-      "has_payload": false,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "100.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "100.00000000",
-        "currency": "USD"
-      },
-      "fee": {
-        "value": "0.00000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "1.00000000",
-        "currency": "USD"
-      },
-      "status_reason": "",
-      "paid_by_user": false,
-      "user_token": "823e237c-f89a-11f0-8000-0a4151347fb3"
-    },
-    {
-      "id": "811e22a8-f89a-11f0-8000-0a4151347fb3",
-      "user_id": 72419,
-      "date": "2026-01-23",
-      "time": "12:31:32",
-      "payer_name": "",
-      "type": "load",
-      "status": "COMPLETED",
-      "country": "Australia",
-      "attributes": [],
-      "changes": [],
-      "name": " (Jims other test business)",
-      "delivery_type": "LOAD",
-      "internal_user_id": "testUser246",
-      "attr_set_token": null,
-      "client_transfer_id": "invoice#801",
-      "pickup_code": "",
-      "metadata": [],
-      "client_transfer_id_display": "invoice#801",
-      "has_payload": false,
-      "full_name": "Jim  Green",
-      "company_name": "Jims other test business",
-      "sent": {
-        "value": "200.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "200.00000000",
-        "currency": "USD"
-      },
-      "fee": {
-        "value": "0.00000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "1.00000000",
-        "currency": "USD"
-      },
-      "status_reason": "",
-      "paid_by_user": false,
-      "user_token": "1cd9e5ac-c63d-11f0-a6f2-0a029b177e41"
-    },
-    {
-      "id": "6267b0a9-f894-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "11:49:44",
-      "payer_name": "Bank Digital BCA",
-      "type": "transfer",
-      "status": "PROCESSING",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1112223330"
+            "id": "2498df79-4a72-11f1-885d-0acdce67b5c3",
+            "user_id": 25,
+            "date": "2026-05-07",
+            "time": "17:11:13",
+            "payer_name": "Paper Check by Mail",
+            "type": "transfer",
+            "status": "COMPLETED",
+            "country": "United States",
+            "attributes": [],
+            "changes": [],
+            "name": "John M Smith",
+            "delivery_type": "Paper Check",
+            "internal_user_id": "SAMPLE_USER_55",
+            "attr_set_token": "d726000d-caa9-490f-a6cf-5f8b1feaadd8",
+            "client_transfer_id": "69fd29a7e07a3",
+            "pickup_code": "ANye4oBGAHEcLO3",
+            "client_transfer_id_display": "69fd29a7e07a3",
+            "has_payload": true,
+            "full_name": "John M Smith",
+            "company_name": null,
+            "sent": {
+                "value": "5.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "5.00000000",
+                "currency": "USD"
+            },
+            "fee": {
+                "value": "3.35000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "1.00000000",
+                "currency": "USD"
+            },
+            "status_reason": "",
+            "paid_by_user": true,
+            "user_token": "31e384ff-d347-11ea-afc7-0289acba1734"
         },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900002"
-        }
-      },
-      "changes": [
         {
-          "changes": "Processing",
-          "date": "2026-01-23",
-          "time": "11:47"
-        }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "YOSSI_TEST",
-      "attr_set_token": "bde65ff3-1097-465f-9a28-8caf1cec61bb",
-      "client_transfer_id": "6973d05dedc3b",
-      "pickup_code": "46d9b126-a196-47c8-943c-53d89988f32f",
-      "metadata": {},
-      "client_transfer_id_display": "6973d05dedc3b",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "54.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "875798.31932796",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.44000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16218.48730469",
-        "currency": "IDR"
-      },
-      "status_reason": "",
-      "paid_by_user": true,
-      "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
-    },
-    {
-      "id": "7f86ece2-f893-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "11:43:23",
-      "payer_name": "Bank Digital BCA",
-      "type": "transfer",
-      "status": "PROCESSING",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1234567890"
+            "id": "06fb2e08-48ad-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-05",
+            "time": "11:07:41",
+            "payer_name": "Bank Wire (EUR)",
+            "type": "transfer",
+            "status": "COMPLETED",
+            "country": "United Kingdom",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "71c5e047-5d0f-440f-a055-78250fab83df",
+            "client_transfer_id": "69fa3171c9fa4",
+            "pickup_code": "02c82e2e-fc19-4efa-8071-2016479d02cb",
+            "client_transfer_id_display": "69fa3171c9fa4",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "41.66662500",
+                "currency": "EUR"
+            },
+            "fee": {
+                "value": "3.20000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "0.83333248",
+                "currency": "EUR"
+            },
+            "status_reason": "",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
         },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900001"
-        }
-      },
-      "changes": [
         {
-          "changes": "Processing",
-          "date": "2026-01-23",
-          "time": "11:41"
-        }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "YOSSI_TEST",
-      "attr_set_token": "da51c7a6-afcf-468e-957b-8f11c61e636d",
-      "client_transfer_id": "6973cee03ddd2",
-      "pickup_code": "dd99c606-2e43-4880-9e64-e98081905b9e",
-      "metadata": {},
-      "client_transfer_id_display": "6973cee03ddd2",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "53.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "859579.83193300",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.44000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16218.48730469",
-        "currency": "IDR"
-      },
-      "status_reason": "",
-      "paid_by_user": true,
-      "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
-    },
-    {
-      "id": "bbe67214-f887-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "10:19:11",
-      "payer_name": "Bank Digital BCA",
-      "type": "transfer",
-      "status": "PROCESSING",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1234567890"
+            "id": "09c6d7d7-480d-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "16:06:05",
+            "payer_name": "Bank Wire (EUR)",
+            "type": "cancel",
+            "status": "CANCELLED",
+            "country": "United Kingdom",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "7094047a-7d01-4ed7-beec-a82f87e9a21d",
+            "client_transfer_id": "69f92507e9068",
+            "pickup_code": "3c3969e7-69cf-4cc7-a53d-8a702783a064",
+            "client_transfer_id_display": "69f92507e9068",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "41.70075000",
+                "currency": "EUR"
+            },
+            "fee": {
+                "value": "3.20000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "0.83401501",
+                "currency": "EUR"
+            },
+            "status_reason": "Unable to process the request due to an internal server error.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
         },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900001"
-        }
-      },
-      "changes": [
         {
-          "changes": "Processing",
-          "date": "2026-01-23",
-          "time": "10:17"
-        }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "YOSSI_TEST",
-      "attr_set_token": "da51c7a6-afcf-468e-957b-8f11c61e636d",
-      "client_transfer_id": "6973bb23d7df4",
-      "pickup_code": "635885fc-f156-4dac-be85-e06b178e5374",
-      "metadata": {},
-      "client_transfer_id_display": "6973bb23d7df4",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "52.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "843361.34453803",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.43000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16218.48730469",
-        "currency": "IDR"
-      },
-      "status_reason": "",
-      "paid_by_user": true,
-      "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
-    },
-    {
-      "id": "23b87c83-f883-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "09:44:32",
-      "payer_name": "Bank Digital BCA",
-      "type": "error",
-      "status": "ERROR",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1234567890"
+            "id": "09c6d7d7-480d-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "16:02:26",
+            "payer_name": "Bank Wire (EUR)",
+            "type": "transfer",
+            "status": "Cancelled at Later Time",
+            "country": "United Kingdom",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "7094047a-7d01-4ed7-beec-a82f87e9a21d",
+            "client_transfer_id": "69f92507e9068",
+            "pickup_code": "3c3969e7-69cf-4cc7-a53d-8a702783a064",
+            "client_transfer_id_display": "69f92507e9068",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "41.70075000",
+                "currency": "EUR"
+            },
+            "fee": {
+                "value": "3.20000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "0.83401501",
+                "currency": "EUR"
+            },
+            "status_reason": "Unable to process the request due to an internal server error.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
         },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900001"
-        }
-      },
-      "changes": [
         {
-          "changes": "ERROR",
-          "date": "2026-01-23",
-          "time": "09:44"
-        }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "YOSSI_TEST",
-      "attr_set_token": "da51c7a6-afcf-468e-957b-8f11c61e636d",
-      "client_transfer_id": "6973b36e8c8a3",
-      "pickup_code": null,
-      "metadata": {},
-      "client_transfer_id_display": "6973b36e8c8a3",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "51.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "827142.85714307",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.43000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16218.48730469",
-        "currency": "IDR"
-      },
-      "status_reason": "Failed to complete transfer",
-      "paid_by_user": true,
-      "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
-    },
-    {
-      "id": "da775881-f881-11f0-8000-0a4151347fb3",
-      "user_id": 33210,
-      "date": "2026-01-23",
-      "time": "09:35:14",
-      "payer_name": "Bank Digital BCA",
-      "type": "error",
-      "status": "ERROR",
-      "country": "Indonesia",
-      "attributes": {
-        "BankAccountNumber": {
-          "label": "BankAccountNumber",
-          "value": "1234567890"
+            "id": "caaebae9-47f3-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:59:48",
+            "payer_name": "Bank Wire",
+            "type": "error",
+            "status": "ERROR",
+            "country": "Canada",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "89924a49-ae03-4cd2-b513-4c4ead44e269",
+            "client_transfer_id": "69f8faad00d4c",
+            "pickup_code": null,
+            "client_transfer_id_display": "69f8faad00d4c",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "68.06425250",
+                "currency": "CAD"
+            },
+            "fee": {
+                "value": "45.00000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "1.36128509",
+                "currency": "CAD"
+            },
+            "status_reason": "Failed to complete transfer",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
         },
-        "IdentificationNumber": {
-          "label": "IdentificationNumber",
-          "value": "3171010101900001"
-        }
-      },
-      "changes": [
         {
-          "changes": "ERROR",
-          "date": "2026-01-23",
-          "time": "09:35"
+            "id": "bb7e4347-47f3-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:59:25",
+            "payer_name": "Bank Wire",
+            "type": "error",
+            "status": "ERROR",
+            "country": "Canada",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "b1ab88ea-a9b1-4372-8d58-e06507adb4cc",
+            "client_transfer_id": "69f8fa92b45ef",
+            "pickup_code": null,
+            "client_transfer_id_display": "69f8fa92b45ef",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "68.06425250",
+                "currency": "CAD"
+            },
+            "fee": {
+                "value": "45.00000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "1.36128509",
+                "currency": "CAD"
+            },
+            "status_reason": "Failed to complete transfer",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+        },
+        {
+            "id": "78cca006-47f1-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:46:12",
+            "payer_name": "Bank Wire",
+            "type": "cancel",
+            "status": "CANCELLED",
+            "country": "United Arab Emirates",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "6662e4db-1938-40dd-b95c-c298b5c1f01a",
+            "client_transfer_id": "69f8f6c7494ae",
+            "pickup_code": "ebc6d082-8d23-4a8e-b60a-d9cdc31c7e36",
+            "client_transfer_id_display": "69f8f6c7494ae",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "179.06599181",
+                "currency": "AED"
+            },
+            "fee": {
+                "value": "3.64000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "3.58131981",
+                "currency": "AED"
+            },
+            "status_reason": "Unable to process the request due to an internal server error.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+        },
+        {
+            "id": "78cca006-47f1-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:45:06",
+            "payer_name": "Bank Wire",
+            "type": "transfer",
+            "status": "Cancelled at Later Time",
+            "country": "United Arab Emirates",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "6662e4db-1938-40dd-b95c-c298b5c1f01a",
+            "client_transfer_id": "69f8f6c7494ae",
+            "pickup_code": "ebc6d082-8d23-4a8e-b60a-d9cdc31c7e36",
+            "client_transfer_id_display": "69f8f6c7494ae",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "50.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "179.06599181",
+                "currency": "AED"
+            },
+            "fee": {
+                "value": "3.64000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "3.58131981",
+                "currency": "AED"
+            },
+            "status_reason": "Unable to process the request due to an internal server error.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+        },
+        {
+            "id": "3c03c51c-47eb-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:06:12",
+            "payer_name": "Bank Wire",
+            "type": "cancel",
+            "status": "CANCELLED",
+            "country": "Italy",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "73bea17f-51c7-4963-a9be-af9050c6b69a",
+            "client_transfer_id": "69f8ec5093104",
+            "pickup_code": "36503ec7-8b11-4a10-8663-d0baf374a2e9",
+            "client_transfer_id_display": "69f8ec5093104",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "53.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "45.33090000",
+                "currency": "EUR"
+            },
+            "fee": {
+                "value": "45.00000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "0.85530001",
+                "currency": "EUR"
+            },
+            "status_reason": "Unable to process the request as Ripple declined this payment.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
+        },
+        {
+            "id": "3c03c51c-47eb-11f1-885d-0acdce67b5c3",
+            "user_id": 33210,
+            "date": "2026-05-04",
+            "time": "12:00:27",
+            "payer_name": "Bank Wire",
+            "type": "transfer",
+            "status": "Cancelled at Later Time",
+            "country": "Italy",
+            "attributes": [],
+            "changes": [],
+            "name": " (MassPayTest)",
+            "delivery_type": "Bank Deposit",
+            "internal_user_id": "YOSSI_TEST",
+            "attr_set_token": "73bea17f-51c7-4963-a9be-af9050c6b69a",
+            "client_transfer_id": "69f8ec5093104",
+            "pickup_code": "36503ec7-8b11-4a10-8663-d0baf374a2e9",
+            "client_transfer_id_display": "69f8ec5093104",
+            "has_payload": true,
+            "full_name": "Yossi  Shlomo",
+            "company_name": "MassPayTest",
+            "sent": {
+                "value": "53.00000",
+                "currency": "USD"
+            },
+            "received": {
+                "value": "45.33090000",
+                "currency": "EUR"
+            },
+            "fee": {
+                "value": "45.00000",
+                "currency": "USD"
+            },
+            "fx": {
+                "value": "0.85530001",
+                "currency": "EUR"
+            },
+            "status_reason": "Unable to process the request as Ripple declined this payment.",
+            "paid_by_user": true,
+            "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
         }
-      ],
-      "name": " (MassPayTest)",
-      "delivery_type": "Bank Deposit",
-      "internal_user_id": "YOSSI_TEST",
-      "attr_set_token": "da51c7a6-afcf-468e-957b-8f11c61e636d",
-      "client_transfer_id": "6973b145e4e18",
-      "pickup_code": null,
-      "metadata": {},
-      "client_transfer_id_display": "6973b145e4e18",
-      "has_payload": true,
-      "full_name": "Yossi  Shlomo",
-      "company_name": "MassPayTest",
-      "sent": {
-        "value": "50.00000",
-        "currency": "USD"
-      },
-      "received": {
-        "value": "810924.36974811",
-        "currency": "IDR"
-      },
-      "fee": {
-        "value": "3.43000",
-        "currency": "USD"
-      },
-      "fx": {
-        "value": "16218.48730469",
-        "currency": "IDR"
-      },
-      "status_reason": "Failed to complete transfer. Message: Unable to create payment",
-      "paid_by_user": true,
-      "user_token": "bb849247-db2a-11ee-8798-0ac3518f7589"
-    }
-  ],
-  "metadata": {
-    "page": 1,
-    "offset": 0,
-    "limit": 10,
-    "total": 42149,
-    "filter": false,
-    "sql": ""
-  }
+    ],
+    "metadata": {
+        "page": 1,
+        "offset": 0,
+        "limit": 10,
+        "total": "59868",
+        "filter": false,
+        "sql": ""
+    },
+    "sql": "Finished in 5.3709 ms count : 45.643091201782 -  loop Finished in 45.6431 ms"
 }

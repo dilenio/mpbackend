@@ -103,6 +103,13 @@ function registerMemberRoutes(server) {
     });
   });
 
+  server.get(`${MEMBERS_BASE_PATH}/file_upload/:token/init`, (req, res) => {
+    console.log("File upload init called with token:", req.params.token);
+    res.status(200).json({  name: 'Dilenio Enderle',
+  types: ['BASIC', 'New One']
+  });
+  });
+
   server.post(`${MEMBERS_BASE_PATH}/validate_wallet_transfer`, (req, res) => {
     const { transaction_id } = req.params;
 
@@ -139,6 +146,15 @@ function registerMemberRoutes(server) {
       });
     }, 1000);
   });
+  server.post(`${MEMBERS_BASE_PATH}/email_confirmation`, (req, res) => {
+    const { code } = req.body;
+    setTimeout(() => {
+      res.status(200).json({
+        status: "success",
+        message: "Email number confirmation susscessfully!",
+      });
+    }, 1000);
+  });
 
   server.post(`${MEMBERS_BASE_PATH}/phone_resend_code`, (req, res) => {
     const { code } = req.body;
@@ -146,6 +162,15 @@ function registerMemberRoutes(server) {
       res.status(200).json({
         status: "success",
         message: "Phone number confirmation code sent successfully!",
+      });
+    }, 1000);
+  });
+  server.post(`${MEMBERS_BASE_PATH}/email_resend_code`, (req, res) => {
+    const { code } = req.body;
+    setTimeout(() => {
+      res.status(200).json({
+        status: "success",
+        message: "Email confirmation code sent successfully!",
       });
     }, 1000);
   });

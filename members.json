@@ -204,6 +204,7 @@
     "language": "en",
     "phone_confirmation_required": false,
     "two_factor_authentication": false,
+    "is_email_verification": false,
     "mp_csrf_name": "mp_csrf64b6ea4947745",
     "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
   },
@@ -2186,6 +2187,25 @@
   },
   "service_fields": [
     {
+      "token": "f4d1c50c-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "QRCode",
+      "is_optional": false,
+      "expected_value": "QR Code",
+      "type": "WalletAddress",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "attr_71c639b2-14e9-11ed-867a-0678dcdfcccf",
+      "label": "Click to collect your ID",
+      "is_optional": false,
+      "value": "https://magic.veriff.me/v/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzYzNTYxODEsInNlc3Npb25faWQiOiI1Y2Y5YzljOS1jMGY1LTQyZmQtYTA5NC1hMWZlYWZlZTQ0YjAiLCJpaWQiOiJkNDgzMjQzMS1mNjkzLTQ5ODItYTMxZi0wMmVkZDYyYTcxYTMiLCJ2aWQiOiI0MmI1NGRhOS1lODJhLTQyNDYtYWU1Mi1kNzMzODFiYzRlM2MiLCJjaWQiOiJmYWxjb24tOCIsImV4cCI6MTc3Njk2MDk4MX0.sQv4AigIQ120AgGTvIclXo_c_IICesA7eqMIG3woOy4",
+      "expected_value": "Please follow the provided link to provide your ID and selfie",
+      "type": "IDSelfieCollection",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
       "token": "attr_7a4d3e8c-2213-11ea-afc7-0289acba1734",
       "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
       "label": "Bank Account Number",
@@ -2224,7 +2244,7 @@
     {
       "token": "f4ce363b-8f72-11f0-abe6-0a046abe0aaf",
       "label": "Parent/Guardian Government-Issued Identification Type",
-      "validation": "Passport|National Identification Card|Driving License|Social Security Card/Number|Tax Payer Identification Card/Number|Senior Citizen Identification Card|Birth Certificate|Village Elder Identification Card|Permanent Residency Identification Card|Alien Registration Certificate/Card|PAN Card|Voter\u2019s Identification Card|Health Insurance Card/Number|Employer Identification Card|Others not listed",
+      "validation": "Passport|National Identification Card|Driving License|Social Security Card/Number|Tax Payer Identification Card/Number|Senior Citizen Identification Card|Birth Certificate|Village Elder Identification Card|Permanent Residency Identification Card|Alien Registration Certificate/Card|PAN Card|Voter’s Identification Card|Health Insurance Card/Number|Employer Identification Card|Others not listed",
       "is_optional": false,
       "expected_value": "Type of ID",
       "type": "GuardianGovIDType",
@@ -2516,11 +2536,5 @@
       }
     ]
   },
-  "change_password": {
-    "currentPassword": "1",
-    "newPassword1": "submitLogout();2",
-    "newPassword2": "submitLogout();2",
-    "mp_csrf_name": "mp_csrf64b6ea4947745",
-    "mp_csrf_value": "usAnkT3Vz66F5GS/VhDbJ9VLtfZDsnteTPkIlzjzufbc8RKgX+X6mrLRUIswJroTsy/Xz3eLGWsqyG6hDsWBwQ=="
-  }
+  "change_password": {}
 }

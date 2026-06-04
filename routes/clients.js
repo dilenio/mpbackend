@@ -3,6 +3,7 @@ const path = require("path");
 const multer = require("multer");
 
 const invoicesDir = path.join(__dirname, "..", "__mocks__", "invoices");
+const currencies = require("../__mocks__/currencies.json");
 const getUser = require("../__mocks__/getUser.json");
 const dashboardData = require("../__mocks__/dashboard_data.json");
 const dashboardDataWidgets = require("../__mocks__/dashboard_data_widgets.json");
@@ -10,6 +11,8 @@ const dashboardDataVolume = require("../__mocks__/dashboard_data_volume.json");
 const dashboardDataDistribution = require("../__mocks__/dashboard_data_distribution.json");
 const dashboardDataTransactions = require("../__mocks__/dashboard_data_transactions.json");
 const getTransactionsHistory = require("../__mocks__/getTransactionsHistory.json");
+const getTransactionsClientId = require("../__mocks__/getTransactionsClientId.json");
+const getTransactionsIds = require("../__mocks__/getTransactionsIds.json");
 const getTransactions = require("../__mocks__/getTransactions.json");
 const getPayeeProfile = require("../__mocks__/getPayeeProfile.json");
 const getPayees = require("../__mocks__/payees.json");
@@ -36,6 +39,13 @@ const getPricingRules = require("../__mocks__/adminPricingRules.json");
 const adminBalance = require("../__mocks__/adminBalance.json");
 const banks = require("../__mocks__/banks.json");
 const bankAccounts = require("../__mocks__/bankAccounts.json");
+const getNodeList = require("../__mocks__/getNodeList.json");
+const getLinks = require("../__mocks__/getLinks.json");
+const get_countries = require("../__mocks__/get_countries.json");
+const getFileUploads = require("../__mocks__/getFileUploads.json");
+const FileUploadsRequests = require("../__mocks__/FileUploadsRequests.json");
+const logins = require("../__mocks__/logins.json");
+const csrf = require("../__mocks__/csrf.json");
 const { CLIENTS_BASE_PATH } = require("../constants/routes");
 
 const formDataParser = multer();
@@ -43,6 +53,15 @@ const formDataParser = multer();
 function registerClientRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/pricing_rules`, (req, res) => {
     res.status(200).json(getPricingRules);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/currencies`, (req, res) => {
+    res.status(200).json(currencies);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/csrf`, (req, res) => {
+    res.status(200).json(csrf);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/get_countries`, (req, res) => {
+    res.status(200).json(get_countries);
   });
 
   server.post(`${CLIENTS_BASE_PATH}/api/apikeys`, (req, res) => {
@@ -88,12 +107,40 @@ function registerClientRoutes(server) {
     }, 5000);
   });
 
+  server.get(`${CLIENTS_BASE_PATH}/api/customer/:user_token/files`, (req, res) => {
+    const { user_token } = req.params;
+    console.log("User token:", user_token);
+    res.status(200).json(getFileUploads);
+  });
+  
+  server.get(`${CLIENTS_BASE_PATH}/api/customer/:user_token/FileUploadRequests`, (req, res) => {
+    const { user_token } = req.params;
+    console.log("User token:", user_token);
+    res.status(200).json(FileUploadsRequests);
+  });
+
   server.get(
     `${CLIENTS_BASE_PATH}/api/customer/:user_token/transactions`,
     (req, res) => {
       const { user_token } = req.params;
-      console.log("User token:", user_token);
-      res.status(200).json(getTransactionsHistory);
+      const { client_id, ids } = req.query || {};
+      console.log("User token:", user_token, client_id ? `Client ID: ${client_id}` : "");
+      
+      if (client_id) {
+       return setTimeout(() => {
+         res.status(200).json(getTransactionsClientId);
+        }, 2000);
+      }
+      
+      if (ids) {
+        return setTimeout(() => {
+           res.status(200).json(getTransactionsIds);
+        }, 2000);
+      }
+      
+      setTimeout(() => {
+         res.status(200).json(getTransactionsHistory);
+      }, 2000);
     },
   );
 
@@ -121,6 +168,18 @@ function registerClientRoutes(server) {
       setTimeout(() => {
         res.status(401).json({});
       }, 2000);
+    },
+  );
+
+  server.post(
+    `${CLIENTS_BASE_PATH}/api/batches/upload`,
+    formDataParser.any(),
+    (req, res) => {
+      const registrationData = req.body;
+      console.log("Registration data:", registrationData);
+      setTimeout(() => {
+        res.status(200).json({ complete: true });
+      }, 5000);
     },
   );
 
@@ -171,6 +230,16 @@ function registerClientRoutes(server) {
         const stream = fs.createReadStream(filePath);
         stream.pipe(res);
       });
+    },
+  );
+server.get(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/logins`,
+    (req, res) => {
+      const { user_token } = req.params;
+      console.log("User token:", user_token);
+      setTimeout(() => {
+        res.status(200).json(logins);
+      }, 2000);
     },
   );
 
@@ -287,6 +356,20 @@ function registerClientRoutes(server) {
   );
 
   server.post(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/status`,
+    (req, res) => {
+      const { user_token } = req.params;
+      const { status } = req.body;
+      setTimeout(() => {
+        res.status(200).json({
+          status: "success",
+          message: "Status updated!"
+        });
+      }, 3000);
+    },
+  );
+
+  server.post(
     `${CLIENTS_BASE_PATH}/api/customer/:user_token/:payout_token`,
     (req, res) => {
       const { user_token } = req.params;
@@ -345,6 +428,29 @@ function registerClientRoutes(server) {
           message: "Spendedback successfully!",
         });
       }, 4000);
+    },
+  );
+
+  server.post(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/file_upload/:request_token`,
+    (req, res) => {
+      const { user_token, request_token } = req.params;
+      const { is_verified, is_required } = req.body;
+      console.log(
+        "User token:",
+        user_token,
+        "Request token:",
+        request_token,
+        "Is Verified:",
+        is_verified,
+        "Is Required:",
+        is_required
+      );
+      setTimeout(() => {
+        res.status(200).json({
+          success: true,
+        });
+      }, 2000);
     },
   );
 
@@ -444,6 +550,22 @@ function registerClientRoutes(server) {
       res.status(200).json(getClientsList);
     }, 5000);
   });
+  server.get(`${CLIENTS_BASE_PATH}/links`, (req, res) => {
+    setTimeout(() => {
+      res.status(200).json(getLinks);
+    }, 5000);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/admin/balance/get_node_list`, (req, res) => {
+    setTimeout(() => {
+      res.status(200).json(getNodeList);
+    }, 5000);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/batch_templates/:template_id`, (req, res) => {
+    const { template_id } = req.params;
+    setTimeout(() => {
+      res.status(200).json({ template_id });
+    }, 5000);
+  });
 
   server.get(`${CLIENTS_BASE_PATH}/userprofile/mfa_code`, (req, res) => {
     res.status(200).json({
@@ -462,7 +584,7 @@ function registerClientRoutes(server) {
       res.status(200).json(adminBalance);
     }, 1000);
   });
-  server.get(`${CLIENTS_BASE_PATH}/admin/banks`, (req, res) => {
+  server.get(`${CLIENTS_BASE_PATH}/admin/clients/bankList`, (req, res) => {
     const { client_id } = req.params;
     setTimeout(() => {
       res.status(200).json(banks);

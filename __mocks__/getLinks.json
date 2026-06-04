@@ -1,0 +1,11 @@
+{
+  "token": "hsBaIjUA_gB9cyUEb21MTpRpU-c8wOdKm8SjZ_we-xRoDxhvWXfplQ",
+  "accounts": [],
+  "box_oauth_link": "https://app.box.com/api/oauth2/authorize?state=3903dc84ab26840155918849f1b291e9&scope=&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fdev.clients.masspay.io%2Flinks%2Fbox&client_id=quwfnt5afxjhlzkyf1a8sisr7q2nv8rb",
+  "csrf_data": {
+    "csrf_nameKey": "mp_csrf_name",
+    "csrf_valueKey": "mp_csrf_value",
+    "csrf_name": "mp_csrf69e22c6656ee6",
+    "csrf_value": "NMArS2joa0sJ+kk7+uC+MOXp5J0fGpAR6+lK2JhQyZtW8hsoDoxdczjJKgLMht1S1o+Bqnstp3CO3XzooDH4qA=="
+  }
+}
