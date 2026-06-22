@@ -1662,7 +1662,7 @@
         "email": "ran@masspay.io",
         "language": "en",
         "mobile_number": "818-442-2283",
-        "business_name": "",
+        "business_name": "Business Name HERE",
         "timezone": "America/Los_Angeles",
         "date_of_birth": "2010-02-01",
         "activation_url": "https://members.masspay.io/activation?activation=AO==",

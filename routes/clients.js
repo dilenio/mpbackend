@@ -46,6 +46,9 @@ const getFileUploads = require("../__mocks__/getFileUploads.json");
 const FileUploadsRequests = require("../__mocks__/FileUploadsRequests.json");
 const logins = require("../__mocks__/logins.json");
 const csrf = require("../__mocks__/csrf.json");
+const services = require("../__mocks__/services.json");
+const serviceFields = require("../__mocks__/serviceFields.json");
+const googleLoginUrl = require("../__mocks__/googleLoginUrl.json");
 const { CLIENTS_BASE_PATH } = require("../constants/routes");
 
 const formDataParser = multer();
@@ -62,6 +65,17 @@ function registerClientRoutes(server) {
   });
   server.get(`${CLIENTS_BASE_PATH}/get_countries`, (req, res) => {
     res.status(200).json(get_countries);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/services`, (req, res) => {
+    res.status(200).json(services);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/service_fields`, (req, res) => {
+    res.status(200).json(serviceFields);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/login/google_login_url`, (req, res) => {
+     setTimeout(() => {
+        res.status(200).json(googleLoginUrl);
+      }, 3000);
   });
 
   server.post(`${CLIENTS_BASE_PATH}/api/apikeys`, (req, res) => {
@@ -370,6 +384,19 @@ server.get(
   );
 
   server.post(
+    `${CLIENTS_BASE_PATH}/api/customer/:user_token/link`,
+    (req, res) => {
+      const { user_token } = req.params;
+      const { email } = req.body;
+      setTimeout(() => {
+        res.status(200).json({
+          status: "success",
+        });
+      }, 3000);
+    },
+  );
+
+  server.post(
     `${CLIENTS_BASE_PATH}/api/customer/:user_token/:payout_token`,
     (req, res) => {
       const { user_token } = req.params;
@@ -379,23 +406,6 @@ server.get(
         res.status(200).json({
           status: "success",
           message: "Status updated!",
-          user_token: user_token,
-          email,
-        });
-      }, 3000);
-    },
-  );
-
-  server.post(
-    `${CLIENTS_BASE_PATH}/api/customer/:user_token/link`,
-    (req, res) => {
-      const { user_token } = req.params;
-      const { email } = req.body;
-      console.log("User token:", user_token, "Email:", email);
-      setTimeout(() => {
-        res.status(201).json({
-          status: "success",
-          message: "Payee linked successfully!",
           user_token: user_token,
           email,
         });
