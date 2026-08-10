@@ -1,0 +1,128 @@
+[
+  {
+    "action_date": "2026-08-01",
+    "type": "funds cancel",
+    "source_currency_code": "USD",
+    "total_amount": "-382.72",
+    "transaction_count": "1"
+  },
+  {
+    "action_date": "2026-08-01",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "422.45",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-01",
+    "type": "spendback",
+    "source_currency_code": "USD",
+    "total_amount": "-47609.64",
+    "transaction_count": "4785"
+  },
+  {
+    "action_date": "2026-08-02",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "16.30",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-03",
+    "type": "funds cancel",
+    "source_currency_code": "USD",
+    "total_amount": "-40.00",
+    "transaction_count": "1"
+  },
+  {
+    "action_date": "2026-08-03",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "1083.01",
+    "transaction_count": "7"
+  },
+  {
+    "action_date": "2026-08-03",
+    "type": "payment",
+    "source_currency_code": "USD",
+    "total_amount": "-203.00",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-04",
+    "type": "funds cancel",
+    "source_currency_code": "USD",
+    "total_amount": "-40.00",
+    "transaction_count": "1"
+  },
+  {
+    "action_date": "2026-08-04",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "41.00",
+    "transaction_count": "16"
+  },
+  {
+    "action_date": "2026-08-04",
+    "type": "payment",
+    "source_currency_code": "USD",
+    "total_amount": "-492.88",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-05",
+    "type": "funds cancel",
+    "source_currency_code": "USD",
+    "total_amount": "-180.00",
+    "transaction_count": "1"
+  },
+  {
+    "action_date": "2026-08-05",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "184.50",
+    "transaction_count": "9"
+  },
+  {
+    "action_date": "2026-08-05",
+    "type": "payment",
+    "source_currency_code": "USD",
+    "total_amount": "-61.12",
+    "transaction_count": "3"
+  },
+  {
+    "action_date": "2026-08-06",
+    "type": "funds cancel",
+    "source_currency_code": "USD",
+    "total_amount": "-180.00",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-06",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "21680.21",
+    "transaction_count": "16"
+  },
+  {
+    "action_date": "2026-08-06",
+    "type": "payment",
+    "source_currency_code": "USD",
+    "total_amount": "-1240.00",
+    "transaction_count": "1"
+  },
+  {
+    "action_date": "2026-08-07",
+    "type": "funds received",
+    "source_currency_code": "USD",
+    "total_amount": "0.00",
+    "transaction_count": "2"
+  },
+  {
+    "action_date": "2026-08-07",
+    "type": "payment",
+    "source_currency_code": "USD",
+    "total_amount": "-302.50",
+    "transaction_count": "1"
+  }
+]

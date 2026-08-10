@@ -1,702 +1,3708 @@
 {
-  "data": [
-    {
-      "id": 923,
-      "date": "2026-02-06",
-      "image": "",
-      "name": "",
-      "first_name": "Angel",
-      "middle_name": "",
-      "last_name": "Chamosa",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "fe5adb0f57993272cdf67ac7d10f46fc9c6e1464e723accbba65284fd5026596f3f55447bd0c0418dd45f84510e6f148c61d2a89fa031430566abb1a1617eb5f",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": true,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": true,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": false,
-          "customer_link": true,
-          "download_full_list": false
+    "data": [
+        {
+            "id": 1414,
+            "date": "2026-07-14",
+            "image": "",
+            "name": "",
+            "first_name": "Alex",
+            "middle_name": "Sandbox ",
+            "last_name": "Account",
+            "email": "alex@masspay.io",
+            "client_id": "2",
+            "display_name": "Alex Sandbox Account",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "5cf4f2aef1b7dc94a001b06f1b0118ec967de84cc19c87546b059b195b97ab7ab202827e978d978b1237ec3c530dd20a473f69614b918adeb779ad6c19407d7f",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
         },
-        "profile": {
-          "bank_login": true
+        {
+            "id": 1376,
+            "date": "2026-07-01",
+            "image": "",
+            "name": "",
+            "first_name": "test switcvh",
+            "middle_name": "",
+            "last_name": "ttt",
+            "email": "dilenio@masspay.io",
+            "client_id": "2",
+            "display_name": "test switcvh ttt",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "0bb30d9f4ee1ea23e8666301cb7422fadfc7917fa7143ea6b3be697764c45ebf577a2b787866121cf6553ae4fd52a0e7ff15cb5778c3b168573befc8e5cf8c84",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": true,
+            "client_switch": true
         },
-        "overdue_transactions": {
-          "customer_link": true
+        {
+            "id": 1373,
+            "date": "2026-07-01",
+            "image": "",
+            "name": "",
+            "first_name": "testswitch",
+            "middle_name": "",
+            "last_name": "switvh",
+            "email": "gilad@masspay.io",
+            "client_id": "2",
+            "display_name": "testswitch switvh",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "643d3c368aa317bdf13375effd8deefe4a7f390adc0342bcfa5e6b830daa5b25f21e39de4e9511666eed8c90dc957c874dd88d739b47665f1e52e2fa0ff3b25c",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": true,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": true,
+            "client_switch": true
         },
-        "manage_users": {
-          "bank_login": false,
-          "show_admin_options": false
+        {
+            "id": 1295,
+            "date": "2026-06-17",
+            "image": "",
+            "name": "",
+            "first_name": "Tarryn",
+            "middle_name": "",
+            "last_name": "Watkin",
+            "email": "tarryn@masspay.io",
+            "client_id": "2",
+            "display_name": "Tarryn Watkin",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "b60c857f27c57d0710dd67623e73c5b54e2c9b092739463bb2fb473c0b14c056195f8f3a538ac49ab2e39780f7941cc27eb630254039c4dfc48e900ad6e65ef5",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
         },
-        "ledger": {
-          "show_all": false
+        {
+            "id": 1250,
+            "date": "2026-06-15",
+            "image": "",
+            "name": "",
+            "first_name": "Gilad",
+            "middle_name": "",
+            "last_name": "Grushkovaky",
+            "email": "gilad.wind@gmail.com",
+            "client_id": "2",
+            "display_name": "Gilad Grushkovaky",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "f8f0c2665004bb9ed3deaa6791239e34af042eb9cf6068f7b94acb77e2139844defdb9fa2e8d7fb1cb779970a43896576b38ebcd486d3bede255375937d82799",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
         },
-        "payees": {
-          "show_all": false
+        {
+            "id": 1249,
+            "date": "2026-06-15",
+            "image": "",
+            "name": "",
+            "first_name": "yaniv",
+            "middle_name": "",
+            "last_name": "m",
+            "email": "yaniv@masspay.io",
+            "client_id": "2",
+            "display_name": "yaniv m",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "c335beaabdf90fd5cb9e2be4a2cfbc78a990b88e1798c84344409f762508b938992cd7390614c5eaedee962743d5ea8919325c36360045f74a5aa5a0e1aa7c19",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
         },
-        "customer": {
-          "show_tax_documents": false
+        {
+            "id": 1246,
+            "date": "2026-06-14",
+            "image": "",
+            "name": "",
+            "first_name": "testing ggg",
+            "middle_name": "",
+            "last_name": "aabbccddff",
+            "email": "gilad@masspay.io",
+            "client_id": "2",
+            "display_name": "testing ggg aabbccddff",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "9c93345c31ecffe20a95eca8db169f1b3ee312dd75fb3494cc1dc2f9a2b6092b6cbebf1299ec6d5ba46b08f728f3075109582bc71b97b4deac5122433732234c",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 1245,
+            "date": "2026-06-14",
+            "image": "",
+            "name": "",
+            "first_name": "bla bla",
+            "middle_name": "llll",
+            "last_name": "sass",
+            "email": "gilad@masspay.io",
+            "client_id": "2",
+            "display_name": "bla bla llll sass",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "248e72f5dff422a504b9e36af9cec3923beb5ffa8e9862904eca9e0451e26e9e1b5a9314f25be5a1f8e159fff2a20d353f1071557bad2efa38a107fa6f25ed29",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 1244,
+            "date": "2026-06-14",
+            "image": "",
+            "name": "",
+            "first_name": "test",
+            "middle_name": "12",
+            "last_name": "test1111",
+            "email": "gilad@masspay.io",
+            "client_id": "2",
+            "display_name": "test 12 test1111",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "55dd8994471aa2a1d17eb3679c2375257a8cd2aefe06b5746760bf89e8010034ed4a600e024aea8fe582adaba02fe0522b901e8aea393b3d1300d3f76cdc36bf",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 1236,
+            "date": "2026-06-12",
+            "image": "",
+            "name": "",
+            "first_name": "gilad",
+            "middle_name": "",
+            "last_name": "grushkovsky",
+            "email": "gilad@masspay.io",
+            "client_id": "2",
+            "display_name": "gilad grushkovsky",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "28b7384e5f00a702d465b28d7309e65adbcea9241bc511082f1e40b092fedbdde6506aa4b61541ca3f930f92ff5408fb88bf34443b99fe1c04511b4e502179e1",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 923,
+            "date": "2026-02-06",
+            "image": "",
+            "name": "",
+            "first_name": "Angel",
+            "middle_name": "",
+            "last_name": "Chamosa",
+            "email": "angel@masspay.io",
+            "client_id": "2",
+            "display_name": "Angel Chamosa",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "fe5adb0f57993272cdf67ac7d10f46fc9c6e1464e723accbba65284fd5026596f3f55447bd0c0418dd45f84510e6f148c61d2a89fa031430566abb1a1617eb5f",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": false,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": true,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 873,
+            "date": "2025-12-28",
+            "image": "",
+            "name": "",
+            "first_name": "Jason",
+            "middle_name": "",
+            "last_name": "Asher",
+            "email": "jma@aquablue8.com",
+            "client_id": "2",
+            "display_name": "Jason Asher",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "23f5baca103203939acfdb3322b592e9c780e1131469f416fa09e5e86f570b4fc81c8e12cb947126016ffd09dd6b1956c3bdbfbc470321840565e34960aab8e8",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 853,
+            "date": "2025-12-08",
+            "image": "",
+            "name": "",
+            "first_name": "testUser",
+            "middle_name": "testUser",
+            "last_name": "Grushkovsky",
+            "email": "giladgru@gmail.com",
+            "client_id": "2",
+            "display_name": "testUser testUser Grushkovsky",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "2f6ae87ef7d43da3198fcfad6fae8c3ec48801f7476b5693ef6c57f6ef079db425d40026def84f8d4558d06de50965905715c05b84e3c6edf726c1ad95e81e9d",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": false,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": false,
+            "batch_files": false,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": false,
+            "view_balance": false,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 836,
+            "date": "2025-11-05",
+            "image": "",
+            "name": "",
+            "first_name": "Avital",
+            "middle_name": "",
+            "last_name": "Grushcovski",
+            "email": "avital@masspay.io",
+            "client_id": "2",
+            "display_name": "Avital Grushcovski",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "f032ca3a88ecbbef9437505dbd9179f41238857a766854d3b917d317011ec33eac082a599c2f6032027dc12b8d261123d830b595d8676ea5c35871ddfa239818",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 832,
+            "date": "2025-10-30",
+            "image": "",
+            "name": "",
+            "first_name": "carolina",
+            "middle_name": "",
+            "last_name": "Rebolledo",
+            "email": "andrea@masspay.io",
+            "client_id": "2",
+            "display_name": "carolina Rebolledo",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "b574bb6d61d276fad136d6abd9715802cfe3acd481fcce0457d51edcb9cf309dec07c840fc7a99a119ca71ac4d6a9791746fa65226c5692cad65d3532c41c7e5",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 826,
+            "date": "2025-10-21",
+            "image": "",
+            "name": "",
+            "first_name": "Jim",
+            "middle_name": "",
+            "last_name": "Green",
+            "email": "jim@masspay.io",
+            "client_id": "2",
+            "display_name": "Jim Green",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "4a5bcdfb2ac072131d70348c21574906dd3204176a6558305472fefc5ffb0080bccc3387751740ec1dde71eeb9ceba0495a815541f150bf75340dc97a21932be",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 783,
+            "date": "2025-08-21",
+            "image": "",
+            "name": "",
+            "first_name": "Lauren",
+            "middle_name": "",
+            "last_name": "Murphy",
+            "email": "lauren@masspay.io",
+            "client_id": "2",
+            "display_name": "Lauren Murphy",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "f4dae4ec6cc6f318f02eb7902f0d16e9b5e93834f2fe7e576b3930aed32df7bceef3331650b28b673be7219da7f76b3f2f24a86aa4c7a65dbc521343bde6f115",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": false,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 773,
+            "date": "2025-08-08",
+            "image": "",
+            "name": "",
+            "first_name": "gin",
+            "middle_name": "test",
+            "last_name": "qf",
+            "email": "gin.testx1@gmail.com",
+            "client_id": "2",
+            "display_name": "gin test qf",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "d835ac9fdc49b4fb604a566b3c42df3ffd1eebd91530266e8abb9251976ce756f46403337f47b8891f480c085464390ebbee84a59c2288616aa73e57f413235b",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 755,
+            "date": "2025-08-01",
+            "image": "",
+            "name": "",
+            "first_name": "",
+            "middle_name": "",
+            "last_name": "",
+            "email": "gintestx.1@gmail.com",
+            "client_id": "2",
+            "display_name": "",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": false,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 754,
+            "date": "2025-08-01",
+            "image": "",
+            "name": "",
+            "first_name": "gin",
+            "middle_name": "test",
+            "last_name": "abc",
+            "email": "gintestx1@gmail.com",
+            "client_id": "2",
+            "display_name": "gin test abc",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "3d4851dbaa661463ddd6b1430dea1ae3e84572f954ccf3571e9894fec52ce011078ecbb725e6363de2ccc7c295c6c5698d748726460c6a7eeab0674ba9042dd6",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": false,
+            "links": false,
+            "compliance": false,
+            "manage_users": false,
+            "batch_files": false,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": false,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 733,
+            "date": "2025-07-17",
+            "image": "",
+            "name": "",
+            "first_name": "Marc",
+            "middle_name": "",
+            "last_name": "Perez",
+            "email": "marc.perez@monite.com",
+            "client_id": "2",
+            "display_name": "Marc Perez",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "ef627301bd3ce551b83554fdbc7603b69c9e5ff80b901ec12d49db31e5eba160cab3bfb9dca2b7858ea67649a9f51a798e7c90d0bd36a3d224c12dcd2e05d18a",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": false,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": true,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 726,
+            "date": "2025-07-08",
+            "image": "",
+            "name": "",
+            "first_name": "Artem",
+            "middle_name": "",
+            "last_name": "Matinian",
+            "email": "artem.matinian@monite.com",
+            "client_id": "2",
+            "display_name": "Artem Matinian",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "435271fb99c8a32705256b5efb9c4a97d6ca1cbe150df6d7b213c12135864535c583a6af5b27e4db3dd2d3dbf9fb3c2c7eb18383c78f62b28298108e6e4e6884",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 725,
+            "date": "2025-07-08",
+            "image": "",
+            "name": "",
+            "first_name": "Gilad",
+            "middle_name": "",
+            "last_name": "Grushkovsky",
+            "email": "giladgru@gmail.com",
+            "client_id": "2",
+            "display_name": "Gilad Grushkovsky",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "fbda567c5025c8877c2065f1a871825b9dac31071926a8830278d8a17ae3d51df54cd96c63a325d413d6055a0f2bde9a75a0fcadb991479fb1a794fcf478bcdb",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": false,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 722,
+            "date": "2025-07-07",
+            "image": "",
+            "name": "",
+            "first_name": "Shalav ",
+            "middle_name": "",
+            "last_name": "Gupta",
+            "email": "shalav@gmail.com",
+            "client_id": "2",
+            "display_name": "Shalav  Gupta",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "1d26908efe9ed9bb54c2eaf401072251792e3e5aa033689c434f5ecf93095b5b2b58958f8728d6d4a69306ac87292be896754bbd95f3fe332166b5f8128c979d",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": false,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": true,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 683,
+            "date": "2025-06-09",
+            "image": "",
+            "name": "",
+            "first_name": "Vlad",
+            "middle_name": "",
+            "last_name": "Iacob",
+            "email": "vlad@masspay.io",
+            "client_id": "2",
+            "display_name": "Vlad Iacob",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "97107965215b90905553eb859d8297b8e048304decb068941199d020531a315e74f6f30ea80483bfcb48d3c2fe54af7ee5eb1f1ebf6913d72f690750546441f1",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 682,
+            "date": "2025-06-06",
+            "image": "",
+            "name": "",
+            "first_name": "Gilad",
+            "middle_name": "",
+            "last_name": "Grushkovsky",
+            "email": "giladgru@gmail.com",
+            "client_id": "2",
+            "display_name": "Gilad Grushkovsky",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "fbda567c5025c8877c2065f1a871825b9dac31071926a8830278d8a17ae3d51df54cd96c63a325d413d6055a0f2bde9a75a0fcadb991479fb1a794fcf478bcdb",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": false,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 623,
+            "date": "2025-04-24",
+            "image": "",
+            "name": "",
+            "first_name": "Eli",
+            "middle_name": "",
+            "last_name": "Schick",
+            "email": "eli@masspay.io",
+            "client_id": "2",
+            "display_name": "Eli Schick",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "d748496ae0b412f7eaf957f65084d8df2b14e2d25b2358476df90c2492b86c4b242e67773957018e2143464a848dd30d5e2cf37b05270ccf0b7ebfdacf132b41",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 622,
+            "date": "2025-04-24",
+            "image": "",
+            "name": "",
+            "first_name": "Kesem",
+            "middle_name": "",
+            "last_name": "Fine",
+            "email": "kesem@masspay.io",
+            "client_id": "2",
+            "display_name": "Kesem Fine",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "dbee27bc92e1240d64d56d131a314a51ab43751b469a800e169892f237280f21fc43d0228b6c160af049995fe85a618c62ef9faf209b4ddec1971c86f941d6fe",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": false,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 621,
+            "date": "2025-04-24",
+            "image": "",
+            "name": "",
+            "first_name": "Cheli",
+            "middle_name": "",
+            "last_name": "Kroupp",
+            "email": "cheli@masspay.io",
+            "client_id": "2",
+            "display_name": "Cheli Kroupp",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "deb4ebc53d7f5427c0b026f263490492fd6096d709bee0c2e9d930d830903f385a30c6c2ad67dd6efa25453f43a6b7da007eecac7fe18622f5626ff3c2e58bf9",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 606,
+            "date": "2025-04-03",
+            "image": "",
+            "name": "",
+            "first_name": "Russ",
+            "middle_name": "",
+            "last_name": "Palay",
+            "email": "russ@masspay.io",
+            "client_id": "2",
+            "display_name": "Russ Palay",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "7f1b0d61299d04b926ec7a6d9735a165881fa1c026a432ad0a50c91e2ea2038e2101e8f3c3d354826bec8cf3eef84596f1dd66e61d218654a510acb3613d59d2",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 504,
+            "date": "2024-10-16",
+            "image": "",
+            "name": "",
+            "first_name": "Wendy",
+            "middle_name": "",
+            "last_name": "Scheepers",
+            "email": "wendys@knsdata.legal",
+            "client_id": "2",
+            "display_name": "Wendy Scheepers",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "640113f363403ddddee0514953003b6a3ccdda5f812e6890a252c1251b5db7de38941b01c32c34e8dfbd5ad23604b92b21bd9688dcf67e6cf6ff785a65729156",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 433,
+            "date": "2024-07-22",
+            "image": "",
+            "name": "",
+            "first_name": "Avital",
+            "middle_name": "",
+            "last_name": "Grushcovski",
+            "email": "avital@masspay.io",
+            "client_id": "2",
+            "display_name": "Avital Grushcovski",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "40a148056a9c757c0b75202342ded7fe05ebb6134e927484113e0bb8ae1934126e7399d45379430a0f56cb85cea1688d5c5fb545b1e375631166b2592456f180",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 432,
+            "date": "2024-07-19",
+            "image": "",
+            "name": "",
+            "first_name": "Christina ",
+            "middle_name": "",
+            "last_name": "Neilson",
+            "email": "christina@masspay.io",
+            "client_id": "2",
+            "display_name": "Christina  Neilson",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "ffefe501be303e3b5fff073c85a1a89e1ba8509bc7b194f7be5b9841da33923a1236a61f8ac50b36a116f0e55bee076e877e27e3bed6d7e34193644d46b52807",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 407,
+            "date": "2024-06-03",
+            "image": "",
+            "name": "",
+            "first_name": "Yossi",
+            "middle_name": "",
+            "last_name": "Shlomo",
+            "email": "yossi@masspay.io",
+            "client_id": "2",
+            "display_name": "Yossi Shlomo",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "29d6da7be87286a01996c3491c068cf3ec49d2ad90f6f46a72146146962d95b6fca27cc35ac5670b7217cc82ce6eedac52252c0f7b8af26153e7739910eb5195",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 304,
+            "date": "2023-11-29",
+            "image": "",
+            "name": "",
+            "first_name": "Chris",
+            "middle_name": "",
+            "last_name": "Rechtsteiner",
+            "email": "chris@masspay.io",
+            "client_id": "2",
+            "display_name": "Chris Rechtsteiner",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "411873b2e05998e449d49b426ab1ec7edf3aa17ef9d827b468422c9ddbc413ae0c9bb235e6e9b6b1546f871599c0dc545b3ef5cd3df22bb00dedeab65dbb8c8f",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 294,
+            "date": "2023-11-22",
+            "image": "",
+            "name": "",
+            "first_name": "Jeff",
+            "middle_name": "",
+            "last_name": "Katz",
+            "email": "jeff@masspay.io",
+            "client_id": "2",
+            "display_name": "Jeff Katz",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "27b3f1246274d79e31abe349399ddaafa319de99075cb6414bb9b73600adeec9c9d6e8b4034a7d6087a08385a50cfbdcb8e520271549c46b5e87b6ddac054940",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": true,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": false,
+            "links": false,
+            "compliance": false,
+            "manage_users": false,
+            "batch_files": false,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": false,
+            "view_balance": false,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 76,
+            "date": "2022-12-01",
+            "image": "",
+            "name": "",
+            "first_name": "dilenio",
+            "middle_name": "",
+            "last_name": "enderle",
+            "email": "dilenio.enderle@luby.software",
+            "client_id": "2",
+            "display_name": "dilenio enderle",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "46e7f4c8515cfc2451edd17fa2cf56e27131f8186d6f9528f05745b557c8f975d315bc8221724b86bddf65ab13a377ed1fcea9503f7ba3063a0a2d0c6803be50",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 105,
+            "date": "2022-08-08",
+            "image": "",
+            "name": "",
+            "first_name": "Ran",
+            "middle_name": "",
+            "last_name": "G",
+            "email": "ranmalibu@gmail.com",
+            "client_id": "2",
+            "display_name": "Ran G",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "63b30735dde73bcff43faa396ae9b7b350d60c13d1516a06e9307a8304f638fe12830472769bfaf5a2204a762a856adcd392a7acc951fcfeeb55475cd1cf07aa",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": true,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": true,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 116,
+            "date": "2021-03-09",
+            "image": "",
+            "name": "",
+            "first_name": "Brent",
+            "middle_name": "",
+            "last_name": "Goss",
+            "email": "brent@masspay.io",
+            "client_id": "2",
+            "display_name": "Brent Goss",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "6e048bc3d5a18e3a4272784b6b09738a64601b45d1a032749f9f734cfbcd20aaa594ffa8efc1ddd65a2c145650144306771476a74dd8438cdd42866b5c27dac3",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": true,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": false,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 21,
+            "date": "2020-10-15",
+            "image": "",
+            "name": "",
+            "first_name": "",
+            "middle_name": "",
+            "last_name": "",
+            "email": "",
+            "client_id": "2",
+            "display_name": "",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "0dede6e09176d02bd3625a8822bc9a6311c3f4840a527492b858c8b66b57a5c3e54fbffa921e9d759b7c7bef72d0ae29997c4b1d429439edd8920081bf27a578",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": false,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": false,
+            "links": false,
+            "compliance": false,
+            "manage_users": false,
+            "batch_files": false,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": false,
+            "view_balance": false,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 262,
+            "date": "2020-05-28",
+            "image": "",
+            "name": "",
+            "first_name": "",
+            "middle_name": "",
+            "last_name": "",
+            "email": "support@masspay.io",
+            "client_id": "2",
+            "display_name": "",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "eca42f02254e661fdcb9d7bcb007abacdd9492f0847e2b5c15e753ddde47fbdb1238d54df6ebef3ce2ab284a00b2c51d0de02aa63ebbca7b555bab90f45790a8",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": false,
+            "permission_array": {
+                "view_payee_profile": false,
+                "view_dashboard": false,
+                "view_transactions": false,
+                "view_ledger": false,
+                "view_customers": false,
+                "view_cancellations": false,
+                "client_switch": false,
+                "view_batches": false,
+                "view_manage_users": false,
+                "view_links": false,
+                "view_profile": true,
+                "view_api_keys": false,
+                "view_taxes": false,
+                "transactions": {
+                    "payload_link": false,
+                    "customer_link": false,
+                    "download_full_list": false
+                },
+                "profile": {
+                    "bank_login": false
+                },
+                "overdue_transactions": {
+                    "customer_link": false
+                },
+                "manage_users": {
+                    "bank_login": false,
+                    "show_admin_options": false
+                },
+                "ledger": {
+                    "show_all": false
+                },
+                "payees": {
+                    "show_all": false
+                },
+                "customer": {
+                    "show_tax_documents": false
+                },
+                "customer_details": {
+                    "name": false,
+                    "email": false,
+                    "mobile_number": false,
+                    "date_of_birth": false,
+                    "address1": false,
+                    "address2": false,
+                    "city": false,
+                    "postal_code": false,
+                    "state_province": false,
+                    "country": false
+                }
+            },
+            "admin": true,
+            "customer_service": true,
+            "cancel_transactions": false,
+            "manage_clients": false,
+            "api_keys": false,
+            "links": false,
+            "compliance": false,
+            "manage_users": false,
+            "batch_files": false,
+            "batch_files_approval": false,
+            "bank_login": false,
+            "view_users": false,
+            "view_balance": false,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
+        },
+        {
+            "id": 167,
+            "date": "2020-02-08",
+            "image": "",
+            "name": "",
+            "first_name": "",
+            "middle_name": "",
+            "last_name": "",
+            "email": "ran@masspay.io",
+            "client_id": "2",
+            "display_name": "",
+            "business_name": "",
+            "username": "",
+            "employee_username_hash": "95e73da7a25f068ca766b72d4a72e3d71ad099a6cf3556d92ca305ad510aad4d9714b8395e150b2809571cbb3b248d3c47ca31033a283245504134dac2c9e75a",
+            "verified": false,
+            "company_name": "",
+            "company_dba": "",
+            "company_brand": "",
+            "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+            "two_fa": true,
+            "permission_array": {
+                "view_payee_profile": true,
+                "view_dashboard": true,
+                "view_transactions": true,
+                "view_ledger": true,
+                "view_customers": true,
+                "view_cancellations": true,
+                "client_switch": true,
+                "view_batches": true,
+                "view_manage_users": true,
+                "view_links": true,
+                "view_profile": true,
+                "view_api_keys": true,
+                "view_taxes": true,
+                "transactions": {
+                    "payload_link": true,
+                    "customer_link": true,
+                    "download_full_list": true
+                },
+                "profile": {
+                    "bank_login": true
+                },
+                "overdue_transactions": {
+                    "customer_link": true
+                },
+                "manage_users": {
+                    "bank_login": true,
+                    "show_admin_options": true
+                },
+                "ledger": {
+                    "show_all": true
+                },
+                "payees": {
+                    "show_all": true
+                },
+                "customer": {
+                    "show_tax_documents": true
+                },
+                "customer_details": {
+                    "name": true,
+                    "email": true,
+                    "mobile_number": true,
+                    "date_of_birth": true,
+                    "address1": true,
+                    "address2": true,
+                    "city": true,
+                    "postal_code": true,
+                    "state_province": true,
+                    "country": true
+                }
+            },
+            "admin": true,
+            "customer_service": false,
+            "cancel_transactions": false,
+            "manage_clients": true,
+            "api_keys": true,
+            "links": false,
+            "compliance": false,
+            "manage_users": true,
+            "batch_files": true,
+            "batch_files_approval": true,
+            "bank_login": true,
+            "view_users": true,
+            "view_balance": true,
+            "view_unmasked_attrs": false,
+            "tax_documents": false,
+            "client_switch": false
         }
-      }
-    },
-    {
-      "id": 873,
-      "date": "2025-12-28",
-      "image": "",
-      "name": "",
-      "first_name": "Jason",
-      "middle_name": "",
-      "last_name": "Asher",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "23f5baca103203939acfdb3322b592e9c780e1131469f416fa09e5e86f570b4fc81c8e12cb947126016ffd09dd6b1956c3bdbfbc470321840565e34960aab8e8",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": true,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": true,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": true,
-      "tax_documents": false,
-      "two_fa": false,
-      "permission_array": {
-        "view_payee_profile": false,
-        "view_dashboard": false,
-        "view_transactions": false,
-        "view_ledger": false,
-        "view_customers": false,
-        "view_cancellations": false,
-        "view_batches": false,
-        "view_manage_users": false,
-        "view_links": false,
-        "view_profile": true,
-        "view_api_keys": false,
-        "view_taxes": false,
-        "transactions": {
-          "payload_link": false,
-          "customer_link": false,
-          "download_full_list": false
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": false
-        },
-        "manage_users": {
-          "bank_login": false,
-          "show_admin_options": false
-        },
-        "ledger": {
-          "show_all": false
-        },
-        "payees": {
-          "show_all": false
-        },
-        "customer": {
-          "show_tax_documents": false
-        }
-      }
-    },
-    {
-      "id": 853,
-      "date": "2025-12-08",
-      "image": "",
-      "name": "",
-      "first_name": "testUser",
-      "middle_name": "testUser",
-      "last_name": "Grushkovsky",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "2f6ae87ef7d43da3198fcfad6fae8c3ec48801f7476b5693ef6c57f6ef079db425d40026def84f8d4558d06de50965905715c05b84e3c6edf726c1ad95e81e9d",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": false,
-      "customer_service": true,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": false,
-      "batch_files_approval": false,
-      "bank_login": true,
-      "view_users": false,
-      "view_balance": false,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": false,
-      "permission_array": {
-        "view_payee_profile": false,
-        "view_dashboard": false,
-        "view_transactions": false,
-        "view_ledger": false,
-        "view_customers": false,
-        "view_cancellations": false,
-        "view_batches": false,
-        "view_manage_users": false,
-        "view_links": false,
-        "view_profile": true,
-        "view_api_keys": false,
-        "view_taxes": false,
-        "transactions": {
-          "payload_link": false,
-          "customer_link": false,
-          "download_full_list": false
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": false
-        },
-        "manage_users": {
-          "bank_login": false,
-          "show_admin_options": false
-        },
-        "ledger": {
-          "show_all": false
-        },
-        "payees": {
-          "show_all": false
-        },
-        "customer": {
-          "show_tax_documents": false
-        }
-      }
-    },
-    {
-      "id": 836,
-      "date": "2025-11-05",
-      "image": "",
-      "name": "",
-      "first_name": "Avital",
-      "middle_name": "",
-      "last_name": "Grushcovski",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "f032ca3a88ecbbef9437505dbd9179f41238857a766854d3b917d317011ec33eac082a599c2f6032027dc12b8d261123d830b595d8676ea5c35871ddfa239818",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": true,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": true,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": true,
-          "customer_link": true,
-          "download_full_list": true
-        },
-        "profile": {
-          "bank_login": true
-        },
-        "overdue_transactions": {
-          "customer_link": true
-        },
-        "manage_users": {
-          "bank_login": true,
-          "show_admin_options": true
-        },
-        "ledger": {
-          "show_all": true
-        },
-        "payees": {
-          "show_all": true
-        },
-        "customer": {
-          "show_tax_documents": true
-        }
-      }
-    },
-    {
-      "id": 832,
-      "date": "2025-10-30",
-      "image": "",
-      "name": "",
-      "first_name": "carolina",
-      "middle_name": "",
-      "last_name": "Rebolledo",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "b574bb6d61d276fad136d6abd9715802cfe3acd481fcce0457d51edcb9cf309dec07c840fc7a99a119ca71ac4d6a9791746fa65226c5692cad65d3532c41c7e5",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": true,
-      "links": false,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": false,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": true,
-          "customer_link": true,
-          "download_full_list": true
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": true
-        },
-        "manage_users": {
-          "bank_login": true,
-          "show_admin_options": true
-        },
-        "ledger": {
-          "show_all": true
-        },
-        "payees": {
-          "show_all": true
-        },
-        "customer": {
-          "show_tax_documents": true
-        }
-      }
-    },
-    {
-      "id": 826,
-      "date": "2025-10-21",
-      "image": "",
-      "name": "",
-      "first_name": "Jim",
-      "middle_name": "",
-      "last_name": "Green",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "4a5bcdfb2ac072131d70348c21574906dd3204176a6558305472fefc5ffb0080bccc3387751740ec1dde71eeb9ceba0495a815541f150bf75340dc97a21932be",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": true,
-      "links": false,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": false,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": true,
-          "customer_link": true,
-          "download_full_list": true
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": true
-        },
-        "manage_users": {
-          "bank_login": true,
-          "show_admin_options": true
-        },
-        "ledger": {
-          "show_all": true
-        },
-        "payees": {
-          "show_all": true
-        },
-        "customer": {
-          "show_tax_documents": true
-        }
-      }
-    },
-    {
-      "id": 783,
-      "date": "2025-08-21",
-      "image": "",
-      "name": "",
-      "first_name": "Lauren",
-      "middle_name": "",
-      "last_name": "Murphy",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "f4dae4ec6cc6f318f02eb7902f0d16e9b5e93834f2fe7e576b3930aed32df7bceef3331650b28b673be7219da7f76b3f2f24a86aa4c7a65dbc521343bde6f115",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": false,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": false,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": true,
-          "customer_link": true,
-          "download_full_list": true
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": true
-        },
-        "manage_users": {
-          "bank_login": true,
-          "show_admin_options": true
-        },
-        "ledger": {
-          "show_all": true
-        },
-        "payees": {
-          "show_all": true
-        },
-        "customer": {
-          "show_tax_documents": true
-        }
-      }
-    },
-    {
-      "id": 773,
-      "date": "2025-08-08",
-      "image": "",
-      "name": "",
-      "first_name": "gin",
-      "middle_name": "test",
-      "last_name": "qf",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "d835ac9fdc49b4fb604a566b3c42df3ffd1eebd91530266e8abb9251976ce756f46403337f47b8891f480c085464390ebbee84a59c2288616aa73e57f413235b",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": true,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": true,
-      "view_users": true,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": false,
-      "permission_array": {
-        "view_payee_profile": false,
-        "view_dashboard": false,
-        "view_transactions": false,
-        "view_ledger": false,
-        "view_customers": false,
-        "view_cancellations": false,
-        "view_batches": false,
-        "view_manage_users": false,
-        "view_links": false,
-        "view_profile": true,
-        "view_api_keys": false,
-        "view_taxes": false,
-        "transactions": {
-          "payload_link": false,
-          "customer_link": false,
-          "download_full_list": false
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": false
-        },
-        "manage_users": {
-          "bank_login": false,
-          "show_admin_options": false
-        },
-        "ledger": {
-          "show_all": false
-        },
-        "payees": {
-          "show_all": false
-        },
-        "customer": {
-          "show_tax_documents": false
-        }
-      }
-    },
-    {
-      "id": 755,
-      "date": "2025-08-01",
-      "image": "",
-      "name": "",
-      "first_name": "",
-      "middle_name": "",
-      "last_name": "",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": true,
-      "customer_service": true,
-      "cancel_transactions": true,
-      "manage_clients": true,
-      "api_keys": true,
-      "links": true,
-      "compliance": false,
-      "manage_users": true,
-      "batch_files": true,
-      "batch_files_approval": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": true,
-      "view_unmasked_attrs": true,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": true,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": true,
-        "view_manage_users": true,
-        "view_links": true,
-        "view_profile": true,
-        "view_api_keys": true,
-        "view_taxes": true,
-        "transactions": {
-          "payload_link": true,
-          "customer_link": true,
-          "download_full_list": true
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": true
-        },
-        "manage_users": {
-          "bank_login": true,
-          "show_admin_options": true
-        },
-        "ledger": {
-          "show_all": true
-        },
-        "payees": {
-          "show_all": true
-        },
-        "customer": {
-          "show_tax_documents": true
-        }
-      }
-    },
-    {
-      "id": 754,
-      "date": "2025-08-01",
-      "image": "",
-      "name": "",
-      "first_name": "gin",
-      "middle_name": "test",
-      "last_name": "abc",
-      "business_name": "",
-      "username": "",
-      "employee_username_hash": "3d4851dbaa661463ddd6b1430dea1ae3e84572f954ccf3571e9894fec52ce011078ecbb725e6363de2ccc7c295c6c5698d748726460c6a7eeab0674ba9042dd6",
-      "verified": false,
-      "company_name": "",
-      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
-      "admin": false,
-      "customer_service": false,
-      "cancel_transactions": false,
-      "manage_clients": false,
-      "api_keys": false,
-      "links": false,
-      "compliance": false,
-      "manage_users": false,
-      "batch_files": false,
-      "batch_files_approval": false,
-      "bank_login": false,
-      "view_users": false,
-      "view_balance": true,
-      "view_unmasked_attrs": false,
-      "tax_documents": false,
-      "two_fa": true,
-      "permission_array": {
-        "view_payee_profile": false,
-        "view_dashboard": true,
-        "view_transactions": true,
-        "view_ledger": true,
-        "view_customers": true,
-        "view_cancellations": true,
-        "view_batches": false,
-        "view_manage_users": false,
-        "view_links": false,
-        "view_profile": true,
-        "view_api_keys": false,
-        "view_taxes": false,
-        "transactions": {
-          "payload_link": false,
-          "customer_link": false,
-          "download_full_list": false
-        },
-        "profile": {
-          "bank_login": false
-        },
-        "overdue_transactions": {
-          "customer_link": false
-        },
-        "manage_users": {
-          "bank_login": false,
-          "show_admin_options": false
-        },
-        "ledger": {
-          "show_all": false
-        },
-        "payees": {
-          "show_all": false
-        },
-        "customer": {
-          "show_tax_documents": false
-        }
-      }
+    ],
+    "metadata": {
+        "page": 1,
+        "offset": 0,
+        "limit": 100,
+        "total": "42",
+        "filter": false,
+        "sql": ""
     }
-  ],
-  "metadata": {
-    "page": 1,
-    "offset": 0,
-    "limit": 10,
-    "total": "32",
-    "filter": false,
-    "sql": ""
-  }
 }

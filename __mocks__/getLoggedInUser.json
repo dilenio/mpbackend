@@ -1,17 +1,17 @@
 {
   "id": 0,
-  "date": "2022-12-01",
+  "date": "2026-07-01",
   "image": "",
   "name": "",
-  "first_name": "dilenio",
+  "first_name": "Dilenio",
   "middle_name": "",
-  "last_name": "enderle",
-  "email": "dilenio.enderle@luby.software",
+  "last_name": "Enderle",
+  "email": "dilenio@masspay.io",
   "client_id": "2",
-  "display_name": "dilenio enderle",
+  "display_name": "Dilenio Enderle",
   "business_name": "",
   "username": "41bd6c9d3528a6a4ebe0c929739c1ccfc74b79d8f1d9d2a05ed9348b141297740152589096733a8324ec865a24106512b2a5f8b7603040e0a56a1299aabecd9d",
-  "employee_username_hash": "46e7f4c8515cfc2451edd17fa2cf56e27131f8186d6f9528f05745b557c8f975d315bc8221724b86bddf65ab13a377ed1fcea9503f7ba3063a0a2d0c6803be50",
+  "employee_username_hash": "643d3c368aa317bdf13375effd8deefe4a7f390adc0342bcfa5e6b830daa5b25f21e39de4e9511666eed8c90dc957c874dd88d739b47665f1e52e2fa0ff3b25c",
   "verified": false,
   "company_name": "MassPay",
   "company_dba": "",
@@ -26,6 +26,7 @@
     "view_ledger": true,
     "view_customers": true,
     "view_cancellations": true,
+    "client_switch": true,
     "view_batches": true,
     "view_manage_users": true,
     "view_links": true,
@@ -33,9 +34,9 @@
     "view_api_keys": true,
     "view_taxes": true,
     "transactions": {
-      "payload_link": true,
+      "payload_link": false,
       "customer_link": true,
-      "download_full_list": true
+      "download_full_list": false
     },
     "profile": {
       "bank_login": true
@@ -44,25 +45,25 @@
       "customer_link": true
     },
     "manage_users": {
-      "bank_login": true,
-      "show_admin_options": true
+      "bank_login": false,
+      "show_admin_options": false
     },
     "ledger": {
-      "show_all": true
+      "show_all": false
     },
     "payees": {
-      "show_all": true
+      "show_all": false
     },
     "customer": {
       "show_tax_documents": true
     }
   },
   "admin": true,
-  "customer_service": true,
+  "customer_service": false,
   "cancel_transactions": false,
   "manage_clients": false,
   "api_keys": true,
-  "links": false,
+  "links": true,
   "compliance": false,
   "manage_users": true,
   "batch_files": true,
@@ -71,5 +72,6 @@
   "view_users": true,
   "view_balance": true,
   "view_unmasked_attrs": false,
-  "tax_documents": false
+  "tax_documents": true,
+  "client_switch": true
 }

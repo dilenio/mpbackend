@@ -2169,6 +2169,17 @@
   },
   "service_fields": [
     {
+      "token": "attr_eaef35f6-8f9c-11f1-9b6a-028ca935a941",
+      "label": "Cash App payout authorization",
+      "validation": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+      "is_optional": true,
+      "value": "********************************ce46",
+      "expected_value": "https:\/\/sandbox.api.cash.app\/customer-request\/v1\/requests\/GRR_56em0v9hfjmbeftwqcn7w1br\/interstitial?validity_token=sabas3",
+      "type": "OAuthGrant",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
       "token": "f4d1c50c-8f72-11f0-abe6-0a046abe0aaf",
       "label": "QRCode",
       "is_optional": false,

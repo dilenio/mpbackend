@@ -48,6 +48,10 @@ server.use(middlewares);
 app.use(cors());
 
 app.use("/logos", express.static(path.join(__dirname, "__mocks__", "logos")));
+app.use(
+  "/invoices",
+  express.static(path.join(__dirname, "__mocks__", "invoices")),
+);
 
 server.get("/api/logo1", (req, res) => {
   const logoPath = path.join(__dirname, "__mocks__", "logos", "logo1.png");

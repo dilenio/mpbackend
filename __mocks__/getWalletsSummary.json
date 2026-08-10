@@ -1,0 +1,42 @@
+[
+  {
+    "currency": "CAD",
+    "total_balance": "863.80",
+    "wallet_count": "11"
+  },
+  {
+    "currency": "EUR",
+    "total_balance": "1139.00",
+    "wallet_count": "4"
+  },
+  {
+    "currency": "GBP",
+    "total_balance": "2010.00",
+    "wallet_count": "8"
+  },
+  {
+    "currency": "INR",
+    "total_balance": "0.00",
+    "wallet_count": "4"
+  },
+  {
+    "currency": "MXN",
+    "total_balance": "0.00",
+    "wallet_count": "1"
+  },
+  {
+    "currency": "PNTS",
+    "total_balance": "54.00",
+    "wallet_count": "2"
+  },
+  {
+    "currency": "USD",
+    "total_balance": "6821414.07",
+    "wallet_count": "12324"
+  },
+  {
+    "currency": "VND",
+    "total_balance": "0.00",
+    "wallet_count": "2"
+  }
+]

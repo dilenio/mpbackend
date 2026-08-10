@@ -1,10 +1,10 @@
 {
-    "fortress": "Fortress",
-    "crb": "CRB",
-    "braid": "Braid",
-    "myeupay": "MyEUPay",
-    "ibanera": "Ibanera",
-    "justwallet": "JustWallet",
-    "stride": "Stride",
-    "mcb": "MCB"
+  "fortress": "Fortress",
+  "crb": "CRB",
+  "braid": "Braid",
+  "myeupay": "MyEUPay",
+  "ibanera": "Ibanera",
+  "justwallet": "JustWallet",
+  "stride": "Stride",
+  "mcb": "MCB"
 }

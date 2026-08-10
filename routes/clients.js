@@ -37,7 +37,6 @@ const getRegisterCountries = require("../__mocks__/getRegisterCountries.json");
 const search = require("../__mocks__/search.json");
 const getPricingRules = require("../__mocks__/adminPricingRules.json");
 const adminBalance = require("../__mocks__/adminBalance.json");
-const banks = require("../__mocks__/banks.json");
 const bankAccounts = require("../__mocks__/bankAccounts.json");
 const getNodeList = require("../__mocks__/getNodeList.json");
 const getLinks = require("../__mocks__/getLinks.json");
@@ -49,6 +48,12 @@ const csrf = require("../__mocks__/csrf.json");
 const services = require("../__mocks__/services.json");
 const serviceFields = require("../__mocks__/serviceFields.json");
 const googleLoginUrl = require("../__mocks__/googleLoginUrl.json");
+const linkServices = require("../__mocks__/link_services.json");
+const getWalletsSummary = require("../__mocks__/getWalletsSummary.json");
+const getWalletActionsSummaryByDateRange = require("../__mocks__/getWalletActionsSummaryByDateRange.json");
+const banks = require("../__mocks__/banks.json");
+const clientsBankView = require("../__mocks__/clientsBankView.json");
+
 const { CLIENTS_BASE_PATH } = require("../constants/routes");
 
 const formDataParser = multer();
@@ -56,6 +61,12 @@ const formDataParser = multer();
 function registerClientRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/pricing_rules`, (req, res) => {
     res.status(200).json(getPricingRules);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/api/getWalletActionsSummaryByDateRange`, (req, res) => {
+    res.status(200).json(getWalletActionsSummaryByDateRange);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/api/getWalletsSummary`, (req, res) => {
+    res.status(200).json(getWalletsSummary);
   });
   server.get(`${CLIENTS_BASE_PATH}/currencies`, (req, res) => {
     res.status(200).json(currencies);
@@ -72,6 +83,9 @@ function registerClientRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/service_fields`, (req, res) => {
     res.status(200).json(serviceFields);
   });
+  server.get(`${CLIENTS_BASE_PATH}/link_services`, (req, res) => {
+    res.status(200).json(linkServices);
+  });
   server.get(`${CLIENTS_BASE_PATH}/login/google_login_url`, (req, res) => {
      setTimeout(() => {
         res.status(200).json(googleLoginUrl);
@@ -80,7 +94,7 @@ function registerClientRoutes(server) {
 
   server.post(`${CLIENTS_BASE_PATH}/api/apikeys`, (req, res) => {
     setTimeout(() => {
-      res.status(200).json({});
+      res.status(200).json(newApiKey);
     }, 2000);
   });
   server.put(`${CLIENTS_BASE_PATH}/api/apikeys/revoke/:key`, (req, res) => {
@@ -521,7 +535,9 @@ server.get(
   });
 
   server.get(`${CLIENTS_BASE_PATH}/api/apikeys`, (req, res) => {
-    res.status(200).json(getApikeys);
+     setTimeout(() => {
+        res.status(200).json(getApikeys);
+      }, 3000);
   });
 
   server.get(`${CLIENTS_BASE_PATH}/api/webhooks`, (req, res) => {
@@ -529,7 +545,6 @@ server.get(
   });
 
   server.get(`${CLIENTS_BASE_PATH}/getLoggedInUser`, (req, res) => {
-    // res.status(401).json({ failed: "not logged in" });
     res.status(200).json(getLoggedInUser);
   });
 
@@ -598,6 +613,12 @@ server.get(
     const { client_id } = req.params;
     setTimeout(() => {
       res.status(200).json(banks);
+    }, 2000);
+  });
+  server.get(`${CLIENTS_BASE_PATH}/admin/clients/banks/:bank_id/view`, (req, res) => {
+    const { bank_id } = req.params;
+    setTimeout(() => {
+      res.status(200).json(clientsBankView);
     }, 1000);
   });
   server.get(`${CLIENTS_BASE_PATH}/admin/bank_accounts`, (req, res) => {
