@@ -5,7 +5,7 @@
       "validation": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
       "is_optional": true,
       "value": "********************************ce46",
-      "expected_value": "https:\/\/sandbox.api.cash.app\/customer-request\/v1\/requests\/GRR_56em0v9hfjmbeftwqcn7w1br\/interstitial?validity_token=sabas3",
+    "expected_value": "Linked Account: Dilenio Enderle (Cash App)",
       "type": "OAuthGrant",
       "input_type": "text",
       "last_attr_value_used": false

@@ -7,6 +7,7 @@ const mime = require("mime-types");
 const fs = require("fs");
 const registerClientRoutes = require("./routes/clients");
 const registerMemberRoutes = require("./routes/members");
+const registerLoginRoutes = require("./routes/login");
 const {
   CLIENTS_BASE_PATH,
   MEMBERS_BASE_PATH,
@@ -107,6 +108,7 @@ server.get("/api/masspay", (req, res) => {
 
 registerClientRoutes(server);
 registerMemberRoutes(server);
+registerLoginRoutes(server);
 
 server.use(CLIENTS_BASE_PATH, routerClients);
 server.use(MEMBERS_BASE_PATH, routerMembers);

@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": "3",
+      "payin_token": "87630840-c929-4cd9-9ab9-36ebb8c41eee",
+      "external_id": "306160389577464",
+      "status": "COMPLETED",
+      "deposit_amount": "50.00000000",
+      "deposit_currency": "USD",
+      "fiat_amount": "50.00000",
+      "fiat_currency": "USD",
+      "transaction_reference": "067659",
+      "metadata": null,
+      "created_at": "2026-06-09 10:49:17",
+      "completed_at": "2026-06-09 10:49:17",
+      "updated_at": "2026-07-21 15:02:15",
+      "fee": "0.00000",
+      "fee_revenue": "0.00000",
+      "fx_revenue": "0.00000",
+      "internal_fee": "0.00000",
+      "internal_fx_fee": "0.00000",
+      "token": "2933accb-8515-11f1-9b6a-028ca935a941"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 0,
+    "total": 0,
+    "filter": false,
+    "sql": ""
+  }
+}
