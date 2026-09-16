@@ -1,302 +1,453 @@
 [
   {
-    "files_uploaded": null,
-    "time_requested": "2026-05-04 05:53:00",
-    "time_completed": null,
-    "is_verified": "1",
-    "is_required": "1",
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"2df4b9a4-fdb9-4bf4-bedd-be31c9b8e8c6\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Insurance Card (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-06 17:57:11",
+    "time_completed": "2026-05-06 18:11:12",
+    "is_required": "0",
+    "is_verified": "0",
     "types_of_documents_to_accept": [
-      "Proof of Address (last 3 months)",
       "Insurance Card (last 3 months)"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "993e7fa4-7d77-424f-bb46-2f8fa7a5a150"
+    "request_token": "5315f6d9-f954-4fef-a6b2-66ed72bbf863",
+    "buttons": {
+      "data-request_token": "5315f6d9-f954-4fef-a6b2-66ed72bbf863",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/2df4b9a4-fdb9-4bf4-bedd-be31c9b8e8c6?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=852f00c7f76c4f3795e92808cb49ef1d395b83a83fc6e8c6a3b46f0959044dbc",
+        "ext": "pdf",
+        "type": "[\"Insurance Card (last 3 months)\"]",
+        "file_name": "2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf"
+      }
+    ]
   },
   {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"1b533e99-9081-41c5-a70d-d90cd097857e\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"bc64bbc4-8653-4fd7-9a53-93785e99260c\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"79cfca8e-c431-4a4f-9ebf-7269f1ea07a1\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\",\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-03 21:08:51",
-    "time_completed": "2026-05-04 13:53:58",
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Bank Statement"
-    ],
-    "metadata": [],
-    "request_token": "0811a3cf-968c-45f0-a817-d63fc6efbffb"
-  },
-  {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"fd1580bd-df52-4f19-8359-f49ac0b21121\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"6ca626b5-e0a9-4d06-af55-3875911ebfea\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"a4c867ab-7468-4866-bf8c-3fe5bc9c348a\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Company/Entity Documents\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-03 18:13:25",
-    "time_completed": "2026-05-03 21:11:32",
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Company/Entity Documents"
-    ],
-    "metadata": [],
-    "request_token": "37c9c052-628e-4bad-913c-ebcde1a4014e"
-  },
-  {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"c5e3f5f4-0211-465c-ae40-400ab8becba4\", \"orig\": \"2b4014f8-3ef3-4ab3-be6e-4ae04384cabc.pdf\", \"type\": \"[\\\"Proof of Address (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"d7e0dc43-e0cc-4307-bb5b-3434af599ea2\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Proof of Address (last 3 months)\\\",\\\"Proof of Address (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-03 11:47:52",
-    "time_completed": "2026-05-03 21:16:23",
+    "files_uploaded": null,
+    "time_requested": "2026-05-06 17:42:17",
+    "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
       "Proof of Address (last 3 months)"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "457d8fef-42b9-44f6-aa9c-35f6e816bcac"
+    "request_token": "615a37a4-0901-4788-9001-b75d66691e72",
+    "buttons": {
+      "data-request_token": "615a37a4-0901-4788-9001-b75d66691e72",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
   },
   {
-    "files_uploaded": "[{\"ext\": \"jpeg\", \"name\": \"faa17059-2cb6-4c77-bd8d-2cc1ae0839fb\", \"orig\": \"T01B9GA0Y03-U090EC1URBQ-3a95c0df52f5-512.jpeg\", \"type\": \"Government Issued ID\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"601ac637-8029-4ad0-bdf6-f501fa4fd0af\", \"orig\": \"Mad Coder Inv 2026 - 05 (1).pdf\", \"type\": \"[\\\"Government Issued ID\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-03 11:09:13",
-    "time_completed": "2026-05-19 10:29:37",
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Government Issued ID"
-    ],
-    "metadata": [],
-    "request_token": "921594d8-da12-4e1b-8e07-69c2812653d8"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-05-03 11:00:10",
-    "time_completed": null,
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"cd43de50-7332-4d0e-8e3c-20a97e28fe8c\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"0d5c6fcc-9e3c-4dae-89aa-d5ffaa5e7909\", \"orig\": \"907590e9-951d-486f-af96-02da8ca913ec (1).pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"c8278320-df51-4bc2-846a-809f56164553\", \"orig\": \"907590e9-951d-486f-af96-02da8ca913ec (1).pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"a4fb1f17-599d-46b3-b6b7-874b23cf2e90\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"bfad83be-7988-4f75-a2f8-1bedf0a09bbb\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"20cc104e-d768-4a07-987d-c6f0782e67d4\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"42ffb367-a2d3-4bcb-b224-5ff0c8404b12\", \"orig\": \"907590e9-951d-486f-af96-02da8ca913ec (1).pdf\", \"type\": \"Wallet Screenshot\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-05-06 17:13:32",
+    "time_completed": "2026-05-06 17:17:07",
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
       "Wallet Screenshot"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "21f0321b-c2d9-40ec-9380-225f6dcdb293"
+    "request_token": "75791f69-b2e2-44be-90f3-bb82aa37fba1",
+    "buttons": {
+      "data-request_token": "75791f69-b2e2-44be-90f3-bb82aa37fba1",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/cd43de50-7332-4d0e-8e3c-20a97e28fe8c?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=32b68d0aabb1024230fb642c313a21a25b70b4f2f85bf3af84002affee7c1f85",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "8bf64f9b-20d6-4a20-81eb-703250571632.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/0d5c6fcc-9e3c-4dae-89aa-d5ffaa5e7909?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=8137ed6b5be7d26260fc5f1f480f5819181a7e9b2b8c8ede7122bd8a8a5446c3",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "907590e9-951d-486f-af96-02da8ca913ec (1).pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/c8278320-df51-4bc2-846a-809f56164553?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=a19602b82c3dca40ee0b4cae5b0affc39e369280e49f1406bd5b69ada96855ad",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "907590e9-951d-486f-af96-02da8ca913ec (1).pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/a4fb1f17-599d-46b3-b6b7-874b23cf2e90?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=7509797b6949e8a688aa0668981d2ff1e54016ee625e0efe3e07539d1a36fb38",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "8bf64f9b-20d6-4a20-81eb-703250571632.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/bfad83be-7988-4f75-a2f8-1bedf0a09bbb?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=94de2cee40a777bade25be6b65cc8d74536aec15ce4a7e6af197705094c22a9b",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "8bf64f9b-20d6-4a20-81eb-703250571632.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/20cc104e-d768-4a07-987d-c6f0782e67d4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=a46af96788b37eb914103bc22e9c9487b06b932ffd51a4d79de1ad717bd0116a",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "8bf64f9b-20d6-4a20-81eb-703250571632.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/42ffb367-a2d3-4bcb-b224-5ff0c8404b12?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=c620932a8370fdd4929beb9a9273a2847b4c96efb1e48896ccc5f9cd8438db24",
+        "ext": "pdf",
+        "type": "Wallet Screenshot",
+        "file_name": "907590e9-951d-486f-af96-02da8ca913ec (1).pdf"
+      }
+    ]
   },
   {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"3ec45cca-de0a-4e6e-aae5-83f43ecaf7a5\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad11\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-02 22:22:57",
-    "time_completed": "2026-05-02 22:24:11",
+    "files_uploaded": "[{\"ext\": \"jpeg\", \"name\": \"59d9ec1c-5602-44d5-a33a-2156f7dba4c3\", \"orig\": \"kyc_test.jpeg\", \"type\": \"[\\\"Government Issued ID\\\"]\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-04-20 17:01:00",
+    "time_completed": "2026-07-16 22:46:31",
+    "is_required": "0",
+    "is_verified": "1",
+    "types_of_documents_to_accept": [
+      "Government Issued ID"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "b2e89e93-a62d-49da-ac44-ec83024db98e",
+    "buttons": {
+      "data-request_token": "b2e89e93-a62d-49da-ac44-ec83024db98e",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/59d9ec1c-5602-44d5-a33a-2156f7dba4c3?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=26112d5dbe7ecb07dc74851ccb31cbe71a8f8a69bf2f12498b8e489a35c2bb48",
+        "ext": "jpeg",
+        "type": "[\"Government Issued ID\"]",
+        "file_name": "kyc_test.jpeg"
+      }
+    ]
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2026-04-20 17:00:34",
+    "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
-      "gilad11"
+      "Paper Check",
+      "Miscellaneous"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "1b061cee-e29b-45fe-8750-49c674292e8a"
+    "request_token": "07ed26a5-579f-4632-b0d7-00cab98ba26e",
+    "buttons": {
+      "data-request_token": "07ed26a5-579f-4632-b0d7-00cab98ba26e",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
   },
   {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"134d70d1-3aca-464b-9e59-625f1600d854\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"ceb676d1-6903-4b0e-9a55-31df507d9503\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"gilad\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-02 22:20:08",
-    "time_completed": "2026-05-02 22:22:13",
+    "files_uploaded": null,
+    "time_requested": "2026-04-20 17:00:14",
+    "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
-      "gilad"
+      "Paper Check",
+      "Bank Statement",
+      "Proof of Address (last 3 months)"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "bd35d0b8-f1c5-4eef-9884-51567d63d41e"
+    "request_token": "3655c3a3-18fb-4a96-ad54-3c0bce21ab13",
+    "buttons": {
+      "data-request_token": "3655c3a3-18fb-4a96-ad54-3c0bce21ab13",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"bc2d2cb9-1420-4765-a69a-7f3d795408e4\", \"orig\": \"User Guide Book.pdf\", \"type\": \"RFI\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-04-17 13:54:55",
+    "time_completed": "2026-04-20 09:36:42",
+    "is_required": "0",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "RFI",
+      "Paper Check",
+      "Bank Statement"
+    ],
+    "public_note": "fdfff",
+    "metadata": [],
+    "request_token": "21608aa6-cf32-4f1f-b246-11f845fd112d",
+    "buttons": {
+      "data-request_token": "21608aa6-cf32-4f1f-b246-11f845fd112d",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/bc2d2cb9-1420-4765-a69a-7f3d795408e4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=d544b5df94da04f7ffbb8f569ff9a3fe4fb406aac7fd26997fcc2d244742aa81",
+        "ext": "pdf",
+        "type": "RFI",
+        "file_name": "User Guide Book.pdf"
+      }
+    ]
   },
   {
     "files_uploaded": null,
-    "time_requested": "2026-05-01 08:56:14",
+    "time_requested": "2026-04-14 17:16:01",
     "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Miscellaneous\"]",
+    "types_of_documents_to_accept": [
+      "Company/Entity documents",
+      "Government issued ID"
+    ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "83b26e03-6f34-4af7-b866-75f9304c30b4"
+    "request_token": "e7b359de-56fc-4190-97f1-087f874b54ff",
+    "buttons": {
+      "data-request_token": "e7b359de-56fc-4190-97f1-087f874b54ff",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
   },
   {
-    "files_uploaded": null,
-    "time_requested": "2026-05-01 08:55:43",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Company/Entity Documents\"]",
-    "metadata": [],
-    "request_token": "86f12ac4-6db5-42e8-b534-808692c49722"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-05-01 08:15:18",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Government Issued ID\"]",
-    "metadata": [],
-    "request_token": "04b4e6ce-a8cb-4d06-8539-051cde94fd2e"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-05-01 08:14:46",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Utility Bill (last 3 months)\"]",
-    "metadata": [],
-    "request_token": "33decde8-45a4-44aa-93bb-8589d5ffef98"
-  },
-  {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"c828216d-637f-4f5e-aabc-252c800b13b8\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"169b543d-355b-457c-8bd8-dab9a8bb9b16\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"5f9216cb-9e4f-4c05-aa68-2aab4c1b5be8\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"3cdf16f1-c3a2-41d2-85ff-8831bd468143\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"4de8e6cb-1287-4e59-b3a0-dcd5446d557c\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"545d9322-d218-4b88-b999-0b07501ba28c\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"7fe53ce9-631f-47f2-90da-4f8c3a401eed\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"d8701f82-7556-42f2-9eff-8c187e2e2836\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Bank Statement\\\"]\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"7ffea746-3caf-4ffd-bc18-33b80623801b\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"\\\"[\\\\\\\"Bank Statement\\\\\\\"]\\\"\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-01 07:11:40",
-    "time_completed": "2026-05-02 22:12:12",
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Bank Statement\"]",
-    "metadata": [],
-    "request_token": "b6a69f3b-7d10-4a2f-871d-6b7a8ebbe0c4"
-  },
-  {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"1b414eb3-2027-43ce-927a-6ad5d54bd28d\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"Paper Check\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-05-01 06:58:16",
-    "time_completed": "2026-05-01 07:34:35",
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Paper Check\"]",
-    "metadata": [],
-    "request_token": "9eb279ba-ef53-470b-b7ee-733a2d113a9e"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-04-30 19:42:03",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Proof of Address (last 3 months)\"]",
-    "metadata": [],
-    "request_token": "cf8d65e4-3350-4d0b-b61b-05f978e9a16c"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-04-30 19:36:13",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": "[\"Insurance Card (last 3 months)\"]",
-    "metadata": [],
-    "request_token": "d073c5e1-4424-4804-aac8-86f850e064f6"
-  },
-  {
-    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"99c66cfa-9302-4586-8fbb-2a00460cc99e\", \"orig\": \"8bf64f9b-20d6-4a20-81eb-703250571632.pdf\", \"type\": \"[\\\"Utility Bill (last 3 months)\\\"]\", \"is_gdpr\": \"false\"}]",
-    "time_requested": "2026-04-30 19:14:09",
-    "time_completed": "2026-05-03 18:11:52",
-    "is_verified": "0",
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"fa6002c4-8691-4e99-86eb-6cc5fee2f668\", \"orig\": \"Invoice No. 808 - MAD CODER LTD.pdf\", \"type\": \"Utility Bill (last 3 months)\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"1c4b85d7-6400-47fd-a9a0-e7ec10d670de\", \"orig\": \"【MassPay】External Penetration Test Report_V1R1.pdf\", \"type\": \"Utility Bill (last 3 months)\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2026-01-16 18:01:23",
+    "time_completed": "2026-09-09 15:43:47",
+    "is_required": "0",
+    "is_verified": "1",
     "types_of_documents_to_accept": [
       "Utility Bill (last 3 months)"
     ],
+    "public_note": "",
     "metadata": [],
-    "request_token": "9eab00de-16f9-49f9-9113-0ba99b6561e2"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-04-30 18:01:19",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Insurance Card (last 3 months)"
-    ],
-    "metadata": [],
-    "request_token": "34a75038-f0cb-4147-88ed-a5c3d47b6a5c"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-04-30 12:27:51",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "RFI",
-      "Paper Check"
-    ],
-    "metadata": [],
-    "request_token": "7fca7aa5-dbcc-4277-bab8-9f36e0dd5976"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2026-04-30 12:26:38",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "RFI",
-      "Paper Check",
-      "Bank Statement"
-    ],
-    "metadata": [],
-    "request_token": "a24fe4d0-4989-4d15-b3ea-4f2fed8b651e"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2025-11-26 18:20:07",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Paper Check"
-    ],
-    "metadata": [],
-    "request_token": "dbee4afc-84ce-4378-a532-7a73c7454ed0"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2025-06-30 18:35:12",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Paper Check",
-      "Bank Statement"
-    ],
-    "metadata": [],
-    "request_token": "9a8a4f9d-6ec3-4938-9fb9-7988437735af"
-  },
-  {
-    "files_uploaded": null,
-    "time_requested": "2025-05-09 16:10:23",
-    "time_completed": null,
-    "is_verified": "0",
-    "types_of_documents_to_accept": [
-      "Paper Check",
-      "Bank Statement"
-    ],
-    "metadata": [
+    "request_token": "2a1da6ec-e6c7-48a7-b13d-1369e7180286",
+    "buttons": {
+      "data-request_token": "2a1da6ec-e6c7-48a7-b13d-1369e7180286",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
       {
-        "key": "Account Number",
-        "value": "100000001234"
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/fa6002c4-8691-4e99-86eb-6cc5fee2f668?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=f382a64256b6f1948648cefb9ef7b3c6b76177759c9276f1cee1c0194f55f209",
+        "ext": "pdf",
+        "type": "Utility Bill (last 3 months)",
+        "file_name": "Invoice No. 808 - MAD CODER LTD.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/1c4b85d7-6400-47fd-a9a0-e7ec10d670de?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=ede2dedb89f01ef8255f3ee554f760de455a731eb8cd9f5d15a5d7688a250449",
+        "ext": "pdf",
+        "type": "Utility Bill (last 3 months)",
+        "file_name": "【MassPay】External Penetration Test Report_V1R1.pdf"
       }
-    ],
-    "request_token": "5fe13c5f-c1be-4522-ae5a-5b82130b2946"
+    ]
   },
   {
     "files_uploaded": null,
-    "time_requested": "2025-05-03 16:07:46",
+    "time_requested": "2026-01-16 00:35:48",
     "time_completed": null,
+    "is_required": "0",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Bank Statement"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "40915f5c-ffaf-4c07-a0ec-0a86d38e1e01",
+    "buttons": {
+      "data-request_token": "40915f5c-ffaf-4c07-a0ec-0a86d38e1e01",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"pdf\", \"name\": \"bf76bbf6-dee7-49b9-a909-2de76a44ff1f\", \"orig\": \"Mad Coder Inv 2026 - 09.pdf\", \"type\": \"Miscellaneous\", \"is_gdpr\": \"false\"}, {\"ext\": \"pdf\", \"name\": \"e31e4840-a240-4a86-91b8-194244448c6e\", \"orig\": \"ledger-statement-sep-2026 (2).pdf\", \"type\": \"Miscellaneous\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2025-11-25 15:28:13",
+    "time_completed": "2026-09-09 15:45:12",
+    "is_required": "0",
+    "is_verified": "1",
+    "types_of_documents_to_accept": [
+      "Miscellaneous"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "e16ba42b-5f55-4600-b6dc-dbc90c55ff7a",
+    "buttons": {
+      "data-request_token": "e16ba42b-5f55-4600-b6dc-dbc90c55ff7a",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/bf76bbf6-dee7-49b9-a909-2de76a44ff1f?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=3f4b5b7334a58d6deb36b943b2fc13fea7c6775ff955ecd23a72957f99e3bf1a",
+        "ext": "pdf",
+        "type": "Miscellaneous",
+        "file_name": "Mad Coder Inv 2026 - 09.pdf"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/e31e4840-a240-4a86-91b8-194244448c6e?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=5b6d40c5943cdb115dd1da88a7448edd44209e2592d0eb0169f4a06cbfdc7e23",
+        "ext": "pdf",
+        "type": "Miscellaneous",
+        "file_name": "ledger-statement-sep-2026 (2).pdf"
+      }
+    ]
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-11-25 15:26:42",
+    "time_completed": null,
+    "is_required": "0",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Paper Check",
+      "Bank Statement",
+      "Wallet Screenshot"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "9c230fcc-209a-44cd-8ef1-038023d8faea",
+    "buttons": {
+      "data-request_token": "9c230fcc-209a-44cd-8ef1-038023d8faea",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"jpg\", \"name\": \"fe92501d-d9fc-4157-bd50-fbe376b54871\", \"orig\": \"Backdrop 1.jpg\", \"type\": \"Paper Check\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2025-11-25 15:24:32",
+    "time_completed": "2026-09-09 18:08:13",
+    "is_required": "0",
+    "is_verified": "1",
+    "types_of_documents_to_accept": [
+      "Paper Check"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "2edccb51-2d10-4bff-838b-b8b5e4156599",
+    "buttons": {
+      "data-request_token": "2edccb51-2d10-4bff-838b-b8b5e4156599",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/fe92501d-d9fc-4157-bd50-fbe376b54871?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=a3407003713441f7d6b2b964063b2430ed8f8911e6cb883c8bd4d2cb28631391",
+        "ext": "jpg",
+        "type": "Paper Check",
+        "file_name": "Backdrop 1.jpg"
+      }
+    ]
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-06-09 18:48:30",
+    "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
       "Bank Statement",
       "Paper Check"
     ],
-    "metadata": [
-      {
-        "key": "Account Number",
-        "value": "1231231"
-      }
-    ],
-    "request_token": "c50590fd-46dc-42ea-8744-d1948113e835"
+    "public_note": "",
+    "metadata": [],
+    "request_token": "6e70558b-84dc-46b5-b7af-272f6ec62812",
+    "buttons": {
+      "data-request_token": "6e70558b-84dc-46b5-b7af-272f6ec62812",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
   },
   {
     "files_uploaded": null,
-    "time_requested": "2025-05-03 16:02:30",
-    "time_completed": "2025-05-03 09:04:18",
-    "is_verified": "0",
+    "time_requested": "2025-06-08 21:29:50",
+    "time_completed": null,
+    "is_required": "0",
+    "is_verified": "1",
     "types_of_documents_to_accept": [
       "Bank Statement",
       "Paper Check"
     ],
+    "public_note": "",
     "metadata": [
       {
         "key": "Account Number",
-        "value": "ran@masspay.io"
+        "value": "123456789"
       }
     ],
-    "request_token": "b5390d85-6fd3-4ded-add5-ffc3c52c37ef"
+    "request_token": "1a0ea7a0-2644-4125-8f36-82b69367d007",
+    "buttons": {
+      "data-request_token": "1a0ea7a0-2644-4125-8f36-82b69367d007",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
+  },
+  {
+    "files_uploaded": null,
+    "time_requested": "2025-05-01 21:38:27",
+    "time_completed": null,
+    "is_required": "0",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Wallet Screenshot"
+    ],
+    "public_note": "",
+    "metadata": [
+      {
+        "key": "Account Number",
+        "value": "test@masspay.io"
+      }
+    ],
+    "request_token": "bbe9f71c-2f8b-4617-b08d-fcd17b80f3e3",
+    "buttons": {
+      "data-request_token": "bbe9f71c-2f8b-4617-b08d-fcd17b80f3e3",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
+  },
+  {
+    "files_uploaded": "[{\"ext\": \"png\", \"name\": \"f19d9476-0140-4956-ab81-8568983c511a\", \"orig\": \"ChatGPT Image May 13, 2025, 05_24_19 AM.png\", \"type\": \"Paper Check\", \"is_gdpr\": \"false\"}, {\"ext\": \"png\", \"name\": \"a326a107-dacc-4d63-ba68-c77a7e4c86c5\", \"orig\": \"ChatGPT Image May 14, 2025, 04_01_13 AM.png\", \"type\": \"Bank Statement\", \"is_gdpr\": \"false\"}]",
+    "time_requested": "2025-04-17 02:40:04",
+    "time_completed": "2025-06-09 18:44:07",
+    "is_required": "0",
+    "is_verified": "0",
+    "types_of_documents_to_accept": [
+      "Paper Check",
+      "Bank Statement"
+    ],
+    "public_note": "",
+    "metadata": [],
+    "request_token": "c0a289f2-9a0b-4b8b-b1a9-b765b9ced2a0",
+    "buttons": {
+      "data-request_token": "c0a289f2-9a0b-4b8b-b1a9-b765b9ced2a0",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    },
+    "files": [
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/f19d9476-0140-4956-ab81-8568983c511a?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=67f93f9512a47cf2952e6542beed01207cd23084523605d9ca6ec949d7461b44",
+        "ext": "png",
+        "type": "Paper Check",
+        "file_name": "ChatGPT Image May 13, 2025, 05_24_19 AM.png"
+      },
+      {
+        "url": "https://staging-masspay-payee-docs.s3.us-west-2.amazonaws.com/a326a107-dacc-4d63-ba68-c77a7e4c86c5?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCICuTIaFiWt8Ep7MReqwV3Ml%2FxyA%2Bud7yYnUgANtth3wmAiEA2h5jTuMREJgipqKm%2B6%2BFVhMnpvu952VbkaFr2nAb6PIqvgUIARADGgwxODI1NDkwNjI3NjciDJQK2ugGCBrH1hlnQyqbBVxr9SUCZto8TnKyjKuFJk%2F154ZBTTXMuUH4m9uNrZu%2FQreWk6xNoHljWK14jisKExiOn0eS5tdQgo4kSExqksLlLk0dxhxKV0FVWInrlhZLn3UqVcjlGxpFgv2ZQ5%2BGAYIfInu%2FQfmHQnfTtUo%2F8k3IIy1bA%2Ftea4%2Br9X6KcO%2BYsJWS4WgY0zpb9ridWZqtAKxZswHCBmJw09Xxdr%2FIAjffpPWiy%2Br3pUgLUzgMbazCBaLTDD2diR2jW7dH3LgfrTpQFeiRGnPq%2FhzNEi0Scp6JgwYgklQdYanZBvpRX4iIZ7oSqOuVmgLSFRxogjn%2BGjdVciJwdWTyP%2FDSScQahELNRWDAVYNdxYT6hOLPZWJ6NHqxBWsv7UTOonYROKGfOkVtTyxYQdQ%2Bb%2B1R8gUN2lcF858LViV%2BZpN5BFvFuZ%2BRtgBgY7WubGaQm9HLjHWBs7eeDQpOHXmIPjTSneQmBsWO%2B2GVtKO1B9SK9B8v9M2MozStz%2FguF9NjAx5i68UgOJn0o%2BPFmMc5YZipMXBihOl5%2B5ny2FfKAi7oesvjj5Q01Iprk2RZk2J3MHRYSYFWpgDm5%2FPaOXJz8UL1VvNw%2Fn%2BC%2BLCNryaHPEbobcIs3TP8NDfSQeT3N%2Fa9XKoUGpX1Oi8q3VfJTlVpwIy5kVqFy7xygwAruUiI6u7bk3dI6UMl5%2Fk%2F7%2F0eyCQ95uuvyFImA1inW3fTuqb36K5B3Yj5ndW0aH%2FlCzFupzi%2B%2FIrVXfjTF6QM0D2fcWfkWDZBZyWqG9JfKebSvV7QUnQ5Iyg8HATZLrAU7lSUgK0CjCHEdVznTC0ugh4Qac9nR2fpaZ0EVRgQCA%2Bqt8EfJoO9FoCODTrSGyMfYzDS4ES2ocLBM7raHiP4mv%2B%2F2nHbYrowucyl1QY6sQGli04lA4eWm5%2FYaL63wWhH2qjmhC6jK4naMQfImh1oW0F35KsXFuiff7J4RvhebpNKp6BCKTr5YSvXZ5y%2Fobd8oKKN3p4znRnRUTRL2fqHn9QiVo4iohvHe6SS2VQIlgO3MdfFd3ZsgYtvqH%2FLVDLRplWShO7YiDmiYOucw11t56zybsWL0d5xpQApfKC0hRz9iLUv5V8VdmoVZS81OxNkq1cC2RlqpMxUjFq%2BKkU9ZjQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASVAGFURX6C7HDPTI%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T162003Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1200&X-Amz-Signature=8eedd39eb8ee9126a4896d9c738d144bc0269a82f6c18d5077c90ef793cb17d5",
+        "ext": "png",
+        "type": "Bank Statement",
+        "file_name": "ChatGPT Image May 14, 2025, 04_01_13 AM.png"
+      }
+    ]
   },
   {
     "files_uploaded": null,
     "time_requested": "2025-04-17 02:40:04",
     "time_completed": null,
+    "is_required": "0",
     "is_verified": "0",
     "types_of_documents_to_accept": [
       "Bank Statement",
       "Paper Check"
     ],
+    "public_note": "",
     "metadata": [
       {
         "key": "Account Number",
-        "value": "1231231"
+        "value": "123123123"
       }
     ],
-    "request_token": "3311c86c-038d-4dfb-8e49-899182030adf"
+    "request_token": "7e221bb1-0bfd-4efa-98e1-40b7f1838243",
+    "buttons": {
+      "data-request_token": "7e221bb1-0bfd-4efa-98e1-40b7f1838243",
+      "data-user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589"
+    }
   }
 ]

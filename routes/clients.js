@@ -89,6 +89,8 @@ const clientsBankViewJustWallet = require("../__mocks__/clientsBankView-justwall
 const clientsBankViewMcb = require("../__mocks__/clientsBankView-mcb.json");
 const clientsBankViewMyeupay = require("../__mocks__/clientsBankView-myeupay.json");
 const clientsBankViewStride = require("../__mocks__/clientsBankView-stride.json");
+const wireInstructions = require("../__mocks__/wireinstructions.json");
+const wireTemplates = require("../__mocks__/wiretemplates.json");
 const clients = require("../__mocks__/clients.json");
 const getClientsList = require("../__mocks__/getClientsList.json");
 const getLinks = require("../__mocks__/getLinks.json");
@@ -193,7 +195,7 @@ function registerClientRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/search/:limit`, (req, res) => {
     setTimeout(() => {
       res.status(200).json(search);
-    }, 1000);
+    }, 3000);
   });
 
   /* ------------------------------------------------------------------------ */
@@ -359,7 +361,9 @@ function registerClientRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/api/customer/:user_token/files`, (req, res) => {
     const { user_token } = req.params;
     console.log("User token:", user_token);
-    res.status(200).json(getFileUploads);
+    setTimeout(() => {
+      res.status(200).json(getFileUploads);
+    }, 3000);
   });
 
   server.get(`${CLIENTS_BASE_PATH}/api/customer/:user_token/payins`, (req, res) => {
@@ -810,6 +814,20 @@ function registerClientRoutes(server) {
       setTimeout(() => {
         res.status(200).json(payload);
       }, 1000);
+    },
+  );
+
+  server.get(
+    `${CLIENTS_BASE_PATH}/admin/clients/banks/transfer/:bank/:account/wireinstructions`,
+    (req, res) => {
+      res.status(200).json(wireInstructions);
+    },
+  );
+
+  server.get(
+    `${CLIENTS_BASE_PATH}/admin/clients/banks/transfer/:bank/:account/wiretemplates`,
+    (req, res) => {
+      res.status(200).json(wireTemplates);
     },
   );
 

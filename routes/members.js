@@ -34,11 +34,11 @@ function registerMemberRoutes(server) {
     setTimeout(() => {
       res.status(200).json([
         {
-          name: "Afghanistan",
-          code2: "AF",
-          code3: "AFG",
-          numeric: 4,
-          flag: "https://www.worldometers.info/img/flags/af-flag.gif",
+          name: "United States",
+          code2: "US",
+          code3: "USA",
+          numeric: 840,
+          flag: "https://www.worldometers.info/img/flags/us-flag.gif",
           id: "32d2",
         },
         {
@@ -87,10 +87,10 @@ function registerMemberRoutes(server) {
   server.put(`${MEMBERS_BASE_PATH}/security`, (req, res) => {
     const { code } = req.body;
     setTimeout(() => {
-      res.status(401).json({
-        status: "fail",
-        message: "Security updated successfully!",
-      });
+      res.status(200).json({
+  "status": "success",
+  "message": "MFA Code verified successfully!",
+});
     }, 1000);
   });
 

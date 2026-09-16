@@ -118,6 +118,6 @@ const PORT = process.env.PORT || 3335;
 
 app.use(server);
 
-app.listen(PORT, () => {
-  console.log(`JSON Server is running on PORT: ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`API rodando em http://0.0.0.0:${PORT}`);
 });

@@ -1,0 +1,25 @@
+{
+    "accountNumber": "2438962868",
+    "routingNumber": "021214891",
+    "accountType": "Deposit",
+    "status": "Active",
+    "ledgerType": "Passthrough",
+    "productType": "Checking",
+    "title": "MassPay Business Checking Account",
+    "currentBalance": 10000001650,
+    "availableBalance": 10000001650,
+    "holdAmount": 0,
+    "transactionCount": 3,
+    "creditLimit": 0,
+    "currency": "usd",
+    "openedAt": "2023-01-12T07:19:01.873-05:00",
+    "masterAccountNumber": "2438962868",
+    "customerId": "0e62ca40-04b4-4585-bdce-af8800caf928",
+    "beneficiary": {
+        "entityName": "MassPay Business Checking Account"
+    },
+    "partnerId": "b5be3e2e-e2f9-48ea-b9a6-af8800caf1c3",
+    "lastMaintenanceAt": "2023-01-12T07:19:01.873-05:00",
+    "productId": "cbd3b942-3d1c-498d-9f1c-af8800cafa1f",
+    "lastModifiedAt": "2023-01-12T07:19:01.8742452-05:00"
+}
