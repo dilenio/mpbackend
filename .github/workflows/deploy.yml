@@ -19,15 +19,7 @@ jobs:
           node-version: 20
 
       # ==========================================
-      # 1. BUILD DA API
-      # ==========================================
-      - name: Instalar dependências e compilar
-        run: |
-          npm install
-          npm run build
-
-      # ==========================================
-      # 2. ENVIO DOS ARTEFATOS VIA RSYNC
+      # 1. CONFIGURAÇÃO SSH E DIRETÓRIO
       # ==========================================
       - name: Configurar Chave SSH
         uses: webfactory/ssh-agent@v0.9.0
@@ -43,16 +35,15 @@ jobs:
           script: |
             mkdir -p /var/www/mockapi
 
-      - name: Enviar Build e Configurações para a VPS
+      # ==========================================
+      # 2. ENVIO DOS ARTEFATOS VIA RSYNC
+      # ==========================================
+      - name: Enviar Arquivos para a VPS
         run: |
           ssh-keyscan -H ${{ secrets.REMOTE_HOST }} >> ~/.ssh/known_hosts
           
-          # Envia a pasta dist e os arquivos essenciais de dependência
-          rsync -avz --delete dist/ ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/var/www/mockapi/dist/
-          rsync -avz package.json ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/var/www/mockapi/
-          if [ -f "package-lock.json" ]; then
-            rsync -avz package-lock.json ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/var/www/mockapi/;
-          fi
+          # Envia todos os arquivos do projeto (exceto node_modules e .git) direto para /var/www/mockapi
+          rsync -avz --delete --exclude 'node_modules' --exclude '.git' ./ ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/var/www/mockapi/
 
       # ==========================================
       # 3. INSTALAÇÃO DE PROD E RESTART NO PM2
@@ -69,11 +60,14 @@ jobs:
             # Instala apenas dependências de produção ignorando scripts desnecessários
             npm install --omit=dev --ignore-scripts
 
+            # ATENÇÃO: Altere "index.js" para o nome real do seu arquivo principal (ex: server.js, app.js, main.js)
+            APP_ENTRY="index.js"
+
             # Gerencia a aplicação no PM2 fixando a porta 3335
             if pm2 describe "mockapi" >/dev/null 2>&1; then
               PORT=3335 pm2 reload mockapi --update-env
             else
-              PORT=3335 pm2 start dist/main.js --name "mockapi"
+              PORT=3335 pm2 start $APP_ENTRY --name "mockapi"
             fi
             
             pm2 save

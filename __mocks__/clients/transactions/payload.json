@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "callbackUrl": "https://api.masspay.io/v1.0.0/payout/callback/neema",
+    "externalId": "5fc1f4b0-89e8-454a-b474-270ab93fb706",
+    "reason": 6,
+    "paymentType": 1,
+    "senderInfo": {
+      "identificationDocValue": "D06970249",
+      "identificationDocType": 2,
+      "fundSource": "BusinessProfit",
+      "firstName": "MassPay",
+      "lastName": "MassPay",
+      "countryIso": "USA",
+      "originCountryIso": "USA",
+      "birthday": "1990-01-01",
+      "city": "Las Vegas",
+      "phoneNumber": "+6502000226",
+      "address": "7251 W Lake Mead Blvd"
+    },
+    "receiverInfo": {
+      "firstName": "Ma  Denise",
+      "lastName": "Manalansan",
+      "countryIso": "PHL",
+      "phoneNumber": "+639165484288",
+      "destinationId": 25030
+    },
+    "currency": "PHP",
+    "description": "Commission",
+    "amount": 54407.13
+  },
+  "response": {
+    "payoutId": "ksit39FORnag3ltP3ulr9g",
+    "date": "2026-09-02 00:01:02",
+    "externalId": "5fc1f4b0-89e8-454a-b474-270ab93fb706",
+    "callbackUrl": "https://api.masspay.io/v1.0.0/payout/callback/neema",
+    "reason": "PAYMENT",
+    "paymentType": "B2C",
+    "amount": 54407.13,
+    "currency": "PHP",
+    "senderInfo": {
+      "firstName": "MassPay",
+      "lastName": "MassPay",
+      "countryIso": "USA",
+      "originCountryIso": "USA",
+      "birthday": "1990-01-01",
+      "city": "Las Vegas",
+      "phoneNumber": "+6502000226",
+      "address": "7251 W Lake Mead Blvd",
+      "identificationDocType": 2,
+      "identificationDocValue": "D06970249"
+    },
+    "receiverInfo": {
+      "firstName": "Ma  Denise",
+      "lastName": "Manalansan",
+      "countryIso": "PHL",
+      "phoneNumber": "+639165484288",
+      "destinationId": 25030
+    },
+    "accountFee": 1.4,
+    "accountFeeCurrency": "USD",
+    "accountAmount": 877.5,
+    "accountAmountCurrency": "USD",
+    "status": 10,
+    "statusDescription": "Created",
+    "deliveredAmount": 54407.13,
+    "deliveredCurrency": "PHP"
+  }
+}

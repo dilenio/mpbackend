@@ -7,6 +7,7 @@ const invoicesDir = path.join(__dirname, "..", "..", "__mocks__", "invoices");
 
 const getTransactions = require("../../__mocks__/clients/transactions/getTransactions.json");
 const get_transaction_data = require("../../__mocks__/clients/transactions/get_transaction_data.json");
+const payload = require("../../__mocks__/clients/transactions/payload.json");
 
 function registerTransactionRoutes(server) {
   server.get(`${CLIENTS_BASE_PATH}/get_transactions`, (req, res) => {
@@ -17,6 +18,12 @@ function registerTransactionRoutes(server) {
     const { id } = req.params;
     console.log("Transaction ID:", id);
     res.status(200).json(get_transaction_data);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/payload/:token`, (req, res) => {
+    const { token } = req.params;
+    console.log("Payload token:", token);
+    res.status(200).json(payload);
   });
 
   server.get(
