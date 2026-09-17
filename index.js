@@ -6,6 +6,7 @@ const fs = require("fs");
 const registerClientRoutes = require("./routes/clients");
 const registerMemberRoutes = require("./routes/members");
 const registerLoginRoutes = require("./routes/login");
+const registerRootRoutes = require("./routes/root");
 const multer = require("multer");
 const { get } = require("http");
 
@@ -96,6 +97,7 @@ server.get("/api/masspay", (req, res) => {
 registerClientRoutes(server);
 registerMemberRoutes(server);
 registerLoginRoutes(server);
+registerRootRoutes(server);
 
 // PORT MUST BE 3000
 const PORT = process.env.PORT || 3335;
