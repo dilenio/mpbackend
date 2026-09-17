@@ -1,0 +1,68 @@
+[
+  {
+    "id": "123",
+    "type": "masspay",
+    "title": "Masspay Wallet",
+    "card_number": "7654",
+    "active": true,
+    "amount": {
+      "currency": "USD",
+      "value": 27999
+    }
+  },
+  {
+    "id": "124",
+    "type": "visa",
+    "title": "EUR Debit",
+    "card_number": "0987",
+    "active": true,
+    "amount": {
+      "currency": "PNTS",
+      "value": 23098.98
+    }
+  },
+  {
+    "id": "125",
+    "type": "mastercard",
+    "title": "EUR Debit",
+    "card_number": "9876",
+    "active": true,
+    "amount": {
+      "currency": "EUR",
+      "value": 13020.35
+    }
+  },
+  {
+    "id": "126",
+    "type": "masspay",
+    "title": "EUR Debit",
+    "card_number": "1029",
+    "active": true,
+    "amount": {
+      "currency": "EUR",
+      "value": 68000
+    }
+  },
+  {
+    "id": "127",
+    "type": "visa",
+    "title": "BRL Debit",
+    "card_number": "0123",
+    "active": true,
+    "amount": {
+      "currency": "BRL",
+      "value": 1002
+    }
+  },
+  {
+    "id": "128",
+    "type": "masspay",
+    "title": "Masspay Wallet",
+    "card_number": "7654",
+    "active": true,
+    "amount": {
+      "currency": "USD",
+      "value": 834790.93
+    }
+  }
+]

@@ -1,6 +1,7 @@
 const { MEMBERS_BASE_PATH } = require("../../constants/routes");
 
 const serviceFields = require("../../__mocks__/shared/serviceFields.json");
+const services = require("../../__mocks__/members/lookups/services.json");
 
 function registerLookupRoutes(server) {
   server.get(`${MEMBERS_BASE_PATH}/countries`, (req, res) => {
@@ -34,6 +35,10 @@ function registerLookupRoutes(server) {
 
   server.get(`${MEMBERS_BASE_PATH}/service_fields`, (req, res) => {
     res.status(200).json(serviceFields);
+  });
+
+  server.get(`${MEMBERS_BASE_PATH}/services`, (req, res) => {
+    res.status(200).json(services);
   });
 }
 

@@ -1,0 +1,291 @@
+{
+  "data": [
+    {
+      "id": "-",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "USA",
+      "date": "2025/03/12",
+      "time": "06:11 PM",
+      "payer": "Next Day Bank Deposit",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 17198.2,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 17198.2,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "status": "Expired",
+      "name": ""
+    },
+    {
+      "id": "5vgVCgcFQlii7LF2YKSocQ",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ISR",
+      "date": "2025/03/11",
+      "time": "11:36 PM",
+      "payer": "Bank Massad",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 10,
+        "currency": "BTC"
+      },
+      "received": {
+        "value": 35.46919,
+        "currency": "BTC"
+      },
+      "fee": {
+        "value": 3.8,
+        "currency": "BTC"
+      },
+      "fx": {
+        "value": 3.546919,
+        "currency": "BTC"
+      },
+      "status": "Processing",
+      "name": ""
+    },
+    {
+      "id": "-",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ISR",
+      "date": "2024/01/30",
+      "time": "11:35 PM",
+      "payer": "Bank Hapoalim",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 35.46919,
+        "currency": "ILS"
+      },
+      "fee": {
+        "value": 3.8,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 3.546919,
+        "currency": "ILS"
+      },
+      "status": "Error",
+      "name": "My Name"
+    },
+    {
+      "id": "RQ6NkeWcmmLikau1Nma2e3",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/18",
+      "time": "06:35 AM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 10.88446,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 4.82,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.9070383333333334,
+        "currency": "EUR"
+      },
+      "status": "Completed",
+      "name": ""
+    },
+    {
+      "id": "RQn1rRCZX823RunyjMfff2",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/14",
+      "time": "05:45 AM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 11.11136,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.9259466666666666,
+        "currency": "EUR"
+      },
+      "status": "Hold",
+      "name": ""
+    },
+    {
+      "id": "RQTud5SecyJD9tqdQOe083",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/10",
+      "time": "10:29 PM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 11,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 10.16473,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.9240663636363636,
+        "currency": "EUR"
+      },
+      "status": "Cancelled",
+      "name": ""
+    },
+    {
+      "id": "RQtx25VWFQjQbSWZlQd781",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/10",
+      "time": "08:54 PM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 9.2666,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.92666,
+        "currency": "EUR"
+      },
+      "status": "Ready For Pickup",
+      "name": ""
+    },
+    {
+      "id": "RQt9HdnsOauVa4NeQod4d2",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/10",
+      "time": "08:42 PM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 9.2666,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.92666,
+        "currency": "EUR"
+      },
+      "status": "Pending",
+      "name": ""
+    },
+    {
+      "id": "-",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/10",
+      "time": "08:23 PM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 9.2666,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.92666,
+        "currency": "EUR"
+      },
+      "status": "Scheduled",
+      "name": ""
+    },
+    {
+      "id": "-",
+      "card_id": "usr_wlt_d4982c15-fd4e-11ea-a3cb-02105b970935",
+      "user_id": "usr_31e384ff-d347-11ea-afc7-0289acba1734",
+      "country": "ESP",
+      "date": "2023/11/10",
+      "time": "07:01 PM",
+      "payer": "Bank Deposit - SEPA",
+      "type": "Bank Deposit",
+      "sent": {
+        "value": 12,
+        "currency": "USD"
+      },
+      "received": {
+        "value": 11.12443,
+        "currency": "EUR"
+      },
+      "fee": {
+        "value": 3,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 0.9270358333333334,
+        "currency": "EUR"
+      },
+      "status": "Error",
+      "name": ""
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 5,
+    "total": 55,
+    "filter": 55
+  }
+}

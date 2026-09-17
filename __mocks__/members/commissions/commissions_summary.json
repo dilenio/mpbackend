@@ -1,0 +1,50 @@
+{
+  "clients": [
+    {
+      "id": "123abc",
+      "name": "MassPay"
+    },
+    {
+      "id": "456abc",
+      "name": "Jane Smith"
+    },
+    {
+      "id": "789abc",
+      "name": "Bob Johnson"
+    }
+  ],
+  "summary_cards": [
+    {
+      "title": "Total Commission Paid",
+      "value": 1234.56,
+      "currency": "USD",
+      "status": "plus",
+      "index": 456.87,
+      "period": "This Year"
+    },
+    {
+      "title": "Total Commission Earned",
+      "value": 1234.56,
+      "currency": "USD",
+      "status": "plus",
+      "index": 467.98,
+      "period": "This Year"
+    },
+    {
+      "title": "Refunds This Month",
+      "value": 188.01,
+      "currency": "USD",
+      "status": "minus",
+      "index": "1.1%",
+      "period": "This Month"
+    },
+    {
+      "title": "Commissions Earned This Month",
+      "value": 141.99,
+      "currency": "USD",
+      "status": "up",
+      "index": "1.1%",
+      "period": "This Month"
+    }
+  ]
+}

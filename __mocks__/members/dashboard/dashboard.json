@@ -1,0 +1,168 @@
+{
+  "user": {
+    "image": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=Dilenio  Enderle",
+    "name": "Dilenio  Enderle",
+    "first_name": "Dilenio",
+    "middle_name": "",
+    "last_name": "Enderle"
+  },
+  "two_factor_authentication": false,
+  "summary": {
+    "transactions_today": {
+      "value": 0,
+      "status": "up",
+      "index": "0.00%",
+      "period": "This Month"
+    },
+    "todays_volume": {
+      "value": 0,
+      "currency": "",
+      "status": "plus",
+      "index": "0.00",
+      "period": "Today"
+    },
+    "available_balance": {
+      "value": 10198.75,
+      "currency": "USD",
+      "status": "up",
+      "index": "0.00%",
+      "period": "This Month"
+    }
+  },
+  "chart": {
+    "total_balance": 0,
+    "chart_data": [
+      {
+        "month": "Jul 25",
+        "days": "1 - 31",
+        "loaded": 7.39,
+        "payed_out": 0
+      },
+      {
+        "month": "Aug 25",
+        "days": "1 - 31",
+        "loaded": 0.45,
+        "payed_out": 0
+      },
+      {
+        "month": "Sep 25",
+        "days": "1 - 30",
+        "loaded": 4.12,
+        "payed_out": 103.65
+      },
+      {
+        "month": "Oct 25",
+        "days": "1 - 31",
+        "loaded": 14.46,
+        "payed_out": 0
+      },
+      {
+        "month": "Nov 25",
+        "days": "1 - 30",
+        "loaded": 7.9,
+        "payed_out": 0
+      },
+      {
+        "month": "Dec 25",
+        "days": "1 - 31",
+        "loaded": 12.9,
+        "payed_out": 0
+      },
+      {
+        "month": "Jan 26",
+        "days": "1 - 31",
+        "loaded": 0,
+        "payed_out": 0
+      },
+      {
+        "month": "Feb 26",
+        "days": "1 - 28",
+        "loaded": 40.2,
+        "payed_out": 0
+      },
+      {
+        "month": "Mar 26",
+        "days": "1 - 31",
+        "loaded": 7.97,
+        "payed_out": 0
+      },
+      {
+        "month": "Apr 26",
+        "days": "1 - 30",
+        "loaded": 7.98,
+        "payed_out": 0
+      },
+      {
+        "month": "May 26",
+        "days": "1 - 31",
+        "loaded": 17.36,
+        "payed_out": 0
+      },
+      {
+        "month": "Jun 26",
+        "days": "1 - 30",
+        "loaded": 0,
+        "payed_out": 0
+      }
+    ]
+  },
+  "last_transfers": [
+    {
+      "name": "Next Day Bank Deposit",
+      "full_name": "Dilenio  Enderle",
+      "image": "/assets/img/bank.svg",
+      "type": "Bank Deposit",
+      "date": "04/16/2026",
+      "amount": {
+        "currency": "USD",
+        "value": 10181.39
+      },
+      "account_id": "usr_wlt_b9211706-bf99-11ee-af08-0267d00b832f",
+      "destination_currency": "USD",
+      "service_id": "dest_656b116a-83f6-11ef-b954-0235c9d109d3"
+    },
+    {
+      "name": "Next Day Bank Deposit",
+      "full_name": "Dilenio  Enderle",
+      "image": "/assets/img/bank.svg",
+      "type": "Bank Deposit",
+      "date": "04/16/2026",
+      "amount": {
+        "currency": "USD",
+        "value": 10181.39
+      },
+      "account_id": "usr_wlt_b9211706-bf99-11ee-af08-0267d00b832f",
+      "destination_currency": "USD",
+      "service_id": "dest_656b116a-83f6-11ef-b954-0235c9d109d3"
+    },
+    {
+      "name": "Next Day Bank Deposit",
+      "full_name": "Dilenio  Enderle",
+      "image": "/assets/img/bank.svg",
+      "type": "Bank Deposit",
+      "date": "04/16/2026",
+      "amount": {
+        "currency": "USD",
+        "value": 10181.39
+      },
+      "account_id": "usr_wlt_b9211706-bf99-11ee-af08-0267d00b832f",
+      "destination_currency": "USD",
+      "service_id": "dest_656b116a-83f6-11ef-b954-0235c9d109d3"
+    }
+  ],
+  "cards": [
+    {
+      "id": "usr_wlt_b9211706-bf99-11ee-af08-0267d00b832f",
+      "type": "masspay",
+      "title": "MassPay Wallet",
+      "card_number": "",
+      "expiration": "",
+      "cvv": "",
+      "active": true,
+      "amount": {
+        "currency": "USD",
+        "value": 10198.75
+      }
+    }
+  ]
+}

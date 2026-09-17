@@ -1,0 +1,122 @@
+[
+  {
+    "month": "jan 24",
+    "volume_with_fx": 2582.33,
+    "volume_without_fx": 5142.37,
+    "fx_commission": 501.65,
+    "fee_commission": 1002.85,
+    "transactions_with_fx": 3000.45,
+    "transactions_without_fx": 6200.78,
+    "id": "c9f3"
+  },
+  {
+    "month": "feb 24",
+    "volume_with_fx": 8673.15,
+    "volume_without_fx": 1328.34,
+    "fx_commission": 1703.46,
+    "fee_commission": 260.57,
+    "transactions_with_fx": 9000.12,
+    "transactions_without_fx": 1500.23,
+    "id": "fab6"
+  },
+  {
+    "month": "mar 24",
+    "volume_with_fx": 8552.49,
+    "volume_without_fx": 3334.11,
+    "fx_commission": 1701.05,
+    "fee_commission": 660.68,
+    "transactions_with_fx": 9100.45,
+    "transactions_without_fx": 4000.89,
+    "id": "f73c"
+  },
+  {
+    "month": "apr 24",
+    "volume_with_fx": 2060.19,
+    "volume_without_fx": 8606.33,
+    "fx_commission": 410.2,
+    "fee_commission": 1702.13,
+    "transactions_with_fx": 2500.54,
+    "transactions_without_fx": 8900.23,
+    "id": "868d"
+  },
+  {
+    "month": "may 24",
+    "volume_with_fx": 2681.65,
+    "volume_without_fx": 5491.67,
+    "fx_commission": 503.63,
+    "fee_commission": 1009.83,
+    "transactions_with_fx": 3200.78,
+    "transactions_without_fx": 6100.54,
+    "id": "a362"
+  },
+  {
+    "month": "jun 24",
+    "volume_with_fx": 3011.35,
+    "volume_without_fx": 7489.62,
+    "fx_commission": 600.23,
+    "fee_commission": 1049.79,
+    "transactions_with_fx": 3500.34,
+    "transactions_without_fx": 8000.45,
+    "id": "53d1"
+  },
+  {
+    "month": "jul 24",
+    "volume_with_fx": 3374.43,
+    "volume_without_fx": 8383.37,
+    "fx_commission": 607.49,
+    "fee_commission": 1607.67,
+    "transactions_with_fx": 3700.89,
+    "transactions_without_fx": 9000.12,
+    "id": "2b17"
+  },
+  {
+    "month": "aug 24",
+    "volume_with_fx": 7546.41,
+    "volume_without_fx": 7880.76,
+    "fx_commission": 1500.93,
+    "fee_commission": 1507.62,
+    "transactions_with_fx": 8000.23,
+    "transactions_without_fx": 8100.54,
+    "id": "1d38"
+  },
+  {
+    "month": "sep 24",
+    "volume_with_fx": 7559.17,
+    "volume_without_fx": 9776.94,
+    "fx_commission": 1501.18,
+    "fee_commission": 1905.54,
+    "transactions_with_fx": 8200.76,
+    "transactions_without_fx": 10000.45,
+    "id": "7cd6"
+  },
+  {
+    "month": "oct 24",
+    "volume_with_fx": 1034.66,
+    "volume_without_fx": 7830.24,
+    "fx_commission": 200.69,
+    "fee_commission": 1056.6,
+    "transactions_with_fx": 1200.34,
+    "transactions_without_fx": 8100.78,
+    "id": "6d8e"
+  },
+  {
+    "month": "nov 24",
+    "volume_with_fx": 1816.49,
+    "volume_without_fx": 8320.3,
+    "fx_commission": 306.33,
+    "fee_commission": 1606.41,
+    "transactions_with_fx": 2000.12,
+    "transactions_without_fx": 8500.45,
+    "id": "04b0"
+  },
+  {
+    "month": "dec 24",
+    "volume_with_fx": 5491.52,
+    "volume_without_fx": 2838.64,
+    "fx_commission": 1009.83,
+    "fee_commission": 506.77,
+    "transactions_with_fx": 5800.89,
+    "transactions_without_fx": 3000.23,
+    "id": "4a32"
+  }
+]

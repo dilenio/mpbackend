@@ -1,0 +1,19 @@
+{
+  "name": "Dilenio  Enderle",
+  "image": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=Dilenio++Enderle",
+  "email": "dilenio@masspay.io",
+  "phone": "+1",
+  "dob": "1973-05-15",
+  "address1": "123+Main+St",
+  "address2": "Apt+3",
+  "city": "Santa+Monica",
+  "zip": "90405",
+  "state": "CA",
+  "country": "USA",
+  "two_factor_authentication": false,
+  "email_notifications": true,
+  "sms_notifications": true,
+  "phone_confirmation_required": false,
+  "is_email_verification": false,
+  "language": "en"
+}

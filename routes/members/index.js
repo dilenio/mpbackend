@@ -1,4 +1,7 @@
+const registerAuthRoutes = require("./auth");
 const registerLookupRoutes = require("./lookups");
+const registerDashboardRoutes = require("./dashboard");
+const registerCardRoutes = require("./cards");
 const registerUserProfileRoutes = require("./userProfile");
 const registerConfirmationRoutes = require("./confirmations");
 const registerTransferRoutes = require("./transfers");
@@ -19,7 +22,10 @@ const registerCommissionRoutes = require("./commissions");
  * por ultimo.
  */
 function registerMemberRoutes(server) {
+  registerAuthRoutes(server);
   registerLookupRoutes(server);
+  registerDashboardRoutes(server);
+  registerCardRoutes(server);
   registerUserProfileRoutes(server);
   registerConfirmationRoutes(server);
   registerTransferRoutes(server);

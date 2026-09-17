@@ -6,7 +6,18 @@ const { MEMBERS_BASE_PATH } = require("../../constants/routes");
 
 const exportsDir = path.join(__dirname, "..", "..", "__mocks__", "exports");
 
+const commissions = require("../../__mocks__/members/commissions/commissions.json");
+const commissionsSummary = require("../../__mocks__/members/commissions/commissions_summary.json");
+
 function registerCommissionRoutes(server) {
+  server.get(`${MEMBERS_BASE_PATH}/commissions`, (req, res) => {
+    res.status(200).json(commissions);
+  });
+
+  server.get(`${MEMBERS_BASE_PATH}/commissions_summary`, (req, res) => {
+    res.status(200).json(commissionsSummary);
+  });
+
   server.get(`${MEMBERS_BASE_PATH}/commissions_download`, (req, res) => {
     if (!fs.existsSync(exportsDir)) {
       fs.mkdirSync(exportsDir, { recursive: true });

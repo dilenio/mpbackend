@@ -1,6 +1,12 @@
 const { MEMBERS_BASE_PATH } = require("../../constants/routes");
 
+const checkWallet = require("../../__mocks__/members/transfers/check_wallet.json");
+
 function registerTransferRoutes(server) {
+  server.get(`${MEMBERS_BASE_PATH}/check_wallet`, (req, res) => {
+    res.status(200).json(checkWallet);
+  });
+
   server.post(`${MEMBERS_BASE_PATH}/validate_transfer`, (req, res) => {
     const { transaction_id } = req.params;
     res.status(200).json({

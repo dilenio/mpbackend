@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "full_name": "John Doe",
+  "payout_token": "abc123xyz",
+  "bank": "Bank Name",
+  "amount": {
+    "value": 123,
+    "currency": "USD"
+  },
+  "fee": {
+    "value": 1,
+    "currency": "USD"
+  },
+  "exchange_rate": {
+    "value": 1,
+    "currency": "USD"
+  }
+}
