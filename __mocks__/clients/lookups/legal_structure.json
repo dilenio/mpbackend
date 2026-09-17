@@ -1,0 +1,30 @@
+[
+  {
+    "key": "C Corp",
+    "value": "c_corp"
+  },
+  {
+    "key": "LLC",
+    "value": "llc"
+  },
+  {
+    "key": "Partnership",
+    "value": "partnership"
+  },
+  {
+    "key": "Non-Profit",
+    "value": "non_profit"
+  },
+  {
+    "key": "S Corp",
+    "value": "s_corp"
+  },
+  {
+    "key": "Sole Proprietorship",
+    "value": "sole_proprietorship"
+  },
+  {
+    "key": "Other",
+    "value": "other"
+  }
+]

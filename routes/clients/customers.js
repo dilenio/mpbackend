@@ -17,8 +17,48 @@ const logins = require("../../__mocks__/clients/customers/logins.json");
 const getTransactionsHistory = require("../../__mocks__/clients/customers/getTransactionsHistory.json");
 const getTransactionsClientId = require("../../__mocks__/clients/customers/getTransactionsClientId.json");
 const getTransactionsIds = require("../../__mocks__/clients/customers/getTransactionsIds.json");
+const user = require("../../__mocks__/clients/customers/user.json");
+const userProfile = require("../../__mocks__/clients/customers/user_profile.json");
+const attributes = require("../../__mocks__/clients/customers/attributes.json");
+const events = require("../../__mocks__/clients/customers/events.json");
+const idVerification = require("../../__mocks__/clients/customers/id_verification.json");
+const loginHistory = require("../../__mocks__/clients/customers/login_history.json");
+const fileUpload = require("../../__mocks__/clients/customers/file_upload.json");
+const transactionsId = require("../../__mocks__/clients/customers/transactions_id.json");
 
 function registerCustomerRoutes(server) {
+  server.get(`${CLIENTS_BASE_PATH}/user`, (req, res) => {
+    res.status(200).json(user);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/user_profile`, (req, res) => {
+    res.status(200).json(userProfile);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/attributes`, (req, res) => {
+    res.status(200).json(attributes);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/events`, (req, res) => {
+    res.status(200).json(events);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/id_verification`, (req, res) => {
+    res.status(200).json(idVerification);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/login_history`, (req, res) => {
+    res.status(200).json(loginHistory);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/file_upload`, (req, res) => {
+    res.status(200).json(fileUpload);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/transactions_id`, (req, res) => {
+    res.status(200).json(transactionsId);
+  });
+
   server.get(`${CLIENTS_BASE_PATH}/api/payees`, (req, res) => {
     res.status(200).json(getPayees);
   });

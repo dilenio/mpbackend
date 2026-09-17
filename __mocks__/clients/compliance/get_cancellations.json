@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": 123123,
+      "name": "John Doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "cancellations": 10,
+      "image": "https://picsum.photos/id/42/200"
+    },
+    {
+      "id": 123456,
+      "name": "David Albro Junior",
+      "first_name": "David",
+      "last_name": "Junior",
+      "cancellations": 20,
+      "image": ""
+    },
+    {
+      "id": 7623,
+      "name": "Matheus Virtue",
+      "first_name": "Matheus",
+      "last_name": "Virtue",
+      "cancellations": 0,
+      "image": ""
+    },
+    {
+      "id": 321321,
+      "name": "Marie Jane",
+      "first_name": "Marie",
+      "last_name": "Jane",
+      "cancellations": 2,
+      "image": "https://picsum.photos/id/17/200"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": 4,
+    "filter": 0
+  }
+}

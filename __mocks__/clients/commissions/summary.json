@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "first_name": "Albert",
+      "last_name": "Einstein",
+      "image": "https://picsum.photos/id/42/200",
+      "commission_to_be_paid": {
+        "value": 400,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "first_name": "Manahil",
+      "last_name": "Cope",
+      "image": "https://picsum.photos/id/42/200",
+      "commission_to_be_paid": {
+        "value": 220,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "first_name": "Ciara",
+      "last_name": "Leal",
+      "image": "",
+      "commission_to_be_paid": {
+        "value": 728,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 4,
+      "first_name": "Asia",
+      "last_name": "Frazier",
+      "image": "",
+      "commission_to_be_paid": {
+        "value": 6271.22,
+        "currency": "USD"
+      }
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 5,
+    "total": 6,
+    "filter": 0
+  }
+}

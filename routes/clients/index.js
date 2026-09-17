@@ -10,6 +10,7 @@ const registerManageUserRoutes = require("./manageUsers");
 const registerUserProfileRoutes = require("./userProfile");
 const registerComplianceRoutes = require("./compliance");
 const registerAdminRoutes = require("./admin");
+const registerCommissionRoutes = require("./commissions");
 const registerCatchAllRoutes = require("./catchAll");
 
 /*
@@ -42,6 +43,7 @@ function registerClientRoutes(server) {
   registerUserProfileRoutes(server);
   registerComplianceRoutes(server);
   registerAdminRoutes(server);
+  registerCommissionRoutes(server);
 
   // SEMPRE POR ULTIMO
   registerCatchAllRoutes(server);

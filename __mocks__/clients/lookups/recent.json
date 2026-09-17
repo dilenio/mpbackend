@@ -1,0 +1,65 @@
+{
+  "recent_search": [
+    "michael friedman",
+    "kris findlay",
+    "62cc9ba96001d"
+  ],
+  "recent_payees": [
+    {
+      "id": 123123,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "doe@email.com"
+    },
+    {
+      "id": 124,
+      "first_name": "Michael",
+      "last_name": "Friedman",
+      "email": "michael@email.com"
+    },
+    {
+      "id": 125,
+      "first_name": "Evie",
+      "last_name": "Roman",
+      "email": "evie@email.com"
+    },
+    {
+      "id": 126,
+      "first_name": "Jeff",
+      "last_name": "Holmes",
+      "email": "jeff@email.com"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "id": "637dcc6a5ab52",
+      "to": "Albert Einstein",
+      "date": "Today, 4:20PM",
+      "status": "Completed",
+      "value": {
+        "amount": 1200,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "dfg6as8d6f7a68sd7",
+      "to": "Ciara Leal",
+      "date": "Yesterday, 1:20PM",
+      "status": "Pending",
+      "value": {
+        "amount": 1000,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "c9b7d6a5ab5b",
+      "to": "Chris Findlay",
+      "date": "Monday, 4:50PM",
+      "status": "Pending",
+      "value": {
+        "amount": 300,
+        "currency": "USD"
+      }
+    }
+  ]
+}

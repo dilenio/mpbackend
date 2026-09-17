@@ -18,8 +18,58 @@ const wireTemplates = require("../../__mocks__/clients/admin/wiretemplates.json"
 const clients = require("../../__mocks__/clients/admin/clients.json");
 const getClientsList = require("../../__mocks__/clients/admin/getClientsList.json");
 const getLinks = require("../../__mocks__/clients/admin/getLinks.json");
+const inventory = require("../../__mocks__/clients/admin/inventory.json");
+const bankStatements = require("../../__mocks__/clients/admin/bank_statements.json");
+const clientBalances = require("../../__mocks__/clients/admin/client_balances.json");
+const clientsBankAccounts = require("../../__mocks__/clients/admin/clients_bank_accounts.json");
+const clientWireInstructions = require("../../__mocks__/clients/admin/wire_instructions.json");
+const payerLogos = require("../../__mocks__/clients/admin/payer_logos.json");
+const pricingCostsGenerator = require("../../__mocks__/clients/admin/pricing_costs_generator.json");
+const designConfiguration = require("../../__mocks__/clients/admin/design_configuration.json");
+const walletBalanceMismatches = require("../../__mocks__/clients/admin/wallet_balance_mismatches.json");
+const financeChart = require("../../__mocks__/clients/admin/finance_chart.json");
 
 function registerAdminRoutes(server) {
+  server.get(`${CLIENTS_BASE_PATH}/inventory`, (req, res) => {
+    res.status(200).json(inventory);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/bank_statements`, (req, res) => {
+    res.status(200).json(bankStatements);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/client_balances`, (req, res) => {
+    res.status(200).json(clientBalances);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/clients_bank_accounts`, (req, res) => {
+    res.status(200).json(clientsBankAccounts);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/wire_instructions`, (req, res) => {
+    res.status(200).json(clientWireInstructions);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/payer_logos`, (req, res) => {
+    res.status(200).json(payerLogos);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/pricing_costs_generator`, (req, res) => {
+    res.status(200).json(pricingCostsGenerator);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/design_configuration`, (req, res) => {
+    res.status(200).json(designConfiguration);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/wallet_balance_mismatches`, (req, res) => {
+    res.status(200).json(walletBalanceMismatches);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/finance_chart`, (req, res) => {
+    res.status(200).json(financeChart);
+  });
+
   server.get(`${CLIENTS_BASE_PATH}/pricing_rules`, (req, res) => {
     res.status(200).json(getPricingRules);
   });

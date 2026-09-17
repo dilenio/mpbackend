@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Bank Deposit"
+  },
+  {
+    "id": 2,
+    "name": "Cash Pickup"
+  },
+  {
+    "id": 3,
+    "name": "Home Delivery"
+  },
+  {
+    "id": 4,
+    "name": "Mobile Wallet"
+  },
+  {
+    "id": 5,
+    "name": "Masspay Card"
+  },
+  {
+    "id": 6,
+    "name": "Paper Check"
+  },
+  {
+    "id": 7,
+    "name": "Criptocurrency"
+  }
+]

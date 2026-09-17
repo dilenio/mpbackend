@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "country_service": "United States / Bank Wire",
+      "confirmation": "767asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df678",
+      "label": "Account",
+      "value": "Dominican DIS Bonds IC FNDS SEC AC"
+    },
+    {
+      "id": "2",
+      "country_service": "United States / Bank Wire",
+      "confirmation": "54h6asd4f4as3df3a6sdf56a65s4dg3h7cx86c4764r47h675S&d6",
+      "label": "IBAN",
+      "value": "GB15BARC20078125637567253"
+    },
+    {
+      "id": "3",
+      "country_service": "Global",
+      "confirmation": "76ns8df65b87d6f8609z8sd098f70987b98zxc987cg67f6s87fd87",
+      "label": "Bank Name",
+      "value": "CREDIT"
+    },
+    {
+      "id": "4",
+      "country_service": "United States / Bank Wire",
+      "confirmation": "hgasd8f7a8s7dfas8d9hq5s6df576hfdg3h65787dv87dfgbvsdag76",
+      "label": "Social Security Number",
+      "value": "BKID0006673"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": 20,
+    "filter": 0
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "VISA"
+  },
+  {
+    "id": 2,
+    "name": "MassPay Bank"
+  },
+  {
+    "id": 3,
+    "name": "Access Money"
+  },
+  {
+    "id": 4,
+    "name": "C6 Bank"
+  },
+  {
+    "id": 5,
+    "name": "Nu Bank"
+  }
+]

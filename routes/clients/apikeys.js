@@ -3,8 +3,13 @@ const { CLIENTS_BASE_PATH } = require("../../constants/routes");
 const getApikeys = require("../../__mocks__/clients/apikeys/apikeys.json");
 const newApiKey = require("../../__mocks__/clients/apikeys/newApiKey.json");
 const getWebhooks = require("../../__mocks__/clients/apikeys/webhooks.json");
+const webhooksEvents = require("../../__mocks__/clients/apikeys/webhooks_events.json");
 
 function registerApiKeyRoutes(server) {
+  server.get(`${CLIENTS_BASE_PATH}/webhooks_events`, (req, res) => {
+    res.status(200).json(webhooksEvents);
+  });
+
   server.get(`${CLIENTS_BASE_PATH}/api/apikeys`, (req, res) => {
     res.status(200).json(getApikeys);
   });

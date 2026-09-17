@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "first_name": "Albert",
+      "last_name": "Einstein",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg",
+      "client": "MindGeek",
+      "wallet_balance": {
+        "value": 20,
+        "currency": "USD"
+      },
+      "computed_wallet_balance": {
+        "value": 400,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "first_name": "Manahil",
+      "last_name": "Cope",
+      "image": "",
+      "client": "MassPay",
+      "wallet_balance": {
+        "value": 100,
+        "currency": "USD"
+      },
+      "computed_wallet_balance": {
+        "value": 220,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "first_name": "Ciara",
+      "last_name": "Leal",
+      "image": "https://randomuser.me/api/portraits/men/40.jpg",
+      "client": "FinBank",
+      "wallet_balance": {
+        "value": 270.4,
+        "currency": "USD"
+      },
+      "computed_wallet_balance": {
+        "value": 270.4,
+        "currency": "USD"
+      }
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 5,
+    "total": 6,
+    "filter": 0
+  }
+}

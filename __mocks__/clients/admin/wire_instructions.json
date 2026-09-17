@@ -1,0 +1,23 @@
+{
+  "accountNumber": "666168082444",
+  "routingNumber": "011401202",
+  "receiverName": "Nomad TSC",
+  "receiverAddress": {
+    "street1": "1000 main st",
+    "street2": "",
+    "postalCode": "99999",
+    "city": "santa monica",
+    "state": "CA",
+    "country": "US"
+  },
+  "receiverBankName": "Bank of the Lakes",
+  "receiverBankAddress": {
+    "street1": "512 Cherry Street",
+    "street2": "",
+    "postalCode": "55999",
+    "city": "Duluth",
+    "state": "MN",
+    "country": "US",
+    "swiftCode": "BANKUS99"
+  }
+}

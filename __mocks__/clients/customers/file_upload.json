@@ -1,0 +1,9 @@
+{
+  "name": "John Doe",
+  "types": [
+    "bank_statement",
+    "utility_bill",
+    "passport",
+    "drivers_license"
+  ]
+}

@@ -1,6 +1,4 @@
 const express = require("express");
-const app = express();
-const jsonServer = require("json-server");
 const cors = require("cors");
 const path = require("path");
 const mime = require("mime-types");
@@ -8,20 +6,10 @@ const fs = require("fs");
 const registerClientRoutes = require("./routes/clients");
 const registerMemberRoutes = require("./routes/members");
 const registerLoginRoutes = require("./routes/login");
-const {
-  CLIENTS_BASE_PATH,
-  MEMBERS_BASE_PATH,
-} = require("./constants/routes");
-
 const multer = require("multer");
 const { get } = require("http");
 
-const server = jsonServer.create();
-
-const routerClients = jsonServer.router(path.join(__dirname, "clients.json"));
-const routerMembers = jsonServer.router(path.join(__dirname, "members.json"));
-
-const middlewares = jsonServer.defaults();
+const server = express();
 
 // window.customLogoUrl = 'http://localhost:3335/logos/logo1.png';
 //       window.has_commissions = 'true';
@@ -44,12 +32,11 @@ const middlewares = jsonServer.defaults();
 //       };
 
 server.use(cors());
-server.use(jsonServer.bodyParser);
-server.use(middlewares);
-app.use(cors());
+server.use(express.json());
+server.use(express.urlencoded({ extended: true }));
 
-app.use("/logos", express.static(path.join(__dirname, "__mocks__", "logos")));
-app.use(
+server.use("/logos", express.static(path.join(__dirname, "__mocks__", "logos")));
+server.use(
   "/invoices",
   express.static(path.join(__dirname, "__mocks__", "invoices")),
 );
@@ -110,14 +97,9 @@ registerClientRoutes(server);
 registerMemberRoutes(server);
 registerLoginRoutes(server);
 
-server.use(CLIENTS_BASE_PATH, routerClients);
-server.use(MEMBERS_BASE_PATH, routerMembers);
-
 // PORT MUST BE 3000
 const PORT = process.env.PORT || 3335;
 
-app.use(server);
-
-app.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`API rodando em http://0.0.0.0:${PORT}`);
 });

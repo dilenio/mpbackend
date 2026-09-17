@@ -1,0 +1,22 @@
+[
+  {
+    "key": "Provider One",
+    "value": 1
+  },
+  {
+    "key": "Provider Two",
+    "value": 2
+  },
+  {
+    "key": "Provider Three",
+    "value": 3
+  },
+  {
+    "key": "Provider Four",
+    "value": 4
+  },
+  {
+    "key": "Provider Five",
+    "value": 5
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "id": "637dcc6a5ab52",
+      "user_id": 123123,
+      "name": "John Smith Junior II",
+      "country": "United States",
+      "date": "04/07/2023",
+      "time": "07:19 AM",
+      "type": "Bank Deposit",
+      "payer": "Electra Mexico",
+      "sent": {
+        "value": 41243,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 23,
+        "currency": "CRC"
+      },
+      "client": "Alerte International Media Inc.",
+      "tx_no": "YU-6-wj3767asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df6785511h3",
+      "received": {
+        "value": 234,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 43,
+        "currency": "USD"
+      },
+      "status": "Pending"
+    },
+    {
+      "id": "91bc8asd77823",
+      "user_id": 123124,
+      "name": "Jamal Diaz",
+      "country": "Mexico",
+      "date": "04/06/2023",
+      "time": "07:19 AM",
+      "type": "Cash Payout",
+      "payer": "Next Day Bank Deposit",
+      "sent": {
+        "value": 61267,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "client": "MassPay",
+      "tx_no": "UW-1-1633321c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67855",
+      "received": {
+        "value": 122,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 1.22,
+        "currency": "USD"
+      },
+      "status": "Completed"
+    },
+    {
+      "id": "6ca7b6a7ss588",
+      "user_id": 123125,
+      "name": "Michael Friedman",
+      "country": "United Kingdom",
+      "date": "04/04/2023",
+      "time": "04:57 PM",
+      "type": "Credit Card",
+      "payer": "Credit Agricole Bank",
+      "sent": {
+        "value": 1288,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "client": "Everflow",
+      "tx_no": "UA-AX163gg1ch91c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67",
+      "received": {
+        "value": 99.99,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "status": "Error"
+    },
+    {
+      "id": "6ca7b6a7ss588",
+      "user_id": 123125,
+      "name": "Michael Friedman",
+      "country": "United Kingdom",
+      "date": "06/04/2023",
+      "time": "05:09 PM",
+      "type": "Credit Card",
+      "payer": "Credit Agricole Bank",
+      "sent": {
+        "value": 1288,
+        "currency": "USD"
+      },
+      "fx": {
+        "value": 10,
+        "currency": "USD"
+      },
+      "client": "Everflow",
+      "tx_no": "UA-AX163gg1ch91c47asd7fa8sd6f8as7df67asd86f78as6df87as6d8f7as87df67",
+      "received": {
+        "value": 99.99,
+        "currency": "USD"
+      },
+      "fee": {
+        "value": 9.99,
+        "currency": "USD"
+      },
+      "status": "Completed"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 5,
+    "total": 6,
+    "filter": 0
+  }
+}

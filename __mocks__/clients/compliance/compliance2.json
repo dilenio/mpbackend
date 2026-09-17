@@ -1,0 +1,310 @@
+{
+  "account_balance": {
+    "summary_cards": [
+      {
+        "title": "Transactions Today",
+        "value": 122,
+        "status": "up",
+        "index": "3.3%",
+        "period": "This Month"
+      },
+      {
+        "title": "Today's Volume",
+        "value": 1234.56,
+        "currency": "USD",
+        "status": "plus",
+        "index": 467,
+        "period": "Today"
+      },
+      {
+        "title": "Payees",
+        "value": 188,
+        "status": "up",
+        "index": "1.1%",
+        "period": "This Month"
+      },
+      {
+        "title": "Clients",
+        "value": 141,
+        "status": "up",
+        "index": "1.1%",
+        "period": "This Month"
+      }
+    ],
+    "chart": [
+      {
+        "month": "jan",
+        "loaded": 6999.99,
+        "payed_out": 2000
+      },
+      {
+        "month": "feb",
+        "loaded": 5200,
+        "payed_out": 540
+      },
+      {
+        "month": "mar",
+        "loaded": 4900,
+        "payed_out": 2000
+      },
+      {
+        "month": "apr",
+        "loaded": 7900,
+        "payed_out": 620
+      },
+      {
+        "month": "may",
+        "loaded": 5800,
+        "payed_out": 3000
+      },
+      {
+        "month": "jun",
+        "loaded": 8200,
+        "payed_out": 899
+      }
+    ]
+  },
+  "client_volume_tiers": {
+    "summary_card": {
+      "title": "Total Volume",
+      "value": 122,
+      "currency": "USD",
+      "show_currency": false,
+      "status": "up",
+      "index": "3.3%",
+      "period": "This Month"
+    },
+    "chart": [
+      {
+        "name": "Client Volume Tiers",
+        "data": [
+          169,
+          120,
+          246,
+          145,
+          233,
+          120,
+          80
+        ],
+        "legend": [
+          {
+            "description": "MassPay"
+          },
+          {
+            "description": "RNetwork LLC"
+          },
+          {
+            "description": "Everflow"
+          },
+          {
+            "description": "Atlas Ditrib."
+          },
+          {
+            "description": "VSMedia"
+          },
+          {
+            "description": "MindGeek"
+          },
+          {
+            "description": "NCrease"
+          }
+        ]
+      }
+    ]
+  },
+  "usd_volume": {
+    "summary_card": {
+      "title": "Total Volume",
+      "value": 144,
+      "currency": "USD",
+      "show_currency": false,
+      "status": "up",
+      "index": "3.5%",
+      "period": "This Month"
+    },
+    "chart": {
+      "data": [
+        {
+          "name": "United States",
+          "data": [
+            44,
+            55,
+            41,
+            67,
+            22,
+            43
+          ]
+        },
+        {
+          "name": "Europe",
+          "data": [
+            13,
+            23,
+            20,
+            8,
+            13,
+            27
+          ]
+        },
+        {
+          "name": "India",
+          "data": [
+            11,
+            17,
+            15,
+            15,
+            21,
+            14
+          ]
+        },
+        {
+          "name": "Mexico",
+          "data": [
+            21,
+            7,
+            25,
+            13,
+            22,
+            8
+          ]
+        }
+      ],
+      "labels": [
+        "jan",
+        "feb",
+        "mar",
+        "apr",
+        "may",
+        "jun"
+      ],
+      "legend": [
+        {
+          "description": "United States",
+          "image": "https://www.worldometers.info/img/flags/us-flag.gif",
+          "data1": "715",
+          "data2": "85%"
+        },
+        {
+          "description": "Europe",
+          "image": "https://publications.europa.eu/code/images/scan/5000100-flag.jpg",
+          "data1": "86",
+          "data2": "10%"
+        },
+        {
+          "description": "India",
+          "image": "https://www.worldometers.info/img/flags/in-flag.gif",
+          "data1": "20",
+          "data2": "3%"
+        },
+        {
+          "description": "Mexico",
+          "image": "https://www.worldometers.info/img/flags/mx-flag.gif",
+          "data1": "14",
+          "data2": "2%"
+        }
+      ]
+    }
+  },
+  "daily_distribution": {
+    "summary_card": {
+      "title": "Total Transactions",
+      "value": 95,
+      "status": "down",
+      "index": "3.3%",
+      "period": "Today"
+    },
+    "chart": {
+      "data": [
+        44,
+        55,
+        41,
+        17,
+        15
+      ],
+      "legend": [
+        {
+          "description": "MassPay",
+          "data1": "52",
+          "data2": "59%"
+        },
+        {
+          "description": "RNetwork LLC",
+          "data1": "26",
+          "data2": "25%"
+        },
+        {
+          "description": "Everflow",
+          "data1": "8",
+          "data2": "8%"
+        },
+        {
+          "description": "Atlas Distributions",
+          "data1": "6",
+          "data2": "6%"
+        },
+        {
+          "description": "MindGeek",
+          "data1": "3",
+          "data2": "2%"
+        }
+      ]
+    }
+  },
+  "outlier_transactions": [
+    {
+      "id": 1,
+      "logo": "https://cdn.worldvectorlogo.com/logos/apple-14.svg",
+      "name": "MassPay",
+      "flag": "https://www.worldometers.info/img/flags/ca-flag.gif",
+      "country": "Canada",
+      "amount": {
+        "value": 1250,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "logo": "https://cdn.worldvectorlogo.com/logos/superman-3.svg",
+      "name": "RNetwork LLC",
+      "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "country": "United States",
+      "amount": {
+        "value": 4120,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "logo": "https://cdn.worldvectorlogo.com/logos/club-sportivo-escobar.svg",
+      "name": "Prime Downline LLC",
+      "flag": "https://www.worldometers.info/img/flags/it-flag.gif",
+      "country": "Italy",
+      "amount": {
+        "value": 166.23,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 4,
+      "logo": "https://cdn.worldvectorlogo.com/logos/meta-1.svg",
+      "name": "Everflow",
+      "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "country": "United States",
+      "amount": {
+        "value": 516.23,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "logo": "https://picsum.photos/id/17/200",
+      "name": "Atlas Distributions",
+      "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "country": "United States",
+      "amount": {
+        "value": 1500,
+        "currency": "USD"
+      }
+    }
+  ]
+}

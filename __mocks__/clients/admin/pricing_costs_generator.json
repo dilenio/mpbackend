@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "119b7d6a5gqwea0sd9ab5b",
+      "provider_name": "Crypto",
+      "country_flag": "https://picsum.photos/id/42/200",
+      "delivery_type": "Cryptocurrency",
+      "payer_name": "Bitcoin",
+      "destination_currency": "BTC",
+      "user_type": "Personal And Business",
+      "costs": {
+        "value": 2,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "2222c9b7d6arewrr5ab5b",
+      "provider_name": "Crypto",
+      "country_flag": "https://picsum.photos/id/42/200",
+      "delivery_type": "Cryptocurrency",
+      "payer_name": "Ethereum",
+      "destination_currency": "ETH",
+      "user_type": "Personal And Business",
+      "costs": {
+        "value": 3,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "22637dcc6aqweqwe5ab5b",
+      "provider_name": "Crypto",
+      "country_flag": "https://picsum.photos/id/42/200",
+      "delivery_type": "Cryptocurrency",
+      "payer_name": "USD Coin",
+      "destination_currency": "USDC",
+      "user_type": "Personal And Business",
+      "costs": {
+        "value": 6,
+        "currency": "USD"
+      }
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": 3,
+    "filter": 0
+  }
+}

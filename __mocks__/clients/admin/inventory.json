@@ -1,0 +1,573 @@
+{
+  "inventory": [
+    {
+      "liquidity_provider": "Cozeni",
+      "balance": 0.96,
+      "average_rate": 9.6e-06,
+      "currency": "BTC",
+      "source_currency": "USD"
+    },
+    {
+      "liquidity_provider": "MyEUPay",
+      "balance": 870000,
+      "average_rate": 0.87,
+      "currency": "EUR",
+      "source_currency": "USD"
+    },
+    {
+      "liquidity_provider": "PaymentsWay",
+      "balance": 81770000,
+      "average_rate": 4088.5,
+      "currency": "COP",
+      "source_currency": "USD"
+    },
+    {
+      "liquidity_provider": "YourSafe",
+      "balance": 8643.4999875,
+      "average_rate": 0.86004975,
+      "currency": "EUR",
+      "source_currency": "USD"
+    },
+    {
+      "liquidity_provider": "ZumRails Canada",
+      "balance": 137000,
+      "average_rate": 1.37,
+      "currency": "CAD",
+      "source_currency": "USD"
+    },
+    {
+      "liquidity_provider": "apaylo",
+      "balance": 139006.702375748,
+      "average_rate": 1.3899953,
+      "currency": "CAD",
+      "source_currency": "USD"
+    }
+  ],
+  "balances": [
+    {
+      "name": "ITSPAID",
+      "currency": "USD",
+      "balance": 986189
+    },
+    {
+      "name": "MYEUPAY",
+      "currency": "EUR",
+      "balance": 100022.37
+    },
+    {
+      "name": "APAYLO",
+      "currency": "CAD",
+      "balance": 12984.16
+    },
+    {
+      "name": "SPARE",
+      "currency": "USD",
+      "balance": 4910
+    },
+    {
+      "name": "MORE",
+      "currency": "USD",
+      "balance": -1271.68
+    },
+    {
+      "name": "THUNES",
+      "currency": "USD",
+      "balance": 8542.34
+    },
+    {
+      "name": "STRIKE",
+      "currency": "BTC",
+      "balance": 0.02839228
+    },
+    {
+      "name": "STRIKE",
+      "currency": "USD",
+      "balance": 538.07
+    },
+    {
+      "name": "ZUM",
+      "currency": "CAN - CAD",
+      "balance": 900
+    },
+    {
+      "name": "ZUM",
+      "currency": "USD",
+      "balance": 794.72
+    },
+    {
+      "name": "CONFIRMO",
+      "currency": "EUR",
+      "balance": 0
+    },
+    {
+      "name": "CONFIRMO",
+      "currency": "USD",
+      "balance": 526405.798245
+    },
+    {
+      "name": "CONFIRMO",
+      "currency": "USDT",
+      "balance": 0
+    },
+    {
+      "name": "CONFIRMO",
+      "currency": "LTC",
+      "balance": 0
+    },
+    {
+      "name": "CONFIRMO",
+      "currency": "USDC",
+      "balance": 0
+    },
+    {
+      "name": "HIGHNOTE",
+      "currency": "USD",
+      "balance": 0
+    },
+    {
+      "name": "DEEMONEY",
+      "currency": "EUR",
+      "balance": 33900
+    },
+    {
+      "name": "DEEMONEY",
+      "currency": "USD",
+      "balance": 50413.9468951393
+    },
+    {
+      "name": "DEEMONEY",
+      "currency": "THB",
+      "balance": 2338112
+    },
+    {
+      "name": "NIUM",
+      "currency": "USD",
+      "balance": 943218.08
+    },
+    {
+      "name": "RIPPLE",
+      "currency": "USD",
+      "balance": 516
+    },
+    {
+      "name": "FINFAN",
+      "currency": "VND",
+      "balance": 40514976
+    },
+    {
+      "name": "AQUANOW",
+      "currency": "BTC",
+      "balance": 9854.445284573
+    },
+    {
+      "name": "AQUANOW",
+      "currency": "USD",
+      "balance": 19999970
+    },
+    {
+      "name": "AQUANOW",
+      "currency": "USDT",
+      "balance": 10000000
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - apaylo - CAD",
+      "balance": 139006.702375748
+    },
+    {
+      "name": "COZENI",
+      "currency": "BTC",
+      "balance": 3
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - ZumRails Canada - CAD",
+      "balance": 137000
+    },
+    {
+      "name": "COZENI",
+      "currency": "FDUSD",
+      "balance": 0
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - MyEUPay - EUR",
+      "balance": 870000
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - PaymentsWay - COP",
+      "balance": 81770000
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - YourSafe - EUR",
+      "balance": 8643.4999875
+    },
+    {
+      "name": "COZENI",
+      "currency": "ETH",
+      "balance": 5.88875281
+    },
+    {
+      "name": "COZENI",
+      "currency": "IM - Cozeni - BTC",
+      "balance": 0.96
+    },
+    {
+      "name": "COZENI",
+      "currency": "USDT",
+      "balance": 5027.272549
+    },
+    {
+      "name": "COZENI",
+      "currency": "USDC",
+      "balance": 0
+    },
+    {
+      "name": "COZENI",
+      "currency": "BUSD",
+      "balance": 0
+    },
+    {
+      "name": "SDM",
+      "currency": "BTC",
+      "balance": 9994.48738
+    },
+    {
+      "name": "SDM",
+      "currency": "USD",
+      "balance": 9106986.27
+    },
+    {
+      "name": "SDM",
+      "currency": "ETH",
+      "balance": 5.19715126
+    },
+    {
+      "name": "SDM",
+      "currency": "USDT",
+      "balance": 10000069.96832
+    },
+    {
+      "name": "SDM",
+      "currency": "USDC",
+      "balance": 10000055.32599
+    },
+    {
+      "name": "SDM",
+      "currency": "ALGO",
+      "balance": 341.72256356
+    },
+    {
+      "name": "SDM",
+      "currency": "ADA",
+      "balance": 0
+    }
+  ],
+  "Distributors_Balances": [],
+  "volume_chart": [
+    {
+      "month": "jan",
+      "reserve_trust": 7300.99,
+      "usbank": 3788,
+      "wyre": 1277.88,
+      "crypto": 982.22
+    },
+    {
+      "month": "feb",
+      "reserve_trust": 6344,
+      "usbank": 3982,
+      "wyre": 2476.88,
+      "crypto": 767.22
+    },
+    {
+      "month": "mar",
+      "reserve_trust": 5672.99,
+      "usbank": 4782,
+      "wyre": 2876.88,
+      "crypto": 566.22
+    },
+    {
+      "month": "apr",
+      "reserve_trust": 7123,
+      "usbank": 3899,
+      "wyre": 1387.88,
+      "crypto": 986.22
+    },
+    {
+      "month": "may",
+      "reserve_trust": 6123.99,
+      "usbank": 4787,
+      "wyre": 1987.88,
+      "crypto": 489.22
+    },
+    {
+      "month": "jun",
+      "reserve_trust": 7939.99,
+      "usbank": 4912,
+      "wyre": 2789.88,
+      "crypto": 987.22
+    },
+    {
+      "month": "jul",
+      "reserve_trust": 5671.99,
+      "usbank": 4092,
+      "wyre": 1122.88,
+      "crypto": 765.22
+    },
+    {
+      "month": "aug",
+      "reserve_trust": 6128.99,
+      "usbank": 3012,
+      "wyre": 2876.88,
+      "crypto": 348.22
+    },
+    {
+      "month": "sep",
+      "reserve_trust": 5677.99,
+      "usbank": 4987,
+      "wyre": 2398.88,
+      "crypto": 347.22
+    },
+    {
+      "month": "oct",
+      "reserve_trust": 7001.99,
+      "usbank": 4012,
+      "wyre": 1022.88,
+      "crypto": 567.22
+    },
+    {
+      "month": "nov",
+      "reserve_trust": 7300.99,
+      "usbank": 4567,
+      "wyre": 1277.88,
+      "crypto": 654.22
+    },
+    {
+      "month": "dec",
+      "reserve_trust": 5667.99,
+      "usbank": 4999,
+      "wyre": 2334.88,
+      "crypto": 876.22
+    }
+  ],
+  "distributors": [
+    {
+      "company_id": "24",
+      "name": "AF"
+    },
+    {
+      "company_id": "32",
+      "name": "AP"
+    },
+    {
+      "company_id": "58",
+      "name": "Aquanow"
+    },
+    {
+      "company_id": "47",
+      "name": "AZA"
+    },
+    {
+      "company_id": "60",
+      "name": "Beam"
+    },
+    {
+      "company_id": "62",
+      "name": "Braid"
+    },
+    {
+      "company_id": "45",
+      "name": "BX"
+    },
+    {
+      "company_id": "17",
+      "name": "Canada Bank"
+    },
+    {
+      "company_id": "7",
+      "name": "Checkbook"
+    },
+    {
+      "company_id": "48",
+      "name": "CON"
+    },
+    {
+      "company_id": "34",
+      "name": "CRB"
+    },
+    {
+      "company_id": "18",
+      "name": "Crypto"
+    },
+    {
+      "company_id": "46",
+      "name": "CV"
+    },
+    {
+      "company_id": "59",
+      "name": "DeeMoney"
+    },
+    {
+      "company_id": "6",
+      "name": "DSG"
+    },
+    {
+      "company_id": "56",
+      "name": "FinFan"
+    },
+    {
+      "company_id": "10",
+      "name": "Flutterwave"
+    },
+    {
+      "company_id": "22",
+      "name": "FO"
+    },
+    {
+      "company_id": "52",
+      "name": "IP"
+    },
+    {
+      "company_id": "11",
+      "name": "LocalPayment"
+    },
+    {
+      "company_id": "53",
+      "name": "LPV3"
+    },
+    {
+      "company_id": "28",
+      "name": "MassPay"
+    },
+    {
+      "company_id": "36",
+      "name": "MEP"
+    },
+    {
+      "company_id": "23",
+      "name": "MO"
+    },
+    {
+      "company_id": "38",
+      "name": "NE"
+    },
+    {
+      "company_id": "26",
+      "name": "NI"
+    },
+    {
+      "company_id": "31",
+      "name": "PayPal"
+    },
+    {
+      "company_id": "35",
+      "name": "PV"
+    },
+    {
+      "company_id": "33",
+      "name": "PW"
+    },
+    {
+      "company_id": "61",
+      "name": "Ripple"
+    },
+    {
+      "company_id": "41",
+      "name": "SDM"
+    },
+    {
+      "company_id": "27",
+      "name": "SP"
+    },
+    {
+      "company_id": "55",
+      "name": "Spare"
+    },
+    {
+      "company_id": "43",
+      "name": "ST"
+    },
+    {
+      "company_id": "57",
+      "name": "Stride Bank"
+    },
+    {
+      "company_id": "13",
+      "name": "Thunes"
+    },
+    {
+      "company_id": "21",
+      "name": "TP"
+    },
+    {
+      "company_id": "54",
+      "name": "YS"
+    },
+    {
+      "company_id": "44",
+      "name": "ZD"
+    },
+    {
+      "company_id": "51",
+      "name": "ZUM"
+    },
+    {
+      "company_id": "5",
+      "name": "AFEX"
+    },
+    {
+      "company_id": "29",
+      "name": "B4"
+    },
+    {
+      "company_id": "20",
+      "name": "GS"
+    },
+    {
+      "company_id": "30",
+      "name": "HN"
+    },
+    {
+      "company_id": "40",
+      "name": "JW"
+    },
+    {
+      "company_id": "37",
+      "name": "MCB"
+    },
+    {
+      "company_id": "4",
+      "name": "Onbe"
+    },
+    {
+      "company_id": "42",
+      "name": "PMI"
+    },
+    {
+      "company_id": "1",
+      "name": "Pontual"
+    },
+    {
+      "company_id": "9",
+      "name": "Pontual/RT"
+    },
+    {
+      "company_id": "16",
+      "name": "QIWI"
+    },
+    {
+      "company_id": "8",
+      "name": "ReserveTrust"
+    },
+    {
+      "company_id": "19",
+      "name": "USBank"
+    },
+    {
+      "company_id": "12",
+      "name": "Wyre"
+    }
+  ]
+}

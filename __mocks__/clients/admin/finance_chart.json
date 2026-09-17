@@ -1,0 +1,62 @@
+[
+  {
+    "month": "jan",
+    "value1": 7300.99,
+    "value2": 3788
+  },
+  {
+    "month": "feb",
+    "value1": 6344,
+    "value2": 3982
+  },
+  {
+    "month": "mar",
+    "value1": 5672.99,
+    "value2": 4782
+  },
+  {
+    "month": "apr",
+    "value1": 7123,
+    "value2": 3899
+  },
+  {
+    "month": "may",
+    "value1": 6123.99,
+    "value2": 4787
+  },
+  {
+    "month": "jun",
+    "value1": 7939.99,
+    "value2": 4912
+  },
+  {
+    "month": "jul",
+    "value1": 5671.99,
+    "value2": 4092
+  },
+  {
+    "month": "aug",
+    "value1": 6128.99,
+    "value2": 3012
+  },
+  {
+    "month": "sep",
+    "value1": 5677.99,
+    "value2": 4987
+  },
+  {
+    "month": "oct",
+    "value1": 7001.99,
+    "value2": 4012
+  },
+  {
+    "month": "nov",
+    "value1": 7300.99,
+    "value2": 4567
+  },
+  {
+    "month": "dec",
+    "value1": 5667.99,
+    "value2": 4999
+  }
+]

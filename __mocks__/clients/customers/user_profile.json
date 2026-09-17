@@ -1,0 +1,33 @@
+{
+  "image": "https://picsum.photos/id/46/200",
+  "2fa": false,
+  "email": "john@email.com",
+  "phone": "(123) 456 7890",
+  "address1": "123 Main St",
+  "address2": "",
+  "city": "Santa Monica",
+  "postal_code": "90405",
+  "state_province": "California",
+  "country": "CA",
+  "settings": {
+    "minimum_balance_threshold": true,
+    "balance_threshold": 0,
+    "new_payment": true,
+    "transaction_successful": false,
+    "transaction_declined": false,
+    "update_balance": false,
+    "someone_mentions_me": false,
+    "external_payment_needs_approved": false,
+    "credit_card_approaching_expiry_date": false,
+    "someone_uploads_new_batch": false
+  },
+  "design": {
+    "menu_background_color": "#d21414",
+    "primary_color": "#aa11d4",
+    "primary_hover_color": "#6987ce",
+    "header_background_color1": "#77ba12",
+    "header_background_color2": "#f0aa47",
+    "header_background_color3": "#48c788",
+    "logo_url": ""
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "data": {
+    "commissions_summary": {
+      "Albert  Einstein": 0,
+      "Jordan  Luke": 0,
+      "Dilenio  Enderle": 0
+    },
+    "commissions": [
+      {
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "image": "",
+        "client": "MassPay - ",
+        "fx_commission": "0.5000",
+        "fee_commission": "0.5000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "last_payment": "2021-03-02",
+        "read_only": true,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "image": "",
+        "client": "MindGeek - ",
+        "fx_commission": "0.1000",
+        "fee_commission": "0.4000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "last_payment": "2024-12-01",
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Albert",
+        "last_name": "Einstein",
+        "image": "",
+        "client": "Kul Inc.",
+        "fx_commission": "0.5000",
+        "fee_commission": "0.0000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Jordan",
+        "last_name": "Luke",
+        "image": "",
+        "client": "Everflow",
+        "fx_commission": "1.0000",
+        "fee_commission": "1.0000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Dilenio",
+        "last_name": "Enderle",
+        "image": "",
+        "client": "MassPay - ",
+        "fx_commission": "0.1000",
+        "fee_commission": "0.2000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "last_payment": "2025-07-01",
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Dilenio",
+        "last_name": "Enderle",
+        "image": "",
+        "client": "MindGeek - ",
+        "fx_commission": "0.0000",
+        "fee_commission": "0.1000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "last_payment": "2025-07-01",
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      },
+      {
+        "first_name": "Dilenio",
+        "last_name": "Enderle",
+        "image": "",
+        "client": "Kul Inc.",
+        "fx_commission": "0.1000",
+        "fee_commission": "0.1000",
+        "amount_commission": "0.0000",
+        "paid_revenue": {
+          "value": "0",
+          "currency": "USD"
+        },
+        "read_only": false,
+        "revenue": {
+          "value": "0",
+          "currency": "USD"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 20,
+    "total": 7,
+    "filter": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "logo": "",
+      "name": "MassPay",
+      "wallet_balance": {
+        "value": 132220,
+        "currency": "USD"
+      },
+      "ledger_balance": {
+        "value": 132220,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "logo": "",
+      "name": "RNetwork llc",
+      "wallet_balance": {
+        "value": 100,
+        "currency": "USD"
+      },
+      "ledger_balance": {
+        "value": 14200,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "logo": "https://cdn.worldvectorlogo.com/logos/linux-tux.svg",
+      "name": "Prime Downline LLC",
+      "wallet_balance": {
+        "value": 2370.5,
+        "currency": "USD"
+      },
+      "ledger_balance": {
+        "value": 2370.5,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 4,
+      "logo": "https://cdn.worldvectorlogo.com/logos/apple-14.svg",
+      "name": "Everflow",
+      "wallet_balance": {
+        "value": 1220,
+        "currency": "USD"
+      },
+      "ledger_balance": {
+        "value": 24220.22,
+        "currency": "USD"
+      }
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 5,
+    "total": 6,
+    "filter": 0
+  }
+}

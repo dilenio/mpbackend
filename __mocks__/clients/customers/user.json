@@ -1,0 +1,123 @@
+{
+  "id": "USER_TOKEN",
+  "image": "",
+  "name": "John Doe",
+  "first_name": "John",
+  "middle_name": "",
+  "last_name": "Doe",
+  "business_name": "John",
+  "email": "john@email.com",
+  "phone": "(123) 456 7890",
+  "date_of_birth": "02/09/1990",
+  "address1": "123 Main St",
+  "address2": "123 Main St",
+  "city": "Santa Monica",
+  "postal_code": "90405",
+  "state_province": "California",
+  "country": "US",
+  "sms_notifications": true,
+  "email_notifications": true,
+  "id_selfie_verification": true,
+  "id_selfie_verification_option": 2,
+  "two_factor_authentication": true,
+  "total_balance": {
+    "value": 54256.63,
+    "currency": "USD"
+  },
+  "total_balance_index": {
+    "status": "up",
+    "index": "3.3%",
+    "period": "Last 6 months"
+  },
+  "locked": {
+    "id": true,
+    "first_name": false,
+    "middle_name": false,
+    "last_name": false,
+    "business_name": false,
+    "date_of_birth": false,
+    "email": false,
+    "phone": false,
+    "address1": false,
+    "address2": false,
+    "country": false,
+    "state_province": false,
+    "city": false,
+    "postal_code": false,
+    "id_selfie_verification_option": false
+  },
+  "chart": [
+    {
+      "month": "jan",
+      "loaded": 7300.99,
+      "payed_out": 720
+    },
+    {
+      "month": "feb",
+      "loaded": 5200,
+      "payed_out": 540
+    },
+    {
+      "month": "mar",
+      "loaded": 4900,
+      "payed_out": 2000
+    },
+    {
+      "month": "apr",
+      "loaded": 7900,
+      "payed_out": 620
+    },
+    {
+      "month": "may",
+      "loaded": 5800,
+      "payed_out": 3000
+    },
+    {
+      "month": "jun",
+      "loaded": 8200,
+      "payed_out": 899
+    }
+  ],
+  "cards": [
+    {
+      "id": 123,
+      "type": "masspay",
+      "title": "Masspay Wallet",
+      "card_number": "5433",
+      "amount": {
+        "currency": "USD",
+        "value": 27999
+      }
+    },
+    {
+      "id": 124,
+      "type": "visa",
+      "title": "USD Debit",
+      "card_number": "0123",
+      "amount": {
+        "currency": "USD",
+        "value": 999
+      }
+    },
+    {
+      "id": 125,
+      "type": "mastercard",
+      "title": "EUR Debit",
+      "card_number": "9876",
+      "amount": {
+        "currency": "EUR",
+        "value": 13010.35
+      }
+    },
+    {
+      "id": 126,
+      "type": "masspay",
+      "title": "EUR Debit",
+      "card_number": "1029",
+      "amount": {
+        "currency": "EUR",
+        "value": 3772222.35
+      }
+    }
+  ]
+}

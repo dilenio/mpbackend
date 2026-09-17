@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a1",
+    "name": "user.created"
+  },
+  {
+    "id": "a2",
+    "name": "user.status"
+  },
+  {
+    "id": "a3",
+    "name": "payout.created"
+  },
+  {
+    "id": "a4",
+    "name": "payout.status"
+  },
+  {
+    "id": "a5",
+    "name": "load.created"
+  },
+  {
+    "id": "a6",
+    "name": "load.status"
+  },
+  {
+    "id": "a7",
+    "name": "load.reversed"
+  },
+  {
+    "id": "a8",
+    "name": "spendback.created"
+  },
+  {
+    "id": "a9",
+    "name": "spendback.status"
+  },
+  {
+    "id": "a10",
+    "name": "spendback.inactivity"
+  },
+  {
+    "id": "a11",
+    "name": "kyc.id"
+  },
+  {
+    "id": "a12",
+    "name": "attributes.stored"
+  },
+  {
+    "id": "a13",
+    "name": "deposit_account.created"
+  },
+  {
+    "id": "a14",
+    "name": "business.created"
+  },
+  {
+    "id": "a15",
+    "name": "business.status"
+  }
+]

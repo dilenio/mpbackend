@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "city": "Santa Monica",
+      "country": "United States",
+      "status": "active",
+      "datetime": "01/07/2023 15:30",
+      "system": "Mac OS X",
+      "navigator": "Chrome/106.0.0.0",
+      "latitude": 34.057028,
+      "longitude": -118.252506
+    },
+    {
+      "city": "Santa Monica",
+      "country": "United States",
+      "status": "inactive",
+      "datetime": "01/07/2023 15:30",
+      "system": "Mac OS X",
+      "navigator": "Chrome/106.0.0.0",
+      "latitude": 34.057028,
+      "longitude": -118.252506
+    },
+    {
+      "city": "Shenzhen",
+      "country": "China",
+      "status": "threat",
+      "datetime": "02/14/2023 7:30",
+      "system": "Windows",
+      "navigator": "Chrome/106.0.0.0",
+      "latitude": 22.621068,
+      "longitude": 113.85077
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": 20,
+    "filter": 0
+  }
+}
