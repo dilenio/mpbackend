@@ -15,6 +15,7 @@ const provider = require("../../__mocks__/clients/lookups/provider.json");
 const deliveryMethods = require("../../__mocks__/clients/lookups/delivery_methods.json");
 const noteCategories = require("../../__mocks__/clients/lookups/note_categories.json");
 const taxYearOptions = require("../../__mocks__/clients/lookups/tax_year_options.json");
+const countries = require("../../__mocks__/clients/lookups/countries.json");
 const countries2 = require("../../__mocks__/clients/lookups/countries2.json");
 const clientList = require("../../__mocks__/clients/lookups/client_list.json");
 const assignment = require("../../__mocks__/clients/lookups/assignment.json");
@@ -55,6 +56,10 @@ function registerLookupRoutes(server) {
 
   server.get(`${CLIENTS_BASE_PATH}/tax_year_options`, (req, res) => {
     res.status(200).json(taxYearOptions);
+  });
+
+  server.get(`${CLIENTS_BASE_PATH}/countries`, (req, res) => {
+    res.status(200).json(countries);
   });
 
   server.get(`${CLIENTS_BASE_PATH}/countries2`, (req, res) => {
