@@ -1,0 +1,21 @@
+[
+  "admin",
+  "manage_users",
+  "batch_files",
+  "bank_login",
+  "view_users",
+  "customer_service",
+  "view_balance",
+  "api_keys",
+  "links",
+  "cancel_transactions",
+  "manage_clients",
+  "view_unmasked_attrs",
+  "batch_files_approval",
+  "payable",
+  "tax_documents",
+  "client_switch",
+  "compliance",
+  "accounting",
+  "supervisor"
+]

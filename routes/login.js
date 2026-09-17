@@ -7,15 +7,15 @@ const LOGIN_BASE_PATH = "/api/login";
 /* -------------------------------------------------------------------------- */
 
 // Session / CSRF
-const csrf = require("../__mocks__/csrf.json");
+const csrf = require("../__mocks__/shared/csrf.json");
 
 // Login
-const googleLoginUrl = require("../__mocks__/googleLoginUrl.json");
-const login = require("../__mocks__/login.json");
+const googleLoginUrl = require("../__mocks__/shared/googleLoginUrl.json");
+const login = require("../__mocks__/login/login.json");
 
 // Account
-const activate = require("../__mocks__/activate.json");
-const resetPassword = require("../__mocks__/resetPassword.json");
+const activate = require("../__mocks__/login/activate.json");
+const resetPassword = require("../__mocks__/login/resetPassword.json");
 
 const formDataParser = multer();
 
@@ -46,13 +46,9 @@ function registerLoginRoutes(server) {
 
   server.post(`${LOGIN_BASE_PATH}/login`, formDataParser.any(), (req, res) => {
     if (req.body.mfa_code && req.body.mfa_code !== "") {
-      setTimeout(() => {
-        res.status(200).json(login);
-      }, 3000);
+      res.status(200).json(login);
     } else {
-      setTimeout(() => {
-        res.status(200).json({ status: "mfa" });
-      }, 2000);
+      res.status(200).json({ status: "mfa" });
     }
   });
 
