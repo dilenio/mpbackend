@@ -27,8 +27,9 @@ const registerCatchAllRoutes = require("./catchAll");
  *    grupo. GET /api/customer/:client_id/:user_token cobre /files, /payins,
  *    /payindeposits, /FileUploadRequests, /transactions, /notes e /logins ->
  *    fica depois de todas elas.
- *  - catchAll.js: GET /:client_id cobre qualquer rota de um unico segmento ->
- *    registrado por ultimo. Rota nova de 1 segmento precisa entrar acima dele.
+ *  - catchAll.js: GET /:client_id casa apenas com id numerico (\d+) e fica
+ *    registrado por ultimo. Como o parametro e restrito, rota nova de 1
+ *    segmento com nome literal NAO e mais sombreada por ele.
  */
 function registerClientRoutes(server) {
   registerAuthRoutes(server);

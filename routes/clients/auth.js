@@ -18,6 +18,16 @@ function registerAuthRoutes(server) {
     res.status(200).json(getLoggedInUser);
   });
 
+  // Troca de contexto de cliente. O app monta `${API_BASE_URL}/api/${clientId}`
+  // (clients-react: redux/apis/authEndpoints.ts -> switchClientContext) e so le
+  // o status da resposta, por isso o corpo e apenas um eco do id.
+  // O \d+ evita sombrear os literais de 2 segmentos sob /api (apikeys,
+  // batches, compliance, ledger, payees, webhooks, getWalletsSummary...).
+  server.get(`${CLIENTS_BASE_PATH}/api/:client_id(\\d+)`, (req, res) => {
+    const { client_id } = req.params;
+    res.status(200).json({ success: true, client_id });
+  });
+
   server.get(`${CLIENTS_BASE_PATH}/keep-alive`, (req, res) => {
     res.status(200).json({
       success: true,

@@ -13,16 +13,6 @@ const getWalletsSummary = require("../../__mocks__/clients/dashboard/getWalletsS
 const getWalletActionsSummaryByDateRange = require("../../__mocks__/clients/dashboard/getWalletActionsSummaryByDateRange.json");
 
 function registerDashboardRoutes(server) {
-  server.get(`${CLIENTS_BASE_PATH}/dashboard_data`, (req, res) => {
-    res.status(200).json(dashboardData);
-  });
-  // server.get(`${CLIENTS_BASE_PATH}/dashboard_data_main`, (req, res) => {
-  //   res.status(200).json(dashboardDataMain);
-  // });
-  server.get(`${CLIENTS_BASE_PATH}/dashboard_data_widgets`, (req, res) => {
-    res.status(200).json(dashboardDataWidgets);
-  });
-
   server.get(`${CLIENTS_BASE_PATH}/dashboard_data_volume`, (req, res) => {
     res.status(200).json(dashboardDataVolume);
   });
