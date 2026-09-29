@@ -13,6 +13,10 @@ function registerManageUserRoutes(server) {
     res.status(200).json(getPermissionList);
   });
 
+  server.get(`${CLIENTS_BASE_PATH}/api/getPermissionList`, (req, res) => {
+    res.status(200).json(getPermissionList);
+  });
+
   server.post(`${CLIENTS_BASE_PATH}/manage_users/add`, (req, res) => {
     res.status(200).json({status: "success", message: "User added successfully!"});
   });
