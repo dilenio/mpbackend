@@ -1,0 +1,317 @@
+{
+    "currencies": [
+        {
+            "currency_symbol": "CAD"
+        },
+        {
+            "currency_symbol": "EUR"
+        },
+        {
+            "currency_symbol": "GBP"
+        },
+        {
+            "currency_symbol": "USD"
+        }
+    ],
+    "advances": [
+        {
+            "amounts": "-5.199999999999999",
+            "currency": "USD",
+            "client_id": "1"
+        }
+    ],
+    "adjustments_for_approval": [
+        {
+            "time_of_balance_adjustment": "2026-04-13 07:01:07",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "1212",
+                    "source": "",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "54",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 07:00:37",
+            "actions": [
+                {
+                    "notes": "Credit of funds - YourSafe USD",
+                    "amount": "5555",
+                    "source": "",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "53",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:46",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Nano",
+                    "amount": "1111",
+                    "source": "    vvvvvvv",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "52",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:16",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "2222",
+                    "source": "test",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "51",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-13 06:59:13",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "2222",
+                    "source": "test",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "50",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2026-04-09 10:15:02",
+            "actions": [
+                {
+                    "notes": "Credit Nano",
+                    "amount": 1000,
+                    "source": "Checkout LLC",
+                    "currency": "USD",
+                    "client_id": 2,
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "49",
+            "name": "Gilad Grushkovsky"
+        },
+        {
+            "time_of_balance_adjustment": "2025-08-08 08:09:54",
+            "actions": [
+                {
+                    "notes": null,
+                    "amount": 0,
+                    "currency": null,
+                    "client_id": "\n        Transactions | MassPay\n    ",
+                    "action_type": null
+                },
+                {
+                    "notes": "Sent",
+                    "amount": 0,
+                    "currency": "Txn No",
+                    "client_id": "Internal User Id",
+                    "action_type": "Name"
+                },
+                {
+                    "notes": 9.99,
+                    "amount": 0,
+                    "currency": "rev_6894ad4291fa5",
+                    "client_id": "usr_49583e0e-a66a-11eb-acee-02ed07d0f60f",
+                    "action_type": "Benas  Paulikas"
+                },
+                {
+                    "notes": 9.99,
+                    "amount": 0,
+                    "currency": "6894ad4291fa5",
+                    "client_id": "usr_49583e0e-a66a-11eb-acee-02ed07d0f60f",
+                    "action_type": "Benas  Paulikas"
+                },
+                {
+                    "notes": 5,
+                    "amount": 0,
+                    "currency": "688e5e2ec42ae",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 5,
+                    "amount": 0,
+                    "currency": "688e5b184141a",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 50,
+                    "amount": 0,
+                    "currency": "688e53691a8f5",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 50,
+                    "amount": 0,
+                    "currency": "688e4c59ab6fa",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 100,
+                    "amount": 0,
+                    "currency": "test_missing_info1",
+                    "client_id": "test_missing_inof",
+                    "action_type": "Ran  Hawaii"
+                }
+            ],
+            "id": "33",
+            "name": " "
+        },
+        {
+            "time_of_balance_adjustment": "2025-08-08 08:09:05",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "11",
+                    "currency": "USD",
+                    "client_id": "1",
+                    "action_type": "Debit"
+                }
+            ],
+            "id": "32",
+            "name": " "
+        },
+        {
+            "time_of_balance_adjustment": "2025-08-08 08:09:02",
+            "actions": [
+                {
+                    "notes": null,
+                    "amount": 0,
+                    "currency": null,
+                    "client_id": "\n        Transactions | MassPay\n    ",
+                    "action_type": null
+                },
+                {
+                    "notes": "Sent",
+                    "amount": 0,
+                    "currency": "Txn No",
+                    "client_id": "Internal User Id",
+                    "action_type": "Name"
+                },
+                {
+                    "notes": 9.99,
+                    "amount": 0,
+                    "currency": "rev_6894ad4291fa5",
+                    "client_id": "usr_49583e0e-a66a-11eb-acee-02ed07d0f60f",
+                    "action_type": "Benas  Paulikas"
+                },
+                {
+                    "notes": 9.99,
+                    "amount": 0,
+                    "currency": "6894ad4291fa5",
+                    "client_id": "usr_49583e0e-a66a-11eb-acee-02ed07d0f60f",
+                    "action_type": "Benas  Paulikas"
+                },
+                {
+                    "notes": 5,
+                    "amount": 0,
+                    "currency": "688e5e2ec42ae",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 5,
+                    "amount": 0,
+                    "currency": "688e5b184141a",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 50,
+                    "amount": 0,
+                    "currency": "688e53691a8f5",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 50,
+                    "amount": 0,
+                    "currency": "688e4c59ab6fa",
+                    "client_id": "SAMPLE_USER_55",
+                    "action_type": "John M James"
+                },
+                {
+                    "notes": 100,
+                    "amount": 0,
+                    "currency": "test_missing_info1",
+                    "client_id": "test_missing_inof",
+                    "action_type": "Ran  Hawaii"
+                }
+            ],
+            "id": "31",
+            "name": " "
+        },
+        {
+            "time_of_balance_adjustment": "2025-08-08 08:08:46",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "-11",
+                    "currency": "USD",
+                    "client_id": "1",
+                    "action_type": "Debit"
+                }
+            ],
+            "id": "30",
+            "name": " "
+        },
+        {
+            "time_of_balance_adjustment": "2025-08-08 08:08:15",
+            "actions": [
+                {
+                    "notes": "Credit of funds - Crypto",
+                    "amount": "11",
+                    "currency": "USD",
+                    "client_id": "1",
+                    "action_type": "Debit"
+                }
+            ],
+            "id": "29",
+            "name": " "
+        },
+        {
+            "time_of_balance_adjustment": "2025-07-16 09:46:27",
+            "actions": [
+                {
+                    "notes": "",
+                    "amount": "1",
+                    "currency": "USD",
+                    "client_id": "2",
+                    "action_type": "Credit"
+                }
+            ],
+            "id": "27",
+            "name": " "
+        }
+    ],
+    "csrf_token": {
+        "csrf_nameKey": "mp_csrf_name",
+        "csrf_valueKey": "mp_csrf_value",
+        "csrf_name": "mp_csrf69e6703cd715d",
+        "csrf_value": "Ious2K8TY67J6qh3G2ilUINi2TsNG58iQRz/4o0UoeUW6Z/snnVVzKvczUEsX8Fp5wG4DjwipkNxLpvXtSDEhw=="
+    }
+}

@@ -1,0 +1,158 @@
+{
+  "data": [
+    {
+      "id": "756",
+      "date": "2026-03-13",
+      "time": "12:14",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet (1).xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773404053415.xlsx"
+    },
+    {
+      "id": "755",
+      "date": "2026-03-12",
+      "time": "13:16",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet (1).xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773321370830.xlsx"
+    },
+    {
+      "id": "754",
+      "date": "2026-03-12",
+      "time": "12:38",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet (1).xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773319130259.xlsx"
+    },
+    {
+      "id": "753",
+      "date": "2026-03-12",
+      "time": "12:37",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773319039303.xlsx"
+    },
+    {
+      "id": "752",
+      "date": "2026-03-12",
+      "time": "12:36",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773319010208.xlsx"
+    },
+    {
+      "id": "751",
+      "date": "2026-03-12",
+      "time": "12:35",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773318916166.xlsx"
+    },
+    {
+      "id": "750",
+      "date": "2026-03-12",
+      "time": "12:34",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773318871931.xlsx"
+    },
+    {
+      "id": "749",
+      "date": "2026-03-12",
+      "time": "11:45",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 0,
+        "currency": "USD"
+      },
+      "errors": "2",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773315926467.xlsx"
+    },
+    {
+      "id": "748",
+      "date": "2026-03-12",
+      "time": "11:41",
+      "uploaded_by": "Gilad  Grushkovsky",
+      "original_file_name": "Untitled spreadsheet.xlsx",
+      "total_transactions": "2",
+      "total_amount_processed": {
+        "value": 140.33,
+        "currency": "USD"
+      },
+      "errors": "1",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1773315706553.xlsx"
+    },
+    {
+      "id": "737",
+      "date": "2026-02-14",
+      "time": "01:01",
+      "uploaded_by": "  ",
+      "original_file_name": "Wallet load (3).xlsx",
+      "total_transactions": "1",
+      "total_amount_processed": {
+        "value": 500,
+        "currency": "USD"
+      },
+      "errors": "0",
+      "s3_path": "c81e728d9d4c2f636f067f89cc14862c_1771030889233.xlsx"
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": "153",
+    "filter": false,
+    "sql": ""
+  },
+  "additionalData": {
+    "csrf_nameKey": "mp_csrf_name",
+    "csrf_valueKey": "mp_csrf_value",
+    "csrf_name": "mp_csrf69b954899330c",
+    "csrf_value": "0qWLVeJFodFGoWFSLz0oZaA5IW3l/JNYp+8Hcz1ISinjnbxi1HDH4CLHADNMDB0BwggXCIfO8j7E22ESWS0uHQ=="
+  }
+}

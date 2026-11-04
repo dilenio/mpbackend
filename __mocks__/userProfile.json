@@ -1,0 +1,33 @@
+{
+  "image": "",
+  "twofa": false,
+  "email": "dilenio.enderle@luby.software",
+  "phone": "2138498399",
+  "address1": "2000 Main St",
+  "address2": "",
+  "city": "Santa Monica",
+  "postal_code": "90405",
+  "state_province": "CA",
+  "country": "United States",
+  "settings": {
+    "minimum_balance_threshold": true,
+    "balance_threshold": 2500,
+    "new_payment": false,
+    "transaction_successful": false,
+    "transaction_declined": false,
+    "update_balance": false,
+    "someone_mentions_me": false,
+    "external_payment_needs_approved": false,
+    "credit_card_approaching_expiry_date": false,
+    "someone_uploads_new_batch": false
+  },
+  "design": {
+    "menu_background_color": null,
+    "primary_color": null,
+    "primary_hover_color": null,
+    "header_background_color1": null,
+    "header_background_color2": null,
+    "header_background_color3": null,
+    "logo_url": null
+  }
+}

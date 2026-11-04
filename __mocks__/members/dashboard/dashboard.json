@@ -150,7 +150,7 @@
       "service_id": "dest_656b116a-83f6-11ef-b954-0235c9d109d3"
     }
   ],
-  "cards": [
+  "cards": 
     {
       "id": "usr_wlt_b9211706-bf99-11ee-af08-0267d00b832f",
       "type": "masspay",
@@ -161,8 +161,8 @@
       "active": true,
       "amount": {
         "currency": "USD",
-        "value": 10198.75
+        "value": 0
       }
     }
-  ]
+  
 }

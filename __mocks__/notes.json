@@ -1,0 +1,74 @@
+[
+  {
+    "note_type": "GENERAL",
+    "note": "Testing note functionality",
+    "note_time": "2025-12-04 17:15:37.000",
+    "encr_data": null,
+    "employee_username_hash": null,
+    "self": null,
+    "name": "Dilenio Enderle"
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "Request and emailed file upload for [\"Bank Statement\",\"Paper Check\"] / {\"account_number\":\"ran@masspay.io\"} link: https://l.maspay.io/ApY1J",
+    "note_time": "2025-05-03 16:02:32.158",
+    "encr_data": null,
+    "employee_username_hash": null,
+    "self": null,
+    "name": ""
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "Request file upload for [\"Bank Statement\", \"Paper Check\"] / {\"account_number\":\"1231231\"} link: https://l.maspay.io/upY01",
+    "note_time": "2025-05-03 16:07:47.653",
+    "encr_data": null,
+    "employee_username_hash": null,
+    "self": null,
+    "name": ""
+  },
+  {
+    "note_type": "CLEAR_COMPLIANCE",
+    "note": "clear",
+    "note_time": "2025-07-31 20:24:13.000",
+    "encr_data": "AQICAHinHn07bSQZUvthlwuecau8BclGfP5vP6Nuv83ZXJZiNQHfI24GJbj4nwTf20xpbDsVAAABETCCAQ0GCSqGSIb3DQEHBqCB/zCB/AIBADCB9gYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAxtZq91VKSAMWrNpFACARCAgcj+NUn4pwk5fi68LDk54jVAWydIV41aGyyrAufp3l61Z5fNIhTMtnb50qX9RblN1mmKliMCULyNNxvNWO2sl3xlbaClwM5Ku0vgcAdrLVvEli+ykaMT/+gFZKLQHuAokYgKvYj8Om8ozwuKVkRNzjjz9j7nNTp6CXtdKEda1JjBJMViUCwP16tKCLIhUByyb6y0TpHdjXqTRIu8bjcgK54f8PTBw0pc4eS3RXtktX1plB5yFf5YV741GX5DR6yhixm4OQ2fKUJaFw==",
+    "employee_username_hash": "95e73da7a25f068ca766b72d4a72e3d71ad099a6cf3556d92ca305ad510aad4d9714b8395e150b2809571cbb3b248d3c47ca31033a283245504134dac2c9e75a",
+    "self": "0",
+    "name": "  "
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "demo",
+    "note_time": "2025-08-08 08:46:57.000",
+    "encr_data": "AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQGCSSlzN38i+34NYBwI63CWAAABBzCCAQMGCSqGSIb3DQEHBqCB9TCB8gIBADCB7AYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAxcznkoGeQhC1vVdr8CARCAgb6Fyzx7dRjM9VPIdTzHdXdaje6HsPf4KaqYa3beiAYlGUSvPP+96HlfLsgc+GMHAwPEkxnwoM0H+ZSB0cCpjsvBkxvfdP1e5nWHFB+bFegskSc/qHQOQ3YjlEvx+b8hYbtKMjqmSgz1JtTAaBY1V4dfawrjnJ9LLGcms8DybycQpAiRS0oKdNStcKDR4KAaske8YXePyrVeRzQSv06Yd5NEMgDQWfr2cKyZGtsFwTQLTpI4Vht5F8GE8ZWtIXtm",
+    "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+    "self": "0",
+    "name": "  "
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "demo",
+    "note_time": "2025-08-08 08:46:57.000",
+    "encr_data": "AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQEGKWIrQemm0wmdS0iZfF0wAAABEDCCAQwGCSqGSIb3DQEHBqCB/jCB+wIBADCB9QYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyju6I5VUQnte8hfhECARCAgcceY43PbNcISrgpt7cBpJtAVr1QMbgkqd4usJpIj4JP8KASIZymiLZvBJqUA96RBfuy1lnBiRSHUPakSPINRWVS5qaa7D1QlEY//JtPms53/FLO53RsAEtOn61HMnw2A1nqMq4/LqofpWGOUX/ZTazN+DRmY8cr9VAVCNZP8nP/lMWCMGAxgHswB4bB7yaQFNb5DjKi5nyKk8WN1zPLzY/Fg3A9rKiZPic7Vvjfgz8RQKUsxdXG0y6DuWDv9Tsr8MLIaIF3NIMb",
+    "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+    "self": "0",
+    "name": "  "
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "demo",
+    "note_time": "2025-08-08 08:46:58.000",
+    "encr_data": "AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQGCSSlzN38i+34NYBwI63CWAAABBzCCAQMGCSqGSIb3DQEHBqCB9TCB8gIBADCB7AYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAxcznkoGeQhC1vVdr8CARCAgb6Fyzx7dRjM9VPIdTzHdXdaje6HsPf4KaqYa3beiAYlGUSvPP+96HlfLsgc+GMHAwPEkxnwoM0H+ZSB0cCpjsvBkxvfdP1e5nWHFB+bFegskSc/qHQOQ3YjlEvx+b8hYbtKMjqmSgz1JtTAaBY1V4dfawrjnJ9LLGcms8DybycQpAiRS0oKdNStcKDR4KAaske8YXePyrVeRzQSv06Yd5NEMgDQWfr2cKyZGtsFwTQLTpI4Vht5F8GE8ZWtIXtm",
+    "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+    "self": "0",
+    "name": "  "
+  },
+  {
+    "note_type": "COMPLIANCE",
+    "note": "demo",
+    "note_time": "2025-08-08 08:46:58.000",
+    "encr_data": "AQICAHjPddHM9VT33wiUeKfMntxyoADG7PK748LCk6kClzkqlQEGKWIrQemm0wmdS0iZfF0wAAABEDCCAQwGCSqGSIb3DQEHBqCB/jCB+wIBADCB9QYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyju6I5VUQnte8hfhECARCAgcceY43PbNcISrgpt7cBpJtAVr1QMbgkqd4usJpIj4JP8KASIZymiLZvBJqUA96RBfuy1lnBiRSHUPakSPINRWVS5qaa7D1QlEY//JtPms53/FLO53RsAEtOn61HMnw2A1nqMq4/LqofpWGOUX/ZTazN+DRmY8cr9VAVCNZP8nP/lMWCMGAxgHswB4bB7yaQFNb5DjKi5nyKk8WN1zPLzY/Fg3A9rKiZPic7Vvjfgz8RQKUsxdXG0y6DuWDv9Tsr8MLIaIF3NIMb",
+    "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+    "self": "0",
+    "name": "  "
+  }
+]

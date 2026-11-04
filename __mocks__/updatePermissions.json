@@ -1,0 +1,31 @@
+[
+  {
+    "employee_username": "achamdev",
+    "employee_email": "angel@masspay.io",
+    "employee_phone": "5555555555",
+    "permissions": "XAAAAXAAAAXXXXX",
+    "first_name": "Angel",
+    "middle_name": "",
+    "last_name": "Chamosa",
+    "dev": "dev."
+  },
+  {
+    "verified": false,
+    "admin": false,
+    "customer_service": false,
+    "cancel_transactions": false,
+    "manage_clients": false,
+    "api_keys": true,
+    "links": true,
+    "compliance": false,
+    "manage_users": true,
+    "batch_files": true,
+    "batch_files_approval": false,
+    "bank_login": true,
+    "view_users": true,
+    "view_balance": true,
+    "view_unmasked_attrs": false,
+    "tax_documents": false,
+    "two_fa": false
+  }
+]

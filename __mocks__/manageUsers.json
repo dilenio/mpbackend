@@ -1,0 +1,702 @@
+{
+  "data": [
+    {
+      "id": 923,
+      "date": "2026-02-06",
+      "image": "",
+      "name": "",
+      "first_name": "Angel",
+      "middle_name": "",
+      "last_name": "Chamosa",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "fe5adb0f57993272cdf67ac7d10f46fc9c6e1464e723accbba65284fd5026596f3f55447bd0c0418dd45f84510e6f148c61d2a89fa031430566abb1a1617eb5f",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": false,
+      "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": true,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": true,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": false,
+          "customer_link": true,
+          "download_full_list": false
+        },
+        "profile": {
+          "bank_login": true
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": false,
+          "show_admin_options": false
+        },
+        "ledger": {
+          "show_all": false
+        },
+        "payees": {
+          "show_all": false
+        },
+        "customer": {
+          "show_tax_documents": false
+        }
+      }
+    },
+    {
+      "id": 873,
+      "date": "2025-12-28",
+      "image": "",
+      "name": "",
+      "first_name": "Jason",
+      "middle_name": "",
+      "last_name": "Asher",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "23f5baca103203939acfdb3322b592e9c780e1131469f416fa09e5e86f570b4fc81c8e12cb947126016ffd09dd6b1956c3bdbfbc470321840565e34960aab8e8",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": false,
+      "customer_service": false,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": true,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": true,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": true,
+      "tax_documents": false,
+      "two_fa": false,
+      "permission_array": {
+        "view_payee_profile": false,
+        "view_dashboard": false,
+        "view_transactions": false,
+        "view_ledger": false,
+        "view_customers": false,
+        "view_cancellations": false,
+        "view_batches": false,
+        "view_manage_users": false,
+        "view_links": false,
+        "view_profile": true,
+        "view_api_keys": false,
+        "view_taxes": false,
+        "transactions": {
+          "payload_link": false,
+          "customer_link": false,
+          "download_full_list": false
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": false
+        },
+        "manage_users": {
+          "bank_login": false,
+          "show_admin_options": false
+        },
+        "ledger": {
+          "show_all": false
+        },
+        "payees": {
+          "show_all": false
+        },
+        "customer": {
+          "show_tax_documents": false
+        }
+      }
+    },
+    {
+      "id": 853,
+      "date": "2025-12-08",
+      "image": "",
+      "name": "",
+      "first_name": "testUser",
+      "middle_name": "testUser",
+      "last_name": "Grushkovsky",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "2f6ae87ef7d43da3198fcfad6fae8c3ec48801f7476b5693ef6c57f6ef079db425d40026def84f8d4558d06de50965905715c05b84e3c6edf726c1ad95e81e9d",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": false,
+      "customer_service": true,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
+      "compliance": false,
+      "manage_users": false,
+      "batch_files": false,
+      "batch_files_approval": false,
+      "bank_login": true,
+      "view_users": false,
+      "view_balance": false,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": false,
+      "permission_array": {
+        "view_payee_profile": false,
+        "view_dashboard": false,
+        "view_transactions": false,
+        "view_ledger": false,
+        "view_customers": false,
+        "view_cancellations": false,
+        "view_batches": false,
+        "view_manage_users": false,
+        "view_links": false,
+        "view_profile": true,
+        "view_api_keys": false,
+        "view_taxes": false,
+        "transactions": {
+          "payload_link": false,
+          "customer_link": false,
+          "download_full_list": false
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": false
+        },
+        "manage_users": {
+          "bank_login": false,
+          "show_admin_options": false
+        },
+        "ledger": {
+          "show_all": false
+        },
+        "payees": {
+          "show_all": false
+        },
+        "customer": {
+          "show_tax_documents": false
+        }
+      }
+    },
+    {
+      "id": 836,
+      "date": "2025-11-05",
+      "image": "",
+      "name": "",
+      "first_name": "Avital",
+      "middle_name": "",
+      "last_name": "Grushcovski",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "f032ca3a88ecbbef9437505dbd9179f41238857a766854d3b917d317011ec33eac082a599c2f6032027dc12b8d261123d830b595d8676ea5c35871ddfa239818",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": true,
+      "customer_service": true,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": true,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": true,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": true,
+          "customer_link": true,
+          "download_full_list": true
+        },
+        "profile": {
+          "bank_login": true
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": true,
+          "show_admin_options": true
+        },
+        "ledger": {
+          "show_all": true
+        },
+        "payees": {
+          "show_all": true
+        },
+        "customer": {
+          "show_tax_documents": true
+        }
+      }
+    },
+    {
+      "id": 832,
+      "date": "2025-10-30",
+      "image": "",
+      "name": "",
+      "first_name": "carolina",
+      "middle_name": "",
+      "last_name": "Rebolledo",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "b574bb6d61d276fad136d6abd9715802cfe3acd481fcce0457d51edcb9cf309dec07c840fc7a99a119ca71ac4d6a9791746fa65226c5692cad65d3532c41c7e5",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": true,
+      "customer_service": true,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": true,
+      "links": false,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": false,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": true,
+          "customer_link": true,
+          "download_full_list": true
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": true,
+          "show_admin_options": true
+        },
+        "ledger": {
+          "show_all": true
+        },
+        "payees": {
+          "show_all": true
+        },
+        "customer": {
+          "show_tax_documents": true
+        }
+      }
+    },
+    {
+      "id": 826,
+      "date": "2025-10-21",
+      "image": "",
+      "name": "",
+      "first_name": "Jim",
+      "middle_name": "",
+      "last_name": "Green",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "4a5bcdfb2ac072131d70348c21574906dd3204176a6558305472fefc5ffb0080bccc3387751740ec1dde71eeb9ceba0495a815541f150bf75340dc97a21932be",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": true,
+      "customer_service": true,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": true,
+      "links": false,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": false,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": true,
+          "customer_link": true,
+          "download_full_list": true
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": true,
+          "show_admin_options": true
+        },
+        "ledger": {
+          "show_all": true
+        },
+        "payees": {
+          "show_all": true
+        },
+        "customer": {
+          "show_tax_documents": true
+        }
+      }
+    },
+    {
+      "id": 783,
+      "date": "2025-08-21",
+      "image": "",
+      "name": "",
+      "first_name": "Lauren",
+      "middle_name": "",
+      "last_name": "Murphy",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "f4dae4ec6cc6f318f02eb7902f0d16e9b5e93834f2fe7e576b3930aed32df7bceef3331650b28b673be7219da7f76b3f2f24a86aa4c7a65dbc521343bde6f115",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": true,
+      "customer_service": true,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": false,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": false,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": true,
+          "customer_link": true,
+          "download_full_list": true
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": true,
+          "show_admin_options": true
+        },
+        "ledger": {
+          "show_all": true
+        },
+        "payees": {
+          "show_all": true
+        },
+        "customer": {
+          "show_tax_documents": true
+        }
+      }
+    },
+    {
+      "id": 773,
+      "date": "2025-08-08",
+      "image": "",
+      "name": "",
+      "first_name": "gin",
+      "middle_name": "test",
+      "last_name": "qf",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "d835ac9fdc49b4fb604a566b3c42df3ffd1eebd91530266e8abb9251976ce756f46403337f47b8891f480c085464390ebbee84a59c2288616aa73e57f413235b",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": false,
+      "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": true,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": true,
+      "view_users": true,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": false,
+      "permission_array": {
+        "view_payee_profile": false,
+        "view_dashboard": false,
+        "view_transactions": false,
+        "view_ledger": false,
+        "view_customers": false,
+        "view_cancellations": false,
+        "view_batches": false,
+        "view_manage_users": false,
+        "view_links": false,
+        "view_profile": true,
+        "view_api_keys": false,
+        "view_taxes": false,
+        "transactions": {
+          "payload_link": false,
+          "customer_link": false,
+          "download_full_list": false
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": false
+        },
+        "manage_users": {
+          "bank_login": false,
+          "show_admin_options": false
+        },
+        "ledger": {
+          "show_all": false
+        },
+        "payees": {
+          "show_all": false
+        },
+        "customer": {
+          "show_tax_documents": false
+        }
+      }
+    },
+    {
+      "id": 755,
+      "date": "2025-08-01",
+      "image": "",
+      "name": "",
+      "first_name": "",
+      "middle_name": "",
+      "last_name": "",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "97bd1aff60742bc3f4c5a49a1099601bd5d233cbcbabc9c70cd1e44453803487088d2e5e745100196fb0a4bbf0105bf02e2428e38d5ab1d70f19e1fcac74b109",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": true,
+      "customer_service": true,
+      "cancel_transactions": true,
+      "manage_clients": true,
+      "api_keys": true,
+      "links": true,
+      "compliance": false,
+      "manage_users": true,
+      "batch_files": true,
+      "batch_files_approval": false,
+      "bank_login": false,
+      "view_users": false,
+      "view_balance": true,
+      "view_unmasked_attrs": true,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": true,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": true,
+        "view_manage_users": true,
+        "view_links": true,
+        "view_profile": true,
+        "view_api_keys": true,
+        "view_taxes": true,
+        "transactions": {
+          "payload_link": true,
+          "customer_link": true,
+          "download_full_list": true
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": true
+        },
+        "manage_users": {
+          "bank_login": true,
+          "show_admin_options": true
+        },
+        "ledger": {
+          "show_all": true
+        },
+        "payees": {
+          "show_all": true
+        },
+        "customer": {
+          "show_tax_documents": true
+        }
+      }
+    },
+    {
+      "id": 754,
+      "date": "2025-08-01",
+      "image": "",
+      "name": "",
+      "first_name": "gin",
+      "middle_name": "test",
+      "last_name": "abc",
+      "business_name": "",
+      "username": "",
+      "employee_username_hash": "3d4851dbaa661463ddd6b1430dea1ae3e84572f954ccf3571e9894fec52ce011078ecbb725e6363de2ccc7c295c6c5698d748726460c6a7eeab0674ba9042dd6",
+      "verified": false,
+      "company_name": "",
+      "company_icon": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+      "admin": false,
+      "customer_service": false,
+      "cancel_transactions": false,
+      "manage_clients": false,
+      "api_keys": false,
+      "links": false,
+      "compliance": false,
+      "manage_users": false,
+      "batch_files": false,
+      "batch_files_approval": false,
+      "bank_login": false,
+      "view_users": false,
+      "view_balance": true,
+      "view_unmasked_attrs": false,
+      "tax_documents": false,
+      "two_fa": true,
+      "permission_array": {
+        "view_payee_profile": false,
+        "view_dashboard": true,
+        "view_transactions": true,
+        "view_ledger": true,
+        "view_customers": true,
+        "view_cancellations": true,
+        "view_batches": false,
+        "view_manage_users": false,
+        "view_links": false,
+        "view_profile": true,
+        "view_api_keys": false,
+        "view_taxes": false,
+        "transactions": {
+          "payload_link": false,
+          "customer_link": false,
+          "download_full_list": false
+        },
+        "profile": {
+          "bank_login": false
+        },
+        "overdue_transactions": {
+          "customer_link": false
+        },
+        "manage_users": {
+          "bank_login": false,
+          "show_admin_options": false
+        },
+        "ledger": {
+          "show_all": false
+        },
+        "payees": {
+          "show_all": false
+        },
+        "customer": {
+          "show_tax_documents": false
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": "32",
+    "filter": false,
+    "sql": ""
+  }
+}

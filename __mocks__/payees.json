@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "id": 123123,
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "date": "07/19/2022",
+      "image": "https://picsum.photos/id/42/200",
+      "name": "John Doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "status": "Active",
+      "date_of_birth": "02/09/1990",
+      "since": "01/01/2022",
+      "token": "c0b8e1ab-aeb2-11eb-acee",
+      "balance": {
+        "value": 100,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 200,
+        "currency": "USD"
+      },
+      "verified": true
+    },
+    {
+      "id": 312312,
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "date": "04/15/2022",
+      "image": "https://picsum.photos/id/17/200",
+      "name": "Marie Jane",
+      "first_name": "Marie",
+      "last_name": "Jane",
+      "status": "Inactive",
+      "date_of_birth": "02/09/1990",
+      "since": "11/11/2019",
+      "token": "c0b8e1ab-aeb2-88aa-bced",
+      "balance": {
+        "value": 10050,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 200110,
+        "currency": "USD"
+      },
+      "verified": false
+    },
+    {
+      "id": 872378,
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "date": "02/23/2018",
+      "image": "",
+      "name": "David Albro Junior",
+      "first_name": "David",
+      "last_name": "Junior",
+      "status": "Active",
+      "date_of_birth": "02/09/1990",
+      "since": "01/29/2017",
+      "token": "c0b8e1ab-aeb2-aaaa-bced",
+      "balance": {
+        "value": 150,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 2220,
+        "currency": "USD"
+      },
+      "verified": true
+    },
+    {
+      "id": 178236,
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "date": "02/23/2012",
+      "image": "",
+      "name": "Albert Einstein",
+      "first_name": "Albert",
+      "last_name": "Einstein",
+      "status": "Inactive",
+      "date_of_birth": "02/09/1990",
+      "since": "01/29/2020",
+      "token": "c0b8e1ab-abcd-aaaa-bced",
+      "balance": {
+        "value": 1000,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 120,
+        "currency": "USD"
+      },
+      "verified": true
+    },
+    {
+      "id": 12653,
+      "user_token": "usr_bb849247-db2a-11ee-8798-0ac3518f7589",
+      "date": "02/23/2011",
+      "image": "",
+      "name": "Matheus Virtue",
+      "first_name": "Matheus",
+      "last_name": "Virtue",
+      "status": "Active",
+      "date_of_birth": "02/09/1990",
+      "since": "01/29/2011",
+      "token": "c0b8e1ab-aeb2-bbbb-bced",
+      "balance": {
+        "value": 150,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 2220,
+        "currency": "USD"
+      },
+      "verified": true
+    },
+    {
+      "id": 126344,
+      "user_token": "usr_5FZ3rTCWthPaGGJbO5BeSBvmtjeAgm7qbf",
+      "date": "02/23/2011",
+      "image": "",
+      "name": "Robert Sun",
+      "first_name": "Robert",
+      "last_name": "Sun",
+      "status": "Active",
+      "date_of_birth": "02/09/1990",
+      "since": "01/29/2011",
+      "token": "c0b8e1ab-aeb2-bbbb-bced",
+      "balance": {
+        "value": 78263,
+        "currency": "USD"
+      },
+      "loaded": {
+        "value": 23847,
+        "currency": "USD"
+      },
+      "verified": false
+    }
+  ],
+  "metadata": {
+    "page": 1,
+    "offset": 0,
+    "limit": 10,
+    "total": 10,
+    "filter": 0
+  }
+}

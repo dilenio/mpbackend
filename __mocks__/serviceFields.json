@@ -1,0 +1,154 @@
+[
+    {
+      "token": "f4d1c50c-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "QRCode",
+      "is_optional": false,
+      "expected_value": "QR Code",
+      "type": "WalletAddress",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "attr_71c639b2-14e9-11ed-867a-0678dcdfcccf",
+      "label": "Click to collect your ID",
+      "is_optional": false,
+      "value": "https://magic.veriff.me/v/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzYzNTYxODEsInNlc3Npb25faWQiOiI1Y2Y5YzljOS1jMGY1LTQyZmQtYTA5NC1hMWZlYWZlZTQ0YjAiLCJpaWQiOiJkNDgzMjQzMS1mNjkzLTQ5ODItYTMxZi0wMmVkZDYyYTcxYTMiLCJ2aWQiOiI0MmI1NGRhOS1lODJhLTQyNDYtYWU1Mi1kNzMzODFiYzRlM2MiLCJjaWQiOiJmYWxjb24tOCIsImV4cCI6MTc3Njk2MDk4MX0.sQv4AigIQ120AgGTvIclXo_c_IICesA7eqMIG3woOy4",
+      "expected_value": "Please follow the provided link to provide your ID and selfie",
+      "type": "IDSelfieCollection",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "attr_7a4d3e8c-2213-11ea-afc7-0289acba1734",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Account Number",
+      "validation": "^[0-9]+$",
+      "is_optional": false,
+      "value": "***4115",
+      "expected_value": "Only digits",
+      "type": "BankAccountNumber",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "attr_7a51d207-2213-11ea-afc7-0289acba1734",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Account Type",
+      "validation": "Checking|Savings",
+      "is_optional": false,
+      "value": "Checking",
+      "expected_value": "",
+      "type": "BankAccountType",
+      "input_type": "options",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "attr_d2997882-0b3b-11eb-a3cb-02105b970935",
+      "attr_set_token": "attr_set_72c00b96-2aef-4afc-ac4e-be79aeae1142",
+      "label": "Bank Routing Number",
+      "validation": "^((0[0-9])|(1[0-2])|(2[1-9])|(3[0-2])|(6[1-9])|(7[0-2])|80)([0-9]{7})$",
+      "is_optional": false,
+      "value": "*****1627",
+      "expected_value": "Only 9 digits",
+      "type": "BankRoutingNumber",
+      "input_type": "text",
+      "last_attr_value_used": true
+    },
+    {
+      "token": "f4ce363b-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "Parent/Guardian Government-Issued Identification Type",
+      "validation": "Passport|National Identification Card|Driving License|Social Security Card/Number|Tax Payer Identification Card/Number|Senior Citizen Identification Card|Birth Certificate|Village Elder Identification Card|Permanent Residency Identification Card|Alien Registration Certificate/Card|PAN Card|Voter’s Identification Card|Health Insurance Card/Number|Employer Identification Card|Others not listed",
+      "is_optional": false,
+      "expected_value": "Type of ID",
+      "type": "GuardianGovIDType",
+      "input_type": "options",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "f4d1c50c-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "Parent/Guardian Government-Issued Identification Number",
+      "validation": "^[\\w\\s\\d-/\\\\]+$",
+      "is_optional": false,
+      "expected_value": "ID Number",
+      "type": "GuardianGovIDNumber",
+      "input_type": "text",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "f4d4d28f-8f72-11f0-abe6-0a046abe0aaf",
+      "label": "I hereby consent to the above payment arrangement and acknowledge that I have read and agree to be bound by the terms and conditions set forth in the [Parental Consent Agreement](https://example.com).",
+      "validation": "I consent",
+      "is_optional": false,
+      "expected_value": "Guardian consent",
+      "type": "GuardianConsent",
+      "input_type": "options",
+      "last_attr_value_used": false
+    },
+    {
+      "token": "attr_92558bc4-4a0d-11ee-ae7f-02a96673e722",
+      "label": "Debit Card Expiration Date",
+      "validation": "^\\d{4}-\\d{2}-\\d{2}$",
+      "is_optional": false,
+      "expected_value": "YYYY-MM-DD i.e. 2030-07-15",
+      "type": "CardExpiration2",
+      "input_type": "date",
+      "last_attr_value_used": false,
+      "id": "d4f4"
+    },
+    {
+      "token": "attr_92558bc4-4a0d-11ee-ae7f-02a96673e721",
+      "label": "Debit Card Expiration Date",
+      "validation": "^\\d{4}-\\d{2}$",
+      "is_optional": false,
+      "expected_value": "YYYY-MM i.e. 2030-07",
+      "type": "CardExpiration",
+      "input_type": "date",
+      "last_attr_value_used": false,
+      "id": "645b"
+    },
+    {
+      "token": "attr_33836e3f-ce0a-11ed-be9a-02450efa1c35",
+      "label": "Social Security Number or ITIN",
+      "validation": "^((?!\\b(\\d)\\1+\\b)(?!123456789|219099999|078051120)(?!666|000|9\\d{2})\\d{3}(?!00)\\d{2}(?!0{4})\\d{4}|(9\\d{2})([ \\-]?)(5\\d|6[0-5]|7\\d|8[0-8]|9[0-2,4-9])([ \\-]?)(\\d{4}))$",
+      "is_optional": true,
+      "value": "*****1232",
+      "expected_value": "9 digits",
+      "type": "SocialSecurity",
+      "input_type": "text",
+      "last_attr_value_used": true,
+      "id": "0d2d"
+    },
+    {
+      "token": "attr_ad651270-6132-11ed-9de0-0678dcdfcccf",
+      "label": "Message To Receiver",
+      "validation": "^[\\w\\s.,]{0,140}$",
+      "is_optional": true,
+      "expected_value": "Optional message to receiving bank. Maximum 35 characters",
+      "type": "BillReferenceNumber",
+      "input_type": "text",
+      "last_attr_value_used": false,
+      "id": "680e"
+    },
+    {
+      "token": "attr_cec6a67c-eea6-11ed-99df-02450efa1c35",
+      "label": "Debit Card Billing Zip Code",
+      "validation": "^\\d{5}$",
+      "is_optional": true,
+      "expected_value": "5 digits zipcode",
+      "type": "CardZip",
+      "input_type": "text",
+      "last_attr_value_used": false,
+      "id": "2171"
+    },
+    {
+      "token": "attr_7a51d207-2213-11ea-afc7-0289acba1734",
+      "label": "Bank Account Type",
+      "validation": "Checking|Savings|Other",
+      "is_optional": false,
+      "expected_value": "Must select a type",
+      "type": "BankAccountType",
+      "input_type": "options",
+      "last_attr_value_used": false,
+      "id": "1bb6"
+    }
+  ]
